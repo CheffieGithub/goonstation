@@ -799,7 +799,7 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 				boutput(user, "<span class='notice'>You run the card over the scanner... wait did it just honk?</span>")
 				playsound(src, 'sound/musical_instruments/Bikehorn_1.ogg', 10, 1)
 
-			src.desc = "A deviced used to honk in prisoners and update their clown status. Honk!"
+			src.desc = "A device used to honk prisoners and update their clown status. Honk!"
 			src.emagged = TRUE
 			return TRUE
 		else
