@@ -647,13 +647,21 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 	#define PRISONER_MODE_PAROLED 2
 	#define PRISONER_MODE_RELEASED 3
 	#define PRISONER_MODE_INCARCERATED 4
+	#define PRISONER_MODE_CLOWN 5
 
 	///List of record settings
 	var/list/modes = list(PRISONER_MODE_NONE, PRISONER_MODE_PAROLED, PRISONER_MODE_INCARCERATED, PRISONER_MODE_RELEASED)
 	///The current setting
 	var/mode = PRISONER_MODE_NONE
 
+	var/emagged = FALSE
+
 	var/list/datum/contextAction/contexts = list()
+
+	emagged
+		New()
+			..()
+			src.emag_act()
 
 	New()
 		contextLayout = new /datum/contextLayout/experimentalcircle
@@ -723,6 +731,10 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 
 				if(PRISONER_MODE_INCARCERATED)
 					E["criminal"] = "Incarcerated"
+
+				if(PRISONER_MODE_CLOWN)
+					E["criminal"] = "Clown"
+
 			return
 
 		src.active2 = new /datum/db_record()
@@ -740,6 +752,9 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 
 			if(PRISONER_MODE_INCARCERATED)
 				src.active2["criminal"] = "Incarcerated"
+
+			if(PRISONER_MODE_CLOWN)
+				src.active2["criminal"] = "Clown"
 
 		src.active2["sec_flag"] = "None"
 		src.active2["mi_crim"] = "None"
@@ -771,8 +786,26 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 			if(PRISONER_MODE_INCARCERATED)
 				boutput(user, "<span class='notice'>you switch the record mode to Incarcerated.</span>")
 
+			if(PRISONER_MODE_CLOWN)
+				playsound(src, 'sound/musical_instruments/Bikehorn_1.ogg', 10, 1)
+				boutput(user,"<span class='alert'>you switch the record mode to Clown?</span>")
+
 		add_fingerprint(user)
 		return
+
+	emag_act(var/mob/user, var/obj/item/card/emag/E)
+		if(!src.emagged)
+			if (user)
+				boutput(user, "<span class='notice'>You run the card over the scanner... wait did it just honk?</span>")
+				playsound(src, 'sound/musical_instruments/Bikehorn_1.ogg', 10, 1)
+
+			src.desc = "A deviced used to honk in prisoners and update their clown status. Honk!"
+			src.emagged = TRUE
+			return TRUE
+		else
+			if (user)
+				boutput(user, "<span class='alert'>This has already been tampered with.</span>")
+			return FALSE
 
 	dropped(var/mob/user)
 		. = ..()
@@ -789,6 +822,9 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 
 	execute(var/obj/item/device/prisoner_scanner/prisoner_scanner, var/mob/user)
 		if(!istype(prisoner_scanner))
+			return
+		if(prisoner_scanner.emagged)
+			prisoner_scanner.switch_mode(PRISONER_MODE_CLOWN, user)
 			return
 		prisoner_scanner.switch_mode(src.mode, user)
 
@@ -816,6 +852,7 @@ TYPEINFO(/obj/item/device/prisoner_scanner)
 #undef PRISONER_MODE_PAROLED
 #undef PRISONER_MODE_RELEASED
 #undef PRISONER_MODE_INCARCERATED
+#undef PRISONER_MODE_CLOWN
 
 /obj/item/device/ticket_writer
 	name = "Security TicketWriter 2000"
