@@ -452,10 +452,6 @@ var/global/totally_random_jobs = FALSE
 			H.traitHolder.removeTrait("pilot")
 			H.traitHolder.removeTrait("sleepy")
 			H.traitHolder.removeTrait("puritan")
-		if (map_setting == "NADIR") //Nadir: pilot trait screws the pilot and adds sub when sub should not otherwise exist.
-			if(H.traitHolder.hasTrait("pilot"))
-				H.traitHolder.removeTrait("pilot")
-				boutput(src, "<span class='alert'>Hazardous conditions prevented you from arriving in your pod.</span>")
 
 		H.Equip_Job_Slots(JOB)
 
@@ -710,12 +706,13 @@ var/global/totally_random_jobs = FALSE
 		if (src.traitHolder && src.traitHolder.hasTrait("onearmed"))
 			if (src.limbs)
 				SPAWN(6 SECONDS)
-					if (prob(50))
-						if (src.limbs.l_arm)
-							qdel(src.limbs.l_arm.remove(0))
-					else
-						if (src.limbs.r_arm)
-							qdel(src.limbs.r_arm.remove(0))
+					if (ishuman(src))
+						if (prob(50))
+							if (src.limbs.l_arm)
+								qdel(src.limbs.l_arm.remove(0))
+						else
+							if (src.limbs.r_arm)
+								qdel(src.limbs.r_arm.remove(0))
 					boutput(src, "<b>Your singular arm makes you feel responsible for crimes you couldn't possibly have committed.</b>" )
 
 		if (src.traitHolder && src.traitHolder.hasTrait("nolegs"))
