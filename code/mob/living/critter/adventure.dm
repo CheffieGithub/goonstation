@@ -122,12 +122,32 @@ whats here
 	health_brute = 30
 	health_brute_vuln = 0.8
 	health_burn = 30
-	health_burn_vuln = 1
+	health_burn_vuln = 0.9
 	ai_retaliates = TRUE
 	ai_retaliate_patience = 0
 	ai_retaliate_persistence = RETALIATE_UNTIL_DEAD
 	ai_type = /datum/aiHolder/brullbar
 	is_npc = TRUE
+
+	setup_hands()
+		..()
+		var/datum/handHolder/HH = hands[1]
+		HH.icon = 'icons/mob/hud_human.dmi'
+		HH.limb = new /datum/limb/transposed
+		HH.icon_state = "handl"				// the icon state of the hand UI background
+		HH.limb_name = "left transposed arm"
+
+		HH = hands[2]
+		HH.icon = 'icons/mob/hud_human.dmi'
+		HH.limb = new /datum/limb/transposed
+		HH.name = "right hand"
+		HH.suffix = "-R"
+		HH.icon_state = "handr"				// the icon state of the hand UI background
+		HH.limb_name = "right transposed arm"
+
+	setup_healths()
+		add_hh_flesh(src.health_brute, src.health_brute_vuln)
+		add_hh_flesh_burn(src.health_burn, src.health_burn_vuln)
 
 
 	death()
