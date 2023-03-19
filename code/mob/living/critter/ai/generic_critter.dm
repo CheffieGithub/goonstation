@@ -285,4 +285,28 @@
 /datum/aiTask/sequence/goalbased/critter
 	move_through_space = TRUE
 
+////// Generic AI holders //////////
+// Wanderer
+/datum/aiHolder/wanderer
+	New()
+		..()
+		default_task = get_instance(/datum/aiTask/prioritizer/critter/wanderer, list(src))
+
+/datum/aiTask/prioritizer/critter/wanderer/New()
+	..()
+	transition_tasks += holder.get_instance(/datum/aiTask/timed/wander, list(holder, src))
+
+// Agressive wanderer
+/datum/aiHolder/wanderer_agressive
+	New()
+		..()
+		default_task = get_instance(/datum/aiTask/prioritizer/critter/wanderer_agressive, list(src))
+
+/datum/aiTask/prioritizer/critter/wanderer_agressive/New()
+	..()
+	transition_tasks += holder.get_instance(/datum/aiTask/timed/wander/critter/aggressive, list(holder, src))
+	transition_tasks += holder.get_instance(/datum/aiTask/sequence/goalbased/critter/attack, list(holder, src))
+
+
+
 
