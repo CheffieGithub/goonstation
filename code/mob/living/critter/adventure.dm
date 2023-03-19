@@ -1,7 +1,7 @@
 /* -For adventure zoneish mobs-
 whats here
 	- Transposed Scientist
-	- Ancient Thing
+	- Ancient robot
 	- Repair bots
 	- Shade
 
@@ -14,9 +14,10 @@ whats here
 	icon_state = "crunched"
 	icon_state_dead = "crunched"
 	hand_count = 2
-	can_throw = 1
-	can_grab = 1
-	can_disarm = 1
+	can_help = TRUE
+	can_throw = TRUE
+	can_grab = TRUE
+	can_disarm = TRUE
 	health_brute = 25
 	health_brute_vuln = 1
 	health_burn = 25
@@ -25,7 +26,7 @@ whats here
 	ai_retaliates = TRUE
 	ai_retaliate_patience = 3
 	ai_retaliate_persistence = RETALIATE_ONCE
-	ai_type = /datum/aiHolder/brullbar
+	ai_type = /datum/aiHolder/wanderer_agressive
 	is_npc = TRUE
 
 	New()
@@ -53,10 +54,8 @@ whats here
 
 	critter_attack(var/mob/target)
 		if (target.lying || is_incapacitated(target))
-			src.visible_message("<span class='notice'>[src] shakes [target] trying to wake them up!</span>")
 			src.set_a_intent(INTENT_HELP)
 		else
-			src.visible_message("<span class='combat'><B>[src]</B> grabs at [target]'s arm!</span>")
 			src.set_a_intent(INTENT_HARM)
 		src.chase_lines(target)
 		src.hand_attack(target)
@@ -105,50 +104,80 @@ whats here
 		msgs.damage_type = DAMAGE_BURN
 		msgs.flush(SUPPRESS_LOGS)
 		user.lastattacked = target
-		ON_COOLDOWN(src, "limb_cooldown", 20)
+		ON_COOLDOWN(src, "limb_cooldown", 2 SECONDS)
 
-////////////// Ancient thing ////////////////
-/mob/living/critter/robotic/ancient_thing
+////////////// Ancient robot ////////////////
+/mob/living/critter/robotic/ancient_robot
 	name = "???"
-	real_name = "ancient thing"
+	real_name = "ancient robot"
 	desc = "What the hell is that?"
 	icon_state = "ancientrobot"
-	dead_state = "ancientrobot" // fades away
+	icon_state_dead = "ancientrobot" // fades away
 	invisibility = INVIS_GHOST
 	hand_count = 2
-	can_throw = 1
-	can_grab = 1
-	can_disarm = 1
+	can_throw = TRUE
+	can_grab = TRUE
+	can_disarm = TRUE
 	health_brute = 30
 	health_brute_vuln = 0.8
 	health_burn = 30
-	health_burn_vuln = 0.9
+	health_burn_vuln = 0.8
 	ai_retaliates = TRUE
 	ai_retaliate_patience = 0
 	ai_retaliate_persistence = RETALIATE_UNTIL_DEAD
-	ai_type = /datum/aiHolder/brullbar
+	ai_type = /datum/aiHolder/wanderer_agressive
 	is_npc = TRUE
+	var/poke_count = 0
+	var/ready_to_gib = FALSE
 
 	setup_hands()
 		..()
 		var/datum/handHolder/HH = hands[1]
 		HH.icon = 'icons/mob/hud_human.dmi'
-		HH.limb = new /datum/limb/transposed
+		HH.limb = new /datum/limb/ancient_tendril
 		HH.icon_state = "handl"				// the icon state of the hand UI background
-		HH.limb_name = "left transposed arm"
+		HH.limb_name = "left strange tendril"
 
 		HH = hands[2]
 		HH.icon = 'icons/mob/hud_human.dmi'
-		HH.limb = new /datum/limb/transposed
+		HH.limb = new /datum/limb/ancient_tendril
 		HH.name = "right hand"
 		HH.suffix = "-R"
 		HH.icon_state = "handr"				// the icon state of the hand UI background
-		HH.limb_name = "right transposed arm"
+		HH.limb_name = "right strange tendril"
 
 	setup_healths()
 		add_hh_flesh(src.health_brute, src.health_brute_vuln)
 		add_hh_flesh_burn(src.health_burn, src.health_burn_vuln)
 
+	seek_target(var/range = 5)
+		. = list()
+		for (var/mob/living/C in hearers(range, src))
+			if (isintangible(C)) continue
+			if (isdead(C)) continue
+			if (istype(C, src.type)) continue
+			. += C
+
+		if (length(.))
+			if(invisibility != INVIS_NONE)
+				src.appear()
+			if(src.ready_to_gib && prob(15) )
+				playsound(src.loc, 'sound/misc/automaton_ratchet.ogg', 60, 1)
+
+	critter_attack(var/mob/target)
+		if(src.poke_count < 6)
+			if (prob(50))
+				boutput(target, "<span class='alert'>You feel [pick("very ",null,"rather ","fairly ","remarkably ")]uncomfortable.</span>")
+			..()
+			src.poke_count++
+		else if (src.ready_to_gib)
+			src.gib_patient(target)
+		else
+			playsound(src.loc, 'sound/misc/automaton_tickhum.ogg', 40, 1)
+			src.visible_message("<span class='alert'><b> the [src] begins to unveil an array of tendrils! oh shit! RUN!</b></span>")
+			SPAWN(3 SECONDS)
+				playsound(src.loc, 'sound/misc/automaton_ratchet.ogg', 60, 1)
+				src.ready_to_gib = TRUE
 
 	death()
 		..()
@@ -160,11 +189,35 @@ whats here
 		if (!invisibility || (src.icon_state != "ancientrobot"))
 			return
 		src.name = pick("something","weird thing","odd thing","whatchamacallit","thing","something weird","old thing")
-		src.icon_state = "ancientrobot-appear"
+		flick("ancientrobot-appear",src)
 		src.invisibility = INVIS_NONE
-		SPAWN(1.2 SECONDS)
-			src.icon_state = "ancientrobot"
 		return
+
+	proc/gib_patient(var/mob/target)
+		src.visible_message("<span class='alert'><b>In a whirling flurry of tendrils, [src] rends down [target]! Holy shit!</b></span>")
+		logTheThing(LOG_COMBAT, target, "was gibbed by [src] at [log_loc(src)].") // Some logging for instakill critters would be nice (Convair880).
+		playsound(src.loc, 'sound/impact_sounds/Flesh_Break_1.ogg', 50, 1)
+		if(ishuman(target)) new /obj/decal/fakeobjects/skeleton(target.loc)
+		target.ghostize()
+		target.gib()
+		src.ready_to_gib = FALSE
+		src.poke_count = 0
+
+/datum/limb/ancient_tendril
+	harm(mob/target, var/mob/living/user)
+		if(check_target_immunity( target ))
+			return FALSE
+		logTheThing(LOG_COMBAT, user, "harms [constructTarget(target,"combat")] with [src] at [log_loc(user)].")
+
+		var/datum/attackResults/msgs = user.calculate_melee_attack(target, 3, 5, 0, can_punch = FALSE, can_kick = FALSE)
+		user.attack_effects(target, user.zone_sel?.selecting)
+		var/action = pick("poke", "prod", "feel")
+		msgs.base_attack_message = "<b><span class='alert'>[user] [action]s [target] with [src.holder]!</span></b>"
+		msgs.played_sound = 'sound/impact_sounds/burn_sizzle.ogg'
+		msgs.damage_type = DAMAGE_STAB
+		msgs.flush(SUPPRESS_LOGS)
+		user.lastattacked = target
+		ON_COOLDOWN(src, "limb_cooldown", 2 SECONDS)
 
 
 
