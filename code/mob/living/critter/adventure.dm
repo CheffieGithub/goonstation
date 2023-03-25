@@ -1,6 +1,6 @@
 /* -For adventure zoneish mobs-
 whats here
-	- Transposed Scientist
+	- Transposed scientist
 	- Ancient robot
 	- Repair bots
 	- Shade
@@ -25,12 +25,9 @@ whats here
 	speech_void = 1
 	ai_retaliates = TRUE
 	ai_retaliate_patience = 3
-	ai_retaliate_persistence = RETALIATE_ONCE
+	ai_retaliate_persistence = RETALIATE_ONCE // They don't really want to hurt you
 	ai_type = /datum/aiHolder/wanderer_agressive
 	is_npc = TRUE
-
-	New()
-		..()
 
 	setup_hands()
 		..()
@@ -94,7 +91,6 @@ whats here
 	harm(mob/target, var/mob/living/user)
 		if(check_target_immunity( target ))
 			return FALSE
-		logTheThing(LOG_COMBAT, user, "harms [constructTarget(target,"combat")] with [src] at [log_loc(user)].")
 
 		var/datum/attackResults/msgs = user.calculate_melee_attack(target, 5, 15, 0, can_punch = FALSE, can_kick = FALSE)
 		user.attack_effects(target, user.zone_sel?.selecting)
@@ -129,6 +125,7 @@ whats here
 	is_npc = TRUE
 	var/poke_count = 0
 	var/ready_to_gib = FALSE
+	var/activating = FALSE // Are we preparing to gib?
 
 	setup_hands()
 		..()
@@ -147,8 +144,8 @@ whats here
 		HH.limb_name = "right strange tendril"
 
 	setup_healths()
-		add_hh_flesh(src.health_brute, src.health_brute_vuln)
-		add_hh_flesh_burn(src.health_burn, src.health_burn_vuln)
+		add_hh_robot(src.health_brute, src.health_brute_vuln)
+		add_hh_robot_burn(src.health_burn, src.health_burn_vuln)
 
 	seek_target(var/range = 5)
 		. = list()
@@ -165,9 +162,11 @@ whats here
 				playsound(src.loc, 'sound/misc/automaton_ratchet.ogg', 60, 1)
 
 	critter_attack(var/mob/target)
-		if(src.poke_count < 6)
+		if(src.activating)
+			return
+		if(src.poke_count < 5)
 			if (prob(50))
-				boutput(target, "<span class='alert'>You feel [pick("very ",null,"rather ","fairly ","remarkably ")]uncomfortable.</span>")
+				boutput(target, "<span class='alert'>You feel [pick("very", null ,"rather","fairly","remarkably")] uncomfortable.</span>")
 			..()
 			src.poke_count++
 		else if (src.ready_to_gib)
@@ -175,9 +174,11 @@ whats here
 		else
 			playsound(src.loc, 'sound/misc/automaton_tickhum.ogg', 40, 1)
 			src.visible_message("<span class='alert'><b> the [src] begins to unveil an array of tendrils! oh shit! RUN!</b></span>")
+			src.activating = TRUE
 			SPAWN(3 SECONDS)
 				playsound(src.loc, 'sound/misc/automaton_ratchet.ogg', 60, 1)
 				src.ready_to_gib = TRUE
+				src.activating = FALSE
 
 	death()
 		..()
@@ -207,17 +208,130 @@ whats here
 	harm(mob/target, var/mob/living/user)
 		if(check_target_immunity( target ))
 			return FALSE
-		logTheThing(LOG_COMBAT, user, "harms [constructTarget(target,"combat")] with [src] at [log_loc(user)].")
 
 		var/datum/attackResults/msgs = user.calculate_melee_attack(target, 3, 5, 0, can_punch = FALSE, can_kick = FALSE)
 		user.attack_effects(target, user.zone_sel?.selecting)
-		var/action = pick("poke", "prod", "feel")
+		var/action = pick("poke", "prod", "feel", "jab")
 		msgs.base_attack_message = "<b><span class='alert'>[user] [action]s [target] with [src.holder]!</span></b>"
 		msgs.played_sound = 'sound/impact_sounds/burn_sizzle.ogg'
 		msgs.damage_type = DAMAGE_STAB
 		msgs.flush(SUPPRESS_LOGS)
 		user.lastattacked = target
 		ON_COOLDOWN(src, "limb_cooldown", 2 SECONDS)
+
+/mob/living/critter/robotic/repairbot
+	name = "strange robot"
+	real_name = "strange robot"
+	desc = "It looks like some sort of floating repair bot or something?"
+	icon_state = "ancient_repairbot"
+	hand_count = 1
+	can_throw = FALSE
+	can_grab = FALSE
+	can_disarm = FALSE
+	health_brute = 15
+	health_brute_vuln = 0.7
+	health_burn = 15
+	health_burn_vuln = 0.3
+	ai_retaliates = TRUE
+	ai_retaliate_patience = 0
+	ai_retaliate_persistence = RETALIATE_UNTIL_DEAD
+	ai_type = /datum/aiHolder/wanderer_agressive
+	is_npc = TRUE
+	death_text = "%src% blows apart!"
+	custom_gib_handler = /proc/robogibs
+	say_language = "binary"
+	voice_name = "synthesized voice"
+	blood_id = "oil"
+	speechverb_say = "beeps"
+	speechverb_gasp = "chirps"
+	speechverb_stammer = "beeps"
+	speechverb_exclaim = "beeps"
+	speechverb_ask = "beeps"
+	metabolizes = FALSE
+
+	understands_language(var/langname)
+		if (langname == say_language || langname == "silicon" || langname == "binary" || langname == "english")
+			return TRUE
+		return FALSE
+
+	New()
+		..()
+		src.name = "[pick("strange","weird","odd","bizarre","quirky","antique")] [pick("robot","automaton","machine","gizmo","thingmabob","doodad","widget")]"
+		src.real_name = src.name
+
+	process_language(var/message)
+		var/datum/language/L = languages.language_cache[say_language]
+		if (!L)
+			L = languages.language_cache["english"]
+		return L.get_messages(message, (1 - health / max_health) * 16)
+
+	death(var/gibbed)
+		elecflash(src,power = 3)
+		..()
+		ghostize()
+		qdel(src)
+
+	specific_emotes(var/act, var/param = null, var/voluntary = 0)
+		switch (act)
+			if ("scream")
+				if (src.emote_check(voluntary, 50))
+					playsound(src, 'sound/voice/screams/robot_scream.ogg' , 80, 1, channel=VOLUME_CHANNEL_EMOTE)
+					return "<b>[src]</b> screams!"
+		return null
+
+	specific_emote_type(var/act)
+		switch (act)
+			if ("scream")
+				return 2
+		return ..()
+
+	setup_equipment_slots()
+		equipment += new /datum/equipmentHolder/ears/intercom(src)
+
+	setup_hands()
+		..()
+		var/datum/handHolder/HH = hands[1]
+		HH.limb = new /datum/limb/arcflash
+		HH.name = "Electric Intruder Countermeasure"
+		HH.icon = 'icons/mob/critter_ui.dmi'
+		HH.icon_state = "handzap"
+		HH.limb_name = "Electric Intruder Countermeasure"
+		HH.can_hold_items = FALSE
+		HH.can_attack = FALSE
+		HH.can_range_attack = TRUE
+
+	setup_healths()
+		add_hh_robot(src.health_brute, src.health_brute_vuln)
+		add_hh_robot_burn(src.health_burn, src.health_burn_vuln)
+
+	seek_target(var/range = 5)
+		. = list()
+		for (var/mob/living/C in hearers(range, src))
+			if (isintangible(C)) continue
+			if (isdead(C)) continue
+			if (istype(C, /mob/living/critter/robotic/repairbot)) continue
+			if (isrobot(C)) continue // Arcflash doesn't hurt borgs
+			. += C
+
+		if (length(.) && prob(15))
+			playsound(src.loc,pick('sound/misc/ancientbot_beep1.ogg','sound/misc/ancientbot_beep2.ogg','sound/misc/ancientbot_beep3.ogg'), 50, 1)
+
+	critter_attack(var/mob/target)
+		var/list/params = list()
+		params["left"] = TRUE
+		params["ai"] = TRUE
+		src.hand_range_attack(target, params)
+
+/mob/living/critter/robotic/repairbot/security
+	name = "stranger robot"
+	real_name = "repair bot"
+	desc = "A Security Robot, something seems a bit off."
+	icon_state = "ancient_guardbot"
+	health_brute = 20
+	health_brute_vuln = 0.7
+	health_burn = 20
+	health_burn_vuln = 0.2
+
 
 
 
