@@ -1485,6 +1485,7 @@ ABSTRACT_TYPE(/mob/living/critter/robotic)
 	name = "a fucked up robot"
 	can_bleed = FALSE
 	metabolizes = FALSE
+	var/insulated = FALSE // Does the critter get shocked?
 	var/emp_vuln = 1
 	blood_id = null
 
@@ -1506,3 +1507,15 @@ ABSTRACT_TYPE(/mob/living/critter/robotic)
 
 	isBlindImmune()
 		return TRUE
+
+	shock(var/atom/origin, var/wattage, var/zone = "chest", var/stun_multiplier = 1, var/ignore_gloves = 0)
+		if (!wattage)
+			return 0
+		if (check_target_immunity(src))
+			return 0
+		if (src.insulated)
+			boutput(src,"<span class='alert'>You get shocked but are electrically insulated!</span>")
+			return 0
+		boutput(src,"<span class='alert'>A powerful shock has slowed your movement!</span>")
+		var/slow = clamp(wattage / 2500 , 2, 8)
+		src.setStatus("slowed", slow SECONDS)
