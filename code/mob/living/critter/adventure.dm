@@ -204,6 +204,7 @@ whats here
 		src.ready_to_gib = FALSE
 		src.poke_count = 0
 
+////////////// Tendril ////////////////
 /datum/limb/ancient_tendril
 	harm(mob/target, var/mob/living/user)
 		if(check_target_immunity( target ))
@@ -219,6 +220,7 @@ whats here
 		user.lastattacked = target
 		ON_COOLDOWN(src, "limb_cooldown", 2 SECONDS)
 
+////////////// Repair bots ////////////////
 /mob/living/critter/robotic/repairbot
 	name = "strange robot"
 	real_name = "strange robot"
@@ -317,22 +319,19 @@ whats here
 			playsound(src.loc,pick('sound/misc/ancientbot_beep1.ogg','sound/misc/ancientbot_beep2.ogg','sound/misc/ancientbot_beep3.ogg'), 50, 1)
 
 	critter_attack(var/mob/target)
+		if(prob(30))
+			playsound(src.loc, pick('sound/misc/ancientbot_grump.ogg','sound/misc/ancientbot_grump2.ogg'), 50, 1)
 		var/list/params = list()
 		params["left"] = TRUE
 		params["ai"] = TRUE
 		src.hand_range_attack(target, params)
 
 /mob/living/critter/robotic/repairbot/security
-	name = "stranger robot"
-	real_name = "repair bot"
+	name = "strange robot"
+	real_name = "strange robot"
 	desc = "A Security Robot, something seems a bit off."
 	icon_state = "ancient_guardbot"
 	health_brute = 20
 	health_brute_vuln = 0.7
 	health_burn = 20
 	health_burn_vuln = 0.2
-
-
-
-
-
