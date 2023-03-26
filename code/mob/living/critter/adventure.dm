@@ -355,7 +355,6 @@ whats here
 	icon_state_dead = "shade" //doesn't have a dead icon, just fades away
 	death_text = null //has special spooky voice lines
 	hand_count = 2
-	can_help = TRUE
 	can_throw = TRUE
 	can_grab = TRUE
 	can_disarm = TRUE
