@@ -58,7 +58,7 @@ whats here
 		src.hand_attack(target)
 
 	proc/chase_lines(var/mob/target)
-		if(!ON_COOLDOWN(src, "crunched_chase_talk", 5 SECONDS))
+		if(!ON_COOLDOWN(src, "chase_talk", 5 SECONDS))
 			if (target.lying || is_incapacitated(target))
 				src.say( pick("No! Get up! Please, get up!", "Not again! Not again! I need you!", "Please! Please get up! Please!", "I don't want to be alone again!") )
 			else
@@ -234,6 +234,7 @@ whats here
 	health_brute_vuln = 0.7
 	health_burn = 15
 	health_burn_vuln = 0.3
+	use_stamina = FALSE
 	ai_retaliates = TRUE
 	ai_retaliate_patience = 0
 	ai_retaliate_persistence = RETALIATE_UNTIL_DEAD
@@ -335,3 +336,137 @@ whats here
 	health_brute_vuln = 0.7
 	health_burn = 20
 	health_burn_vuln = 0.2
+
+////////////// Shades ////////////////
+/mob/living/critter/shade
+	name = "darkness"
+	real_name = "darkness"
+	desc = "Oh god."
+	icon_state = "shade"
+	icon_state_dead = "shade" //doesn't have a dead icon, just fades away
+	death_text = null //has special spooky voice lines
+	hand_count = 2
+	can_help = TRUE
+	can_throw = TRUE
+	can_grab = TRUE
+	can_disarm = TRUE
+	health_brute = 10
+	health_brute_vuln = 0.5
+	health_burn = 10
+	health_brute_vuln = 0
+	speech_void = 1
+	ai_retaliates = TRUE
+	ai_retaliate_patience = 0
+	ai_retaliate_persistence = RETALIATE_UNTIL_DEAD
+	ai_type = /datum/aiHolder/wanderer_agressive
+	is_npc = TRUE
+
+	setup_hands()
+		..()
+		var/datum/handHolder/HH = hands[1]
+		HH.icon = 'icons/mob/hud_human.dmi'
+		HH.limb = new /datum/limb/transposed
+		HH.icon_state = "handl"				// the icon state of the hand UI background
+		HH.limb_name = "left transposed arm"
+
+		HH = hands[2]
+		HH.icon = 'icons/mob/hud_human.dmi'
+		HH.limb = new /datum/limb/transposed
+		HH.name = "right hand"
+		HH.suffix = "-R"
+		HH.icon_state = "handr"				// the icon state of the hand UI background
+		HH.limb_name = "right transposed arm"
+
+	setup_healths()
+		add_hh_flesh(src.health_brute, src.health_brute_vuln)
+		add_hh_flesh_burn(src.health_burn, src.health_burn_vuln)
+
+	critter_attack(var/mob/target)
+		src.chase_lines(target)
+		..()
+
+	proc/chase_lines(var/mob/target)
+		if(!ON_COOLDOWN(src, "chase_talk", 5 SECONDS))
+			if (target.lying || is_incapacitated(target))
+				src.speak( pick("me-�m ina men-an-uras-a?", "e-z� ina gu-sum... e-z� ina g�-ri-ta!", "e-z� n�-gig, e-z� n�-d�m-d�m-ma, e-z� �u...bar ina libir lugar!", "namlugallu-zu-ne-ne inim-dirig, namgallu-zu-ne-ne inim-b�r-ra, izi te-en ina an!", "ri azag, ri azag, ri azag, ri �rim, ri e-z�!", "e-z�, �rim diir-da...nu-me-a.") )
+				// where is the crown of heaven and earth // you are from the writing... you are from the other side // you abominations, created creatures, you let loose the ancient king
+				// mankind's hubris, mankind's breach of treaty extinguished the heavens // banish the taboo, banish the taboo, banish you // you, enemy, without a god
+			else
+				src.speak( pick("an-z�, bar ina k�, ina k�! ina k�-bar-ra!", "hul-�l. l��r-l�-ene ina im-dugud-ene. n-ene. e-z�.", "ki-lul-la, ki-in-dar, �-a-nir-ra: urudu e-re-s�-ki-in ina �mun, en-nu-�a-ak ina l��r-l�-ene", "l�-k�r-ra! l�-n�-zuh! l�-ru-g�!", "nu-me-en-na-ta, na!") )
+				// where heaven ends, the gate, the gate! the outer door! // the evil ones, the butchers on the lumps of stone. humans. you. // in the place of murder, in the crevice, in the house of mourning: the copper servant formed of thought guards against the butchers //
+				// stranger! thief! recalcitrant one! // you don't exist, human!
+
+	death()
+		speak( pick("��r...�a ina ��r-kug z�h-bi!", "�d, �d, �u...bar...", "n�-nam-nu-kal...", "lugal-me taru, lugal-me galam!", "me-li-e-a..."))
+		..()
+		// sing the sacred song to the bitter end // go out, exit, release // nothing is precious // our king will return, our king will ascend // woe is me
+		SPAWN(1.5 SECONDS)
+			qdel(src)
+
+	seek_target(var/range = 5)
+		. = list()
+		for (var/mob/living/C in hearers(range, src))
+			if (isintangible(C)) continue
+			if (isdead(C)) continue
+			if (istype(C, src.type)) continue
+			. += C
+
+		if (length(.) && prob(10))
+			src.speak( pick("siskur, siskur ina na sukkal...","�ra ina g�g, �� ina ur zal...","l�-�rim! l�-�rim!","� �-zi-ga...bal, na, e-z� ha-lam ina � si-ga...") )
+			// sacrifice, sacrifice the human envoy! // praise the night, kill the servant of light // enemy! enemy! // cursed with violence, human, you ruin the quiet house
+
+	proc/speak(var/message)
+		src.say(message)
+		playsound(src.loc, pick('sound/voice/creepywhisper_1.ogg', 'sound/voice/creepywhisper_2.ogg', 'sound/voice/creepywhisper_3.ogg'), 50, 1)
+
+/mob/living/critter/shade/crew_member
+	name = "faded scientist"
+	desc = "Something is terribly wrong with them."
+	icon = 'icons/mob/human.dmi'
+	icon_state = "body_m"
+	icon_state_dead = "body_m" //doesn't have a dead icon
+	alpha = 192
+	color = "#676767"
+	health_brute = 50
+	health_brute_vuln = 1
+	health_burn = 50
+	health_burn_vuln = 1
+	var/jumpsuit = "scientist-alt"
+	var/oversuit = null
+	var/overarmor = null
+
+	New()
+		..()
+		if(jumpsuit)
+			overlays += image('icons/mob/clothing/jumpsuits/worn_js_rank.dmi', "[jumpsuit]")
+		if(oversuit)
+			overlays += image('icons/mob/clothing/overcoats/worn_suit.dmi', "[oversuit]")
+		if(overarmor)
+			overlays += image('icons/mob/clothing/overcoats/worn_suit_armor.dmi', "[oversuit]")
+
+	death()
+		particleMaster.SpawnSystem(new /datum/particleSystem/localSmoke("#000000", 5, get_turf(src)))
+		..()
+		qdel(src)
+
+	lost
+		desc = "Huh? What is this guy doing here?"
+
+		death()
+			new /obj/item/paper/otp(get_turf(src))
+			..()
+
+	roboticist
+		jumpsuit = "robotics-alt"
+		oversuit = "ROlabcoat"
+
+	security
+		name = "faded officer"
+		desc = "Their armor still seems surprisingly functional."
+		health_brute = 100
+		health_brute_vuln = 1
+		health_burn = 100
+		health_burn_vuln = 1
+		jumpsuit = "security"
+		overarmor = "heavy"
+
