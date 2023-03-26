@@ -231,7 +231,7 @@
 			else if (src.z == Z_LEVEL_MINING && prob(0.02))
 				new /obj/critter/gunbot/drone/cutterdrone(src)
 			else if (src.z == Z_LEVEL_MINING && prob(0.005))
-				new /obj/critter/ancient_thing(src)
+				new /mob/living/critter/robotic/ancient_robot(src)
 
 		if (spawningFlags & SPAWN_LOOT)
 			if (prob(1) && prob(9))

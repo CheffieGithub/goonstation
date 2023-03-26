@@ -10945,7 +10945,7 @@
 /turf/unsimulated/floor/cave,
 /area/crater/cave)
 "aKl" = (
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /turf/unsimulated/floor/setpieces{
 	desc = "A strange jet black metal floor. There are odd lines carved into it.";
 	icon = 'icons/turf/floors.dmi';
@@ -20649,7 +20649,7 @@
 	},
 /area/precursor)
 "bld" = (
-/obj/critter/shade,
+/mob/living/critter/shade,
 /turf/unsimulated/floor/void{
 	desc = "You can barely see ...";
 	icon = 'icons/misc/worlds.dmi';
@@ -21784,7 +21784,7 @@
 /turf/unsimulated/floor,
 /area/drone/office)
 "bnP" = (
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "It's pretty weird. Is it some sort of seating? Who knows.";
@@ -21898,7 +21898,7 @@
 /obj/landmark{
 	name = "theonyxkeywashere"
 	},
-/obj/critter/shade/scientist/lost,
+/mob/living/critter/shade/crew_member/lost,
 /obj/item/device/key/onyx,
 /turf/unsimulated/floor/void{
 	desc = "You can barely see ...";
@@ -23218,7 +23218,7 @@
 	icon_state = "";
 	name = "power conduit"
 	},
-/obj/critter/ancient_repairbot/security,
+/mob/living/critter/robotic/repairbot/security,
 /turf/unsimulated/iomoon/ancient_floor,
 /area/iomoon/robot_ruins)
 "brV" = (
@@ -23569,7 +23569,7 @@
 /turf/unsimulated/floor/cave,
 /area/crater/cave/lower)
 "bsQ" = (
-/obj/critter/ancient_repairbot/security,
+/mob/living/critter/robotic/repairbot/security,
 /turf/unsimulated/iomoon/ancient_floor,
 /area/iomoon/robot_ruins)
 "bsR" = (
@@ -24649,7 +24649,7 @@
 /turf/unsimulated/floor/arctic/snow/ice,
 /area/lower_arctic/lower)
 "bwo" = (
-/obj/critter/ancient_repairbot,
+/mob/living/critter/robotic/repairbot,
 /turf/unsimulated/iomoon/ancient_floor,
 /area/iomoon/robot_ruins)
 "bwq" = (
@@ -27289,7 +27289,7 @@
 	icon = 'icons/obj/machines/heavy_fiber.dmi';
 	name = "power conduit"
 	},
-/obj/critter/ancient_repairbot/security,
+/mob/living/critter/robotic/repairbot/security,
 /turf/unsimulated/iomoon/ancient_floor,
 /area/iomoon/robot_ruins)
 "bFB" = (
@@ -32085,7 +32085,7 @@
 /turf/unsimulated/floor/carpet/red/fancy/edge/north,
 /area/syndicate_station/battlecruiser)
 "bVi" = (
-/obj/critter/crunched,
+/mob/living/critter/crunched,
 /turf/unsimulated/floor,
 /area/crunch)
 "bVj" = (
@@ -33462,7 +33462,7 @@
 /turf/unsimulated/floor/white,
 /area/crunch)
 "bZP" = (
-/obj/critter/crunched,
+/mob/living/critter/crunched,
 /turf/unsimulated/floor/white,
 /area/crunch)
 "bZQ" = (
@@ -34352,7 +34352,7 @@
 	},
 /area/owlery/staffhall)
 "ccM" = (
-/obj/critter/crunched,
+/mob/living/critter/crunched,
 /turf/unsimulated/floor/plating,
 /area/crunch)
 "ccN" = (

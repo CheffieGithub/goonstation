@@ -787,7 +787,7 @@ TYPEINFO(/obj/machinery/networked/telepad)
 					/obj/critter/lion,
 					/obj/critter/yeti,
 					/obj/critter/gunbot/drone,
-					/obj/critter/ancient_thing)
+					/mob/living/critter/robotic/ancient_robot)
 				new summon(src.loc)
 				return
 

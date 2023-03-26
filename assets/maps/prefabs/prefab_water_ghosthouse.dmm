@@ -162,7 +162,7 @@
 /turf/unsimulated/floor/void,
 /area/prefab/ghost_house)
 "aI" = (
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /turf/unsimulated/floor/void,
 /area/prefab/ghost_house)
 "aJ" = (
@@ -253,7 +253,7 @@
 /turf/simulated/floor/wood,
 /area/prefab/ghost_house)
 "aZ" = (
-/obj/critter/ancient_repairbot/security,
+/mob/living/critter/robotic/repairbot/security,
 /turf/unsimulated/floor/void,
 /area/prefab/ghost_house)
 "ba" = (

@@ -949,9 +949,9 @@ var/global/iomoon_blowout_state = 0 //0: Hasn't occurred, 1: Moon is irradiated 
 					set_dir(2)
 					return
 				if (prob(80))
-					new /obj/critter/ancient_repairbot/grumpy (src.loc)
+					new /mob/living/critter/robotic/repairbot (src.loc)
 				else
-					new /obj/critter/ancient_repairbot/security (src.loc)
+					new /mob/living/critter/robotic/repairbot/security (src.loc)
 				max_bots--
 
 				src.visible_message("<span class='alert'>[src] plunks out a robot! Oh dear!</span>")

@@ -2757,7 +2757,7 @@
 /area/adventure/urs_dungeon)
 "fI" = (
 /obj/decal/fakeobjects/teleport_pad,
-/obj/critter/crunched,
+/mob/living/critter/crunched,
 /obj/adventurepuzzle/triggerable/bomb{
 	id = "end_bomb_9"
 	},

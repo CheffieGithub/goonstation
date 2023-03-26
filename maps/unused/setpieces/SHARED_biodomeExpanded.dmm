@@ -2513,7 +2513,7 @@
 	icon_state = "eldritch-2";
 	name = "weird furniture"
 	},
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /obj/map/light/dimreddish,
 /turf/unsimulated/floor/setpieces{
 	desc = "A strange jet black metal floor. There are odd lines carved into it.";
@@ -3623,7 +3623,7 @@
 	},
 /area/swampzone/interiors/quarry)
 "erG" = (
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /turf/unsimulated/floor/setpieces{
 	desc = "A strange jet black metal floor. There are odd lines carved into it.";
 	icon = 'icons/turf/floors.dmi';
@@ -7103,7 +7103,7 @@
 	},
 /area/crypt/sigma/mainhall)
 "iwS" = (
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "It's pretty weird. Is it some sort of seating? Who knows.";
