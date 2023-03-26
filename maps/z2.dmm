@@ -22081,7 +22081,7 @@
 	icon_state = "eldritch-2";
 	name = "weird furniture"
 	},
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /obj/map/light/dimreddish,
 /turf/unsimulated/floor/setpieces{
 	desc = "A strange jet black metal floor. There are odd lines carved into it.";
@@ -29918,7 +29918,7 @@
 /turf/unsimulated/floor/wood/three,
 /area/afterlife/heaven/hydroponics)
 "bNQ" = (
-/obj/critter/ancient_thing,
+/mob/living/critter/robotic/ancient_robot,
 /turf/unsimulated/floor/ancient,
 /area/crunch)
 "bNR" = (
