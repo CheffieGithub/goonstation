@@ -123,9 +123,9 @@ whats here
 	can_throw = TRUE
 	can_grab = TRUE
 	can_disarm = TRUE
-	health_brute = 30
+	health_brute = 20
 	health_brute_vuln = 0.8
-	health_burn = 30
+	health_burn = 20
 	health_burn_vuln = 0.8
 	ai_retaliates = TRUE
 	ai_retaliate_patience = 0
@@ -253,13 +253,11 @@ whats here
 	custom_gib_handler = /proc/robogibs
 	say_language = "binary"
 	voice_name = "synthesized voice"
-	blood_id = "oil"
 	speechverb_say = "beeps"
 	speechverb_gasp = "chirps"
 	speechverb_stammer = "beeps"
 	speechverb_exclaim = "beeps"
 	speechverb_ask = "beeps"
-	metabolizes = FALSE
 
 	understands_language(var/langname)
 		if (langname == say_language || langname == "silicon" || langname == "binary" || langname == "english")
