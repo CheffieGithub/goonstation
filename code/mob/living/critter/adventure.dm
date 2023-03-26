@@ -417,7 +417,7 @@ whats here
 		for (var/mob/living/C in hearers(range, src))
 			if (isintangible(C)) continue
 			if (isdead(C)) continue
-			if (istype(C, src.type)) continue
+			if (istype(C, /mob/living/critter/shade)) continue
 			. += C
 
 		if (length(.) && prob(5))
