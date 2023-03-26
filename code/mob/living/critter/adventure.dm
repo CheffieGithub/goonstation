@@ -117,6 +117,7 @@ whats here
 	desc = "What the hell is that?"
 	icon_state = "ancientrobot"
 	icon_state_dead = "ancientrobot" // fades away
+	death_text = "%src% fades away."
 	invisibility = INVIS_GHOST
 	hand_count = 2
 	can_throw = TRUE
@@ -476,7 +477,8 @@ whats here
 			new /obj/item/paper/otp(get_turf(src))
 			..()
 
-	roboticist
+	researcher
+		name = "faded researcher"
 		jumpsuit = "robotics-alt"
 		oversuit = "ROlabcoat"
 
