@@ -277,7 +277,7 @@ whats here
 		return L.get_messages(message, (1 - health / max_health) * 16)
 
 	death(var/gibbed)
-		elecflash(src,power = 3)
+		elecflash(src, power = 3)
 		..()
 		ghostize()
 		qdel(src)
@@ -405,7 +405,7 @@ whats here
 				// stranger! thief! recalcitrant one! // you don't exist, human!
 
 	death()
-		speak(pick("šìr...áa ina šìr-kug záh-bi!", "éd, èd, šu...bar...", "ní-nam-nu-kal...", "lugal-me taru, lugal-me galam!", "me-li-e-a..."))
+		src.speak(pick("šìr...áa ina šìr-kug záh-bi!", "éd, èd, šu...bar...", "ní-nam-nu-kal...", "lugal-me taru, lugal-me galam!", "me-li-e-a..."))
 		..()
 		// sing the sacred song to the bitter end // go out, exit, release // nothing is precious // our king will return, our king will ascend // woe is me
 		SPAWN(1.5 SECONDS)
