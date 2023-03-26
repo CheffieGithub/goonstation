@@ -1,5 +1,5 @@
 /* -For adventure zoneish mobs-
-   -Most of these orginally made by cog-
+   -Most of these orginally made by cogwerks-
 whats here
 	- Transposed scientist
 	- Ancient robot
@@ -190,6 +190,7 @@ whats here
 				src.activating = FALSE
 
 	death()
+		can_lie = FALSE
 		..()
 		flick("ancientrobot-disappear",src)
 		SPAWN(16) //maybe let the animation actually play
@@ -277,7 +278,7 @@ whats here
 
 	death(var/gibbed)
 		elecflash(src, power = 3)
-		..()
+		..(gibbed, 0)
 		ghostize()
 		qdel(src)
 
@@ -353,6 +354,7 @@ whats here
 	icon_state_dead = "shade" //doesn't have a dead icon, just fades away
 	death_text = null //has special spooky voice lines
 	hand_count = 2
+	can_lie = FALSE
 	can_throw = TRUE
 	can_grab = TRUE
 	can_disarm = TRUE
