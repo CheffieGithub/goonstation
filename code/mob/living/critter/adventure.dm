@@ -3,8 +3,7 @@ whats here
 	- Transposed scientist
 	- Ancient robot
 	- Repair bots
-	- Shade
-
+	- Shades
 */
 ////////////// Transposed Scientist ////////////////
 /mob/living/critter/crunched
@@ -58,7 +57,7 @@ whats here
 		src.hand_attack(target)
 
 	proc/chase_lines(var/mob/target)
-		if(!ON_COOLDOWN(src, "chase_talk", 5 SECONDS))
+		if(!ON_COOLDOWN(src, "chase_talk", 10 SECONDS))
 			if (target.lying || is_incapacitated(target))
 				src.say( pick("No! Get up! Please, get up!", "Not again! Not again! I need you!", "Please! Please get up! Please!", "I don't want to be alone again!") )
 			else
@@ -73,7 +72,7 @@ whats here
 			if (istype(C, src.type)) continue
 			. += C
 
-		if (length(.) && prob(10))
+		if (length(.) && prob(5))
 			src.say(pick("Please...help...it hurts...please", "I'm...sick...help","It went wrong.  It all went wrong.","I didn't mean for this to happen!", "I see everything twice!") )
 
 	death()
