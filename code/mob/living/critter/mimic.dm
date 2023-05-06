@@ -5,7 +5,7 @@
 	icon_state = "mimicface"
 	is_npc = TRUE
 	ai_type = /datum/aiHolder/mimic
-	can_lie = FALSE
+	density = FALSE
 	butcherable = FALSE
 	health_brute = 20
 	health_burn = 20
