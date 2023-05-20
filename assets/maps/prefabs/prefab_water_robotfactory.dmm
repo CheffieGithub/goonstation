@@ -7,7 +7,7 @@
 /area/noGenerate)
 "ac" = (
 /turf/variableTurf/wall,
-/area/space)
+/area/noGenerate)
 "ad" = (
 /turf/simulated/floor/shuttlebay,
 /area/prefab/replicant_lab)
@@ -110,7 +110,7 @@
 /area/prefab/replicant_lab)
 "aw" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "ax" = (
 /obj/decal/cleanable/oil{
 	icon_state = "streak2"
@@ -218,7 +218,7 @@
 /area/prefab/replicant_lab)
 "aN" = (
 /turf/variableTurf/clear,
-/area/prefab/replicant_lab)
+/area/allowGenerate)
 "aO" = (
 /obj/decal/cleanable/blood{
 	icon_state = "drip3"
@@ -335,7 +335,7 @@
 /obj/item/robot_module/medical,
 /obj/item/robot_module/construction_worker,
 /obj/item/robot_module/civilian,
-/obj/item/robot_module/chemistry,
+/obj/item/robot_module/research,
 /turf/simulated/floor/shuttlebay,
 /area/prefab/replicant_lab)
 "bc" = (
@@ -1177,7 +1177,7 @@ aa
 ae
 ae
 ad
-ap
+ad
 ad
 aa
 aS
@@ -1237,7 +1237,7 @@ aa
 ag
 ad
 aq
-ap
+ad
 ad
 aJ
 aT

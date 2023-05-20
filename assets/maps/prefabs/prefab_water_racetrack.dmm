@@ -1,10 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /turf/variableTurf/wall,
-/area/space)
+/area/noGenerate)
 "ab" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "ac" = (
 /obj/wingrille_spawn/auto/crystal,
 /turf/simulated/floor/plating/random,
@@ -60,7 +60,7 @@
 /area/prefab/raceway)
 "ai" = (
 /turf/variableTurf/floor,
-/area/space)
+/area/noGenerate)
 "aj" = (
 /obj/decal/tile_edge/check/white{
 	icon_state = "check1";
@@ -337,18 +337,6 @@
 /obj/item/sea_ladder,
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
-	},
-/area/prefab/raceway)
-"aV" = (
-/obj/decal/tile_edge/check/white{
-	icon_state = "check1";
-	dir = 8
-	},
-/obj/shrub,
-/obj/machinery/light/incandescent/warm,
-/obj/item/old_grenade/spawner/banana,
-/turf/simulated/floor/grass{
-	name = "astroturf"
 	},
 /area/prefab/raceway)
 "aW" = (
@@ -647,6 +635,30 @@
 /obj/machinery/vehicle/tank/car/red,
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
+	},
+/area/prefab/raceway)
+"tW" = (
+/obj/decal/tile_edge/check/white{
+	icon_state = "check1";
+	dir = 8
+	},
+/obj/shrub,
+/obj/item/old_grenade/spawner/banana,
+/turf/simulated/floor/grass{
+	name = "astroturf"
+	},
+/area/prefab/raceway)
+"WP" = (
+/obj/decal/tile_edge/check/white{
+	icon_state = "check1";
+	dir = 8
+	},
+/obj/machinery/light/incandescent/warm{
+	dir = 4;
+	nostick = 1
+	},
+/turf/simulated/floor/grass{
+	name = "astroturf"
 	},
 /area/prefab/raceway)
 
@@ -1033,13 +1045,13 @@ ab
 ac
 ac
 ah
-ap
+as
+WP
 as
 as
 as
-aV
-as
-as
+tW
+WP
 as
 as
 as

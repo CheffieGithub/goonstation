@@ -1,7 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aa" = (
-/turf/variableTurf/wall,
-/area/space)
 "ab" = (
 /turf/variableTurf/wall,
 /area/noGenerate)
@@ -11,9 +8,9 @@
 /area/noGenerate)
 "ad" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate)
 "ae" = (
-/turf/simulated/wall/auto/reinforced/gannets,
+/turf/simulated/wall/auto/reinforced/supernorn,
 /area/noGenerate)
 "af" = (
 /obj/item/raw_material/rock,
@@ -21,7 +18,7 @@
 /area/noGenerate)
 "ag" = (
 /obj/decal/cleanable/rust,
-/turf/simulated/wall/auto/reinforced/gannets,
+/turf/simulated/wall/auto/reinforced/supernorn,
 /area/noGenerate)
 "ah" = (
 /obj/table/reinforced/auto,
@@ -125,10 +122,10 @@
 "ax" = (
 /obj/item/storage/wall/emergency,
 /obj/decal/cleanable/rust,
-/turf/simulated/wall/auto/gannets,
+/turf/simulated/wall/auto/supernorn,
 /area/noGenerate)
 "ay" = (
-/turf/simulated/wall/auto/gannets,
+/turf/simulated/wall/auto/supernorn,
 /area/noGenerate)
 "az" = (
 /obj/machinery/door/airlock/pyro/classic,
@@ -136,7 +133,7 @@
 /area/noGenerate)
 "aA" = (
 /obj/item/storage/wall/emergency,
-/turf/simulated/wall/auto/gannets,
+/turf/simulated/wall/auto/supernorn,
 /area/noGenerate)
 "aB" = (
 /obj/decal/poster/wallsign/space,
@@ -178,15 +175,12 @@
 /area/noGenerate)
 "aJ" = (
 /obj/decal/cleanable/rust,
-/turf/simulated/wall/auto/gannets,
+/turf/simulated/wall/auto/supernorn,
 /area/noGenerate)
 "aK" = (
 /obj/machinery/door/airlock/pyro/classic,
 /turf/simulated/floor/airless/damaged1,
 /area/noGenerate)
-"aL" = (
-/turf/variableTurf/floor,
-/area/space)
 "aM" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles4";
@@ -452,7 +446,7 @@
 /area/noGenerate)
 "bs" = (
 /obj/decal/fakeobjects/apc_broken,
-/turf/simulated/wall/auto/gannets,
+/turf/simulated/wall/auto/supernorn,
 /area/noGenerate)
 "bt" = (
 /obj/item/cable_coil/cut,
@@ -507,11 +501,20 @@
 	},
 /turf/variableTurf/floor,
 /area/noGenerate)
+"GX" = (
+/obj/decal/poster/wallsign/space,
+/obj/decal/cleanable/rust,
+/turf/simulated/wall/auto/reinforced/supernorn,
+/area/noGenerate)
+"Tm" = (
+/obj/decal/poster/wallsign/space,
+/turf/simulated/wall/auto/reinforced/supernorn,
+/area/noGenerate)
 
 (1,1,1) = {"
-aa
-aa
-aa
+ad
+ad
+ad
 ab
 ab
 ab
@@ -522,16 +525,16 @@ ap
 ab
 ab
 ab
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
 ad
 ad
 "}
 (2,1,1) = {"
-aa
-aa
+ad
+ad
 ab
 ab
 ab
@@ -545,13 +548,13 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-aa
+ad
+ad
+ad
+ad
 "}
 (3,1,1) = {"
-aa
+ad
 ab
 ab
 ab
@@ -569,10 +572,10 @@ ab
 ab
 ab
 ab
-aa
+ad
 "}
 (4,1,1) = {"
-aa
+ad
 ab
 ab
 af
@@ -598,9 +601,9 @@ ab
 af
 ak
 ar
-aw
+Tm
 aD
-aB
+GX
 aR
 aX
 aY
@@ -632,7 +635,7 @@ ay
 bs
 ae
 aY
-aa
+ad
 "}
 (7,1,1) = {"
 ab
@@ -653,7 +656,7 @@ bn
 bt
 ae
 ae
-aa
+ad
 "}
 (8,1,1) = {"
 ab
@@ -674,11 +677,11 @@ bo
 bu
 by
 ae
-aa
+ad
 "}
 (9,1,1) = {"
-aa
-aa
+ab
+ab
 aj
 an
 au
@@ -695,12 +698,12 @@ bp
 bv
 bz
 ae
-aa
+ad
 "}
 (10,1,1) = {"
-aa
-aa
-aa
+ab
+ab
+ab
 ao
 av
 ay
@@ -716,12 +719,12 @@ bq
 bw
 ae
 ag
-aa
+ad
 "}
 (11,1,1) = {"
 ad
-aa
-aa
+ab
+ab
 ac
 ac
 aA
@@ -737,13 +740,13 @@ ay
 ay
 ag
 bl
-aa
+ad
 "}
 (12,1,1) = {"
 ad
 ad
-aa
-aa
+ab
+ab
 ap
 aB
 aD
@@ -758,16 +761,16 @@ ay
 br
 bA
 ap
-aa
+ad
 "}
 (13,1,1) = {"
 ad
 ad
 ad
-aa
-aa
-aa
-aL
+ab
+ab
+ad
+ad
 ab
 ab
 ab
@@ -779,18 +782,18 @@ ae
 br
 bA
 ab
-aa
+ad
 "}
 (14,1,1) = {"
 ad
 ad
 ad
 ad
-aa
-aa
-aL
-aa
-aa
+ad
+ad
+ad
+ad
+ad
 ab
 ab
 ab
@@ -800,7 +803,7 @@ ap
 ap
 ab
 ab
-aa
+ad
 "}
 (15,1,1) = {"
 ad
@@ -808,10 +811,10 @@ ad
 ad
 ad
 ad
-aa
-aL
-aL
-aa
+ad
+ad
+ad
+ad
 ad
 ad
 ab
@@ -820,6 +823,6 @@ ab
 ab
 ab
 ab
-aa
-aa
+ad
+ad
 "}

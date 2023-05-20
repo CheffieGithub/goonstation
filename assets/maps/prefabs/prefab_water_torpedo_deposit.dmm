@@ -17,10 +17,6 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
-"cT" = (
-/obj/item/paper/book/torpedo,
-/turf/variableTurf/clear,
-/area/noGenerate)
 "cZ" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/prefab/torpedo_deposit)
@@ -47,9 +43,6 @@
 "gm" = (
 /obj/table/wood/auto/desk{
 	pixel_y = 2
-	},
-/obj/item/paper/book/deep_blue_sea{
-	pixel_y = 4
 	},
 /turf/simulated/floor/wood/two{
 	name = "wooden floor"
@@ -141,12 +134,10 @@
 	dir = 4;
 	pixel_x = 11
 	},
-/obj/item/paper/book/the_trial{
-	pixel_y = 3
-	},
 /obj/item/storage/secure/ssafe/loot{
 	pixel_y = 32
 	},
+/obj/item/paper/book/from_file/deep_blue_sea,
 /turf/simulated/floor/wood/two{
 	name = "wooden floor"
 	},
@@ -241,6 +232,10 @@
 	name = "wooden floor"
 	},
 /area/prefab/torpedo_deposit)
+"uU" = (
+/obj/item/paper/book/from_file/torpedo,
+/turf/variableTurf/clear,
+/area/noGenerate)
 "uW" = (
 /obj/decal/floatingtiles{
 	dir = 8;
@@ -563,7 +558,7 @@
 /area/prefab/torpedo_deposit)
 "RK" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "TV" = (
 /turf/simulated/floor/black,
 /area/prefab/torpedo_deposit)
@@ -695,7 +690,7 @@ RK
 bk
 aj
 il
-cT
+aj
 aj
 jj
 aj
@@ -717,7 +712,7 @@ RK
 (4,1,1) = {"
 aj
 Ao
-aj
+uU
 dj
 aj
 aj

@@ -1,9 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
-/area/space)
+/turf/variableTurf/clear,
+/area/allowGenerate)
 "ab" = (
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "ac" = (
 /obj/machinery/door/poddoor/blast{
@@ -100,19 +100,21 @@
 /area/janitor_setpiece)
 "ap" = (
 /obj/decal/cleanable/fungus,
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "aq" = (
 /obj/decal/cleanable/rust,
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "ar" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/pyro/glass{
+	dir = 4
+	},
 /turf/simulated/floor,
 /area/janitor_setpiece)
 "as" = (
 /obj/decal/cleanable/gangtag,
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "at" = (
 /obj/machinery/vending/coffee,
@@ -161,11 +163,11 @@
 /turf/simulated/floor,
 /area/janitor_setpiece)
 "az" = (
+/obj/decal/cleanable/dirt,
 /obj/machinery/light{
 	dir = 1;
-	icon_state = "tube1"
+	pixel_y = 21
 	},
-/obj/decal/cleanable/dirt,
 /turf/simulated/floor,
 /area/janitor_setpiece)
 "aA" = (
@@ -174,7 +176,7 @@
 "aB" = (
 /obj/machinery/light{
 	dir = 4;
-	icon_state = "tube1"
+	pixel_x = 10
 	},
 /turf/simulated/floor,
 /area/janitor_setpiece)
@@ -232,11 +234,11 @@
 	pixel_x = 0;
 	pixel_y = 32
 	},
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "aL" = (
 /obj/decal/cleanable/ripped_poster,
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "aM" = (
 /obj/decal/fakeobjects/pipe/heat{
@@ -319,8 +321,8 @@
 "aW" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	tag = ""
+	layer = 9.1;
+	pixel_x = -10
 	},
 /turf/simulated/floor,
 /area/janitor_setpiece)
@@ -328,7 +330,8 @@
 /obj/storage/closet/wardrobe/specialty_janitor,
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 4;
-	icon_state = "tube-broken"
+	icon_state = "tube-broken";
+	pixel_x = 10
 	},
 /obj/item/gun/flamethrower/assembled/loaded/napalm,
 /turf/simulated/floor,
@@ -339,7 +342,7 @@
 	layer = 4;
 	pixel_x = 0
 	},
-/turf/simulated/wall/auto,
+/turf/simulated/wall/auto/supernorn,
 /area/janitor_setpiece)
 "aZ" = (
 /obj/decal/cleanable/generic,
@@ -435,6 +438,10 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
+"Dj" = (
+/obj/machinery/door/airlock/pyro/glass,
+/turf/simulated/floor,
+/area/janitor_setpiece)
 
 (1,1,1) = {"
 aj
@@ -526,7 +533,7 @@ ad
 ah
 ah
 ah
-ar
+Dj
 ba
 ba
 ap

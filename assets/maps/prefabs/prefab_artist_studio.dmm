@@ -17,7 +17,7 @@
 /obj/lattice{
 	icon_state = "lattice-dir"
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "cs" = (
 /obj/machinery/light/incandescent/harsh,
@@ -77,7 +77,7 @@
 /obj/grille/catwalk/cross{
 	dir = 9
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "gB" = (
 /turf/simulated/floor/darkblue,
@@ -117,7 +117,7 @@
 /obj/grille/catwalk{
 	dir = 10
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "ly" = (
 /obj/table/wood/auto/desk,
@@ -202,13 +202,13 @@
 /turf/simulated/floor/carpet/clowncarpet/border,
 /area/prefab/art_workshop)
 "sQ" = (
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "tq" = (
 /obj/grille/catwalk{
 	dir = 6
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "tC" = (
 /obj/table/wood/auto/desk,
@@ -336,7 +336,7 @@
 /obj/grille/catwalk/cross{
 	dir = 10
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "Eq" = (
 /turf/simulated/floor/white,
@@ -370,11 +370,11 @@
 	dir = 4;
 	icon_state = "lattice-dir"
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "HB" = (
 /obj/lattice,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "Ib" = (
 /obj/table/clothred/auto,
@@ -439,7 +439,7 @@
 	dir = 6;
 	icon_state = "lattice-dir-b"
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "PD" = (
 /obj/table/wood/auto/desk,
@@ -517,7 +517,7 @@
 	dir = 9;
 	icon_state = "lattice-dir-b"
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "UM" = (
 /obj/table/clothred/auto,
@@ -527,7 +527,7 @@
 /turf/simulated/floor/longtile/blue,
 /area/prefab/art_workshop)
 "VB" = (
-/turf/space,
+/turf/variableTurf/clear,
 /area/allowGenerate)
 "Ws" = (
 /obj/stool/bench/wooden/auto,

@@ -2,46 +2,44 @@
 "aa" = (
 /turf/variableTurf/clear,
 /area/noGenerate)
-"ab" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/area/noGenerate)
 "ac" = (
 /obj/decal/cleanable/ash,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "ad" = (
 /obj/item/raw_material/scrap_metal,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "ae" = (
-/turf/simulated/shuttle/wall{
-	dir = 8;
-	icon_state = "wall_space"
+/obj/indestructible/shuttle_corner{
+	dir = 0;
+	opacity = 1
 	},
+/turf/variableTurf/floor,
 /area/noGenerate)
 "af" = (
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "ag" = (
 /obj/decal/cleanable/blood/splatter,
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "ah" = (
-/turf/simulated/shuttle/wall{
-	dir = 1;
-	icon_state = "wall_space"
+/obj/indestructible/shuttle_corner{
+	dir = 1
 	},
+/turf/variableTurf/floor,
 /area/noGenerate)
 "ai" = (
 /obj/decal/cleanable/molten_item,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "aj" = (
 /turf/variableTurf/floor,
 /area/noGenerate)
 "ak" = (
 /turf/variableTurf/wall,
-/area/space)
+/area/noGenerate)
 "al" = (
 /obj/machinery/optable,
 /obj/map/light/white,
@@ -83,11 +81,11 @@
 /area/noGenerate)
 "ap" = (
 /obj/random_item_spawner/landmine,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "aq" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate)
 "ar" = (
 /obj/decal/cleanable/oil,
 /obj/decal/cleanable/dirt,
@@ -121,21 +119,21 @@
 /area/noGenerate)
 "av" = (
 /obj/critter/rockworm,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "aw" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	icon_state = "alt_propulsion";
 	dir = 8
 	},
-/turf/space,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "ax" = (
 /obj/decal/fakeobjects/shuttleengine{
 	icon_state = "alt_heater";
 	dir = 8
 	},
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "ay" = (
 /obj/decal/cleanable/dirt,
@@ -160,7 +158,9 @@
 	},
 /area/noGenerate)
 "aA" = (
-/obj/machinery/door/unpowered/shuttle,
+/obj/machinery/door/airlock/pyro{
+	dir = 4
+	},
 /turf/simulated/floor/airless{
 	icon_state = "damaged2"
 	},
@@ -219,13 +219,15 @@
 /turf/simulated/floor/airless/scorched,
 /area/noGenerate)
 "aG" = (
-/turf/simulated/shuttle/wall{
-	icon_state = "wall_space"
+/obj/indestructible/shuttle_corner{
+	dir = 4;
+	opacity = 1
 	},
+/turf/variableTurf/floor,
 /area/noGenerate)
 "aH" = (
 /obj/decal/fakeobjects/apc_broken,
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "aI" = (
 /obj/decal/cleanable/blood/splatter,
@@ -258,7 +260,7 @@
 /area/noGenerate)
 "aM" = (
 /obj/decal/cleanable/fungus,
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "aN" = (
 /obj/table/auto,
@@ -277,7 +279,7 @@
 	dir = 1
 	},
 /obj/item/bloodslide,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "aP" = (
 /obj/decal/cleanable/dirt,
@@ -294,7 +296,7 @@
 /area/noGenerate)
 "aR" = (
 /obj/decal/cleanable/oil,
-/turf/simulated/wall/auto/asteroid,
+/turf/variableTurf/wall,
 /area/noGenerate)
 "aS" = (
 /obj/decal/fakeobjects{
@@ -323,7 +325,9 @@
 	},
 /area/noGenerate)
 "aU" = (
-/obj/machinery/door/unpowered/shuttle,
+/obj/machinery/door/airlock/pyro{
+	dir = 4
+	},
 /turf/simulated/floor/airless{
 	icon_state = "damaged5"
 	},
@@ -348,7 +352,7 @@
 /obj/structure/girder/displaced,
 /obj/item/reagent_containers/pill/menthol,
 /obj/item/raw_material/rock,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "aY" = (
 /obj/lattice,
@@ -356,7 +360,7 @@
 	icon_state = "floattiles3"
 	},
 /obj/item/device/prox_sensor,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "aZ" = (
 /obj/decal/fakeobjects/pipe{
@@ -404,9 +408,6 @@
 	},
 /turf/simulated/shuttle/wall/cockpit,
 /area/noGenerate)
-"bf" = (
-/turf/dmm_suite/clear_turf,
-/area/noGenerate)
 "bg" = (
 /obj/decal/cleanable/molten_item,
 /obj/decal/cleanable/oil/streak,
@@ -436,7 +437,7 @@
 	},
 /obj/item/raw_material/rock,
 /obj/item/raw_material/rock,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "bj" = (
 /obj/lattice,
@@ -449,7 +450,7 @@
 	},
 /obj/item/cable_coil/cut,
 /obj/decal/cleanable/machine_debris,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "bk" = (
 /obj/lattice,
@@ -459,7 +460,7 @@
 	},
 /obj/item/reagent_containers/pill/antitox,
 /obj/item/raw_material/rock,
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "bl" = (
 /obj/decal/fakeobjects/pipe{
@@ -507,7 +508,7 @@
 	icon_state = "alt_heater";
 	dir = 8
 	},
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "bq" = (
 /obj/decal/fakeobjects{
@@ -547,7 +548,7 @@
 	icon = 'icons/obj/atmospherics/pipes/manifold_pipe.dmi';
 	icon_state = "manifold"
 	},
-/turf/space,
+/turf/variableTurf/clear,
 /area/noGenerate)
 "bu" = (
 /obj/decal/cleanable/machine_debris,
@@ -575,7 +576,7 @@
 	},
 /obj/item/raw_material/rock,
 /obj/item/raw_material/scrap_metal,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "bx" = (
 /obj/lattice{
@@ -587,7 +588,7 @@
 	icon_state = "coil1"
 	},
 /obj/item/raw_material/rock,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "by" = (
 /obj/lattice{
@@ -598,7 +599,7 @@
 	icon_state = "floattiles3"
 	},
 /obj/item/raw_material/shard/glass,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "bz" = (
 /obj/wingrille_spawn/auto,
@@ -641,10 +642,11 @@
 /turf/simulated/floor/airless/scorched,
 /area/noGenerate)
 "bE" = (
-/turf/simulated/shuttle/wall{
-	dir = 4;
-	icon_state = "wall_space"
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	opacity = 1
 	},
+/turf/variableTurf/floor,
 /area/noGenerate)
 "bF" = (
 /obj/decal/floatingtiles{
@@ -652,21 +654,21 @@
 	dir = 8
 	},
 /obj/item/raw_material/shard/glass,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "bG" = (
 /obj/item/raw_material/scrap_metal,
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate)
 "bH" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles3"
 	},
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "bI" = (
 /obj/decal/cleanable/oil,
-/turf/simulated/floor/plating/airless/asteroid,
+/turf/variableTurf/floor,
 /area/noGenerate)
 "bJ" = (
 /obj/decal/cleanable/dirt,
@@ -715,10 +717,10 @@
 	pixel_x = 0
 	},
 /obj/decal/cleanable/rust,
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/auto/shuttle,
 /area/noGenerate)
 "bQ" = (
-/obj/machinery/door/unpowered/shuttle,
+/obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor/plating/airless,
 /area/noGenerate)
 "bR" = (
@@ -735,6 +737,33 @@
 /area/noGenerate)
 "bS" = (
 /obj/item/raw_material/shard/glass,
+/turf/variableTurf/floor,
+/area/noGenerate)
+"yK" = (
+/obj/indestructible/shuttle_corner{
+	dir = 4
+	},
+/turf/variableTurf/floor,
+/area/noGenerate)
+"He" = (
+/obj/indestructible/shuttle_corner,
+/turf/variableTurf/clear,
+/area/noGenerate)
+"RL" = (
+/obj/decal/fakeobjects/shuttlethruster{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/turf/variableTurf/clear,
+/area/noGenerate)
+"RN" = (
+/obj/indestructible/shuttle_corner{
+	dir = 1
+	},
+/turf/variableTurf/clear,
+/area/noGenerate)
+"Su" = (
+/obj/indestructible/shuttle_corner,
 /turf/variableTurf/floor,
 /area/noGenerate)
 
@@ -758,7 +787,7 @@ ak
 aj
 ai
 aa
-aw
+RL
 aj
 aR
 ac
@@ -772,9 +801,9 @@ aq
 ak
 ac
 aj
-ae
+Su
 ax
-aG
+yK
 aj
 ae
 bp
@@ -815,7 +844,7 @@ ak
 "}
 (6,1,1) = {"
 aq
-ae
+He
 at
 af
 aA
@@ -875,7 +904,7 @@ aq
 "}
 (10,1,1) = {"
 aq
-ah
+RN
 af
 aB
 aE
@@ -891,7 +920,7 @@ aq
 (11,1,1) = {"
 aq
 aq
-ah
+RN
 af
 ag
 bO
@@ -943,8 +972,8 @@ aO
 bb
 bm
 by
-ao
-ao
+ak
+aj
 aj
 ak
 "}
@@ -959,67 +988,67 @@ bc
 bn
 bz
 ad
-ao
-ao
 ak
+aj
+aj
 "}
 (16,1,1) = {"
+aq
+aj
 ak
 ak
-ao
-ao
 af
 aQ
 bd
 bo
 af
-ao
-ao
-ao
 ak
+ak
+aj
+aj
 "}
 (17,1,1) = {"
-ak
-ak
-ap
-ao
-ao
-af
-af
-af
-ab
-bH
-ao
 aj
+aj
+ap
 ak
+ak
+af
+af
+af
+aj
+bH
+ak
+aj
+aj
 "}
 (18,1,1) = {"
-ak
-ak
+aj
+aj
 aj
 av
-ao
+ak
 ao
 be
 ao
-ao
+ak
 aj
 ad
 aj
-ak
+aq
 "}
 (19,1,1) = {"
+aq
+aj
+aj
+aj
 ak
 ak
+aa
 ak
 ak
-ak
-ak
-bf
-ak
-ak
-ak
-ak
-ak
-ak
+aq
+aq
+aq
+aq
 "}

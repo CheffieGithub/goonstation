@@ -4,7 +4,7 @@
 /area/prefab/sea_sketch)
 "ab" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "ac" = (
 /obj/item/kitchen/utensil/knife/pizza_cutter,
 /turf/simulated/floor/scorched,
@@ -136,7 +136,7 @@
 /area/prefab/sea_sketch)
 "aB" = (
 /obj/decal/cleanable/gangtag,
-/turf/simulated/wall/auto/reinforced/gannets,
+/turf/simulated/wall/auto/reinforced/supernorn,
 /area/prefab/sea_sketch)
 "aC" = (
 /obj/table/wood/round/auto,
@@ -446,6 +446,12 @@
 /obj/item/medical/bruise_pack,
 /turf/simulated/floor/plating,
 /area/prefab/sea_sketch)
+"EY" = (
+/turf/variableTurf/clear,
+/area/noGenerate)
+"TV" = (
+/turf/simulated/wall/auto/reinforced/supernorn,
+/area/prefab/sea_sketch)
 
 (1,1,1) = {"
 ab
@@ -484,16 +490,16 @@ ab
 (3,1,1) = {"
 ab
 ab
+TV
+TV
+TV
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+TV
+TV
+TV
+TV
+TV
+TV
 ab
 ab
 ab
@@ -501,16 +507,16 @@ ab
 (4,1,1) = {"
 ab
 ab
-aa
+TV
 ac
 ag
 aE
-aa
+TV
 bx
 bN
 ar
 aU
-aa
+TV
 ab
 ab
 ab
@@ -518,7 +524,7 @@ ab
 (5,1,1) = {"
 ab
 ab
-aa
+TV
 ad
 aJ
 al
@@ -527,36 +533,36 @@ aq
 aK
 aO
 aQ
-aa
-aa
-aa
+TV
+TV
+TV
 ab
 "}
 (6,1,1) = {"
 ab
 ab
-aa
+TV
 ae
 aj
 am
-aa
+TV
 bC
 ar
 aP
 aV
 aQ
 bv
-aa
-ab
+TV
+EY
 "}
 (7,1,1) = {"
 ab
 ab
-aa
+TV
 af
 ak
 an
-aa
+TV
 br
 bT
 aQ
@@ -564,16 +570,16 @@ aQ
 aZ
 bO
 ap
-ab
+EY
 "}
 (8,1,1) = {"
 ab
 ab
-aa
-aa
-aa
-aa
-aa
+TV
+TV
+TV
+TV
+TV
 bs
 aL
 aQ
@@ -581,15 +587,15 @@ aQ
 ba
 aQ
 ap
-ab
+EY
 "}
 (9,1,1) = {"
 ab
 ab
-ab
-aa
-aa
-aa
+EY
+TV
+TV
+TV
 aB
 bS
 ar
@@ -598,12 +604,12 @@ bP
 aW
 ax
 ap
-ab
+EY
 "}
 (10,1,1) = {"
 ab
 ab
-ab
+EY
 ap
 au
 az
@@ -615,12 +621,12 @@ bj
 bb
 bd
 ap
-ab
+EY
 "}
 (11,1,1) = {"
 ab
 ab
-ab
+EY
 ap
 av
 bl
@@ -631,14 +637,14 @@ ax
 aY
 ax
 be
-aa
-ab
+TV
+EY
 "}
 (12,1,1) = {"
-ab
-aa
-aa
-aa
+EY
+TV
+TV
+TV
 ai
 aq
 bo
@@ -649,10 +655,10 @@ bJ
 bI
 bf
 ap
-ab
+EY
 "}
 (13,1,1) = {"
-ab
+EY
 ah
 aq
 as
@@ -666,10 +672,10 @@ bu
 bc
 bg
 ap
-ab
+EY
 "}
 (14,1,1) = {"
-ab
+EY
 ah
 ar
 at
@@ -680,16 +686,16 @@ ax
 ax
 aT
 aq
-aa
-aa
-aa
-ab
+TV
+TV
+TV
+EY
 "}
 (15,1,1) = {"
-ab
-aa
-aa
-aa
+EY
+TV
+TV
+TV
 aH
 bm
 aG
@@ -697,7 +703,7 @@ bA
 bK
 aJ
 bk
-aa
+TV
 ab
 ab
 ab
@@ -706,7 +712,7 @@ ab
 ab
 ab
 ab
-aa
+TV
 aI
 bn
 bp
@@ -714,7 +720,7 @@ ay
 bz
 bi
 bL
-aa
+TV
 ab
 ab
 ab
@@ -723,15 +729,15 @@ ab
 ab
 ab
 ab
-aa
-aa
-aa
-aa
-aa
+TV
+TV
+TV
+TV
+TV
 bQ
-aa
-aa
-aa
+TV
+TV
+TV
 ab
 ab
 ab
@@ -742,12 +748,12 @@ ab
 ab
 ab
 ab
-aa
+TV
 bq
 bh
 bF
 bR
-aa
+TV
 ab
 ab
 ab
@@ -759,12 +765,12 @@ ab
 ab
 ab
 ab
-aa
+TV
 bw
 bB
 bt
 bH
-aa
+TV
 ab
 ab
 ab
@@ -776,12 +782,12 @@ ab
 ab
 ab
 ab
-aa
+TV
 ap
 ap
 ap
 ap
-aa
+TV
 ab
 ab
 ab
@@ -793,12 +799,12 @@ ab
 ab
 ab
 ab
-ab
-ab
-ab
-ab
-ab
-ab
+EY
+EY
+EY
+EY
+EY
+EY
 ab
 ab
 ab

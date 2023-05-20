@@ -1,10 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/variableTurf/wall,
-/area/space)
+/area/noGenerate)
 "b" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "c" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/prefab/zoo)
@@ -238,7 +238,7 @@ b
 b
 a
 a
-b
+a
 c
 o
 r

@@ -5,7 +5,7 @@
 /area/prefab/helianthus)
 "b" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "c" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/prefab/helianthus)

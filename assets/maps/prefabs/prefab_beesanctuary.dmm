@@ -156,7 +156,7 @@
 /area/prefab/bee_sanctuary)
 "fQ" = (
 /obj/grille/catwalk,
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "gm" = (
 /obj/item/reagent_containers/food/snacks/beefood,
@@ -333,7 +333,7 @@
 /obj/grille/catwalk/cross{
 	dir = 10
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "nk" = (
 /obj/decal/fakeobjects/pipe{
@@ -468,7 +468,7 @@
 /obj/cable{
 	icon_state = "2-4"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "qg" = (
 /obj/machinery/light/small/warm/very{
@@ -569,7 +569,7 @@
 /obj/cable{
 	icon_state = "2-4"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "tB" = (
 /obj/table/reinforced/auto,
@@ -647,7 +647,7 @@
 /obj/cable{
 	icon_state = "1-4"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "xD" = (
 /obj/machinery/door/airlock/pyro/classic,
@@ -676,7 +676,7 @@
 /obj/cable{
 	icon_state = "1-4"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "yC" = (
 /obj/machinery/computer/genetics/portable,
@@ -701,7 +701,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "yT" = (
 /obj/decal/floatingtiles{
@@ -716,7 +716,7 @@
 /obj/cable{
 	icon_state = "1-8"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "zv" = (
 /obj/decal/cleanable/dirt/dirt5,
@@ -774,7 +774,7 @@
 /obj/cable{
 	icon_state = "1-8"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "Ak" = (
 /obj/decal/fakeobjects/pipe{
@@ -841,7 +841,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "BV" = (
 /obj/decal/cleanable/dirt/dirt2,
@@ -874,7 +874,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "CO" = (
 /obj/machinery/light{
@@ -990,7 +990,7 @@
 /obj/cable{
 	icon_state = "1-8"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "EP" = (
 /obj/decal/cleanable/dirt/dirt4,
@@ -1438,7 +1438,7 @@
 	dir = 5;
 	tag = "icon-catwalk_cross (NORTHEAST)"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "Qd" = (
 /obj/cable{
@@ -1547,7 +1547,7 @@
 /obj/grille/catwalk/cross{
 	dir = 6
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "Rw" = (
 /obj/stone{
@@ -1565,7 +1565,7 @@
 	dir = 9;
 	tag = "icon-catwalk_cross (NORTHWEST)"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "RR" = (
 /obj/wingrille_spawn/auto/crystal,
@@ -1684,7 +1684,7 @@
 /obj/cable{
 	icon_state = "1-4"
 	},
-/turf/variableTurf/clear,
+/turf/simulated/floor/airless/plating/catwalk,
 /area/noGenerate)
 "Vn" = (
 /obj/lattice,

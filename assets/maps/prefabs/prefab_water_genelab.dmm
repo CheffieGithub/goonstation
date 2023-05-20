@@ -4,7 +4,7 @@
 /area/prefab/brindle)
 "b" = (
 /turf/variableTurf/clear,
-/area/space)
+/area/allowGenerate/trench)
 "c" = (
 /obj/lattice{
 	icon_state = "lattice-dir";
