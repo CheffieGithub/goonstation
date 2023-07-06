@@ -183,8 +183,20 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/shuttle)
 	layer = EFFECTS_LAYER_BASE
 	pixel_x = -64
 	pixel_y = -64
-	opacity = 0
+	opacity = FALSE
 	plane = PLANE_DEFAULT
+
+/turf/simulated/shuttle/wall/cockpit/derelict
+	icon_state = "shuttlecock_busted"
+
+/turf/simulated/shuttle/wall/cockpit/mining
+	icon_state = "shuttlecock_mining"
+
+/turf/simulated/shuttle/wall/cockpit/blue
+	icon_state = "shuttlecock_blue"
+
+/turf/simulated/shuttle/wall/cockpit/syndicate
+	icon_state = "shuttlecock_syndie"
 
 /turf/simulated/shuttle/wall/cockpit/window
 	name = "shuttle wall"
