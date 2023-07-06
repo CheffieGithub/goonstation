@@ -160,9 +160,7 @@
 /obj/item/reagent_containers/food/snacks/ingredient/royal_jelly{
 	pixel_y = 5
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "fv" = (
 /turf/simulated/floor/caution/north,
@@ -211,9 +209,7 @@
 /obj/stool/chair/couch{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "gL" = (
 /obj/forcefield/energyshield/perma/doorlink,
@@ -237,9 +233,7 @@
 /obj/stool/chair/comfy{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "hf" = (
 /turf/unsimulated/wall/auto/lead/blue,
@@ -453,9 +447,7 @@
 /turf/simulated/floor/plating,
 /area/diner/kitchen)
 "rp" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "ru" = (
 /obj/stool/chair{
@@ -520,9 +512,7 @@
 "to" = (
 /obj/marker/supplymarker,
 /obj/decal/fakeobjects/teleport_pad,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "tt" = (
 /obj/table/reinforced/bar/auto,
@@ -687,9 +677,7 @@
 /obj/stool/chair/couch{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "zm" = (
 /obj/computerframe,
@@ -1351,9 +1339,7 @@
 /obj/npc/trader/bee{
 	name = "Bambini"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "TR" = (
 /obj/table/wood/auto,

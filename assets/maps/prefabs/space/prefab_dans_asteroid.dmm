@@ -34,9 +34,7 @@
 	icon_state = "com_open";
 	name = "broken airlock"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "bg" = (
 /obj/lattice{
@@ -110,9 +108,7 @@
 	pixel_x = -10;
 	pixel_y = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "dB" = (
 /obj/rack,
@@ -240,9 +236,7 @@
 	pixel_x = -5
 	},
 /obj/decal/cleanable/dirt/dirt3,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "gU" = (
 /obj/decal/cleanable/ash,
@@ -268,9 +262,7 @@
 /area/prefab/discount_dans_asteroid)
 "hK" = (
 /obj/random_item_spawner/junk/one,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "hP" = (
 /obj/item/raw_material/scrap_metal{
@@ -330,9 +322,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt/dirt3,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "lU" = (
 /obj/item/clothing/suit/labcoat/dan{
@@ -367,9 +357,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "mM" = (
 /obj/decal/cleanable/blood/tracks{
@@ -412,9 +400,7 @@
 /area/prefab/discount_dans_asteroid)
 "nu" = (
 /obj/random_item_spawner/hat/one_or_zero,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "od" = (
 /obj/decal/cleanable/blood,
