@@ -334,9 +334,7 @@
 /turf/unsimulated/floor/concrete,
 /area/space)
 "ba" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	tag = "icon-diagonalWall (NORTHWEST)";
 	icon_state = "diagonalWall";
@@ -344,14 +342,10 @@
 	},
 /area/space)
 "bb" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/space)
 "bc" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	dir = 10;
 	icon_state = "wall";
@@ -487,9 +481,7 @@
 /turf/unsimulated/floor/concrete,
 /area/space)
 "bu" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	tag = "icon-wall (NORTHEAST)";
 	icon_state = "wall";
@@ -497,9 +489,7 @@
 	},
 /area/space)
 "bv" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	dir = 9;
 	icon_state = "wall";
@@ -915,9 +905,7 @@
 	icon_state = "intact";
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	tag = "icon-diagonalWall (NORTHWEST)";
 	icon_state = "diagonalWall";
@@ -930,9 +918,7 @@
 	icon_state = "intact";
 	dir = 5
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/space)
 "ck" = (
 /obj/decal/fakeobjects/pipe/heat{
@@ -940,9 +926,7 @@
 	icon_state = "intact";
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/space)
 "cl" = (
 /obj/decal/fakeobjects/pipe{
@@ -950,9 +934,7 @@
 	icon_state = "intact";
 	tag = "icon-intact-f (NORTHEAST)"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	dir = 10;
 	icon_state = "wall";
@@ -975,9 +957,7 @@
 	icon_state = "intact";
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/space)
 "co" = (
 /obj/decal/fakeobjects/pipe/heat{
@@ -985,9 +965,7 @@
 	icon_state = "intact";
 	dir = 6
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/space)
 "cp" = (
 /obj/decal/fakeobjects/shuttleengine{
@@ -1017,9 +995,7 @@
 	icon_state = "intact";
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	tag = "icon-wall (NORTHEAST)";
 	icon_state = "wall";
@@ -1032,9 +1008,7 @@
 	icon_state = "intact";
 	tag = "icon-intact-f (SOUTHEAST)"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /turf/simulated/shuttle/wall{
 	dir = 9;
 	icon_state = "wall";

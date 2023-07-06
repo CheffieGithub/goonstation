@@ -15022,24 +15022,18 @@
 	},
 /area/listeningpost)
 "bBi" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bBj" = (
 /obj/machinery/light{
 	dir = 1;
 	pixel_y = 21
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bBk" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bBl" = (
 /turf/simulated/floor{
@@ -15051,15 +15045,11 @@
 	desc = "This looks like a perfectly innocent weather satellite. It's locked up pretty tight to keep bath salts junkies from breaking in to steal the equipment.";
 	name = "Weather Satellite"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bBn" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bBo" = (
 /obj/table/wood/auto,
@@ -15087,9 +15077,7 @@
 /area/listeningpost)
 "bBr" = (
 /obj/machinery/light,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bBs" = (
 /obj/landmark/spawner/loot,

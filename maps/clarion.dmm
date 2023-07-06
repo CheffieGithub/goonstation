@@ -21882,22 +21882,16 @@
 /area/listeningpost)
 "bLF" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLG" = (
 /obj/rack,
 /obj/item/clothing/mask/gas/swat,
 /obj/item/clothing/mask/gas/swat,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLH" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLI" = (
 /obj/table/auto,
@@ -21920,24 +21914,18 @@
 	desc = "This looks like a perfectly innocent weather satellite. It's locked up pretty tight to keep bath salts junkies from breaking in to steal the equipment.";
 	name = "Weather Satellite"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLM" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLN" = (
 /obj/machinery/light_switch{
 	name = "E light switch";
 	pixel_x = 24
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLO" = (
 /obj/table/auto,
@@ -21963,9 +21951,7 @@
 /area/listeningpost)
 "bLR" = (
 /obj/machinery/light,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "bLU" = (
 /turf/space,

@@ -209,9 +209,7 @@
 /area/station/medical/cdc)
 "aau" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor6"
-	},
+/turf/unsimulated/floor/shuttle/green,
 /area/shuttle/research/outpost)
 "aav" = (
 /obj/cable{
@@ -1577,9 +1575,7 @@
 /area/station/science/storage)
 "acP" = (
 /obj/machinery/sleeper,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/shuttle/arrival/station)
 "acQ" = (
 /obj/lattice,
@@ -1602,9 +1598,7 @@
 /area/station/engine/vesselpower)
 "acS" = (
 /obj/storage/closet/emergency,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/shuttle/arrival/station)
 "acT" = (
 /obj/lattice{
@@ -1712,9 +1706,7 @@
 	},
 /obj/item/storage/toolbox/emergency,
 /obj/item/device/radio,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/shuttle/arrival/station)
 "add" = (
 /turf/simulated/wall/auto/reinforced/gannets,
@@ -2884,9 +2876,7 @@
 /obj/window/reinforced/south,
 /obj/window/reinforced/north,
 /obj/window/reinforced,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor6"
-	},
+/turf/unsimulated/floor/shuttle/green,
 /area/shuttle/arrival/station)
 "afg" = (
 /obj/landmark{
@@ -4286,9 +4276,7 @@
 /obj/window/reinforced/south,
 /obj/window/reinforced/north,
 /obj/window/reinforced,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor6"
-	},
+/turf/unsimulated/floor/shuttle/green,
 /area/shuttle/research/outpost)
 "ahE" = (
 /obj/stool/chair/comfy/shuttle{
@@ -6019,9 +6007,7 @@
 /area/space)
 "akD" = (
 /obj/machinery/door/unpowered/shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor6"
-	},
+/turf/unsimulated/floor/shuttle/green,
 /area/shuttle/arrival/station)
 "akE" = (
 /obj/landmark{
@@ -33347,24 +33333,18 @@
 	},
 /area/listeningpost)
 "boH" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boI" = (
 /obj/machinery/light{
 	icon_state = "tube1";
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boJ" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boK" = (
 /obj/table/auto,
@@ -33417,9 +33397,7 @@
 	d1 = 4;
 	d2 = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boP" = (
 /obj/cable{
@@ -33427,9 +33405,7 @@
 	d1 = 4;
 	d2 = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boQ" = (
 /obj/submachine/syndicate_teleporter,
@@ -33437,9 +33413,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boR" = (
 /obj/table/auto,
@@ -33483,9 +33457,7 @@
 /area/listeningpost)
 "boW" = (
 /obj/machinery/light,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "boX" = (
 /obj/cable{

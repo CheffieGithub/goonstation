@@ -18005,22 +18005,16 @@
 	desc = "Seems to be a pretty sturdy door.";
 	name = "Listening Post"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "KA" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "KB" = (
 /obj/table/wood/auto,
 /obj/item/crowbar,
 /obj/item/crowbar,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "KC" = (
 /obj/item/storage/wall/fire{
@@ -18033,15 +18027,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "KE" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "KF" = (
 /obj/storage/secure/crate/gear{
@@ -18113,9 +18103,7 @@
 /area/listeningpost)
 "KK" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "KL" = (
 /obj/machinery/shuttle/engine/heater{

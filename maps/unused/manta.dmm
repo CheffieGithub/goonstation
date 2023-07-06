@@ -1136,30 +1136,22 @@
 /obj/item/reagent_containers/food/snacks/ingredient/royal_jelly{
 	pixel_y = 5
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "adI" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "adJ" = (
 /obj/stool/chair/couch{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "adK" = (
 /obj/stool/chair/couch{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "adL" = (
 /obj/cable{
@@ -1178,17 +1170,13 @@
 /obj/stool/chair/comfy{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "adO" = (
 /obj/npc/trader/bee{
 	name = "Bambini"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "adP" = (
 /obj/item/rubberduck,
@@ -3550,9 +3538,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicateassaultvessel)
 "alZ" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -3567,9 +3553,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 5
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicateassaultvessel)
 "amb" = (
 /obj/table/auto,
@@ -3591,9 +3575,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicateassaultvessel)
 "ame" = (
 /obj/decal/tile_edge/stripe/extra_big,
@@ -3604,9 +3586,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 6
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicateassaultvessel)
 "amg" = (
 /obj/cable{
@@ -3655,16 +3635,12 @@
 	icon_state = "camerax";
 	name = "security camera"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amm" = (
 /obj/iv_stand,
 /obj/item/reagent_containers/iv_drip/saline,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amn" = (
 /obj/table/auto,
@@ -3725,14 +3701,10 @@
 /obj/machinery/light/incandescent/warm{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amv" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amw" = (
 /obj/machinery/door/airlock/pyro,
@@ -3808,17 +3780,13 @@
 /obj/stool/chair/blue{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amF" = (
 /obj/machinery/sleeper/compact{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amG" = (
 /obj/machinery/vending/snack,
@@ -3846,16 +3814,12 @@
 /area/listeningpost/syndicateassaultvessel)
 "amM" = (
 /obj/table/auto,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amN" = (
 /obj/table/auto,
 /obj/random_item_spawner/med_kit,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amO" = (
 /obj/decal/fakeobjects{
@@ -3912,9 +3876,7 @@
 /obj/machinery/light/incandescent/warm{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "amX" = (
 /obj/machinery/door/airlock/pyro/security{
@@ -3991,9 +3953,7 @@
 	},
 /obj/item/parts/robot_parts/leg/left/treads,
 /obj/item/parts/robot_parts/leg/right/treads,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "anh" = (
 /obj/item/device/radio/electropack,
@@ -4009,16 +3969,12 @@
 /area/listeningpost/syndicateassaultvessel)
 "anj" = (
 /obj/mapping_helper/wingrille_spawn/auto,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "ank" = (
 /obj/machinery/door/airlock/pyro/glass,
 /obj/mapping_helper/access/syndie_shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "anl" = (
 /obj/rack,
@@ -4124,9 +4080,7 @@
 /area/listeningpost/syndicateassaultvessel)
 "anz" = (
 /obj/stool/bed,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "anA" = (
 /obj/table/auto,
@@ -4142,9 +4096,7 @@
 	name = "security camera"
 	},
 /obj/machinery/light/incandescent/warm,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "anB" = (
 /obj/table/auto,
@@ -6630,9 +6582,7 @@
 "atR" = (
 /obj/table/auto,
 /obj/item/reagent_containers/mender_refill_cartridge/brute,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "atS" = (
 /obj/machinery/light/incandescent/blueish{
@@ -32961,9 +32911,7 @@
 /obj/item/hemostat,
 /obj/item/surgical_spoon,
 /obj/item/suture,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/listeningpost/syndicateassaultvessel)
 "bNO" = (
 /obj/machinery/camera{
@@ -34720,9 +34668,7 @@
 	dir = 4;
 	pixel_x = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/bee_trader)
 "fmk" = (
 /obj/machinery/light/incandescent/blueish{

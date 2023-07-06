@@ -19613,9 +19613,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 6
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "fgr" = (
 /obj/disposalpipe/segment/morgue,
@@ -30801,9 +30799,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "hWt" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -34218,9 +34214,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 5
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "iRO" = (
 /obj/cable{
@@ -57674,9 +57668,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "oSI" = (
 /obj/machinery/drainage,

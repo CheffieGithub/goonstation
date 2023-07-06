@@ -15663,21 +15663,15 @@
 /area/shuttle/arrival/station)
 "aZF" = (
 /obj/mapping_helper/wingrille_spawn/reinforced,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "aZG" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "aZH" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/toolbox/emergency,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "aZI" = (
 /turf/space,
@@ -16367,9 +16361,7 @@
 /obj/stool/chair/comfy/shuttle/brown{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "bch" = (
 /turf/simulated/shuttle/wall/cockpit/window{
@@ -16666,9 +16658,7 @@
 	name = "Bridge";
 	opacity = 0
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "bdc" = (
 /turf/simulated/shuttle/wall/cockpit,
@@ -17226,9 +17216,7 @@
 	dir = 8;
 	tag = ""
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "beT" = (
 /turf/simulated/shuttle/wall/cockpit/window{
@@ -17774,16 +17762,12 @@
 	name = "autoname - SS13";
 	tag = ""
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "bgR" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/firstaid/regular,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "bgS" = (
 /obj/machinery/power/terminal{
@@ -24240,23 +24224,17 @@
 	},
 /area/listeningpost)
 "bwQ" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bwR" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bwS" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bwT" = (
 /turf/simulated/floor{
@@ -24381,15 +24359,11 @@
 	desc = "This looks like a perfectly innocent weather satellite. It's locked up pretty tight to keep bath salts junkies from breaking in to steal the equipment.";
 	name = "Weather Satellite"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bxf" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bxg" = (
 /obj/table/wood/auto,
@@ -24417,9 +24391,7 @@
 /area/listeningpost)
 "bxj" = (
 /obj/machinery/light,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bxm" = (
 /turf/space,
@@ -28227,9 +28199,7 @@
 /turf/simulated/floor/grass/leafy,
 /area/station/science/chemistry)
 "eNv" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "eQy" = (
 /obj/disposalpipe/segment{
@@ -28416,9 +28386,7 @@
 	name = "Lockdown";
 	pixel_x = 24
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "fiB" = (
 /obj/machinery/recharger/wall/sticky,
@@ -28699,9 +28667,7 @@
 /obj/stool/chair{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "gmf" = (
 /obj/table/auto,
@@ -28991,9 +28957,7 @@
 /area/station/teleporter)
 "gXf" = (
 /obj/machinery/door/unpowered/shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "hay" = (
 /obj/disposalpipe/segment,
@@ -30404,9 +30368,7 @@
 /area/station/crew_quarters/quarters)
 "kPw" = (
 /obj/storage/secure/closet/personal,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "kPK" = (
 /obj/disposalpipe/segment{
@@ -31885,9 +31847,7 @@
 	frequency = 1357;
 	name = "Prison Intercom (Prison)"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "pyD" = (
 /obj/table/auto,
@@ -32476,9 +32436,7 @@
 /obj/stool/chair{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "qWL" = (
 /obj/securearea{
@@ -34215,9 +34173,7 @@
 /area/station/engine/engineering)
 "vmZ" = (
 /obj/stool/chair,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "vok" = (
 /obj/machinery/atmospherics/binary/valve,
@@ -34553,9 +34509,7 @@
 /area/station/security/prison)
 "woU" = (
 /obj/machinery/computer/prison_shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "wpY" = (
 /obj/machinery/power/data_terminal,
@@ -34656,9 +34610,7 @@
 /area/station/security/prison)
 "wzv" = (
 /obj/table/auto,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/brig/prison)
 "wzX" = (
 /obj/window/reinforced/north,

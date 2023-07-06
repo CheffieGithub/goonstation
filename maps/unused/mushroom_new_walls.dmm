@@ -15723,21 +15723,15 @@
 	},
 /area/listeningpost)
 "bmD" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bmE" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bmG" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bmH" = (
 /obj/table/wood/auto,
@@ -15765,9 +15759,7 @@
 /area/listeningpost)
 "bmK" = (
 /obj/machinery/light,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bmL" = (
 /turf/space,
@@ -34587,9 +34579,7 @@
 	name = "Weather Satellite"
 	},
 /obj/mapping_helper/access/syndie_shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "ugM" = (
 /obj/item/cable_coil/cut,

@@ -160,9 +160,7 @@
 	dir = 1;
 	icon_state = "xtra_bigstripe-edge"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "ay" = (
 /obj/decal/tile_edge/line/grey{
@@ -174,9 +172,7 @@
 /obj/item/hand_tele,
 /obj/item/remote/porter/port_a_medbay,
 /obj/item/remote/porter/port_a_medbay,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "az" = (
 /obj/lattice{
@@ -207,15 +203,11 @@
 /turf/simulated/floor/airless/plating/damaged2,
 /area/space)
 "aE" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "aF" = (
 /obj/machinery/light/small/floor,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "aG" = (
 /obj/decal/cleanable/machine_debris,
@@ -324,9 +316,7 @@
 	dir = 4;
 	icon_state = "line-broken1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "aT" = (
 /obj/table/auto,
@@ -381,18 +371,14 @@
 	dir = 8;
 	icon_state = "line-broken1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bb" = (
 /obj/decal/tile_edge/line/grey{
 	dir = 4;
 	icon_state = "line-broken1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "be" = (
 /obj/lattice{
@@ -405,9 +391,7 @@
 "bf" = (
 /obj/table/reinforced/auto,
 /obj/machinery/recharger,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bg" = (
 /obj/lattice{
@@ -436,9 +420,7 @@
 "bj" = (
 /obj/table/reinforced/auto,
 /obj/item/baton/cane,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bk" = (
 /obj/machinery/vending/medical,
@@ -446,9 +428,7 @@
 /area/space)
 "bl" = (
 /obj/table/reinforced/auto,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bp" = (
 /obj/machinery/sleeper/port_a_medbay,
@@ -460,9 +440,7 @@
 	dir = 8;
 	icon_state = "line-broken1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "br" = (
 /obj/machinery/light/small,
@@ -470,9 +448,7 @@
 	dir = 4;
 	icon_state = "line-broken1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bt" = (
 /obj/lattice,
@@ -507,9 +483,7 @@
 /area/space)
 "bx" = (
 /obj/decal/fakeobjects/broadcastcomputer,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "by" = (
 /obj/table/reinforced/auto,
@@ -548,9 +522,7 @@
 /area/space)
 "bD" = (
 /obj/stool/chair/comfy/shuttle/red,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bE" = (
 /obj/mapping_helper/wingrille_spawn/auto,
@@ -606,9 +578,7 @@
 	dir = 4;
 	icon_state = "line-broken1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "bM" = (
 /obj/decal/fakeobjects/shuttleweapon{
@@ -1137,9 +1107,7 @@
 /area/space)
 "dr" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ds" = (
 /obj/item/storage/wall/medical{
@@ -1278,9 +1246,7 @@
 	dir = 4;
 	icon_state = "wall3_trans"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "dM" = (
 /obj/indestructible/shuttle_corner{
@@ -1310,9 +1276,7 @@
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "gibbl2"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "dQ" = (
 /obj/mapping_helper/wingrille_spawn/auto,
@@ -1357,9 +1321,7 @@
 	dir = 2;
 	icon_state = "wall3_trans"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "dW" = (
 /obj/grille/steel,
@@ -1418,14 +1380,10 @@
 /area/diner/tug)
 "ed" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ee" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ef" = (
 /obj/machinery/shuttle/engine/heater{
@@ -1598,9 +1556,7 @@
 /area/noGenerate)
 "eD" = (
 /obj/stool/chair/comfy/shuttle/brown,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "eE" = (
 /obj/grille/steel,
@@ -1728,16 +1684,12 @@
 "eU" = (
 /obj/table/auto,
 /obj/item/mining_tool,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "eV" = (
 /obj/stool/chair/comfy/shuttle/brown,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "eW" = (
 /obj/indestructible/shuttle_corner{
@@ -1989,9 +1941,7 @@
 /obj/table/auto,
 /obj/item/decoration/ashtray,
 /obj/item/cigbutt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "fF" = (
 /obj/mapping_helper/wingrille_spawn/auto,
@@ -4080,9 +4030,7 @@
 "ld" = (
 /obj/stool/chair/comfy/shuttle/brown,
 /obj/machinery/computer/mining_shuttle/embedded/south,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "le" = (
 /obj/table/auto,
@@ -4792,18 +4740,14 @@
 /obj/decal/cleanable/cobweb,
 /obj/stool/chair/comfy/shuttle/brown,
 /obj/item/toy/figure,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "mW" = (
 /obj/decal/tile_edge/line/blue{
 	dir = 6;
 	icon_state = "line1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "mX" = (
 /obj/lattice{
@@ -4886,9 +4830,7 @@
 /obj/decal/tile_edge/line/blue{
 	icon_state = "line1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "nd" = (
 /obj/decal/fakeobjects/pipe{
@@ -5669,9 +5611,7 @@
 	icon_state = "manifold"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "pg" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -5700,9 +5640,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "pm" = (
 /obj/decal/cleanable/oil,
@@ -5922,9 +5860,7 @@
 	icon_state = "line1"
 	},
 /obj/machinery/light/small/floor/warm,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "pQ" = (
 /obj/overlay{
@@ -6513,9 +6449,7 @@
 	icon_state = "line1"
 	},
 /obj/decal/cleanable/paper,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ru" = (
 /obj/decal/fakeobjects/shuttleengine{
@@ -6623,9 +6557,7 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/cobweb2,
 /obj/item/reagent_containers/food/drinks/noodlecup,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rG" = (
 /obj/stool/chair/comfy{
@@ -6634,9 +6566,7 @@
 /obj/landmark/spawner{
 	name = "big_yank"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rH" = (
 /obj/decal/fakeobjects/pipe{
@@ -6645,15 +6575,11 @@
 	icon_state = "valve";
 	name = "rusted valve"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rI" = (
 /obj/item/clothing/glasses/urs_dungeon_entry,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rJ" = (
 /obj/decal/fakeobjects{
@@ -6667,9 +6593,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rK" = (
 /obj/decal/fakeobjects{
@@ -6683,9 +6607,7 @@
 	tag = "icon-conduit (EAST)"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rL" = (
 /obj/decal/fakeobjects{
@@ -6703,9 +6625,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/machinery/light/small/cool/very,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rM" = (
 /obj/machinery/door/airlock/external{
@@ -6724,9 +6644,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "rN" = (
 /obj/decal/fakeobjects/pipe{
@@ -6890,9 +6808,7 @@
 /area/space)
 "sb" = (
 /obj/machinery/light/small/cool/very,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sc" = (
 /obj/decal/fakeobjects/pipe{
@@ -6900,9 +6816,7 @@
 	tag = "icon-intact (NORTH)"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sd" = (
 /obj/table/auto,
@@ -6934,9 +6848,7 @@
 /obj/stool/chair/comfy/shuttle/brown,
 /obj/decal/cleanable/molten_item,
 /obj/item/match,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sg" = (
 /obj/decal/fakeobjects/pipe{
@@ -6965,9 +6877,7 @@
 "sj" = (
 /obj/reagent_dispensers/watertank/fountain,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sk" = (
 /obj/decal/fakeobjects/pipe{
@@ -6984,9 +6894,7 @@
 	dir = 4;
 	icon_state = "line1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sm" = (
 /obj/machinery/sleeper{
@@ -7022,9 +6930,7 @@
 "sr" = (
 /obj/machinery/door/airlock/external,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ss" = (
 /obj/decal/poster/wallsign/stencil/left/c{
@@ -7094,9 +7000,7 @@
 	dir = 8;
 	icon_state = "line1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sz" = (
 /obj/machinery/sleeper{
@@ -7119,9 +7023,7 @@
 	icon_state = "line1"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sC" = (
 /obj/table/reinforced/auto,
@@ -7131,16 +7033,12 @@
 /obj/item/cigbutt,
 /obj/item/cigbutt,
 /obj/item/clothing/glasses/urs_dungeon_entry,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sD" = (
 /obj/decal/cleanable/dirt,
 /obj/reagent_dispensers/beerkeg,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sE" = (
 /obj/decal/tile_edge/line/blue{
@@ -7148,9 +7046,7 @@
 	icon_state = "line1"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sF" = (
 /obj/storage/crate/loot,
@@ -7161,16 +7057,12 @@
 	dir = 8;
 	icon_state = "line1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sH" = (
 /obj/table/reinforced/auto,
 /obj/item/kitchen/food_box/lollipop,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sI" = (
 /obj/decal/tile_edge/line/blue{
@@ -7178,9 +7070,7 @@
 	icon_state = "line1"
 	},
 /obj/decal/cleanable/paper,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sJ" = (
 /obj/storage/closet/coffin/wood,
@@ -7199,9 +7089,7 @@
 	icon_state = "line1"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sL" = (
 /obj/machinery/sleeper{
@@ -7213,9 +7101,7 @@
 /area/space)
 "sM" = (
 /obj/mapping_helper/wingrille_spawn,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sN" = (
 /obj/decal/cleanable/dirt,
@@ -7260,9 +7146,7 @@
 	},
 /obj/item/scrap,
 /obj/decal/cleanable/saltpile,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sS" = (
 /obj/decal/cleanable/machine_debris,
@@ -7286,18 +7170,14 @@
 	icon_state = "line1"
 	},
 /obj/decal/cleanable/generic,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sV" = (
 /obj/decal/tile_edge/line/blue{
 	dir = 1;
 	icon_state = "line1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sW" = (
 /obj/decal/tile_edge/line/blue{
@@ -7309,9 +7189,7 @@
 	icon_state = "line1"
 	},
 /obj/machinery/light/small/floor/warm,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sX" = (
 /obj/decal/tile_edge/line/blue{
@@ -7320,9 +7198,7 @@
 	},
 /obj/decal/cleanable/generic,
 /obj/decal/cleanable/ash,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "sY" = (
 /obj/table/wood/auto,
@@ -7358,9 +7234,7 @@
 "tc" = (
 /obj/item/match,
 /obj/stool/chair/comfy/shuttle/brown,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "td" = (
 /obj/stool/chair/comfy/shuttle/brown,
@@ -7370,16 +7244,12 @@
 /obj/landmark/spawner{
 	name = "john_bill"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "te" = (
 /obj/stool/chair/comfy/shuttle/brown,
 /obj/item/shaker/mustard,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tf" = (
 /obj/indestructible/shuttle_corner{
@@ -8114,9 +7984,7 @@
 	dir = 1;
 	icon_state = "xtra_bigstripe-edge"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "uX" = (
 /obj/decal/tile_edge/stripe{
@@ -8905,9 +8773,7 @@
 /area/space)
 "wO" = (
 /obj/machinery/door/airlock/pyro/glass,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "wP" = (
 /obj/storage/crate/wooden,
@@ -10928,9 +10794,7 @@
 "Da" = (
 /obj/table/reinforced/auto,
 /obj/item/camera/large,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "Gy" = (
 /obj/decal/cleanable/robot_debris{

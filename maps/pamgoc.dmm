@@ -36944,9 +36944,7 @@
 	dir = 8;
 	name = "Weather Satellite"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bxJ" = (
 /obj/machinery/door/airlock/pyro{
@@ -39505,9 +39503,7 @@
 /area/station/hangar/main)
 "bGe" = (
 /obj/machinery/light,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bGf" = (
 /obj/machinery/light,
@@ -41532,9 +41528,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bKl" = (
 /obj/machinery/light{
@@ -43615,9 +43609,7 @@
 /area/station/science/storage)
 "bOq" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "bOr" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -52875,9 +52867,7 @@
 /area/station/hallway/secondary/construction2)
 "cgS" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "cgT" = (
 /obj/table/auto,
@@ -60808,9 +60798,7 @@
 	},
 /area/station/science/testchamber)
 "cxm" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost)
 "cxn" = (
 /turf/simulated/floor/specialroom/bar,
@@ -61197,9 +61185,7 @@
 	},
 /area/shuttle/arrival/station)
 "cyS" = (
-/turf/simulated/shuttle/wall/cockpit{
-	dir = 1
-	},
+/turf/simulated/shuttle/wall/cockpit,
 /area/shuttle/arrival/station)
 "cyT" = (
 /turf/simulated/shuttle/wall{

@@ -601,7 +601,9 @@
 /obj/machinery/light/incandescent{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "aju" = (
 /obj/decal/cleanable/paper,
@@ -723,7 +725,9 @@
 "amm" = (
 /obj/table/auto,
 /obj/random_item_spawner/desk_stuff,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "amn" = (
 /obj/machinery/camera{
@@ -733,7 +737,9 @@
 	pixel_y = 20;
 	tag = ""
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "amx" = (
 /obj/table/auto,
@@ -758,9 +764,7 @@
 /obj/indestructible/shuttle_corner{
 	dir = 0
 	},
-/turf/simulated/shuttle/wall/corner{
-	dir = 8
-	},
+/turf/space,
 /area/shuttle/arrival/station)
 "anp" = (
 /turf/simulated/floor/caution/west,
@@ -883,7 +887,9 @@
 "apU" = (
 /obj/table/auto,
 /obj/random_item_spawner/tools,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "aqN" = (
 /obj/machinery/navbeacon/mule/ranch_north,
@@ -956,12 +962,6 @@
 	},
 /turf/simulated/grass,
 /area/station/garden/owlery)
-"asG" = (
-/obj/indestructible/shuttle_corner{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle,
-/area/shuttle/arrival/station)
 "asI" = (
 /obj/loudspeaker,
 /obj/decal/cleanable/dirt,
@@ -973,7 +973,9 @@
 	dir = 8
 	},
 /obj/random_item_spawner/desk_stuff,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "atc" = (
 /obj/grille/catwalk,
@@ -1573,7 +1575,9 @@
 /obj/indestructible/shuttle_corner{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "aHg" = (
 /turf/space/asteroid,
@@ -2289,14 +2293,6 @@
 /obj/machinery/weapon_stand/taser_rack/recharger/empty,
 /turf/simulated/floor/white,
 /area/station/security/secoffquarters)
-"aXX" = (
-/obj/indestructible/shuttle_corner{
-	dir = 1
-	},
-/turf/simulated/shuttle/wall/corner{
-	dir = 1
-	},
-/area/shuttle/arrival/station)
 "aYH" = (
 /obj/rack,
 /obj/item/clothing/suit/fire,
@@ -3843,14 +3839,6 @@
 /obj/mapping_helper/access/medical_director,
 /turf/simulated/floor/white,
 /area/station/science/chemistry)
-"bFy" = (
-/obj/indestructible/shuttle_corner{
-	dir = 1
-	},
-/turf/simulated/shuttle/wall/corner{
-	dir = 1
-	},
-/area/space)
 "bFL" = (
 /obj/table/auto,
 /obj/item/bee_egg_carton,
@@ -3945,6 +3933,11 @@
 /area/station/security/checkpoint/east{
 	name = "Ticket Office"
 	})
+"bHC" = (
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
+/area/shuttle/arrival/station)
 "bHF" = (
 /obj/table/glass/auto,
 /turf/simulated/floor/black,
@@ -6103,6 +6096,14 @@
 	},
 /turf/simulated/floor/specialroom/arcade,
 /area/station/science/chemistry)
+"cAr" = (
+/obj/indestructible/shuttle_corner{
+	dir = 4
+	},
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
+/area/shuttle/arrival/station)
 "cAv" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/medical/dome)
@@ -6155,7 +6156,9 @@
 /obj/indestructible/shuttle_corner{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "cBu" = (
 /obj/table/auto,
@@ -6935,12 +6938,11 @@
 	},
 /area/station/hallway/primary/south)
 "cUd" = (
-/turf/simulated/shuttle/wall/cockpit/window{
-	dir = 1;
-	icon_state = "wall_space";
-	name = "window"
+/obj/indestructible/shuttle_corner{
+	dir = 1
 	},
-/area/space)
+/turf/space,
+/area/shuttle/arrival/station)
 "cUu" = (
 /obj/disposalpipe/segment/horizontal,
 /turf/simulated/wall/auto/supernorn,
@@ -7026,7 +7028,7 @@
 /area/station/crew_quarters/fitness)
 "cVT" = (
 /obj/machinery/door/airlock/pyro/reinforced/arrivals,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/entry)
 "cWe" = (
 /obj/machinery/disposal/morgue,
@@ -7205,7 +7207,9 @@
 /area/station/maintenance/east)
 "dae" = (
 /obj/landmark/gps_waypoint,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "daf" = (
 /obj/lattice{
@@ -7681,7 +7685,9 @@
 /obj/stool/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "diy" = (
 /turf/simulated/wall/auto/supernorn,
@@ -8057,7 +8063,9 @@
 /obj/landmark{
 	name = "Observer-Start"
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "drn" = (
 /obj/cable{
@@ -9587,11 +9595,6 @@
 /obj/cable,
 /turf/simulated/floor/specialroom/gym,
 /area/station/turret_protected/ai)
-"dZR" = (
-/turf/simulated/shuttle/wall/cockpit/window{
-	name = "window"
-	},
-/area/shuttle/arrival/station)
 "eas" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/disposalpipe/segment,
@@ -10102,7 +10105,9 @@
 	dir = 8
 	},
 /obj/item/storage/toolbox/emergency,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "ejR" = (
 /turf/simulated/floor/carpet/blue/fancy/edge/west,
@@ -10867,7 +10872,7 @@
 /obj/indestructible/shuttle_corner{
 	dir = 4
 	},
-/turf/simulated/shuttle/wall/corner,
+/turf/space,
 /area/shuttle/arrival/station)
 "eBA" = (
 /obj/cable{
@@ -11450,7 +11455,9 @@
 /area/station/com_dish/comdish)
 "eQP" = (
 /obj/machinery/light/incandescent,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "eRg" = (
 /obj/rack,
@@ -11626,7 +11633,7 @@
 /area/space)
 "eUs" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/arrival/station)
 "eUu" = (
 /obj/machinery/camera{
@@ -12149,7 +12156,9 @@
 /obj/indestructible/shuttle_corner{
 	dir = 0
 	},
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle{
+	dir = 8
+	},
 /area/shuttle/arrival/station)
 "ffB" = (
 /obj/machinery/light/emergency{
@@ -12776,13 +12785,6 @@
 /obj/item/reagent_containers/glass/bottle/fruitful,
 /turf/simulated/floor/caution,
 /area/station/hydroponics/bay)
-"fvB" = (
-/turf/simulated/shuttle/wall/cockpit/window{
-	dir = 4;
-	icon_state = "wall_space";
-	name = "window"
-	},
-/area/shuttle/arrival/station)
 "fvC" = (
 /turf/simulated/floor/neutral/corner{
 	dir = 1
@@ -14526,9 +14528,7 @@
 /obj/indestructible/shuttle_corner{
 	dir = 8
 	},
-/turf/simulated/shuttle/wall/corner{
-	dir = 4
-	},
+/turf/space,
 /area/shuttle/arrival/station)
 "gef" = (
 /turf/simulated/floor/white,
@@ -18702,10 +18702,12 @@
 /turf/simulated/floor/black,
 /area/station/medical/robotics)
 "hTL" = (
-/obj/machinery/sleep_console{
+/obj/machinery/sleeper/compact{
+	dir = 4
+	},
+/turf/unsimulated/floor/shuttle{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle,
 /area/shuttle/arrival/station)
 "hTN" = (
 /obj/machinery/light/emergency{
@@ -21567,7 +21569,7 @@
 /area/station/maintenance/northeast)
 "jax" = (
 /obj/machinery/door/airlock/pyro/reinforced/arrivals,
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle/white,
 /area/shuttle/arrival/station)
 "jaF" = (
 /obj/cable{
@@ -49179,7 +49181,7 @@
 	name = "Maintenance Shack"
 	})
 "uPn" = (
-/turf/simulated/floor/shuttle,
+/turf/unsimulated/floor/shuttle/white,
 /area/shuttle/arrival/station)
 "uPq" = (
 /obj/cable{
@@ -51307,6 +51309,13 @@
 "vHc" = (
 /turf/simulated/wall/auto/reinforced/supernorn/blackred,
 /area/station/crew_quarters/hos)
+"vHk" = (
+/obj/machinery/shuttle/engine/heater{
+	dir = 8;
+	icon_state = "alt_heater"
+	},
+/turf/unsimulated/floor/plating,
+/area/shuttle/arrival/station)
 "vHD" = (
 /obj/disposalpipe/segment/mail/vertical,
 /turf/simulated/wall/auto/supernorn,
@@ -105067,11 +105076,11 @@ vnX
 vnX
 vnX
 vnX
-dII
+vnX
 fHc
 fHc
 fHc
-dII
+vnX
 vnX
 vnX
 yaT
@@ -105370,9 +105379,9 @@ vnX
 vnX
 fHc
 amV
-hJv
-hJv
-hJv
+vHk
+vHk
+vHk
 eBz
 fHc
 vnX
@@ -105673,7 +105682,7 @@ amV
 hJv
 cBo
 asL
-uPn
+bHC
 ejD
 aHc
 hJv
@@ -105973,11 +105982,11 @@ vnX
 vnX
 afe
 ajr
-uPn
+bHC
 hTL
-uPn
+bHC
 hTL
-uPn
+bHC
 eQP
 afe
 eDf
@@ -106274,13 +106283,13 @@ vnX
 vnX
 hGG
 eUs
-uPn
+bHC
 diw
 diw
-uPn
+bHC
 diw
 diw
-uPn
+bHC
 jax
 cVT
 aTk
@@ -106576,13 +106585,13 @@ vnX
 vnX
 hGG
 eUs
-uPn
-uPn
-uPn
-uPn
-uPn
-uPn
-uPn
+bHC
+bHC
+bHC
+bHC
+bHC
+bHC
+bHC
 jax
 cVT
 aTk
@@ -106879,11 +106888,11 @@ vnX
 vnX
 afe
 ajr
-uPn
-uPn
-uPn
-uPn
-uPn
+bHC
+bHC
+bHC
+bHC
+bHC
 eQP
 afe
 bYH
@@ -107183,7 +107192,7 @@ eUs
 amm
 diw
 diw
-uPn
+bHC
 diw
 diw
 apU
@@ -107483,11 +107492,11 @@ vnX
 hGG
 eUs
 apU
-uPn
-uPn
+bHC
+bHC
 dae
-uPn
-uPn
+bHC
+bHC
 amm
 eUs
 eDf
@@ -107783,13 +107792,13 @@ vnX
 vnX
 vnX
 vnX
-bFy
-asG
+cUd
+cAr
 amn
-uPn
+bHC
 drm
-uPn
-uPn
+bHC
+bHC
 ffv
 gec
 eDf
@@ -108087,11 +108096,11 @@ vnX
 vnX
 hGG
 eUs
-uPn
+bHC
 diw
 diw
 diw
-uPn
+bHC
 eUs
 say
 eDf
@@ -108390,10 +108399,10 @@ vnX
 vnX
 afe
 ajr
-uPn
-uPn
-uPn
-uPn
+bHC
+bHC
+bHC
+bHC
 afe
 lVt
 eDf
@@ -108691,11 +108700,11 @@ vnX
 vnX
 hGG
 eUs
-uPn
+bHC
 diw
 diw
 diw
-uPn
+bHC
 jax
 uPn
 cVT
@@ -108993,11 +109002,11 @@ vnX
 vnX
 hGG
 eUs
-uPn
-uPn
-uPn
-uPn
-uPn
+bHC
+bHC
+bHC
+bHC
+bHC
 jax
 uPn
 cVT
@@ -109596,11 +109605,11 @@ vnX
 vnX
 vnX
 vnX
-aXX
-uPn
-uPn
-uPn
-uPn
+cUd
+cAr
+bHC
+bHC
+bHC
 ffv
 gec
 iAO
@@ -109900,10 +109909,10 @@ vnX
 vnX
 vnX
 cUd
-dZR
-dZR
-dZR
-fvB
+eUs
+eUs
+eUs
+gec
 vnX
 iAO
 eDf

@@ -2430,9 +2430,7 @@
 /turf/simulated/floor/airless/engine,
 /area/space)
 "hp" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "hq" = (
 /obj/mapping_helper/wingrille_spawn/bulletproof,
@@ -2494,9 +2492,7 @@
 /area/space)
 "hz" = (
 /obj/mapping_helper/wingrille_spawn/bulletproof,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "hA" = (
 /obj/lattice{
@@ -3786,9 +3782,7 @@
 	icon_state = "shuttle_chair-red";
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "ld" = (
 /obj/stool/chair/comfy/shuttle/brown{
@@ -4776,9 +4770,7 @@
 	dir = 1;
 	icon_state = "alt_heater-R"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "nW" = (
 /obj/machinery/shuttle/engine/heater{
@@ -4789,9 +4781,7 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "nX" = (
 /obj/machinery/shuttle/engine/heater{
@@ -4801,15 +4791,11 @@
 /turf/space,
 /area/space)
 "nY" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "nZ" = (
 /obj/machinery/door/unpowered/shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "oa" = (
 /obj/machinery/light/runway_light,
@@ -6710,9 +6696,7 @@
 /area/space)
 "th" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ti" = (
 /turf/simulated/shuttle/wall{
@@ -6798,18 +6782,14 @@
 	icon_state = "manifold"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ts" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tt" = (
 /obj/decal/fakeobjects/pipe{
@@ -6981,9 +6961,7 @@
 /obj/landmark/spawner{
 	name = "big_yank"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tL" = (
 /obj/decal/fakeobjects/pipe{
@@ -6992,15 +6970,11 @@
 	icon_state = "valve";
 	name = "rusted valve"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tM" = (
 /obj/item/clothing/glasses/urs_dungeon_entry,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tN" = (
 /obj/decal/fakeobjects{
@@ -7014,9 +6988,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tO" = (
 /obj/decal/fakeobjects{
@@ -7030,9 +7002,7 @@
 	tag = "icon-conduit (EAST)"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tP" = (
 /obj/decal/fakeobjects{
@@ -7050,9 +7020,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /obj/machinery/light/small/cool/very,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tQ" = (
 /obj/machinery/door/airlock/external{
@@ -7071,9 +7039,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tR" = (
 /obj/decal/fakeobjects/pipe{
@@ -7186,9 +7152,7 @@
 /area/space)
 "ua" = (
 /obj/machinery/light/small/cool/very,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ub" = (
 /obj/decal/fakeobjects/pipe{
@@ -7196,15 +7160,11 @@
 	tag = "icon-intact (NORTH)"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "uc" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ud" = (
 /obj/table/auto,
@@ -7256,9 +7216,7 @@
 "ui" = (
 /obj/machinery/door/airlock/external,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "uj" = (
 /turf/simulated/shuttle/wall{
@@ -7402,9 +7360,7 @@
 	},
 /area/space)
 "uz" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3_trans";
 	dir = 8
@@ -7454,9 +7410,7 @@
 /area/space)
 "uE" = (
 /obj/stool/chair/comfy/shuttle/brown,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "uF" = (
 /turf/simulated/floor/shuttle{
@@ -7538,15 +7492,11 @@
 /area/space)
 "uO" = (
 /obj/machinery/sleeper/compact,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "uP" = (
 /obj/machinery/vending/snack,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "uQ" = (
 /obj/machinery/neosmelter,

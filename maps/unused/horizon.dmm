@@ -538,9 +538,7 @@
 	icon_state = "airlock_locked";
 	locked = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -552,35 +550,27 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "abw" = (
 /obj/stool/chair/comfy/shuttle/red,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "abx" = (
 /obj/stool/chair/comfy/red,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "aby" = (
 /obj/stool/chair/comfy/shuttle/red,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -593,9 +583,7 @@
 	dir = 1;
 	status = 2
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -809,9 +797,7 @@
 "abZ" = (
 /obj/table/auto,
 /obj/item/storage/pill_bottle/cyberpunk,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -821,18 +807,14 @@
 	dir = 1;
 	status = 2
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "acb" = (
 /obj/decal/cleanable/dirt,
 /obj/reagent_dispensers/watertank/fountain,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -844,9 +826,7 @@
 /obj/stool/chair/couch{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -854,9 +834,7 @@
 /obj/stool/chair/couch{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -866,17 +844,13 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/autoname_north,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "acf" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -884,16 +858,12 @@
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "ach" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1177,9 +1147,7 @@
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1187,16 +1155,12 @@
 /obj/stool/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "acR" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1204,9 +1168,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1222,9 +1184,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1232,9 +1192,7 @@
 /turf/simulated/shuttle/wall{
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1529,9 +1487,7 @@
 	icon_state = "4-8"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1539,9 +1495,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1552,9 +1506,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1570,9 +1522,7 @@
 /obj/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1584,9 +1534,7 @@
 	icon_state = "4-8"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1602,9 +1550,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1830,9 +1776,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1841,9 +1785,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/oil,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1851,9 +1793,7 @@
 /obj/stool/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -1862,9 +1802,7 @@
 	dir = 8
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -2055,18 +1993,14 @@
 	name = "counterfeit video card"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
 "aeY" = (
 /obj/table/auto,
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -2076,9 +2010,7 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -2088,9 +2020,7 @@
 	icon_state = "airlock_locked";
 	locked = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -2220,9 +2150,7 @@
 "afv" = (
 /obj/machinery/door/airlock/pyro/external,
 /obj/disposalpipe/segment,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -2231,9 +2159,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -10013,9 +9939,7 @@
 /area/shuttle/arrival/station)
 "aCb" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/arrival/station)
 "aCc" = (
 /obj/grille/catwalk{
@@ -13424,9 +13348,7 @@
 /obj/machinery/sleeper/compact{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/exit)
 "aKV" = (
 /obj/cable{
@@ -13629,9 +13551,7 @@
 /area/station/mining/refinery)
 "aLr" = (
 /obj/grille/steel,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aLs" = (
 /turf/simulated/floor/black,
@@ -13663,9 +13583,7 @@
 "aLx" = (
 /obj/table/auto,
 /obj/random_item_spawner/med_kit,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/exit)
 "aLy" = (
 /obj/machinery/portable_atmospherics/pump,
@@ -13686,9 +13604,7 @@
 /area/station/hallway/secondary/exit)
 "aLA" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aLB" = (
 /obj/machinery/chem_dispenser/alcohol,
@@ -13774,9 +13690,7 @@
 /obj/stool/chair/comfy/shuttle/brown{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aLM" = (
 /obj/machinery/chem_dispenser/soda,
@@ -14318,9 +14232,7 @@
 	dir = 8;
 	pixel_x = -10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aNp" = (
 /obj/machinery/light/small/floor,
@@ -14363,9 +14275,7 @@
 	dir = 4
 	},
 /obj/decal/cleanable/dirt/dirt2,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/exit)
 "aNv" = (
 /obj/stool/chair/comfy/shuttle/red{
@@ -14391,9 +14301,7 @@
 "aNy" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/firstaid/regular,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aNz" = (
 /obj/stool/chair/comfy/shuttle{
@@ -14452,9 +14360,7 @@
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "gibmid2"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/exit)
 "aNI" = (
 /obj/table/reinforced/auto,
@@ -15227,9 +15133,7 @@
 "aPw" = (
 /obj/table/reinforced/auto,
 /obj/item/device/audio_log/horizon_minorcollision,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aPx" = (
 /obj/machinery/camera{
@@ -15253,9 +15157,7 @@
 /obj/machinery/sleeper/compact{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/exit)
 "aPD" = (
 /obj/decal/cleanable/fungus,
@@ -15301,9 +15203,7 @@
 	name = "Cockpit";
 	welded = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aPJ" = (
 /obj/stool/chair/comfy/shuttle{
@@ -15335,9 +15235,7 @@
 	},
 /obj/decal/cleanable/dirt/dirt3,
 /obj/decal/cleanable/machine_debris,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/hallway/secondary/exit)
 "aPO" = (
 /obj/stool/chair/comfy/shuttle/red{
@@ -15348,9 +15246,7 @@
 	pixel_x = 12
 	},
 /obj/decal/cleanable/dirt/dirt5,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/hallway/secondary/exit)
 "aPP" = (
 /obj/stool/chair/comfy/shuttle{
@@ -15374,9 +15270,7 @@
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gibup"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aPT" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -16384,9 +16278,7 @@
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "gibdown1"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "aSi" = (
 /obj/decal/cleanable/ash,
@@ -20179,9 +20071,7 @@
 "bbm" = (
 /obj/decal/cleanable/dirt,
 /obj/landmark/artifact,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -36673,9 +36563,7 @@
 /obj/landmark/start{
 	name = "Clown"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -36808,9 +36696,7 @@
 /obj/storage/closet/emergency,
 /obj/item/clothing/suit/space/emerg,
 /obj/item/clothing/head/emerg,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -42644,9 +42530,7 @@
 /turf/simulated/shuttle/wall/escape{
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "ciz" = (
 /obj/machinery/light_switch/north,
@@ -43340,9 +43224,7 @@
 /turf/simulated/shuttle/wall/escape{
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "cke" = (
 /obj/machinery/power/terminal{
@@ -46890,18 +46772,14 @@
 /area/listeningpost)
 "cuD" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cuE" = (
 /obj/machinery/light/small{
 	brightness = 1.5;
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cuF" = (
 /obj/cable{
@@ -46910,23 +46788,17 @@
 	},
 /obj/item/crowbar,
 /obj/machinery/power/apc/autoname_north/noaicontrol,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cuH" = (
 /turf/simulated/floor/grey/blackgrime,
 /area/listeningpost)
 "cuK" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cuL" = (
 /obj/submachine/syndicate_teleporter,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cuM" = (
 /obj/cable{
@@ -46937,9 +46809,7 @@
 	d2 = 4;
 	icon_state = "4-10"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cuN" = (
 /obj/cable{
@@ -47027,9 +46897,7 @@
 /obj/cable{
 	icon_state = "2-5"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/listeningpost/syndicate_teleporter)
 "cvc" = (
 /obj/table/wood/auto,
@@ -50566,12 +50434,8 @@
 	dir = 1;
 	icon_state = "wall_trans"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -52727,9 +52591,7 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -53633,9 +53495,7 @@
 	pixel_x = -10
 	},
 /obj/decal/cleanable/greenpuke,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/station/hallway/secondary/exit)
 "hZa" = (
 /obj/disposalpipe/segment/cargo{
@@ -53661,9 +53521,7 @@
 	dir = 8
 	},
 /obj/machinery/disposal,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -57129,9 +56987,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -58442,12 +58298,8 @@
 	dir = 4;
 	icon_state = "wall_trans"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})
@@ -59697,9 +59549,7 @@
 	pixel_x = 12
 	},
 /obj/decal/cleanable/dirt/dirt5,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/hallway/secondary/exit)
 "rNs" = (
 /obj/disposalpipe/segment{
@@ -62849,9 +62699,7 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/station/security/checkpoint/podbay{
 	name = "NanoTrasen Labor Camp Shuttle"
 	})

@@ -8583,14 +8583,10 @@
 	dir = 4
 	},
 /obj/machinery/microwave,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tI" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tJ" = (
 /obj/table{
@@ -8598,9 +8594,7 @@
 	dir = 10
 	},
 /obj/machinery/light/lamp,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tK" = (
 /obj/table{
@@ -8608,9 +8602,7 @@
 	dir = 2
 	},
 /obj/item/paper,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tL" = (
 /obj/table{
@@ -8618,15 +8610,11 @@
 	dir = 6
 	},
 /obj/item/pen/sleepypen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tM" = (
 /obj/machinery/vending/cigarette,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tN" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -8703,15 +8691,11 @@
 	dir = 4
 	},
 /obj/item/storage/donkpocket_kit,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tX" = (
 /obj/stool,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "tY" = (
 /obj/table,
@@ -8876,17 +8860,13 @@
 	charge = 100;
 	maxcharge = 15000
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "uo" = (
 /obj/landmark{
 	name = "Syndicate-Gear-Closet"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "up" = (
 /obj/closet/gmcloset,
@@ -9048,9 +9028,7 @@
 	initialize_directions = 14
 	},
 /obj/machinery/door/window,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "uG" = (
 /obj/machinery/atmospherics/pipe/manifold{
@@ -9172,15 +9150,11 @@
 	icon_state = "tabledir";
 	dir = 6
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "uW" = (
 /obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "uX" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -9188,9 +9162,7 @@
 	icon_state = "tabledir";
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "uY" = (
 /obj/lattice,
@@ -9599,9 +9571,7 @@
 /obj/landmark{
 	name = "Nuclear-Closet"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "vX" = (
 /turf/simulated/floor/plating,
@@ -9620,9 +9590,7 @@
 /obj/stool/chair{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wa" = (
 /obj/table{
@@ -9630,9 +9598,7 @@
 	dir = 9
 	},
 /obj/item,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wb" = (
 /obj/securearea{
@@ -9648,9 +9614,7 @@
 	id = "syndicate";
 	name = "Outer Airlock"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wd" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -9684,9 +9648,7 @@
 	icon_state = "tabledir";
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wj" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9695,9 +9657,7 @@
 	initialize_directions = 6;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wk" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9706,9 +9666,7 @@
 	initialize_directions = 9;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wl" = (
 /obj/table{
@@ -9720,9 +9678,7 @@
 	pixel_x = -3;
 	pixel_y = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wm" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9736,15 +9692,11 @@
 	dir = 4;
 	req_access_txt = "25"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wn" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wo" = (
 /obj/machinery/camera,
@@ -9756,9 +9708,7 @@
 	dir = 4;
 	icon_state = "right"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wq" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9767,9 +9717,7 @@
 	initialize_directions = 5;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wr" = (
 /obj/grille/steel,
@@ -9794,17 +9742,13 @@
 	initialize_directions = 10;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "ws" = (
 /obj/rack,
 /obj/item/clothing/suit/space/syndicate,
 /obj/item/clothing/head/helmet/space/syndicate,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wt" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9819,22 +9763,16 @@
 /area/syndicate_station)
 "wu" = (
 /obj/machinery/sleeper,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wv" = (
 /obj/landmark{
 	name = "Syndicate-Spawn"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "ww" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wx" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -9843,9 +9781,7 @@
 	dir = 10
 	},
 /obj/item/medical/bruise_pack,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wy" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -9854,9 +9790,7 @@
 	dir = 6
 	},
 /obj/item/medical/ointment,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wz" = (
 /obj/table{
@@ -9865,9 +9799,7 @@
 	},
 /obj/machinery/cell_charger,
 /obj/item/clothing/gloves/yellow,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wA" = (
 /obj/table{
@@ -9875,9 +9807,7 @@
 	dir = 2
 	},
 /obj/item/clothing/gloves/yellow,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wB" = (
 /obj/table{
@@ -9886,9 +9816,7 @@
 	},
 /obj/item/wrench,
 /obj/item/clothing/gloves/yellow,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wC" = (
 /obj/table{
@@ -9898,32 +9826,24 @@
 /obj/item/crowbar,
 /obj/item/cable_coil,
 /obj/item/clothing/gloves/yellow,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wD" = (
 /obj/landmark{
 	name = "SR Syndicate-Spawn"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wE" = (
 /obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wF" = (
 /obj/machinery/atmospherics/pipe/manifold{
 	dir = 8;
 	initialize_directions = 7
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wG" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9937,9 +9857,7 @@
 	dir = 4;
 	req_access_txt = "25"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wH" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9948,9 +9866,7 @@
 	initialize_directions = 10;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wI" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9966,9 +9882,7 @@
 	icon_state = "right";
 	req_access_txt = "25"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wJ" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9977,9 +9891,7 @@
 	initialize_directions = 12;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wK" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -9989,9 +9901,7 @@
 	layer = 3
 	},
 /obj/crate/internals,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wL" = (
 /obj/machinery/door/window{
@@ -9999,18 +9909,14 @@
 	dir = 4;
 	icon_state = "right"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wM" = (
 /obj/machinery/door/window{
 	icon = 'windoor.dmi';
 	dir = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wN" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -10021,9 +9927,7 @@
 /obj/landmark{
 	name = "Syndicate-Bomb"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wO" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -10031,9 +9935,7 @@
 	icon_state = "tabledir";
 	dir = 9
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wP" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -10041,9 +9943,7 @@
 	icon_state = "tabledir";
 	dir = 5
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "wQ" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10063,9 +9963,7 @@
 	reinf = 1
 	},
 /obj/item/weldingtool,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wR" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10077,9 +9975,7 @@
 /obj/machinery/door/window{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wS" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10099,9 +9995,7 @@
 	reinf = 1
 	},
 /obj/item/crowbar,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wT" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10111,15 +10005,11 @@
 	layer = 3
 	},
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wU" = (
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wV" = (
 /obj/machinery/atmospherics/pipe/simple,
@@ -10130,23 +10020,17 @@
 /obj/landmark{
 	name = "Syndicate-Bomb"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wW" = (
 /obj/landmark{
 	name = "Nuclear-Bomb"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wX" = (
 /obj/item/clothing/head/helmet/welding,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "wY" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10167,9 +10051,7 @@
 	layer = 3
 	},
 /obj/crate/medical,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "xa" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10178,9 +10060,7 @@
 	initialize_directions = 12;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "xb" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10190,9 +10070,7 @@
 	layer = 3
 	},
 /obj/item/storage/firstaid/regular,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/syndicate_station)
 "xc" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10237,9 +10115,7 @@
 /area/space)
 "xg" = (
 /obj/item/extinguisher,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "xh" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10255,9 +10131,7 @@
 /obj/landmark{
 	name = "Syndicate-Bomb"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor4"
-	},
+/turf/unsimulated/floor/shuttle/red,
 /area/syndicate_station)
 "xi" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10354,22 +10228,16 @@
 /turf/simulated/floor/plating/airless,
 /area/wizard_station)
 "xt" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xu" = (
 /obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xv" = (
 /obj/table,
 /obj/machinery/light/lamp,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xw" = (
 /obj/machinery/vending{
@@ -10381,15 +10249,11 @@
 	vend_delay = 15;
 	vend_reply = "Have an enchanted evening!"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xx" = (
 /obj/crate,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xy" = (
 /turf/space,
@@ -10430,9 +10294,7 @@
 /obj/table/woodentable{
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xD" = (
 /obj/table/woodentable{
@@ -10443,9 +10305,7 @@
 	pixel_x = -4;
 	pixel_y = 8
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xE" = (
 /obj/grille/steel,
@@ -10463,27 +10323,21 @@
 	dir = 4;
 	reinf = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xF" = (
 /obj/table/woodentable{
 	dir = 9
 	},
 /obj/item/reagent_containers/food/drinks/cola,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xG" = (
 /obj/machinery/door/poddoor{
 	id = "wizard";
 	name = "Outer Airlock"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xH" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10492,9 +10346,7 @@
 	initialize_directions = 5;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xI" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10503,37 +10355,27 @@
 	initialize_directions = 10;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xJ" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xK" = (
 /obj/landmark/start{
 	name = "wizard"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xL" = (
 /obj/machinery/door/airlock/glass,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xM" = (
 /obj/stool/chair{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xN" = (
 /obj/table/woodentable{
@@ -10544,9 +10386,7 @@
 /obj/landmark{
 	name = "Teleport-Scroll"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xO" = (
 /obj/grille/steel,
@@ -10565,9 +10405,7 @@
 	dir = 4;
 	reinf = 1
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xP" = (
 /obj/machinery/atmospherics/pipe/simple{
@@ -10576,17 +10414,13 @@
 	initialize_directions = 12;
 	layer = 3
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xQ" = (
 /obj/table/woodentable{
 	dir = 10
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xR" = (
 /turf/space,
@@ -10596,9 +10430,7 @@
 /area/wizard_station)
 "xS" = (
 /obj/stool/chair,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xT" = (
 /turf/space,
@@ -10614,9 +10446,7 @@
 	dir = 1
 	},
 /obj/item/paper,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xV" = (
 /obj/table/woodentable{
@@ -10626,15 +10456,11 @@
 	desc = "Enchanted to write in several shades of grey!";
 	name = "magic pen"
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xW" = (
 /obj/stool/bed,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
+/turf/unsimulated/floor/shuttle/purple,
 /area/wizard_station)
 "xX" = (
 /turf/space,
@@ -11505,15 +11331,11 @@
 /obj/item/device/energy_shield,
 /obj/item/device/energy_shield,
 /obj/item/device/energy_shield,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Ag" = (
 /obj/machinery/vending/computer3,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Ah" = (
 /obj/table/reinforced,
@@ -11528,9 +11350,7 @@
 /obj/item/chem_grenade/metalfoam,
 /obj/item/chem_grenade/metalfoam,
 /obj/item/chem_grenade/metalfoam,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Ai" = (
 /obj/securearea{
@@ -11573,14 +11393,10 @@
 /area/meteor/dock)
 "An" = (
 /obj/machinery/door/unpowered/shuttle,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Ao" = (
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Ap" = (
 /obj/machinery/door/unpowered/shuttle,
@@ -11589,9 +11405,7 @@
 	icon_state = "shield1";
 	dir = 4
 	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Aq" = (
 /turf/simulated/shuttle/wall{
@@ -11601,23 +11415,17 @@
 /area/meteor/dock)
 "Ar" = (
 /obj/item/shieldwallgen,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "As" = (
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "At" = (
 /obj/item/storage/toolbox/emergency,
 /obj/item/storage/toolbox/emergency,
-/turf/simulated/floor/shuttle{
-	icon_state = "floor3"
-	},
+/turf/unsimulated/floor/shuttle/white,
 /area/meteor/dock)
 "Au" = (
 /obj/table/reinforced,
