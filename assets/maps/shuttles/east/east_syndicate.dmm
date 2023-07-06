@@ -39,6 +39,13 @@
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
+"az" = (
+/obj/indestructible/shuttle_corner{
+	dir = 4;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "aB" = (
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/redblack{
@@ -57,6 +64,13 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"bc" = (
+/obj/indestructible/shuttle_corner{
+	dir = 6;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "bs" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 9;
@@ -75,6 +89,7 @@
 	dir = 4;
 	hardened = 1
 	},
+/obj/mapping_helper/access/medical,
 /turf/unsimulated/floor/red,
 /area/shuttle/escape/centcom)
 "cl" = (
@@ -108,9 +123,9 @@
 /turf/unsimulated/floor/black,
 /area/shuttle/escape/centcom)
 "dB" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/shuttle/escape/centcom)
@@ -156,11 +171,12 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
 "gG" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-R"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 1
 	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gL" = (
 /obj/decal/poster/wallsign/danger_highvolt{
@@ -319,6 +335,13 @@
 	dir = 8
 	},
 /area/shuttle/escape/centcom)
+"mh" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/circuit/red,
+/area/shuttle/escape/centcom)
 "mY" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -333,7 +356,21 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"nF" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "oC" = (
+/turf/unsimulated/floor/red,
+/area/shuttle/escape/centcom)
+"oW" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
+	},
 /turf/unsimulated/floor/red,
 /area/shuttle/escape/centcom)
 "pm" = (
@@ -500,6 +537,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"vm" = (
+/obj/indestructible/shuttle_corner{
+	dir = 2;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "vx" = (
 /obj/machinery/light{
 	dir = 1;
@@ -632,6 +676,13 @@
 "BD" = (
 /turf/unsimulated/floor/arrival,
 /area/centcom)
+"Ca" = (
+/obj/indestructible/shuttle_corner{
+	dir = 1;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "CA" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 4
@@ -666,7 +717,7 @@
 /area/shuttle/escape/centcom)
 "DH" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/black,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "DI" = (
 /obj/machinery/light{
@@ -741,11 +792,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Gb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-M"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 8
 	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Gc" = (
 /obj/machinery/light/small/floor,
@@ -768,6 +820,17 @@
 	},
 /turf/unsimulated/floor/arrival,
 /area/centcom)
+"Ib" = (
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "If" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 1
@@ -855,11 +918,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ls" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 8
 	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "LN" = (
 /obj/decal/fakeobjects{
@@ -903,6 +967,13 @@
 /obj/machinery/sleeper/compact,
 /obj/machinery/light,
 /turf/unsimulated/floor/black,
+/area/shuttle/escape/centcom)
+"MK" = (
+/obj/indestructible/shuttle_corner{
+	dir = 2;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/circuit/red,
 /area/shuttle/escape/centcom)
 "NK" = (
 /obj/machinery/door/airlock/pyro/external,
@@ -983,6 +1054,13 @@
 	dir = 10
 	},
 /area/centcom/outside)
+"Qy" = (
+/obj/indestructible/shuttle_corner{
+	dir = 2;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/red,
+/area/shuttle/escape/centcom)
 "Rb" = (
 /obj/stool/chair/comfy/shuttle/red,
 /turf/unsimulated/floor/black,
@@ -1013,9 +1091,9 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ti" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 8;
-	icon_state = "alt_propulsion"
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -1146,6 +1224,13 @@
 	dir = 8
 	},
 /area/centcom)
+"ZX" = (
+/obj/indestructible/shuttle_corner{
+	dir = 9;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "ZY" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -1248,14 +1333,14 @@ sB
 EH
 cl
 Ti
-Ti
+Ib
 Ti
 zi
 LV
 dK
 cr
 Ti
-Ti
+Ib
 Ti
 zy
 EH
@@ -1274,18 +1359,18 @@ LZ
 rR
 CC
 Ti
-Sp
+ZX
 Ls
 Gb
 gG
-Sp
+vm
 zy
 cl
-Sp
+nF
 Ls
 Gb
 gG
-Sp
+bc
 Ti
 eQ
 rR
@@ -1637,8 +1722,8 @@ pm
 Rh
 pm
 IV
-Sp
-Sp
+Ca
+Qy
 jx
 tY
 tY
@@ -1649,8 +1734,8 @@ Fu
 tY
 tY
 ix
-Sp
-Sp
+oW
+az
 IV
 pm
 Rh
@@ -1666,7 +1751,7 @@ Ox
 Ya
 rR
 RC
-Sp
+Ca
 Sp
 Sp
 Sp
@@ -1677,7 +1762,7 @@ CK
 Sp
 Sp
 Sp
-Sp
+az
 TZ
 rR
 ab
@@ -1752,14 +1837,14 @@ eA
 rR
 rR
 CC
-Sp
-Sp
+Ca
+MK
 Vi
 YN
 lK
 Vi
-Sp
-Sp
+mh
+az
 eQ
 rR
 rR
@@ -1781,12 +1866,12 @@ eA
 rR
 zA
 RC
-Sp
+Ca
 DH
 DH
 DH
 DH
-Sp
+az
 TZ
 rK
 rR

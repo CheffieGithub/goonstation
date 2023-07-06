@@ -8,7 +8,7 @@
 	},
 /obj/mapping_helper/access/heads,
 /obj/map/light/dimred,
-/turf/unsimulated/floor/circuit/red,
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "aU" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -98,6 +98,20 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"cW" = (
+/obj/indestructible/shuttle_corner{
+	dir = 5;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
+"cY" = (
+/obj/indestructible/shuttle_corner{
+	dir = 4;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/black,
+/area/shuttle/escape/centcom)
 "dE" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 6;
@@ -156,6 +170,13 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"eA" = (
+/obj/indestructible/shuttle_corner{
+	dir = 4;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttle/yellow,
+/area/shuttle/escape/centcom)
 "eL" = (
 /obj/machinery/shuttle/engine/propulsion{
 	icon_state = "alt_propulsion"
@@ -209,10 +230,7 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater"
 	},
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3";
-	opacity = 0
-	},
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/shuttle/escape/centcom)
 "go" = (
 /obj/machinery/light/small/floor,
@@ -264,17 +282,7 @@
 /area/centcom/outside)
 "hg" = (
 /obj/machinery/computer/shuttle,
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
-/area/shuttle/escape/centcom)
-"ho" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "hp" = (
 /obj/stool/bench/blue/auto,
@@ -343,13 +351,11 @@
 /obj/stool/chair/comfy/shuttle/pilot{
 	dir = 1
 	},
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "lb" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/circuit/red,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "lq" = (
 /turf/unsimulated/floor/circuit/red,
@@ -363,10 +369,6 @@
 "mc" = (
 /obj/decoration/syndiepc/syndiepc2,
 /turf/unsimulated/floor/red,
-/area/shuttle/escape/centcom)
-"mg" = (
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/black,
 /area/shuttle/escape/centcom)
 "mq" = (
 /turf/unsimulated/floor/stairs/dark/wide{
@@ -498,11 +500,16 @@
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"tz" = (
+/obj/indestructible/shuttle_corner{
+	dir = 6;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "tF" = (
 /obj/machinery/computer/announcement,
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "tL" = (
 /turf/unsimulated/floor/redblack/corner,
@@ -550,9 +557,7 @@
 	pixel_x = -6;
 	pixel_y = 5
 	},
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "wA" = (
 /obj/decal/poster/wallsign/danger_highvolt{
@@ -679,6 +684,13 @@
 "CD" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
+"CP" = (
+/obj/indestructible/shuttle_corner{
+	dir = 2;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttle/yellow,
+/area/shuttle/escape/centcom)
 "Dm" = (
 /obj/stool/chair/blue{
 	dir = 1
@@ -806,9 +818,7 @@
 	dir = 1;
 	pixel_y = 21
 	},
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "KZ" = (
 /obj/machinery/door/airlock/pyro/external{
@@ -857,11 +867,12 @@
 	},
 /turf/unsimulated/floor/circuit/red,
 /area/shuttle/escape/centcom)
-"Ms" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
+"MR" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
 	},
+/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "Ng" = (
 /obj/item/reagent_containers/food/snacks/donut/custom/frosted{
@@ -876,9 +887,7 @@
 /obj/stool/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "Nl" = (
 /obj/table/auto,
@@ -891,6 +900,13 @@
 	dir = 4
 	},
 /area/centcom/outside)
+"Ow" = (
+/obj/indestructible/shuttle_corner{
+	dir = 1;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "OK" = (
 /obj/decal/tile_edge/line/orange{
 	icon_state = "line1"
@@ -1098,9 +1114,7 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Xm" = (
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "Xp" = (
 /turf/unsimulated/floor/black,
@@ -1149,13 +1163,18 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"Yh" = (
+/obj/indestructible/shuttle_corner{
+	dir = 2;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/black,
+/area/shuttle/escape/centcom)
 "Yj" = (
 /obj/stool/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "Yq" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
@@ -1170,9 +1189,7 @@
 "YW" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/toolbox/emergency,
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
+/turf/unsimulated/floor/shuttle/yellow,
 /area/shuttle/escape/centcom)
 "Zc" = (
 /obj/table/auto,
@@ -1383,13 +1400,13 @@ nr
 nr
 Vq
 Ro
+MR
 pH
-pH
-mg
+lb
 mb
 mb
-mg
-mg
+lb
+lb
 pH
 pH
 lb
@@ -1410,8 +1427,8 @@ dV
 nr
 nr
 PJ
-pH
-pH
+MR
+cY
 uW
 uW
 Xp
@@ -1424,7 +1441,7 @@ EK
 Hy
 nh
 pH
-pH
+tz
 VJ
 SX
 pF
@@ -1463,9 +1480,9 @@ CD
 LP
 dE
 Ro
-pH
-Ms
-Ms
+MR
+lb
+lb
 pH
 Xp
 Xp
@@ -1490,8 +1507,8 @@ CD
 ZQ
 LP
 PJ
-pH
-pH
+MR
+eA
 Yj
 YW
 pH
@@ -1518,7 +1535,7 @@ ZQ
 CD
 nM
 PJ
-Ms
+lb
 KQ
 Xm
 Xm
@@ -1536,7 +1553,7 @@ FF
 XM
 UQ
 pH
-pH
+cW
 Sx
 xt
 pF
@@ -1546,7 +1563,7 @@ CD
 CD
 LP
 PJ
-Ms
+lb
 tF
 kI
 Xm
@@ -1574,7 +1591,7 @@ CD
 ZQ
 LP
 PJ
-Ms
+lb
 hg
 kI
 Xm
@@ -1602,7 +1619,7 @@ ZQ
 CD
 nM
 PJ
-Ms
+lb
 KQ
 Xm
 Xm
@@ -1620,7 +1637,7 @@ ZD
 TI
 ff
 pH
-pH
+tz
 VS
 zr
 pF
@@ -1630,8 +1647,8 @@ CD
 CD
 LP
 PJ
-pH
-pH
+Ow
+CP
 Nk
 vu
 pH
@@ -1659,9 +1676,9 @@ ZQ
 LP
 bi
 pJ
-pH
-Ms
-Ms
+Ow
+lb
+lb
 pH
 Xp
 Xp
@@ -1718,8 +1735,8 @@ Zm
 nr
 nr
 PJ
-pH
-pH
+Ow
+Yh
 gs
 gs
 Xp
@@ -1732,7 +1749,7 @@ Ke
 Zc
 Hx
 pH
-pH
+cW
 dN
 Du
 pF
@@ -1747,19 +1764,19 @@ nr
 nr
 sV
 pJ
+Ow
 pH
-pH
-mg
+lb
 mb
 mb
-mg
-mg
+lb
+lb
 pH
 pH
-mg
-mg
+lb
+lb
 pH
-ho
+fV
 eL
 Cf
 oA

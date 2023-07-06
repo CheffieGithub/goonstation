@@ -59,8 +59,9 @@
 /area/centcom/outside)
 "ce" = (
 /obj/machinery/shuttle/engine/propulsion{
-	dir = 9;
-	icon_state = "alt_propulsion"
+	dir = 1;
+	icon_state = "alt_propulsion";
+	pixel_y = 1
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -126,23 +127,13 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
-"es" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
-/area/shuttle/escape/centcom)
 "fg" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-L"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "fl" = (
 /obj/decal/lightshaft,
@@ -807,7 +798,7 @@
 /area/centcom/outside)
 "xT" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/marble/black,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "yK" = (
 /obj/shrub{
@@ -942,9 +933,8 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "AA" = (
 /turf/unsimulated/floor/shuttlebay,
@@ -1060,9 +1050,8 @@
 	dir = 1;
 	icon_state = "alt_heater-R"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "14"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "CH" = (
 /obj/indestructible/shuttle_corner{
@@ -1315,15 +1304,6 @@
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
-"Io" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-L"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "14"
-	},
-/area/shuttle/escape/centcom)
 "Ir" = (
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor{
@@ -2448,7 +2428,7 @@ og
 QF
 bt
 ce
-es
+CB
 pm
 EA
 xj
@@ -2504,7 +2484,7 @@ og
 QF
 bt
 ce
-Io
+fg
 pm
 Dw
 Kp

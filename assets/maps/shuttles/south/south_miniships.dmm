@@ -48,7 +48,7 @@
 /area/centcom/outside)
 "ce" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "co" = (
 /obj/stool/chair/comfy/shuttle/brown,
@@ -448,13 +448,6 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"Dt" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-M"
-	},
-/turf/unsimulated/floor/shuttle,
-/area/shuttle/escape/centcom)
 "DB" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -550,6 +543,7 @@
 	dir = 4;
 	hardened = 1
 	},
+/obj/mapping_helper/access/medical,
 /turf/unsimulated/floor/shuttle,
 /area/shuttle/escape/centcom)
 "GQ" = (
@@ -937,7 +931,7 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/unsimulated/floor/shuttlebay,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "ZL" = (
 /obj/stool/chair/comfy/shuttle/brown,
@@ -1316,13 +1310,13 @@ AA
 XE
 AA
 Wo
-Dt
+Zb
 co
 cB
 ce
 YT
 Wo
-Dt
+Zb
 XX
 jP
 ce

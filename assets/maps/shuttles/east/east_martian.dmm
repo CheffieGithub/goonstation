@@ -65,23 +65,6 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"bD" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 8;
-	icon_state = "alt_propulsion"
-	},
-/obj/indestructible/shuttle_corner{
-	dir = 5;
-	icon = 'icons/turf/walls_martian.dmi';
-	icon_state = "diagonal"
-	},
-/obj/indestructible/shuttle_corner{
-	dir = 5;
-	icon = 'icons/turf/walls_martian.dmi';
-	icon_state = "diagonal"
-	},
-/turf/unsimulated/floor/shuttlebay,
-/area/shuttle/escape/centcom)
 "cl" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 6
@@ -113,14 +96,11 @@
 	},
 /area/shuttle/escape/centcom)
 "dB" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/turf/unsimulated/wall/auto/adventure/martian,
 /area/shuttle/escape/centcom)
 "dC" = (
 /obj/shrub{
@@ -321,14 +301,12 @@
 	},
 /area/shuttle/escape/centcom)
 "pj" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "pm" = (
 /obj/decal/poster/wallsign/hazard_caution,
@@ -344,14 +322,12 @@
 	},
 /area/shuttle/escape/centcom)
 "qb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-R"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 1
 	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "qx" = (
 /obj/decal/tile_edge/line/black{
@@ -545,10 +521,7 @@
 /area/centcom/outside)
 "wT" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xw" = (
 /obj/critter/martian/warrior,
@@ -556,6 +529,17 @@
 	icon = 'icons/turf/martian.dmi';
 	icon_state = "floor1"
 	},
+/area/shuttle/escape/centcom)
+"yA" = (
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "yZ" = (
 /obj/decal/tile_edge/line/black{
@@ -639,7 +623,9 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "delivery2"
 	},
-/turf/unsimulated/outdoors/grass,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
 /area/centcom)
 "BD" = (
 /turf/unsimulated/floor/arrival,
@@ -752,14 +738,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Gb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-M"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 8
 	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Gc" = (
 /obj/machinery/light/small/floor,
@@ -1034,9 +1018,9 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ti" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 8;
-	icon_state = "alt_propulsion"
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -1264,14 +1248,14 @@ sB
 EH
 cl
 Ti
-Ti
+yA
 Ti
 zi
 LV
 dK
 cr
 Ti
-Ti
+yA
 Ti
 zy
 EH
@@ -1289,7 +1273,7 @@ zb
 LZ
 rR
 CC
-bD
+Ti
 Sp
 pj
 Gb

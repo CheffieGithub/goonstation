@@ -50,7 +50,7 @@
 /area/shuttle/escape/centcom)
 "aQ" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/marble/black,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "aZ" = (
 /obj/decal/fakeobjects/pipe{
@@ -142,9 +142,9 @@
 /turf/unsimulated/floor/carpet/regalcarpet/border,
 /area/shuttle/escape/centcom)
 "dB" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
 	},
 /turf/simulated/wall/auto/shuttle{
 	icon_state = "12"
@@ -273,13 +273,12 @@
 /turf/unsimulated/floor/carpet/regalcarpet,
 /area/shuttle/escape/centcom)
 "gG" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-R"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 1
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "7"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gL" = (
 /obj/decal/poster/wallsign/danger_highvolt{
@@ -371,6 +370,17 @@
 	lit = 1
 	},
 /turf/unsimulated/floor/marble/black,
+/area/shuttle/escape/centcom)
+"jM" = (
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "jS" = (
 /obj/stool/bench/blue/auto,
@@ -591,15 +601,6 @@
 	dir = 9
 	},
 /area/shuttle/escape/centcom)
-"pj" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-L"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "7"
-	},
-/area/shuttle/escape/centcom)
 "pm" = (
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/unsimulated/wall/auto/lead/blue,
@@ -620,15 +621,6 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/carpet/regalcarpet,
-/area/shuttle/escape/centcom)
-"qb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
 /area/shuttle/escape/centcom)
 "qn" = (
 /obj/table/regal/auto,
@@ -1246,13 +1238,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Gb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-M"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 8
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Gc" = (
 /obj/machinery/light/small/floor,
@@ -1511,13 +1502,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ls" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 8
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "LN" = (
 /obj/decal/fakeobjects{
@@ -1775,9 +1765,9 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ti" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 8;
-	icon_state = "alt_propulsion"
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -2141,14 +2131,14 @@ sB
 EH
 cl
 Ti
-Ti
+jM
 Ti
 zi
 LV
 dK
 cr
 Ti
-Ti
+jM
 Ti
 zy
 EH
@@ -2168,9 +2158,9 @@ rR
 CC
 Ti
 Sp
-pj
+Ls
 Gb
-qb
+gG
 qH
 zy
 cl

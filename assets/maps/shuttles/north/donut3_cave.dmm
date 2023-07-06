@@ -200,11 +200,11 @@
 	},
 /area/centcom)
 "gJ" = (
-/obj/mapping_helper/wingrille_spawn/auto,
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-L"
 	},
-/turf/unsimulated/wall/cave,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gW" = (
 /obj/shrub,
@@ -237,7 +237,7 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater"
 	},
-/turf/unsimulated/wall/cave,
+/turf/unsimulated/wall/auto/adventure/cave,
 /area/shuttle/escape/centcom)
 "hp" = (
 /obj/stool/bench/blue/auto,
@@ -320,8 +320,8 @@
 /turf/unsimulated/floor/cave,
 /area/shuttle/escape/centcom)
 "mg" = (
-/obj/mapping_helper/wingrille_spawn/auto,
-/turf/unsimulated/floor/cave,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "mq" = (
 /turf/unsimulated/floor/stairs/dark/wide{
@@ -469,7 +469,7 @@
 	},
 /area/centcom/outside)
 "uW" = (
-/turf/unsimulated/wall/cave,
+/turf/unsimulated/wall/auto/adventure/cave,
 /area/shuttle/escape/centcom)
 "vg" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -502,11 +502,11 @@
 	},
 /area/centcom)
 "xe" = (
-/obj/mapping_helper/wingrille_spawn/auto,
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-M"
 	},
-/turf/unsimulated/wall/cave,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xf" = (
 /obj/stool/bench/blue/auto,
@@ -770,10 +770,6 @@
 /obj/map/light/graveyard,
 /turf/unsimulated/floor/cave,
 /area/shuttle/escape/centcom)
-"Ms" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/cave,
-/area/shuttle/escape/centcom)
 "Ng" = (
 /obj/item/reagent_containers/food/snacks/donut/custom/frosted{
 	desc = "IT HIM, IT REALLY HIM";
@@ -809,11 +805,11 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
 "PO" = (
-/obj/mapping_helper/wingrille_spawn/auto,
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
-/turf/unsimulated/wall/cave,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "QM" = (
 /obj/decal/tile_edge/line/black{
@@ -1292,7 +1288,7 @@ dE
 Ro
 uW
 mg
-Ms
+mg
 uW
 Hy
 EK
@@ -1488,7 +1484,7 @@ bi
 pJ
 uW
 mg
-Ms
+mg
 uW
 tL
 Zc

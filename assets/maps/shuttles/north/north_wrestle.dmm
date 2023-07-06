@@ -243,9 +243,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-M"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "eY" = (
 /obj/shrub{
@@ -587,9 +586,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "pM" = (
 /obj/decal/fakeobjects/pipe{
@@ -917,9 +915,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-L"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "13"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Gq" = (
 /turf/unsimulated/wall/auto/lead/blue,
@@ -1008,7 +1005,7 @@
 /area/centcom/outside)
 "Li" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Mk" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -1102,14 +1099,6 @@
 	tag = "icon-xtra_bigstripe-edge (WEST)"
 	},
 /turf/unsimulated/floor/grey,
-/area/shuttle/escape/centcom)
-"Od" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "13"
-	},
 /area/shuttle/escape/centcom)
 "Ok" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -1317,14 +1306,9 @@
 /turf/simulated/floor/airless/black,
 /area/shuttle/escape/centcom)
 "SH" = (
-/obj/indestructible/shuttle_corner{
-	dir = 0
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "6"
 	},
-/obj/indestructible/shuttle_corner{
-	dir = 0;
-	icon_state = "7"
-	},
-/turf/unsimulated/floor/shuttle,
 /area/shuttle/escape/centcom)
 "SW" = (
 /obj/machinery/atmospherics/portables_connector,
@@ -1355,10 +1339,6 @@
 	icon_state = "12"
 	},
 /area/shuttle/escape/centcom)
-"TB" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/white,
-/area/shuttle/escape/centcom)
 "Ua" = (
 /obj/table/auto,
 /obj/item/wrestlingbell,
@@ -1366,7 +1346,7 @@
 /area/shuttle/escape/centcom)
 "Uk" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/simulated/floor/airless/black,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Up" = (
 /obj/stool/bench/blue/auto,
@@ -1406,14 +1386,6 @@
 "Wg" = (
 /turf/unsimulated/floor/stairs{
 	dir = 8
-	},
-/area/shuttle/escape/centcom)
-"Wk" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-L"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
 	},
 /area/shuttle/escape/centcom)
 "Xe" = (
@@ -1707,8 +1679,8 @@ RL
 RF
 Mw
 As
-TB
-TB
+Li
+Li
 Pc
 lQ
 Mx
@@ -1761,11 +1733,11 @@ HA
 Gq
 pW
 Qp
-TB
+Li
 nH
 AQ
 AT
-TB
+Li
 sU
 sU
 sU
@@ -1789,11 +1761,11 @@ Gq
 Gq
 RL
 Qp
-TB
+Li
 QD
 dD
 Cr
-TB
+Li
 sU
 MH
 MH
@@ -1817,11 +1789,11 @@ Gq
 HA
 RL
 Qp
-TB
+Li
 ru
 dD
 Ua
-TB
+Li
 sU
 MH
 MH
@@ -1845,11 +1817,11 @@ HA
 Gq
 pW
 Qp
-TB
+Li
 nH
 AQ
 AT
-TB
+Li
 sU
 sU
 sU
@@ -1891,7 +1863,7 @@ Ry
 dy
 Yb
 Sh
-Wk
+FP
 Hm
 hi
 bi
@@ -1903,8 +1875,8 @@ RL
 Fa
 HE
 eZ
-TB
-TB
+Li
+Li
 bE
 BI
 Pw
@@ -1947,7 +1919,7 @@ Mo
 yD
 pP
 mq
-Od
+pH
 Hm
 hi
 bi

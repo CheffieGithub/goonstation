@@ -94,19 +94,13 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
-"es" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-R"
-	},
-/turf/unsimulated/wall/auto/adventure/martian,
-/area/shuttle/escape/centcom)
 "fg" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-L"
 	},
-/turf/unsimulated/wall/auto/adventure/martian,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "fl" = (
 /obj/machinery/sleeper/compact{
@@ -478,10 +472,7 @@
 /area/centcom/outside)
 "xT" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "yK" = (
 /turf/unsimulated/floor{
@@ -538,7 +529,8 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/unsimulated/wall/auto/adventure/martian,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "AA" = (
 /turf/unsimulated/floor/shuttlebay,
@@ -577,14 +569,12 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
 "CB" = (
-/obj/indestructible/shuttle_corner{
-	dir = 0
-	},
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-R"
 	},
-/turf/space,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "CH" = (
 /obj/indestructible/shuttle_corner{
@@ -741,16 +731,6 @@
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
-"Io" = (
-/obj/indestructible/shuttle_corner{
-	dir = 1
-	},
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-L"
-	},
-/turf/space,
-/area/shuttle/escape/centcom)
 "Ir" = (
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor{
@@ -1603,7 +1583,7 @@ og
 QF
 bt
 ce
-es
+CB
 pm
 pm
 pm
@@ -1659,7 +1639,7 @@ og
 QF
 bt
 ce
-Io
+fg
 mh
 ml
 ZL

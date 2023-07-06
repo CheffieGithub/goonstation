@@ -173,9 +173,7 @@
 /area/shuttle/escape/centcom)
 "gy" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/shuttle{
-	dir = 8
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gG" = (
 /obj/table/reinforced/auto,
@@ -185,9 +183,7 @@
 "gN" = (
 /obj/machinery/door/airlock/pyro/external,
 /obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/shuttle{
-	dir = 8
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "hg" = (
 /obj/indestructible/shuttle_corner{
@@ -330,6 +326,10 @@
 	},
 /area/shuttle/escape/centcom)
 "lZ" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
 /turf/simulated/wall/auto/shuttle{
 	icon_state = "4"
 	},
@@ -451,10 +451,6 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"qE" = (
-/obj/mapping_helper/wingrille_spawn/auto,
-/turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
 "qW" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1
@@ -510,11 +506,11 @@
 /turf/unsimulated/floor/plating/scorched,
 /area/shuttle/escape/centcom)
 "uE" = (
-/obj/machinery/door/airlock/pyro/medical{
+/obj/machinery/door/airlock/pyro/glass/med{
 	dir = 4;
-	name = "First-Aid Station";
-	opacity = 0
+	hardened = 1
 	},
+/obj/mapping_helper/access/medical,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "vP" = (
@@ -584,6 +580,15 @@
 /obj/table/auto,
 /obj/random_item_spawner/med_kit,
 /turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
+"yj" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "12"
+	},
 /area/shuttle/escape/centcom)
 "ym" = (
 /obj/decal/fakeobjects{
@@ -954,13 +959,6 @@
 	icon_state = "3"
 	},
 /area/shuttle/escape/centcom)
-"Kn" = (
-/obj/machinery/door/airlock/pyro/external,
-/obj/decal/tile_edge/stripe/extra_big{
-	icon_state = "delivery2"
-	},
-/turf/unsimulated/outdoors/grass,
-/area/centcom)
 "LT" = (
 /obj/decal/cleanable/rust,
 /turf/unsimulated/floor/plating,
@@ -1492,7 +1490,7 @@ uh
 Tp
 Tp
 jn
-jn
+yj
 Ui
 Ha
 bq
@@ -1623,11 +1621,11 @@ Gh
 Gh
 Ts
 Fo
-qE
+gy
 iT
 Vm
 iT
-qE
+gy
 HL
 Rl
 sT
@@ -1645,7 +1643,7 @@ aM
 aM
 aM
 pV
-Kn
+yr
 gN
 Sp
 vP
@@ -1661,7 +1659,7 @@ Rl
 Sp
 eC
 gN
-Kn
+yr
 Op
 aM
 aM
@@ -1735,7 +1733,7 @@ Rl
 sT
 FK
 Xr
-qE
+gy
 iT
 lS
 Ry

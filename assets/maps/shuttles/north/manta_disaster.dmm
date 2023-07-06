@@ -53,7 +53,7 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-L"
 	},
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "cu" = (
@@ -65,6 +65,9 @@
 /area/centcom)
 "cz" = (
 /obj/machinery/shuttle/engine/heater/seaheater_middle,
+/obj/indestructible/shuttle_corner{
+	dir = 4
+	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "cF" = (
@@ -156,6 +159,9 @@
 "gS" = (
 /turf/unsimulated/floor/arrival,
 /area/centcom)
+"gW" = (
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "hi" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/decal/fakeobjects{
@@ -172,7 +178,7 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-M"
 	},
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "hN" = (
@@ -221,7 +227,10 @@
 /area/centcom/outside)
 "kC" = (
 /obj/machinery/shuttle/engine/heater/seaheater_middle,
-/turf/space/fluid,
+/obj/indestructible/shuttle_corner{
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "kE" = (
 /obj/decal/cleanable/blood/splatter{
@@ -871,11 +880,14 @@
 	},
 /area/centcom/outside)
 "PN" = (
-/obj/machinery/door/airlock/pyro/medical,
+/obj/machinery/door/airlock/pyro/glass/med{
+	hardened = 1
+	},
+/obj/mapping_helper/access/medical,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Qc" = (
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "QP" = (
@@ -1179,7 +1191,7 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Zq" = (
@@ -1614,7 +1626,7 @@ AC
 Qc
 Lj
 yG
-Qc
+gW
 ng
 hN
 eI
@@ -1642,7 +1654,7 @@ re
 Qc
 bQ
 ob
-Qc
+gW
 Zq
 kE
 Zq

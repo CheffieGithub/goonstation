@@ -32,13 +32,12 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
 "bc" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 4
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "11"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "bk" = (
 /obj/stool/chair/comfy/shuttle/brown{
@@ -162,9 +161,9 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "fs" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 4;
-	icon_state = "alt_propulsion"
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 4
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -323,13 +322,12 @@
 	},
 /area/centcom/outside)
 "lE" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-R"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 4
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "mg" = (
 /obj/stool/chair/comfy/shuttle/brown{
@@ -423,23 +421,13 @@
 	dir = 8
 	},
 /area/centcom)
-"oi" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-L"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
-/area/shuttle/escape/centcom)
 "oj" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-M"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 4
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "ou" = (
 /obj/decal/cleanable/machine_debris,
@@ -727,7 +715,7 @@
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xq" = (
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xv" = (
@@ -936,9 +924,9 @@
 	},
 /area/centcom/outside)
 "Fe" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 4
 	},
 /turf/simulated/wall/auto/shuttle{
 	icon_state = "12"
@@ -1337,8 +1325,8 @@
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/obj/mug_rack{
-	pixel_x = 26
+/obj/drink_rack/mug{
+	pixel_y = 28
 	},
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
@@ -1504,15 +1492,6 @@
 	icon_state = "floor4"
 	},
 /turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
-"Yo" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "11"
-	},
 /area/shuttle/escape/centcom)
 "Yz" = (
 /obj/decal/cleanable/dirt,
@@ -2176,9 +2155,9 @@ vd
 um
 fs
 ks
-Yo
+lE
 oj
-oi
+bc
 gr
 xR
 HM

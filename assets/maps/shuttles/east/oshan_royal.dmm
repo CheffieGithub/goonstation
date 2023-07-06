@@ -118,6 +118,13 @@
 	icon_state = "15"
 	},
 /area/shuttle/escape/centcom)
+"cF" = (
+/obj/machinery/door/airlock/pyro/external,
+/obj/forcefield/energyshield/perma,
+/turf/unsimulated/floor/marble/border_wb{
+	dir = 4
+	},
+/area/shuttle/escape/centcom)
 "dw" = (
 /obj/indestructible/shuttle_corner{
 	dir = 0
@@ -184,9 +191,7 @@
 /area/shuttle/escape/centcom)
 "gy" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/shuttle{
-	dir = 8
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gG" = (
 /obj/table/regal/auto,
@@ -233,7 +238,7 @@
 "gN" = (
 /obj/machinery/door/airlock/pyro/external,
 /obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/shuttle{
+/turf/unsimulated/floor/marble/border_wb{
 	dir = 8
 	},
 /area/shuttle/escape/centcom)
@@ -434,6 +439,10 @@
 /turf/unsimulated/floor/marble,
 /area/shuttle/escape/centcom)
 "lZ" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
 /turf/simulated/wall/auto/shuttle{
 	icon_state = "4"
 	},
@@ -1244,13 +1253,6 @@
 	icon_state = "3"
 	},
 /area/shuttle/escape/centcom)
-"Kn" = (
-/obj/machinery/door/airlock/pyro/external,
-/obj/decal/tile_edge/stripe/extra_big{
-	icon_state = "delivery2"
-	},
-/turf/unsimulated/outdoors/grass,
-/area/centcom)
 "Lc" = (
 /obj/table/regal/auto,
 /obj/machinery/light/small/floor/netural,
@@ -1358,6 +1360,15 @@
 /obj/machinery/light/small/floor/netural,
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 5
+	},
+/area/shuttle/escape/centcom)
+"Ob" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "12"
 	},
 /area/shuttle/escape/centcom)
 "Op" = (
@@ -1971,7 +1982,7 @@ uh
 AO
 uh
 jn
-jn
+Ob
 Ui
 Ha
 bq
@@ -2124,7 +2135,7 @@ aM
 aM
 aM
 pV
-Kn
+yr
 gN
 VW
 lS
@@ -2140,7 +2151,7 @@ FK
 lS
 VW
 gN
-Kn
+yr
 Op
 aM
 aM
@@ -2181,7 +2192,7 @@ aM
 aM
 pV
 yr
-gN
+cF
 kZ
 lS
 BX
@@ -2195,7 +2206,7 @@ Ju
 PB
 lS
 kZ
-gN
+cF
 yr
 Op
 aM

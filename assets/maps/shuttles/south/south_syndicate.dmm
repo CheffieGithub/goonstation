@@ -49,8 +49,9 @@
 /area/centcom/outside)
 "ce" = (
 /obj/machinery/shuttle/engine/propulsion{
-	dir = 9;
-	icon_state = "alt_propulsion"
+	dir = 1;
+	icon_state = "alt_propulsion";
+	pixel_y = 1
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -89,14 +90,16 @@
 	dir = 1;
 	icon_state = "alt_heater-R"
 	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "fg" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-L"
 	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "fl" = (
 /obj/machinery/sleeper/compact{
@@ -134,7 +137,7 @@
 	hardened = 1
 	},
 /obj/mapping_helper/access/heads,
-/turf/unsimulated/floor/red,
+/turf/unsimulated/floor/circuit/red,
 /area/shuttle/escape/centcom)
 "ir" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -176,6 +179,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"kn" = (
+/obj/indestructible/shuttle_corner{
+	dir = 1;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "kq" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 8;
@@ -208,6 +218,10 @@
 "kQ" = (
 /obj/table/syndicate/auto,
 /obj/table/syndicate/auto,
+/obj/item/holoemitter{
+	pixel_x = -16;
+	pixel_y = -16
+	},
 /turf/unsimulated/floor/red,
 /area/shuttle/escape/centcom)
 "lL" = (
@@ -227,6 +241,13 @@
 	dir = 1
 	},
 /area/centcom/outside)
+"mH" = (
+/obj/machinery/shuttle/engine/heater{
+	dir = 1;
+	icon_state = "alt_heater-R"
+	},
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "nb" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 6
@@ -250,6 +271,13 @@
 /turf/unsimulated/floor/redblack{
 	dir = 8
 	},
+/area/shuttle/escape/centcom)
+"oK" = (
+/obj/indestructible/shuttle_corner{
+	dir = 9;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "pd" = (
 /obj/stool/chair/comfy/shuttle/red{
@@ -278,6 +306,13 @@
 	dir = 1
 	},
 /area/centcom)
+"pF" = (
+/obj/indestructible/shuttle_corner{
+	dir = 10;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "pG" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
@@ -361,6 +396,13 @@
 	dir = 10
 	},
 /area/shuttle/escape/centcom)
+"sW" = (
+/obj/indestructible/shuttle_corner{
+	dir = 1;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/red,
+/area/shuttle/escape/centcom)
 "uh" = (
 /obj/shrub,
 /obj/machinery/light,
@@ -405,6 +447,13 @@
 /obj/machinery/light,
 /turf/unsimulated/floor/red,
 /area/shuttle/escape/centcom)
+"wv" = (
+/obj/indestructible/shuttle_corner{
+	dir = 1;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/circuit/red,
+/area/shuttle/escape/centcom)
 "wI" = (
 /obj/stool/chair/comfy/shuttle/pilot,
 /turf/unsimulated/floor/circuit/red,
@@ -444,7 +493,7 @@
 /area/centcom/outside)
 "xT" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/black,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "yK" = (
 /obj/table/auto,
@@ -502,7 +551,8 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "AA" = (
 /turf/unsimulated/floor/shuttlebay,
@@ -558,6 +608,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"DV" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "Es" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -862,6 +919,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"OF" = (
+/obj/indestructible/shuttle_corner{
+	dir = 2;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "OU" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "A pipe.";
@@ -953,6 +1017,13 @@
 	icon_state = "floor"
 	},
 /area/centcom)
+"Sl" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/red,
+/area/shuttle/escape/centcom)
 "Sn" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.";
@@ -989,6 +1060,13 @@
 	dir = 5
 	},
 /area/centcom/outside)
+"Tu" = (
+/obj/indestructible/shuttle_corner{
+	dir = 8;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/circuit/red,
+/area/shuttle/escape/centcom)
 "Tv" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/unsimulated/floor{
@@ -1010,6 +1088,27 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"Ul" = (
+/obj/machinery/shuttle/engine/heater{
+	dir = 1;
+	icon_state = "alt_heater-M"
+	},
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
+"UD" = (
+/obj/machinery/shuttle/engine/heater{
+	dir = 1;
+	icon_state = "alt_heater-L"
+	},
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
+"UZ" = (
+/obj/indestructible/shuttle_corner{
+	dir = 4;
+	icon_state = "wall3_trans"
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "VJ" = (
 /obj/decal/poster/wallsign/danger_highvolt{
 	pixel_y = 32
@@ -1041,6 +1140,15 @@
 "Xe" = (
 /obj/machinery/door/airlock/pyro/glass/med{
 	hardened = 1
+	},
+/obj/mapping_helper/access/medical,
+/turf/unsimulated/floor/red,
+/area/shuttle/escape/centcom)
+"Xh" = (
+/obj/table/syndicate/auto,
+/obj/abzuholo{
+	pixel_y = 0;
+	pixel_x = -12
 	},
 /turf/unsimulated/floor/red,
 /area/shuttle/escape/centcom)
@@ -1275,7 +1383,7 @@ xT
 xT
 sk
 xT
-dw
+OF
 QB
 ra
 AA
@@ -1290,7 +1398,7 @@ qO
 DB
 XE
 nb
-dw
+oK
 dw
 dw
 KU
@@ -1303,8 +1411,8 @@ Nt
 Nt
 Mq
 Zb
-dw
-dw
+sW
+OF
 BC
 AA
 AA
@@ -1363,7 +1471,7 @@ Nt
 dw
 xT
 xT
-dw
+OF
 QB
 NS
 xq
@@ -1391,8 +1499,8 @@ Nt
 dw
 bg
 Yu
-dw
-dw
+wv
+OF
 BC
 xq
 qO
@@ -1402,7 +1510,7 @@ og
 DB
 TR
 Rg
-dw
+kn
 dw
 dw
 dw
@@ -1439,7 +1547,7 @@ Jb
 Mq
 ZL
 Nt
-GM
+Xh
 GM
 CB
 ZL
@@ -1486,7 +1594,7 @@ og
 DB
 XE
 uD
-dw
+DV
 dw
 dw
 dw
@@ -1514,7 +1622,7 @@ og
 QF
 bt
 ce
-es
+mH
 pm
 pm
 pm
@@ -1531,8 +1639,8 @@ Nt
 dw
 jw
 Kb
-dw
-dw
+Tu
+UZ
 BC
 xq
 og
@@ -1542,7 +1650,7 @@ qO
 QF
 bt
 ce
-Ay
+Ul
 KB
 Mq
 Mq
@@ -1559,7 +1667,7 @@ Nt
 dw
 xT
 xT
-dw
+UZ
 km
 ir
 xq
@@ -1570,7 +1678,7 @@ og
 QF
 bt
 ce
-fg
+UD
 dw
 pd
 ZL
@@ -1598,7 +1706,7 @@ og
 DB
 TR
 Rd
-dw
+pF
 dw
 dw
 kF
@@ -1611,8 +1719,8 @@ Nt
 Nt
 Mq
 qq
-dw
-dw
+Sl
+UZ
 BC
 AA
 AA
@@ -1639,7 +1747,7 @@ xT
 xT
 sk
 xT
-dw
+UZ
 km
 AM
 AA

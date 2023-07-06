@@ -38,8 +38,9 @@
 	},
 /area/centcom/outside)
 "aq" = (
-/obj/machinery/door/airlock/pyro/medical/alt{
-	density = 0
+/obj/mapping_helper/access/medical,
+/obj/machinery/door/airlock/pyro/glass/med{
+	hardened = 1
 	},
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
@@ -180,7 +181,7 @@
 /obj/stool/chair/comfy/shuttle/pilot{
 	dir = 1
 	},
-/turf/unsimulated/floor/plating/damaged1,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "ec" = (
 /turf/unsimulated/floor/arrival{
@@ -212,9 +213,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-M"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "eY" = (
 /obj/shrub{
@@ -243,6 +243,7 @@
 /obj/machinery/door/airlock/pyro/glass/command{
 	req_access = null
 	},
+/obj/mapping_helper/access/heads,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gk" = (
@@ -322,6 +323,7 @@
 /area/shuttle/escape/centcom)
 "id" = (
 /obj/item/raw_material/shard/glass,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "iF" = (
@@ -335,6 +337,7 @@
 	density = 0;
 	name = "Secure Transport"
 	},
+/obj/mapping_helper/access/security,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "iS" = (
@@ -554,9 +557,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "pM" = (
 /obj/decal/fakeobjects/pipe{
@@ -892,9 +894,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-L"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "13"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Gp" = (
 /obj/decal/cleanable/machine_debris,
@@ -1099,14 +1100,6 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
-"Od" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "13"
-	},
 /area/shuttle/escape/centcom)
 "Ok" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -1320,7 +1313,7 @@
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "TB" = (
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Up" = (
@@ -1369,14 +1362,6 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
-"Wk" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-L"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
-/area/shuttle/escape/centcom)
 "Wv" = (
 /obj/stool/chair/comfy/shuttle{
 	dir = 4
@@ -1882,7 +1867,7 @@ Ry
 dy
 Wv
 dy
-Wk
+FP
 Hm
 hi
 bi
@@ -1938,7 +1923,7 @@ SH
 UT
 pP
 ib
-Od
+pH
 Hm
 hi
 bi

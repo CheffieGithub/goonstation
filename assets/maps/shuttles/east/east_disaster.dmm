@@ -134,9 +134,9 @@
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "dB" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
 	},
 /turf/simulated/wall/auto/shuttle{
 	icon_state = "12"
@@ -217,13 +217,12 @@
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gG" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-R"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 1
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "7"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gL" = (
 /obj/decal/poster/wallsign/danger_highvolt{
@@ -446,15 +445,6 @@
 	},
 /turf/unsimulated/floor/plating/scorched,
 /area/shuttle/escape/centcom)
-"pj" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-L"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "7"
-	},
-/area/shuttle/escape/centcom)
 "pm" = (
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/unsimulated/wall/auto/lead/blue,
@@ -487,15 +477,6 @@
 "pM" = (
 /obj/decal/cleanable/machine_debris,
 /turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
-"qb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
 /area/shuttle/escape/centcom)
 "qx" = (
 /obj/decal/tile_edge/line/black{
@@ -671,7 +652,7 @@
 	},
 /area/centcom/outside)
 "wT" = (
-/obj/mapping_helper/wingrille_spawn/auto,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xn" = (
@@ -816,7 +797,9 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "delivery2"
 	},
-/turf/unsimulated/outdoors/grass,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
 /area/centcom)
 "BD" = (
 /turf/unsimulated/floor/arrival,
@@ -873,6 +856,7 @@
 	dir = 4;
 	name = "Secure Transport"
 	},
+/obj/mapping_helper/access/security,
 /turf/unsimulated/floor/plating/scorched,
 /area/shuttle/escape/centcom)
 "DI" = (
@@ -963,13 +947,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Gb" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-M"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 8
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Gc" = (
 /obj/machinery/light/small/floor,
@@ -1022,6 +1005,7 @@
 	dir = 4;
 	req_access = 0
 	},
+/obj/mapping_helper/access/heads,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "If" = (
@@ -1104,13 +1088,12 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ls" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 8;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 8
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "3"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "LN" = (
 /obj/decal/fakeobjects{
@@ -1302,9 +1285,9 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Ti" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 8;
-	icon_state = "alt_propulsion"
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -1314,6 +1297,17 @@
 	},
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
+"Ty" = (
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "TD" = (
 /obj/decal/cleanable/machine_debris,
@@ -1582,14 +1576,14 @@ sB
 EH
 cl
 Ti
-Ti
+Ty
 Ti
 zi
 LV
 dK
 cr
 Ti
-Ti
+Ty
 Ti
 zy
 EH
@@ -1609,9 +1603,9 @@ rR
 CC
 Ti
 Sp
-pj
+Ls
 Gb
-qb
+gG
 qH
 zy
 cl

@@ -113,7 +113,7 @@
 	dir = 1;
 	icon_state = "alt_heater-R"
 	},
-/turf/unsimulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "jY" = (
 /obj/decal/tile_edge/line/orange{
@@ -200,7 +200,7 @@
 	dir = 1;
 	icon_state = "alt_heater-L"
 	},
-/turf/unsimulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "nG" = (
 /obj/decal/poster/wallsign/danger_highvolt{
@@ -292,13 +292,14 @@
 /area/centcom/outside)
 "rP" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "rW" = (
 /obj/machinery/door/airlock/pyro/glass/med{
 	dir = 4;
 	hardened = 1
 	},
+/obj/mapping_helper/access/medical,
 /turf/unsimulated/floor/shuttle,
 /area/shuttle/escape/centcom)
 "sU" = (
@@ -643,7 +644,7 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/unsimulated/floor/shuttle,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Ir" = (
 /obj/machinery/light/small/floor,
@@ -1005,13 +1006,6 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"XL" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-M"
-	},
-/turf/unsimulated/floor/shuttlebay,
-/area/shuttle/escape/centcom)
 "Yu" = (
 /obj/stool/chair/comfy/shuttle,
 /turf/unsimulated/floor/shuttle,
@@ -1278,7 +1272,7 @@ SL
 rP
 YT
 wY
-XL
+Io
 Yu
 Hx
 rP
@@ -1389,7 +1383,7 @@ YT
 YT
 YT
 Jb
-XL
+Io
 Yu
 IL
 rP
@@ -1417,7 +1411,7 @@ YT
 YT
 YT
 Jb
-XL
+Io
 Yu
 IL
 rP
@@ -1530,7 +1524,7 @@ Kt
 rP
 YT
 wY
-XL
+Io
 Yu
 Hx
 rP

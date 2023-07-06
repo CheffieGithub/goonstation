@@ -22,10 +22,7 @@
 /area/centcom)
 "cu" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
-/turf/unsimulated/floor{
-	icon = 'icons/turf/martian.dmi';
-	icon_state = "floor1"
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "cA" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -87,9 +84,9 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "fs" = (
-/obj/decal/fakeobjects/shuttlethruster{
-	dir = 4;
-	icon_state = "alt_propulsion"
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 4
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -157,6 +154,14 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"jd" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 4
+	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "jm" = (
 /obj/decal/tile_edge/line/black{
 	icon_state = "line1"
@@ -216,11 +221,12 @@
 	},
 /area/centcom/outside)
 "lE" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-R"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 4
 	},
-/turf/unsimulated/wall/auto/adventure/martian,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "mg" = (
 /obj/stool/chair/comfy/shuttle/brown{
@@ -288,18 +294,19 @@
 	},
 /area/centcom)
 "oi" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-L"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 4
 	},
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/shuttle/escape/centcom)
 "oj" = (
-/obj/decal/fakeobjects/shuttleengine{
-	dir = 4;
-	icon_state = "alt_heater-M"
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 4
 	},
-/turf/unsimulated/wall/auto/adventure/martian,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "pl" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -1033,7 +1040,9 @@
 /area/shuttle/escape/centcom)
 "Sm" = (
 /obj/indestructible/shuttle_corner{
-	dir = 8
+	dir = 9;
+	icon = 'icons/turf/walls_martian.dmi';
+	icon_state = "diagonal"
 	},
 /turf/unsimulated/floor{
 	icon = 'icons/turf/martian.dmi';
@@ -1760,14 +1769,14 @@ fs
 ks
 lE
 oj
-oi
+jd
 gr
 xR
 HM
 ks
 lE
 oj
-oi
+jd
 gr
 fs
 pl

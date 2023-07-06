@@ -73,18 +73,15 @@
 /area/centcom/outside)
 "cn" = (
 /obj/mapping_helper/wingrille_spawn/auto,
-/turf/unsimulated/floor/shuttle{
-	dir = 8
-	},
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "dw" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 4
 	},
 /obj/machinery/light/small/floor,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor4"
+/turf/unsimulated/floor/shuttle/red{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "dK" = (
@@ -111,9 +108,8 @@
 	},
 /obj/mapping_helper/access/security,
 /obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor4"
+/turf/unsimulated/floor/shuttle/red{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "fK" = (
@@ -164,9 +160,8 @@
 	},
 /obj/mapping_helper/access/medical,
 /obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor3"
+/turf/unsimulated/floor/shuttle/white{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "jn" = (
@@ -312,9 +307,8 @@
 	dir = 4
 	},
 /obj/machinery/drainage,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor3"
+/turf/unsimulated/floor/shuttle/white{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "pw" = (
@@ -323,9 +317,8 @@
 	dir = 4
 	},
 /obj/machinery/light/small/floor,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor2"
+/turf/unsimulated/floor/shuttle/yellow{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "pV" = (
@@ -385,9 +378,8 @@
 	dir = 4
 	},
 /obj/machinery/drainage,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor4"
+/turf/unsimulated/floor/shuttle/red{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "tm" = (
@@ -648,9 +640,8 @@
 	dir = 8
 	},
 /obj/machinery/light/small/floor,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor3"
+/turf/unsimulated/floor/shuttle/white{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "Gl" = (
@@ -719,9 +710,8 @@
 	dir = 4
 	},
 /obj/machinery/drainage,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor2"
+/turf/unsimulated/floor/shuttle/yellow{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "Kn" = (
@@ -850,9 +840,8 @@
 	},
 /obj/mapping_helper/access/heads,
 /obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/shuttle{
-	dir = 8;
-	icon_state = "floor2"
+/turf/unsimulated/floor/shuttle/yellow{
+	dir = 4
 	},
 /area/shuttle/escape/centcom)
 "VI" = (

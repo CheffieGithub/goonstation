@@ -760,9 +760,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-L"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "oM" = (
 /obj/table/regal/auto,
@@ -881,9 +880,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "uE" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -964,9 +962,8 @@
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-M"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xf" = (
 /obj/stool/bench/blue/auto,
@@ -1431,7 +1428,7 @@
 /area/shuttle/escape/centcom)
 "Ms" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/marble/black,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Ng" = (
 /obj/item/reagent_containers/food/snacks/donut/custom/frosted{
@@ -1645,10 +1642,6 @@
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"SM" = (
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/marble,
-/area/shuttle/escape/centcom)
 "SX" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 5;
@@ -2398,10 +2391,10 @@ Cz
 Cz
 lq
 dM
-SM
-SM
-SM
-SM
+Ms
+Ms
+Ms
+Ms
 ce
 ea
 js
@@ -2426,10 +2419,10 @@ Fc
 Az
 Az
 Vt
-SM
+Ms
 Ng
 nr
-SM
+Ms
 QO
 ea
 eV
@@ -2454,10 +2447,10 @@ Xm
 Az
 Az
 Gj
-SM
+Ms
 nr
 nr
-SM
+Ms
 iV
 ea
 ff
@@ -2482,10 +2475,10 @@ zk
 zk
 aQ
 ej
-SM
-SM
-SM
-SM
+Ms
+Ms
+Ms
+Ms
 VE
 ea
 XM

@@ -185,11 +185,8 @@
 	},
 /area/shuttle/escape/centcom)
 "hg" = (
-/obj/mapping_helper/wingrille_spawn/auto,
-/turf/unsimulated/floor/setpieces/bloodfloor{
-	icon_state = "bloodfloor_2";
-	name = "Fleshy Floor"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "hL" = (
 /obj/decal/tile_edge/line/orange{
@@ -426,11 +423,11 @@
 	},
 /area/shuttle/escape/centcom)
 "pM" = (
-/obj/mapping_helper/wingrille_spawn/auto,
 /obj/machinery/shuttle/engine/heater{
 	dir = 8;
 	icon_state = "alt_heater-M"
 	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "pV" = (
@@ -449,6 +446,17 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"qs" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
+/turf/unsimulated/wall/auto/adventure/meat/meatier,
+/area/shuttle/escape/centcom)
 "qE" = (
 /obj/grassplug{
 	desc = "Gross";
@@ -536,6 +544,9 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"wm" = (
+/turf/unsimulated/wall/auto/adventure/meat/meatier,
+/area/shuttle/escape/centcom)
 "ww" = (
 /obj/pool_springboard,
 /turf/unsimulated/floor/setpieces/bloodfloor{
@@ -749,11 +760,11 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "EY" = (
-/obj/mapping_helper/wingrille_spawn/auto,
 /obj/machinery/shuttle/engine/heater{
 	dir = 8;
 	icon_state = "alt_heater-L"
 	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Fk" = (
@@ -854,13 +865,6 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
-"HL" = (
-/obj/machinery/shuttle/engine/propulsion{
-	dir = 8;
-	icon_state = "alt_propulsion"
-	},
-/turf/unsimulated/outdoors/grass,
-/area/shuttle/escape/centcom)
 "IW" = (
 /obj/rack,
 /obj/random_item_spawner/tools/maybe_few,
@@ -868,11 +872,11 @@
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
 "Jj" = (
-/turf/unsimulated/wall/setpieces/bloodwall{
-	icon_state = "bloodwall_2";
-	name = "Meaty Wall";
-	opacity = 0
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
 	},
+/turf/unsimulated/wall/auto/adventure/meat/meatier,
 /area/shuttle/escape/centcom)
 "Ju" = (
 /obj/machinery/light/small/floor/harsh,
@@ -902,13 +906,6 @@
 	name = "Fleshy Floor"
 	},
 /area/shuttle/escape/centcom)
-"Kn" = (
-/obj/machinery/door/airlock/pyro/external,
-/obj/decal/tile_edge/stripe/extra_big{
-	icon_state = "delivery2"
-	},
-/turf/unsimulated/outdoors/grass,
-/area/centcom)
 "Mx" = (
 /turf/unsimulated/wall/generic{
 	dir = 4;
@@ -1048,11 +1045,11 @@
 	},
 /area/centcom)
 "VM" = (
-/obj/mapping_helper/wingrille_spawn/auto,
 /obj/machinery/shuttle/engine/heater{
 	dir = 8;
 	icon_state = "alt_heater-R"
 	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "VU" = (
@@ -1339,21 +1336,21 @@ ym
 VU
 RT
 kK
-HL
-Jj
-Jj
+Gl
+wm
+wm
 EY
 pM
 VM
-Jj
-Jj
-Jj
+wm
+wm
+wm
 EY
 pM
 VM
-Jj
-Jj
-HL
+wm
+wm
+Gl
 qW
 kM
 AL
@@ -1367,8 +1364,8 @@ bq
 Hq
 PS
 kK
-Jj
-Jj
+qs
+wm
 ez
 Rl
 Rl
@@ -1380,7 +1377,7 @@ hg
 uh
 AO
 AO
-Jj
+wm
 Jj
 Ui
 Ha
@@ -1395,21 +1392,21 @@ RT
 zh
 ri
 Da
-Jj
+wm
 dw
 yi
 yi
 pd
 yi
-Jj
+wm
 AO
 an
-Jj
-Jj
+wm
+wm
 pG
 yi
 dw
-Jj
+wm
 qW
 RT
 RT
@@ -1423,21 +1420,21 @@ Cl
 zZ
 iQ
 kK
-Jj
+wm
 pG
 yi
-Jj
+wm
 hg
-Jj
-Jj
+wm
+wm
 AO
 AO
 AO
-Jj
-Jj
+wm
+wm
 yi
 cn
-Jj
+wm
 qW
 EF
 zZ
@@ -1451,10 +1448,10 @@ Ao
 Oy
 zG
 kK
-Jj
-Jj
+wm
+wm
 Kh
-Jj
+wm
 pd
 yi
 yi
@@ -1462,10 +1459,10 @@ yi
 Gh
 yi
 pd
-Jj
+wm
 Kh
 hg
-Jj
+wm
 qW
 yf
 Oy
@@ -1534,7 +1531,7 @@ aM
 aM
 aM
 pV
-Kn
+yr
 gN
 yi
 yi
@@ -1550,7 +1547,7 @@ aG
 yi
 yi
 gN
-Kn
+yr
 Op
 aM
 aM
@@ -1650,15 +1647,15 @@ fK
 hg
 AO
 yi
-Jj
-Jj
+wm
+wm
 hg
-Jj
+wm
 pw
-Jj
+wm
 hg
-Jj
-Jj
+wm
+wm
 yi
 AO
 hg
@@ -1675,10 +1672,10 @@ Ao
 RW
 zG
 kK
-Jj
+wm
 dw
 yi
-Jj
+wm
 ch
 Sp
 Cp
@@ -1686,10 +1683,10 @@ Cp
 Cp
 Sp
 sT
-Jj
+wm
 yi
 dw
-Jj
+wm
 qW
 yf
 RW
@@ -1703,10 +1700,10 @@ Ao
 Ao
 of
 kK
-Jj
-Jj
+wm
+wm
 kB
-Jj
+wm
 sT
 MM
 ch
@@ -1714,10 +1711,10 @@ Bp
 sT
 MM
 sT
-Jj
+wm
 kB
-Jj
-Jj
+wm
+wm
 qW
 tm
 Ao
@@ -1732,19 +1729,19 @@ Ao
 ev
 MP
 kU
-Jj
+wm
 hg
-Jj
-hg
-hg
-hg
-Jj
+wm
 hg
 hg
 hg
-Jj
+wm
 hg
-Jj
+hg
+hg
+wm
+hg
+wm
 Jz
 Gv
 dK

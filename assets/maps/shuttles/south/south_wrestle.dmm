@@ -48,8 +48,9 @@
 /area/centcom/outside)
 "ce" = (
 /obj/machinery/shuttle/engine/propulsion{
-	dir = 9;
-	icon_state = "alt_propulsion"
+	dir = 1;
+	icon_state = "alt_propulsion";
+	pixel_y = 1
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
@@ -92,23 +93,13 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
-"es" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-R"
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
-/area/shuttle/escape/centcom)
 "fg" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-L"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "fl" = (
 /turf/unsimulated/floor/carpet/green/fancy/edge/nw,
@@ -179,7 +170,7 @@
 /obj/decal/stage_edge{
 	layer = 2.9
 	},
-/turf/unsimulated/floor/wood/three,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "ir" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -297,10 +288,6 @@
 /obj/item/reagent_containers/food/snacks/burger/roburger,
 /obj/item/reagent_containers/food/snacks/burger/tikiburger,
 /turf/unsimulated/floor/white/checker2,
-/area/shuttle/escape/centcom)
-"mr" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/wood/three,
 /area/shuttle/escape/centcom)
 "mu" = (
 /obj/stool/chair/boxingrope_corner{
@@ -585,7 +572,7 @@
 /obj/indestructible/shuttle_corner{
 	dir = 8
 	},
-/turf/unsimulated/floor/shiny,
+/turf/simulated/floor/airless/black/grime,
 /area/shuttle/escape/centcom)
 "vN" = (
 /obj/decal/fakeobjects/pipe{
@@ -667,7 +654,7 @@
 /area/shuttle/escape/centcom)
 "xT" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/white,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "ye" = (
 /obj/table/auto,
@@ -734,9 +721,8 @@
 	dir = 1;
 	icon_state = "alt_heater-M"
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "AA" = (
 /turf/unsimulated/floor/shuttlebay,
@@ -762,7 +748,9 @@
 	dir = 0;
 	icon_state = "7"
 	},
-/turf/space,
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "7"
+	},
 /area/shuttle/escape/centcom)
 "Bj" = (
 /obj/decal/tile_edge/line/black{
@@ -801,6 +789,11 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"BG" = (
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "7"
+	},
+/area/shuttle/escape/centcom)
 "BQ" = (
 /obj/decal/boxingropeenter{
 	dir = 4
@@ -808,14 +801,12 @@
 /turf/unsimulated/floor/specialroom/gym,
 /area/shuttle/escape/centcom)
 "CB" = (
-/obj/indestructible/shuttle_corner{
-	dir = 0
-	},
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-R"
 	},
-/turf/space,
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "CH" = (
 /obj/indestructible/shuttle_corner{
@@ -968,7 +959,7 @@
 	hardened = 1
 	},
 /obj/mapping_helper/access/security,
-/turf/unsimulated/floor/wood/three,
+/turf/unsimulated/floor/grey,
 /area/shuttle/escape/centcom)
 "He" = (
 /turf/unsimulated/floor/carpet/green/fancy/innercorner/nw,
@@ -987,16 +978,6 @@
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
-"Io" = (
-/obj/indestructible/shuttle_corner{
-	dir = 1
-	},
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-L"
-	},
-/turf/space,
-/area/shuttle/escape/centcom)
 "Ir" = (
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor{
@@ -1154,6 +1135,15 @@
 	icon_state = "floor"
 	},
 /area/centcom)
+"MD" = (
+/obj/indestructible/shuttle_corner{
+	dir = 0;
+	icon_state = "7"
+	},
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "3"
+	},
+/area/shuttle/escape/centcom)
 "MJ" = (
 /obj/stool/chair/couch/red{
 	dir = 5
@@ -1166,7 +1156,7 @@
 /area/shuttle/escape/centcom)
 "Nt" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/simulated/floor/airless/black/grime,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "NG" = (
 /turf/simulated/wall/auto/shuttle{
@@ -1677,13 +1667,13 @@ Bh
 ve
 ve
 ve
-ve
-mr
+BG
+xT
 sk
-mr
-mr
+xT
+xT
 sk
-mr
+xT
 Gv
 QB
 ra
@@ -1700,7 +1690,7 @@ DB
 XE
 nb
 CH
-Bh
+MD
 vL
 KU
 ph
@@ -1923,7 +1913,7 @@ og
 QF
 bt
 ce
-es
+CB
 pm
 oB
 xQ
@@ -1979,7 +1969,7 @@ og
 QF
 bt
 ce
-Io
+fg
 mh
 ZL
 ZL
@@ -2042,12 +2032,12 @@ ve
 ve
 NG
 ve
-mr
+xT
 sk
-mr
-mr
+xT
+xT
 sk
-mr
+xT
 Hf
 km
 AM
