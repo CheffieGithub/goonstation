@@ -11,20 +11,11 @@
 "ad" = (
 /turf/simulated/floor/shuttlebay,
 /area/prefab/replicant_lab)
-"ae" = (
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "af" = (
 /obj/decal/cleanable/oil{
 	icon_state = "floor2"
 	},
 /turf/variableTurf/clear,
-/area/prefab/replicant_lab)
-"ag" = (
-/obj/critter/gunbot/drone/buzzdrone,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "ah" = (
 /obj/machinery/door/airlock/pyro/classic{
@@ -53,21 +44,9 @@
 	},
 /turf/simulated/floor/shuttlebay,
 /area/prefab/replicant_lab)
-"am" = (
-/obj/decal/cleanable/blood{
-	icon_state = "floor6"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "an" = (
 /obj/decal/fakeobjects/robot,
 /turf/simulated/floor/plating/random,
-/area/prefab/replicant_lab)
-"ao" = (
-/obj/decal/fakeobjects/robot,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "ap" = (
 /obj/mapping_helper/wingrille_spawn/auto/crystal,
@@ -76,14 +55,6 @@
 "aq" = (
 /obj/machinery/bot/floorbot,
 /turf/simulated/floor/shuttlebay,
-/area/prefab/replicant_lab)
-"ar" = (
-/obj/decal/cleanable/blood{
-	icon_state = "drip3"
-	},
-/obj/decal/fakeobjects/robot,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "as" = (
 /obj/decal/cleanable/blood{
@@ -116,14 +87,6 @@
 "aw" = (
 /turf/variableTurf/clear,
 /area/space)
-"ax" = (
-/obj/decal/cleanable/oil{
-	icon_state = "streak2"
-	},
-/obj/item/parts/robot_parts/chest/light,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "ay" = (
 /obj/decal/cleanable/blood{
 	icon_state = "lum"
@@ -149,12 +112,6 @@
 	icon_state = "drip3"
 	},
 /obj/decal/fakeobjects/robot,
-/turf/simulated/floor/shuttlebay,
-/area/prefab/replicant_lab)
-"aC" = (
-/obj/critter/gunbot/heavy{
-	atksilicon = 0
-	},
 /turf/simulated/floor/shuttlebay,
 /area/prefab/replicant_lab)
 "aD" = (
@@ -225,30 +182,11 @@
 "aN" = (
 /turf/variableTurf/clear,
 /area/prefab/replicant_lab)
-"aO" = (
-/obj/decal/cleanable/blood{
-	icon_state = "drip3"
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "aP" = (
 /obj/item/electronics/capacitor,
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
-/area/prefab/replicant_lab)
-"aQ" = (
-/obj/item/electronics/battery,
-/obj/decal/cleanable/blood/tracks{
-	dir = 8;
-	icon_state = "tracks"
-	},
-/obj/decal/cleanable/blood{
-	icon_state = "smear3"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "aR" = (
 /obj/decal/fakeobjects/robot,
@@ -313,12 +251,6 @@
 	icon_state = "engine-blue"
 	},
 /area/prefab/replicant_lab)
-"aY" = (
-/obj/item/electronics/screen,
-/obj/decal/fakeobjects/brokenportal,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "aZ" = (
 /obj/decal/cleanable/oil{
 	icon_state = "floor5"
@@ -365,10 +297,6 @@
 	icon_state = "engine-blue"
 	},
 /area/prefab/replicant_lab)
-"bf" = (
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "bg" = (
 /obj/decal/cleanable/oil{
 	icon_state = "floor5"
@@ -401,45 +329,6 @@
 	icon_state = "engine-blue"
 	},
 /area/prefab/replicant_lab)
-"bl" = (
-/obj/decal/cleanable/blood{
-	icon_state = "drip3"
-	},
-/obj/decal/cleanable/robot_debris,
-/obj/decal/cleanable/blood/tracks{
-	dir = 5;
-	icon_state = "tracks"
-	},
-/obj/decal/cleanable/blood{
-	icon_state = "smear3"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bm" = (
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib3"
-	},
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib3"
-	},
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib3"
-	},
-/obj/decal/cleanable/oil{
-	icon_state = "floor2"
-	},
-/obj/decal/cleanable/robot_debris,
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib7"
-	},
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib7"
-	},
-/obj/item/electronics/frame,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "bn" = (
 /obj/item/device/flash,
 /turf/simulated/floor/shuttlebay,
@@ -460,37 +349,6 @@
 	icon_state = "engine-blue"
 	},
 /area/prefab/replicant_lab)
-"br" = (
-/obj/decal/cleanable/robot_debris,
-/obj/decal/fakeobjects/robot,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bs" = (
-/obj/decal/cleanable/blood{
-	icon_state = "drip3"
-	},
-/obj/decal/fakeobjects/robot,
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib6"
-	},
-/obj/decal/cleanable/blood/tracks{
-	dir = 4;
-	icon_state = "tracks"
-	},
-/obj/decal/fakeobjects/robot,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bt" = (
-/obj/item/parts/robot_parts/arm/right/sturdy,
-/obj/decal/cleanable/blood/tracks{
-	dir = 9;
-	icon_state = "tracks"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "bv" = (
 /obj/decal/cleanable/oil{
 	icon_state = "floor2"
@@ -506,11 +364,6 @@
 	},
 /turf/simulated/floor/shuttlebay,
 /area/prefab/replicant_lab)
-"bx" = (
-/obj/critter/gunbot/drone/buzzdrone,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "by" = (
 /obj/item/organ/brain,
 /obj/decal/fakeobjects/robot,
@@ -525,48 +378,12 @@
 	icon_state = "engine-blue"
 	},
 /area/prefab/replicant_lab)
-"bA" = (
-/obj/decal/cleanable/blood{
-	icon_state = "drip3"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bB" = (
-/obj/decal/cleanable/blood/tracks{
-	dir = 1;
-	icon_state = "tracks"
-	},
-/obj/item/electronics/capacitor,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bC" = (
-/obj/decal/fakeobjects/robot,
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gibdown"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "bD" = (
 /obj/decal/cleanable/blood{
 	icon_state = "floor5"
 	},
 /obj/machinery/light/incandescent/blueish,
 /turf/simulated/floor/shuttlebay,
-/area/prefab/replicant_lab)
-"bE" = (
-/obj/decal/fakeobjects/robot{
-	icon_state = "replicant_hurt"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bF" = (
-/obj/storage/crate/robotics_supplies,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "bG" = (
 /obj/decal/fakeobjects/robot,
@@ -585,11 +402,6 @@
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
-/area/prefab/replicant_lab)
-"bI" = (
-/obj/machinery/bot/floorbot,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "bJ" = (
 /obj/item/parts/robot_parts/robot_frame,
@@ -620,14 +432,6 @@
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
-/area/prefab/replicant_lab)
-"bN" = (
-/obj/decal/cleanable/blood/tracks{
-	dir = 1;
-	icon_state = "tracks"
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "bO" = (
 /obj/item/device/multitool,
@@ -677,20 +481,6 @@
 	icon_state = "gib3"
 	},
 /obj/decal/fakeobjects/robot,
-/turf/simulated/floor/shuttlebay{
-	icon_state = "engine-blue"
-	},
-/area/prefab/replicant_lab)
-"bV" = (
-/obj/item/electronics/resistor,
-/obj/decal/fakeobjects/robot,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"bW" = (
-/obj/critter/gunbot/heavy{
-	atksilicon = 0
-	},
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
@@ -749,13 +539,6 @@
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
-/area/prefab/replicant_lab)
-"ce" = (
-/obj/decal/cleanable/blood/tracks{
-	dir = 6
-	},
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "cf" = (
 /obj/item/screwdriver,
@@ -829,32 +612,6 @@
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
-/area/prefab/replicant_lab)
-"cp" = (
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib7"
-	},
-/obj/item/parts/human_parts/arm/right,
-/obj/item/parts/human_parts/leg/left,
-/obj/item/parts/human_parts/leg/left,
-/obj/item/parts/human_parts/leg/right,
-/obj/item/parts/robot_parts/arm/left/heavy,
-/obj/decal/cleanable/blood{
-	icon_state = "drip5"
-	},
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gib4"
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
-"cq" = (
-/obj/item/parts/human_parts/leg/right,
-/obj/item/parts/robot_parts/head/antique,
-/obj/item/scalpel,
-/obj/item/reagent_containers/patch/synthflesh,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 "cr" = (
 /obj/item/electronics/resistor,
@@ -947,12 +704,6 @@
 	icon_state = "engine-blue"
 	},
 /area/prefab/replicant_lab)
-"cD" = (
-/obj/item/sheet/steel/reinforced/fullstack,
-/obj/decal/fakeobjects/robot,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "cE" = (
 /obj/decal/cleanable/blood{
 	icon_state = "smear3"
@@ -1017,11 +768,6 @@
 	dir = 4
 	},
 /area/prefab/replicant_lab)
-"cM" = (
-/obj/machinery/recharge_station,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "cN" = (
 /obj/table/reinforced/chemistry/auto,
 /obj/item/ammo/power_cell,
@@ -1047,11 +793,6 @@
 /obj/item/reagent_containers/glass/oilcan,
 /turf/simulated/floor/black/grime,
 /area/prefab/replicant_lab)
-"cS" = (
-/obj/machinery/processor,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/prefab/replicant_lab)
 "cT" = (
 /obj/machinery/r_door_control{
 	id = "battledrone_podbay"
@@ -1076,6 +817,261 @@
 /turf/simulated/floor/shuttlebay{
 	icon_state = "engine-blue"
 	},
+/area/prefab/replicant_lab)
+"eb" = (
+/mob/living/critter/robotic/gunbot,
+/turf/simulated/floor/shuttlebay,
+/area/prefab/replicant_lab)
+"gk" = (
+/obj/item/electronics/screen,
+/obj/decal/fakeobjects/brokenportal,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"if" = (
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib7"
+	},
+/obj/item/parts/human_parts/arm/right,
+/obj/item/parts/human_parts/leg/left,
+/obj/item/parts/human_parts/leg/left,
+/obj/item/parts/human_parts/leg/right,
+/obj/item/parts/robot_parts/arm/left/heavy,
+/obj/decal/cleanable/blood{
+	icon_state = "drip5"
+	},
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib4"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"jC" = (
+/obj/critter/gunbot/drone/buzzdrone,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"kt" = (
+/obj/machinery/processor,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"qf" = (
+/obj/decal/cleanable/blood/tracks{
+	dir = 6
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"qg" = (
+/obj/item/parts/robot_parts/arm/right/sturdy,
+/obj/decal/cleanable/blood/tracks{
+	dir = 9;
+	icon_state = "tracks"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"qh" = (
+/obj/item/electronics/resistor,
+/obj/decal/fakeobjects/robot,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"qZ" = (
+/obj/decal/cleanable/blood{
+	icon_state = "drip3"
+	},
+/obj/decal/cleanable/robot_debris,
+/obj/decal/cleanable/blood/tracks{
+	dir = 5;
+	icon_state = "tracks"
+	},
+/obj/decal/cleanable/blood{
+	icon_state = "smear3"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"rl" = (
+/obj/critter/gunbot/drone/buzzdrone,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"rS" = (
+/obj/decal/cleanable/oil{
+	icon_state = "streak2"
+	},
+/obj/item/parts/robot_parts/chest/light,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"tE" = (
+/obj/item/electronics/battery,
+/obj/decal/cleanable/blood/tracks{
+	dir = 8;
+	icon_state = "tracks"
+	},
+/obj/decal/cleanable/blood{
+	icon_state = "smear3"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"ux" = (
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib3"
+	},
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib3"
+	},
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib3"
+	},
+/obj/decal/cleanable/oil{
+	icon_state = "floor2"
+	},
+/obj/decal/cleanable/robot_debris,
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib7"
+	},
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib7"
+	},
+/obj/item/electronics/frame,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"wo" = (
+/obj/decal/cleanable/blood{
+	icon_state = "drip3"
+	},
+/obj/decal/fakeobjects/robot,
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gib6"
+	},
+/obj/decal/cleanable/blood/tracks{
+	dir = 4;
+	icon_state = "tracks"
+	},
+/obj/decal/fakeobjects/robot,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Bj" = (
+/obj/decal/fakeobjects/robot,
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gibdown"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"BQ" = (
+/obj/decal/cleanable/blood/tracks{
+	dir = 1;
+	icon_state = "tracks"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Do" = (
+/obj/decal/cleanable/blood{
+	icon_state = "drip3"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Eh" = (
+/obj/decal/fakeobjects/robot{
+	icon_state = "replicant_hurt"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Gj" = (
+/obj/storage/crate/robotics_supplies,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"IO" = (
+/obj/decal/cleanable/blood{
+	icon_state = "drip3"
+	},
+/obj/decal/fakeobjects/robot,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"IU" = (
+/obj/decal/cleanable/blood/tracks{
+	dir = 1;
+	icon_state = "tracks"
+	},
+/obj/item/electronics/capacitor,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"JZ" = (
+/mob/living/critter/robotic/gunbot,
+/turf/simulated/floor/shuttlebay{
+	icon_state = "engine-blue"
+	},
+/area/prefab/replicant_lab)
+"KW" = (
+/obj/decal/cleanable/blood{
+	icon_state = "drip3"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Ll" = (
+/obj/item/parts/human_parts/leg/right,
+/obj/item/parts/robot_parts/head/antique,
+/obj/item/scalpel,
+/obj/item/reagent_containers/patch/synthflesh,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"NY" = (
+/obj/machinery/bot/floorbot,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"OL" = (
+/obj/decal/cleanable/blood{
+	icon_state = "floor6"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"PI" = (
+/obj/item/sheet/steel/reinforced/fullstack,
+/obj/decal/fakeobjects/robot,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Qk" = (
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"QD" = (
+/obj/decal/fakeobjects/robot,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"UX" = (
+/obj/machinery/recharge_station,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"VT" = (
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
+/area/prefab/replicant_lab)
+"Yl" = (
+/obj/decal/cleanable/robot_debris,
+/obj/decal/fakeobjects/robot,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/plating,
 /area/prefab/replicant_lab)
 
 (1,1,1) = {"
@@ -1143,8 +1139,8 @@ ac
 aa
 ad
 ad
-ae
-ax
+VT
+rS
 ad
 aI
 ad
@@ -1171,22 +1167,22 @@ aw
 (4,1,1) = {"
 aw
 aa
-ae
-am
-ae
+VT
+OL
+VT
 ad
 ad
 aJ
 ad
 ad
-bf
+Qk
 ad
 ad
 ad
 ad
 bO
 ad
-bf
+Qk
 cg
 ad
 ad
@@ -1201,8 +1197,8 @@ aw
 (5,1,1) = {"
 aw
 aa
-ae
-ae
+VT
+VT
 ad
 ad
 ad
@@ -1211,7 +1207,7 @@ aS
 ad
 ad
 bn
-bf
+Qk
 ad
 ad
 ad
@@ -1242,7 +1238,7 @@ aa
 aa
 aa
 bw
-bf
+Qk
 bK
 aa
 aa
@@ -1261,7 +1257,7 @@ aw
 (7,1,1) = {"
 aw
 aa
-ag
+jC
 ad
 aq
 ad
@@ -1271,14 +1267,14 @@ aT
 ba
 bg
 aa
-bx
-bf
+rl
+Qk
 ad
 aJ
 bR
 bY
 ch
-cp
+if
 cw
 aa
 ad
@@ -1308,7 +1304,7 @@ aa
 bS
 bZ
 ci
-cq
+Ll
 cx
 aa
 cJ
@@ -1382,9 +1378,9 @@ ab
 aw
 aa
 ai
-ao
+QD
 aa
-aC
+eb
 ap
 aN
 aN
@@ -1412,7 +1408,7 @@ ab
 aw
 aa
 aj
-ao
+QD
 as
 ai
 aa
@@ -1441,18 +1437,18 @@ ab
 (13,1,1) = {"
 aw
 aa
-ae
-ao
+VT
+QD
 at
 ad
 ad
-ar
+IO
 aV
 aR
 bi
 bp
 by
-bE
+Eh
 bL
 bk
 bk
@@ -1471,7 +1467,7 @@ ab
 (14,1,1) = {"
 aw
 aa
-ae
+VT
 al
 au
 au
@@ -1481,8 +1477,8 @@ aR
 bc
 bj
 bq
-ao
-bF
+QD
+Gj
 bM
 bk
 bT
@@ -1510,10 +1506,10 @@ aP
 aW
 aR
 bk
-br
+Yl
 bz
 bG
-bE
+Eh
 bP
 bU
 cc
@@ -1536,24 +1532,24 @@ ap
 af
 ap
 aG
-aQ
+tE
 aX
-aO
-bl
-bs
-bA
+Do
+qZ
+wo
+KW
 aR
 aR
 aR
-bV
+qh
 cd
 cm
 cu
 cB
 cH
 aa
-cM
-bf
+UX
+Qk
 cP
 aa
 aw
@@ -1569,20 +1565,20 @@ aH
 aR
 aR
 be
-ae
-bt
-bB
+VT
+qg
+IU
 bH
-bN
+BQ
 bQ
 bH
-ce
+qf
 cn
 cv
 cC
 aa
 aa
-bf
+Qk
 cP
 cR
 aa
@@ -1595,26 +1591,26 @@ ad
 ad
 ad
 aE
-ao
+QD
 aR
-ao
-ao
-bm
-aY
-bC
-bI
-bE
+QD
+QD
+ux
+gk
+Bj
+NY
+Eh
 bk
-bW
+JZ
 cf
 co
 bk
-cD
+PI
 aa
 aa
 cN
 cQ
-cS
+kt
 aa
 aw
 "}

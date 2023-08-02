@@ -3,7 +3,6 @@
 /turf/space,
 /area/space)
 "ab" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	tag = "icon-diagonalWall (WEST)";
 	icon_state = "diagonalWall";
@@ -14,7 +13,6 @@
 /turf/simulated/shuttle/wall,
 /area/shuttle/arrival/station)
 "ad" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	tag = "icon-diagonalWall (NORTH)";
 	icon_state = "diagonalWall";
@@ -52,15 +50,6 @@
 	icon_state = "wall_space"
 	},
 /area/shuttle/arrival/station)
-"ak" = (
-/obj/stool/chair{
-	dir = 1
-	},
-/obj/landmark{
-	name = "JoinLate"
-	},
-/turf/simulated/floor/shuttle,
-/area/shuttle/arrival/station)
 "al" = (
 /turf/simulated/wall,
 /area/hallway/primary/north)
@@ -80,12 +69,6 @@
 	icon_state = "wall";
 	dir = 4
 	},
-/area/shuttle/arrival/station)
-"ao" = (
-/obj/landmark{
-	name = "JoinLate"
-	},
-/turf/simulated/floor/shuttle,
 /area/shuttle/arrival/station)
 "ap" = (
 /turf/simulated/wall/r_wall,
@@ -164,12 +147,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/north)
-"aA" = (
-/obj/landmark{
-	name = "Observer-Start"
-	},
-/turf/simulated/floor/shuttle,
-/area/shuttle/arrival/station)
 "aB" = (
 /turf/simulated/floor,
 /area/engine/engineering)
@@ -481,17 +458,6 @@
 	},
 /turf/simulated/floor,
 /area/engine/engineering)
-"bu" = (
-/obj/landmark/start{
-	name = "Engineer"
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4;
-	icon_state = "intact-f";
-	layer = 3
-	},
-/turf/simulated/floor,
-/area/engine/engineering)
 "bv" = (
 /obj/machinery/atmospherics/pipe/manifold{
 	dir = 1
@@ -569,12 +535,6 @@
 	c_tag = "Chief Engineer's Office";
 	dir = 4;
 	network = "SS13"
-	},
-/turf/simulated/floor,
-/area/engine/engineering)
-"bE" = (
-/obj/landmark/start{
-	name = "Chief Engineer"
 	},
 /turf/simulated/floor,
 /area/engine/engineering)
@@ -927,12 +887,6 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor,
 /area/hallway/primary/north)
-"cr" = (
-/obj/landmark/start{
-	name = "Head of Security"
-	},
-/turf/space,
-/area/space)
 "cs" = (
 /obj/machinery/door/window/eastright{
 	name = "Chief Engineer's Office";
@@ -1213,13 +1167,6 @@
 	},
 /turf/simulated/floor,
 /area/hallway/primary/north)
-"cU" = (
-/obj/landmark{
-	name = "peststart"
-	},
-/obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/hallway/primary/north)
 "cV" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Crew";
@@ -1455,12 +1402,6 @@
 "dt" = (
 /turf/simulated/wall,
 /area/bridge)
-"du" = (
-/obj/landmark/start{
-	name = "Engineer"
-	},
-/turf/simulated/floor,
-/area/engine/engineering)
 "dv" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -1605,7 +1546,7 @@
 "dI" = (
 /obj/table,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/bridge)
@@ -1818,15 +1759,6 @@
 "ed" = (
 /obj/stool/chair{
 	dir = 1
-	},
-/turf/simulated/floor,
-/area/bridge)
-"ee" = (
-/obj/stool/chair{
-	dir = 1
-	},
-/obj/landmark/start{
-	name = "Head of Security"
 	},
 /turf/simulated/floor,
 /area/bridge)
@@ -2201,15 +2133,6 @@
 /area/bridge)
 "eT" = (
 /obj/table,
-/turf/simulated/floor,
-/area/bridge)
-"eU" = (
-/obj/stool/chair{
-	dir = 4
-	},
-/obj/landmark/start{
-	name = "Head of Personnel"
-	},
 /turf/simulated/floor,
 /area/bridge)
 "eV" = (
@@ -2990,16 +2913,6 @@
 	},
 /turf/simulated/floor,
 /area/crew_quarters/captain)
-"gJ" = (
-/obj/stool/bed,
-/obj/landmark/start{
-	name = "Captain"
-	},
-/obj/item/device/radio/intercom{
-	
-	},
-/turf/simulated/floor,
-/area/crew_quarters/captain)
 "gK" = (
 /obj/item/ammo/bullets/a357,
 /turf/simulated/floor/plating,
@@ -3236,60 +3149,6 @@
 /obj/machinery/atmospherics/pipe/manifold,
 /turf/simulated/floor,
 /area/hallway/primary/central)
-"hj" = (
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4;
-	icon_state = "intact-f";
-	layer = 3
-	},
-/obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/hallway/primary/central)
-"hk" = (
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4;
-	icon_state = "intact-f";
-	layer = 3
-	},
-/turf/simulated/floor,
-/area/hallway/primary/central)
-"hl" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4;
-	icon_state = "intact-f";
-	layer = 3
-	},
-/turf/simulated/floor,
-/area/hallway/primary/central)
 "hm" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -3431,6 +3290,13 @@
 /turf/simulated/floor,
 /area/engine/shield_gen{
 	name = "Pod Bay"
+	})
+"hB" = (
+/obj/stool,
+/obj/landmark/start/job/chaplain,
+/turf/simulated/floor,
+/area/crew_quarters/juryroom{
+	name = "Unemployment Office"
 	})
 "hC" = (
 /obj/machinery/light{
@@ -3690,7 +3556,7 @@
 /area/crew_quarters/courtroom)
 "is" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/crew_quarters/courtroom)
@@ -3736,30 +3602,6 @@
 /area/medical/research)
 "iz" = (
 /obj/machinery/computer/ATM,
-/turf/simulated/floor,
-/area/hallway/primary/east)
-"iA" = (
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/turf/simulated/floor,
-/area/hallway/primary/east)
-"iB" = (
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/hallway/primary/east)
-"iC" = (
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/obj/machinery/light{
-	tag = "icon-tube1 (EAST)";
-	icon_state = "tube1";
-	dir = 4
-	},
 /turf/simulated/floor,
 /area/hallway/primary/east)
 "iD" = (
@@ -3902,7 +3744,7 @@
 /obj/table,
 /obj/item/device/analyzer/healthanalyzer,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor/white,
 /area/medical/medbay)
@@ -4067,29 +3909,6 @@
 	},
 /turf/simulated/floor,
 /area/hallway/primary/central)
-"jr" = (
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/turf/simulated/floor,
-/area/hallway/primary/east)
-"js" = (
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/obj/landmark/start{
-	name = "Assistant"
-	},
-/obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/hallway/primary/east)
 "jt" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -4180,15 +3999,6 @@
 	},
 /turf/simulated/floor/white,
 /area/medical/medbay)
-"jG" = (
-/obj/stool/chair{
-	dir = 1
-	},
-/obj/landmark/start{
-	name = "Medical Doctor"
-	},
-/turf/simulated/floor/white,
-/area/medical/medbay)
 "jH" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -4272,12 +4082,6 @@
 	},
 /turf/simulated/floor,
 /area/crew_quarters/courtroom)
-"jR" = (
-/obj/landmark{
-	name = "blobstart"
-	},
-/turf/simulated/floor/black,
-/area/medical/medbay)
 "jS" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 5;
@@ -4361,12 +4165,6 @@
 	icon_state = "1-2";
 	d1 = 1;
 	d2 = 2
-	},
-/turf/simulated/floor/white,
-/area/medical/research)
-"kb" = (
-/obj/landmark/start{
-	name = "Geneticist"
 	},
 /turf/simulated/floor/white,
 /area/medical/research)
@@ -4677,12 +4475,6 @@
 	},
 /turf/simulated/floor,
 /area/crew_quarters/courtroom)
-"kQ" = (
-/obj/landmark/start{
-	name = "Medical Doctor"
-	},
-/turf/simulated/floor/white,
-/area/medical/medbay)
 "kR" = (
 /obj/machinery/door/window/eastright{
 	name = "Medbay";
@@ -4868,18 +4660,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold{
 	dir = 1
-	},
-/turf/simulated/floor/white,
-/area/medical/medbay)
-"lj" = (
-/obj/landmark/start{
-	name = "Medical Doctor"
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4;
-	icon_state = "intact-f";
-	initialize_directions = 12;
-	layer = 3
 	},
 /turf/simulated/floor/white,
 /area/medical/medbay)
@@ -5266,12 +5046,6 @@
 	},
 /turf/simulated/floor/white,
 /area/medical/research)
-"lZ" = (
-/obj/landmark/start{
-	name = "Roboticist"
-	},
-/turf/simulated/floor/white,
-/area/medical/research)
 "ma" = (
 /obj/machinery/computer/operating{
 	id = "robotics1"
@@ -5443,15 +5217,6 @@
 	dir = 8
 	},
 /obj/machinery/recharge_station,
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4
-	},
-/turf/simulated/floor/white,
-/area/medical/research)
-"mw" = (
-/obj/landmark/start{
-	name = "Roboticist"
-	},
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4
 	},
@@ -5810,7 +5575,7 @@
 "nl" = (
 /obj/secure_closet/personal,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/crew_quarters/quarters)
@@ -5845,12 +5610,6 @@
 /obj/machinery/atmospherics/pipe/simple,
 /turf/simulated/floor,
 /area/hallway/primary/central)
-"nr" = (
-/obj/landmark{
-	name = "blobstart"
-	},
-/turf/simulated/floor,
-/area/hallway/primary/central)
 "ns" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -5882,12 +5641,6 @@
 	},
 /turf/simulated/floor/white,
 /area/toxins/lab)
-"nv" = (
-/obj/landmark{
-	name = "peststart"
-	},
-/turf/simulated/floor/white,
-/area/toxins/lab)
 "nw" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/light{
@@ -5915,12 +5668,6 @@
 /area/crew_quarters/quarters)
 "nA" = (
 /obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/crew_quarters/quarters)
-"nB" = (
-/obj/landmark{
-	name = "blobstart"
-	},
 /turf/simulated/floor,
 /area/crew_quarters/quarters)
 "nC" = (
@@ -6011,12 +5758,6 @@
 	dir = 8
 	},
 /area/hallway/secondary/exit)
-"nQ" = (
-/obj/landmark{
-	name = "peststart"
-	},
-/turf/simulated/floor,
-/area/hallway/secondary/exit)
 "nR" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -6091,21 +5832,6 @@
 	icon_state = "2-4";
 	d1 = 2;
 	d2 = 4
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4
-	},
-/turf/simulated/floor,
-/area/hallway/primary/central)
-"oa" = (
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/obj/machinery/atmospherics/pipe/simple,
-/obj/landmark{
-	name = "peststart"
 	},
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4
@@ -6509,16 +6235,6 @@
 	},
 /turf/simulated/floor,
 /area/janitor)
-"oW" = (
-/obj/landmark/start{
-	name = "Janitor"
-	},
-/obj/machinery/camera{
-	c_tag = "Custodial Closet";
-	network = "SS13"
-	},
-/turf/simulated/floor,
-/area/janitor)
 "oX" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -6796,7 +6512,7 @@
 /obj/item/cleaner,
 /obj/item/cleaner,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/janitor)
@@ -6809,20 +6525,6 @@
 	},
 /turf/simulated/floor,
 /area/janitor)
-"pA" = (
-/obj/landmark/start{
-	name = "Cyborg"
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 6;
-	icon_state = "intact-f";
-	initialize_directions = 6;
-	layer = 3
-	},
-/turf/simulated/floor,
-/area/crew_quarters/juryroom{
-	name = "Unemployment Office"
-	})
 "pB" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4
@@ -6934,7 +6636,7 @@
 	network = "SS13"
 	},
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/security/main)
@@ -7053,41 +6755,14 @@
 /area/hallway/secondary/exit)
 "qb" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/hallway/secondary/exit)
 "qc" = (
 /turf/simulated/wall/r_wall,
 /area/hallway/secondary/exit)
-"qd" = (
-/obj/landmark/start{
-	name = "Cyborg"
-	},
-/obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/crew_quarters/juryroom{
-	name = "Unemployment Office"
-	})
 "qe" = (
-/turf/simulated/floor,
-/area/crew_quarters/juryroom{
-	name = "Unemployment Office"
-	})
-"qf" = (
-/obj/stool,
-/obj/landmark/start{
-	name = "Cyborg"
-	},
-/turf/simulated/floor,
-/area/crew_quarters/juryroom{
-	name = "Unemployment Office"
-	})
-"qg" = (
-/obj/stool,
-/obj/landmark/start{
-	name = "Quartermaster"
-	},
 /turf/simulated/floor,
 /area/crew_quarters/juryroom{
 	name = "Unemployment Office"
@@ -7262,7 +6937,7 @@
 "qF" = (
 /obj/closet/wardrobe/pink,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/crew_quarters/quarters)
@@ -7277,15 +6952,6 @@
 /area/crew_quarters/quarters)
 "qI" = (
 /obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/crew_quarters/juryroom{
-	name = "Unemployment Office"
-	})
-"qJ" = (
-/obj/stool,
-/obj/landmark/start{
-	name = "Chaplain"
-	},
 /turf/simulated/floor,
 /area/crew_quarters/juryroom{
 	name = "Unemployment Office"
@@ -7308,20 +6974,6 @@
 /area/crew_quarters/juryroom{
 	name = "Unemployment Office"
 	})
-"qM" = (
-/obj/cable{
-	icon_state = "1-2";
-	d1 = 1;
-	d2 = 2
-	},
-/obj/stool,
-/obj/landmark/start{
-	name = "Quartermaster"
-	},
-/turf/simulated/floor,
-/area/crew_quarters/juryroom{
-	name = "Unemployment Office"
-	})
 "qN" = (
 /obj/machinery/atmospherics/pipe/simple{
 	icon_state = "intact";
@@ -7331,7 +6983,7 @@
 /area/atmos)
 "qO" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /obj/machinery/computer/general_air_control{
 	frequency = 1441;
@@ -7585,12 +7237,6 @@
 	},
 /turf/simulated/floor,
 /area/security/main)
-"ru" = (
-/obj/landmark{
-	name = "blobstart"
-	},
-/turf/simulated/floor,
-/area/security/main)
 "rv" = (
 /obj/window/reinforced{
 	tag = "icon-rwindow (NORTH)";
@@ -7795,18 +7441,6 @@
 /obj/machinery/computer3/generic/secure_data,
 /turf/simulated/floor,
 /area/security/main)
-"rT" = (
-/obj/landmark/start{
-	name = "Security Officer"
-	},
-/turf/simulated/floor,
-/area/security/main)
-"rU" = (
-/obj/landmark/start{
-	name = "Detective"
-	},
-/turf/simulated/floor,
-/area/security/main)
 "rV" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -7939,16 +7573,6 @@
 	tag = "icon-intact (NORTH)";
 	icon_state = "intact";
 	dir = 1
-	},
-/turf/simulated/floor,
-/area/atmos)
-"sk" = (
-/obj/machinery/atmospherics/filter{
-	dir = 1;
-	icon_state = "intact_on";
-	name = "Plasma filter";
-	on = 1;
-	tag = "icon-intact_off (NORTH)"
 	},
 /turf/simulated/floor,
 /area/atmos)
@@ -8254,17 +7878,6 @@
 /obj/machinery/door/window/southright,
 /turf/simulated/floor,
 /area/crew_quarters/cafeteria)
-"sV" = (
-/obj/machinery/atmospherics/filter{
-	dir = 1;
-	filter_type = 3;
-	icon_state = "intact_on";
-	name = "Carbon Dioxide filter";
-	on = 1;
-	tag = "icon-intact_off (NORTH)"
-	},
-/turf/simulated/floor,
-/area/atmos)
 "sW" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 10;
@@ -8345,7 +7958,6 @@
 /turf/simulated/floor,
 /area/atmos)
 "tf" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -8357,7 +7969,6 @@
 	},
 /area/syndicate_station)
 "th" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -8377,7 +7988,7 @@
 	c_tag = "Bar"
 	},
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor/specialroom/bar,
 /area/crew_quarters/bar)
@@ -8426,7 +8037,7 @@
 /area/crew_quarters/cafeteria)
 "tr" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor/white,
 /area/crew_quarters/cafeteria)
@@ -8483,26 +8094,6 @@
 	},
 /turf/simulated/floor,
 /area/atmos)
-"tx" = (
-/obj/machinery/atmospherics/filter{
-	dir = 4;
-	filter_type = 2;
-	icon_state = "intact_on";
-	name = "Nitrogen filter";
-	on = 1
-	},
-/turf/simulated/floor,
-/area/atmos)
-"ty" = (
-/obj/machinery/atmospherics/filter{
-	dir = 4;
-	filter_type = 1;
-	icon_state = "intact_on";
-	name = "Oxygen filter";
-	on = 1
-	},
-/turf/simulated/floor,
-/area/atmos)
 "tz" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 9;
@@ -8540,22 +8131,6 @@
 	id = "pmix_control";
 	mixerid = "plasma_mixer";
 	name = "Plasma Mixer Control"
-	},
-/turf/simulated/floor,
-/area/atmos)
-"tD" = (
-/obj/machinery/atmospherics/mixer{
-	dir = 1;
-	frequency = 1439;
-	icon_state = "intact_on";
-	id_tag = "plasma_mixer";
-	master_id = "pmix_control";
-	name = "Plasma Gas mixer";
-	node1_concentration = 0;
-	node2_concentration = 1;
-	on = 1;
-	tag = "icon-intact_on (NORTH)";
-	target_pressure = 4500
 	},
 /turf/simulated/floor,
 /area/atmos)
@@ -8635,29 +8210,7 @@
 /obj/stool,
 /turf/simulated/floor/specialroom/bar,
 /area/crew_quarters/bar)
-"tO" = (
-/obj/machinery/atmospherics/pipe/manifold{
-	dir = 4;
-	initialize_directions = 11
-	},
-/obj/landmark{
-	name = "blobstart"
-	},
-/turf/simulated/floor/specialroom/bar,
-/area/crew_quarters/bar)
 "tP" = (
-/turf/simulated/floor/specialroom/bar,
-/area/crew_quarters/bar)
-"tQ" = (
-/obj/stool,
-/obj/landmark/start{
-	name = "Head of Security"
-	},
-/obj/cable{
-	icon_state = "1-2";
-	d1 = 1;
-	d2 = 2
-	},
 /turf/simulated/floor/specialroom/bar,
 /area/crew_quarters/bar)
 "tR" = (
@@ -8665,12 +8218,6 @@
 	dir = 8;
 	icon_state = "reinf_tabledir";
 	tag = "icon-reinf_tabledir"
-	},
-/turf/simulated/floor/specialroom/bar,
-/area/crew_quarters/bar)
-"tS" = (
-/obj/landmark/start{
-	name = "Bartender"
 	},
 /turf/simulated/floor/specialroom/bar,
 /area/crew_quarters/bar)
@@ -8712,14 +8259,6 @@
 /area/syndicate_station)
 "tY" = (
 /obj/table,
-/turf/simulated/floor/specialroom/bar,
-/area/crew_quarters/bar)
-"tZ" = (
-/obj/landmark/start{
-	name = "Clown"
-	},
-/obj/stool,
-/obj/machinery/atmospherics/pipe/simple,
 /turf/simulated/floor/specialroom/bar,
 /area/crew_quarters/bar)
 "ua" = (
@@ -8839,22 +8378,6 @@
 	},
 /turf/simulated/floor,
 /area/atmos)
-"uk" = (
-/obj/machinery/atmospherics/mixer{
-	dir = 1;
-	frequency = 1439;
-	icon_state = "intact_on";
-	id_tag = "co2_mixer";
-	master_id = "co2mix_control";
-	name = "CO2 Gas mixer";
-	node1_concentration = 0;
-	node2_concentration = 1;
-	on = 1;
-	tag = "icon-intact_on (NORTH)";
-	target_pressure = 4500
-	},
-/turf/simulated/floor,
-/area/atmos)
 "ul" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light,
@@ -8951,12 +8474,6 @@
 	},
 /turf/simulated/floor/white,
 /area/crew_quarters/cafeteria)
-"uw" = (
-/obj/landmark/start{
-	name = "Chef"
-	},
-/turf/simulated/floor/white,
-/area/crew_quarters/cafeteria)
 "ux" = (
 /obj/machinery/camera{
 	c_tag = "Atmos SouthWest";
@@ -9023,7 +8540,6 @@
 	initialize_directions = 6;
 	layer = 3
 	},
-/turf/space,
 /turf/simulated/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -9070,7 +8586,6 @@
 	},
 /area/syndicate_station)
 "uI" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -9106,39 +8621,12 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor,
 /area/atmos)
-"uN" = (
-/obj/machinery/atmospherics/mixer{
-	dir = 4;
-	frequency = 1439;
-	icon_state = "intact_on";
-	id_tag = "oxygen_mixer";
-	master_id = "nomix_control";
-	name = "Nitrogen/Oxygen Gas mixer";
-	node1_concentration = 0.2;
-	node2_concentration = 0.8;
-	on = 1;
-	tag = "icon-intact_on (EAST)";
-	target_pressure = 4500
-	},
-/obj/cable{
-	icon_state = "1-2";
-	d1 = 1;
-	d2 = 2
-	},
-/turf/simulated/floor,
-/area/atmos)
 "uO" = (
 /obj/machinery/door/airlock/maintenance{
 	icon_state = "door_locked";
 	locked = 1;
 	name = "Atmospherics Access";
 	req_access_txt = "24"
-	},
-/turf/simulated/floor,
-/area/atmos)
-"uP" = (
-/obj/landmark{
-	name = "blobstart"
 	},
 /turf/simulated/floor,
 /area/atmos)
@@ -9201,23 +8689,6 @@
 "va" = (
 /obj/machinery/vending/seeds,
 /obj/machinery/atmospherics/pipe/simple,
-/turf/simulated/floor,
-/area/hydroponics)
-"vb" = (
-/obj/landmark/start{
-	name = "Botanist"
-	},
-/turf/simulated/floor,
-/area/hydroponics)
-"vc" = (
-/obj/landmark/start{
-	name = "Botanist"
-	},
-/obj/cable{
-	icon_state = "1-2";
-	d1 = 1;
-	d2 = 2
-	},
 /turf/simulated/floor,
 /area/hydroponics)
 "vd" = (
@@ -9377,17 +8848,6 @@
 	},
 /turf/simulated/floor,
 /area/hydroponics)
-"vy" = (
-/obj/landmark{
-	name = "peststart"
-	},
-/obj/cable{
-	icon_state = "4-8";
-	d1 = 4;
-	d2 = 8
-	},
-/turf/simulated/floor,
-/area/hydroponics)
 "vz" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -9479,17 +8939,6 @@
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
-	},
-/turf/simulated/floor/sanitary,
-/area/crew_quarters/kitchen)
-"vH" = (
-/obj/cable{
-	icon_state = "2-8";
-	d1 = 2;
-	d2 = 8
-	},
-/obj/landmark{
-	name = "blobstart"
 	},
 /turf/simulated/floor/sanitary,
 /area/crew_quarters/kitchen)
@@ -9652,7 +9101,6 @@
 /area/syndicate_station)
 "wd" = (
 /obj/machinery/atmospherics/pipe/simple,
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -9678,7 +9126,6 @@
 /obj/grille/steel,
 /obj/mapping_helper/turfs/damager,
 /turf/simulated/floor/plating/airless,
-/turf/simulated/floor/plating,
 /area/maintenance/maintcentral)
 "wi" = (
 /obj/table{
@@ -10270,7 +9717,6 @@
 /turf/space,
 /area/space)
 "xj" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -10294,7 +9740,6 @@
 	icon_state = "intact-f";
 	layer = 3
 	},
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -10327,7 +9772,6 @@
 	},
 /area/wizard_station)
 "xq" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 1;
 	icon_state = "diagonalWall3"
@@ -10393,7 +9837,6 @@
 	},
 /area/wizard_station)
 "xy" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 8;
 	icon_state = "diagonalWall3"
@@ -10514,14 +9957,6 @@
 	icon_state = "floor5"
 	},
 /area/wizard_station)
-"xK" = (
-/obj/landmark/start{
-	name = "wizard"
-	},
-/turf/simulated/floor/shuttle{
-	icon_state = "floor5"
-	},
-/area/wizard_station)
 "xL" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/shuttle{
@@ -10590,7 +10025,6 @@
 	},
 /area/wizard_station)
 "xR" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	icon_state = "diagonalWall3"
 	},
@@ -10602,7 +10036,6 @@
 	},
 /area/wizard_station)
 "xT" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -10638,7 +10071,6 @@
 	},
 /area/wizard_station)
 "xX" = (
-/turf/space,
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "diagonalWall3"
@@ -12326,16 +11758,6 @@
 	},
 /turf/simulated/floor/black,
 /area/turret_protected/aisat_interior)
-"BZ" = (
-/obj/cable{
-	icon_state = "0-2";
-	d2 = 2
-	},
-/obj/landmark/start{
-	name = "AI"
-	},
-/turf/simulated/floor/circuit,
-/area/turret_protected/aisat_interior)
 "Ca" = (
 /obj/cable{
 	d1 = 1;
@@ -12425,7 +11847,7 @@
 	dir = 1
 	},
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor/black,
 /area/turret_protected/aisat_interior)
@@ -12873,6 +12295,11 @@
 /obj/stool,
 /turf/simulated/floor/specialroom/bar,
 /area/space_diner)
+"Dy" = (
+/obj/landmark/pest,
+/obj/machinery/atmospherics/pipe/simple,
+/turf/simulated/floor,
+/area/hallway/primary/north)
 "Dz" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -14204,12 +13631,6 @@
 /turf/simulated/floor/white,
 /area/crew_quarters/hor)
 "Gk" = (
-/turf/simulated/floor/white,
-/area/crew_quarters/hor)
-"Gl" = (
-/obj/landmark/start{
-	name = "Research Director"
-	},
 /turf/simulated/floor/white,
 /area/crew_quarters/hor)
 "Gm" = (
@@ -16080,10 +15501,6 @@
 /obj/closet/emcloset,
 /turf/simulated/floor,
 /area/zeta)
-"JJ" = (
-/turf/simulated/floor,
-/area/russian/radiation,
-/area/zeta)
 "JK" = (
 /turf/simulated/wall,
 /area/artifact)
@@ -16321,8 +15738,6 @@
 	reinf = 1
 	},
 /obj/table,
-/obj/item/clothing/suit/straight_jacket,
-/obj/item/clothing/suit/straight_jacket,
 /obj/item/clothing/mask/muzzle,
 /obj/item/clothing/mask/muzzle,
 /turf/simulated/floor/shuttle{
@@ -17269,13 +16684,6 @@
 /obj/stool/chair,
 /turf/simulated/floor/white,
 /area/zeta/patients)
-"LT" = (
-/obj/stool/chair,
-/obj/landmark/start{
-	name = "Scientist"
-	},
-/turf/simulated/floor/white,
-/area/zeta/patients)
 "LU" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -17478,15 +16886,6 @@
 	},
 /turf/simulated/floor/circuit,
 /area/turret_protected/Zeta)
-"Mm" = (
-/obj/stool/chair{
-	dir = 4
-	},
-/obj/landmark/start{
-	name = "Scientist"
-	},
-/turf/simulated/floor/white,
-/area/zeta/patients)
 "Mn" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -17597,15 +16996,6 @@
 "My" = (
 /obj/stool/chair{
 	dir = 1
-	},
-/turf/simulated/floor/white,
-/area/zeta/patients)
-"Mz" = (
-/obj/stool/chair{
-	dir = 1
-	},
-/obj/landmark/start{
-	name = "Scientist"
 	},
 /turf/simulated/floor/white,
 /area/zeta/patients)
@@ -18028,36 +17418,6 @@
 "Nl" = (
 /turf/space,
 /area/fuck/main)
-"Nm" = (
-/turf/space/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "nw1"
-	},
-/area/fuck/main)
-"Nn" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "north1"
-	},
-/area/fuck/main)
-"No" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ne1"
-	},
-/area/fuck/main)
-"Np" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "nw1"
-	},
-/area/fuck/main)
-"Nq" = (
-/turf/space/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "north1"
-	},
-/area/fuck/main)
 "Nr" = (
 /turf/simulated/wall/auto/asteroid{
 	icon_state = "north1"
@@ -18068,12 +17428,6 @@
 	icon_state = "on1"
 	},
 /area/space)
-"Nt" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "inw1"
-	},
-/area/fuck/main)
 "Nu" = (
 /obj/landmark/mining{
 	icon_state = "mining2";
@@ -18084,18 +17438,6 @@
 /area/fuck/main)
 "Nv" = (
 /turf/simulated/wall/auto/asteroid,
-/area/fuck/main)
-"Nw" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "east1"
-	},
-/area/fuck/main)
-"Nx" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ine1"
-	},
 /area/fuck/main)
 "Ny" = (
 /turf/simulated/wall/auto/asteroid{
@@ -18416,12 +17758,6 @@
 	icon_state = "sw1"
 	},
 /area/fuck/main)
-"Oq" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "isw1"
-	},
-/area/fuck/main)
 "Or" = (
 /obj/landmark/mining{
 	icon_state = "mining3";
@@ -18628,24 +17964,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"OO" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "west1"
-	},
-/area/fuck/main)
-"OP" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "north1"
-	},
-/area/fuck/main)
-"OQ" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ne1"
-	},
-/area/fuck/main)
 "OR" = (
 /obj/lattice,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -18731,12 +18049,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"Pb" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "se1"
-	},
-/area/fuck/main)
 "Pc" = (
 /obj/cable{
 	icon_state = "0-4";
@@ -18957,12 +18269,6 @@
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
 /area/engine/miningoutpost)
-"Pu" = (
-/obj/landmark/start{
-	name = "Miner"
-	},
-/turf/simulated/floor/caution/south,
-/area/engine/miningoutpost)
 "Pv" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor,
@@ -18998,12 +18304,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/engine/miningoutpost)
-"Pz" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "sw1"
-	},
-/area/fuck/main)
 "PA" = (
 /obj/grille/steel,
 /obj/window/reinforced,
@@ -19033,28 +18333,11 @@
 /obj/machinery/computer/mining_shuttle,
 /turf/simulated/floor,
 /area/engine/miningoutpost)
-"PD" = (
-/obj/landmark/start{
-	name = "Miner"
-	},
-/turf/simulated/floor/caution/east,
-/area/engine/miningoutpost)
 "PE" = (
 /obj/submachine/cargopad{
 	name = "Mining Cargo Pad"
 	},
 /turf/simulated/floor,
-/area/engine/miningoutpost)
-"PF" = (
-/obj/landmark/start{
-	name = "Miner"
-	},
-/obj/cable{
-	icon_state = "2-4";
-	d1 = 2;
-	d2 = 4
-	},
-/turf/simulated/floor/caution/west,
 /area/engine/miningoutpost)
 "PG" = (
 /obj/cable{
@@ -19084,12 +18367,6 @@
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
 /area/engine/miningoutpost)
-"PI" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "east1"
-	},
-/area/fuck/main)
 "PJ" = (
 /obj/crate{
 	desc = "Storage for space GPSes.";
@@ -19266,12 +18543,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"Qe" = (
-/turf/space/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "west1"
-	},
-/area/fuck/main)
 "Qf" = (
 /obj/grille/steel,
 /obj/window/reinforced,
@@ -19374,18 +18645,6 @@
 /obj/secure_closet/engineering_mining,
 /turf/simulated/floor,
 /area/engine/miningoutpost)
-"Qq" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ise1"
-	},
-/area/fuck/main)
-"Qr" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "se1"
-	},
-/area/fuck/main)
 "Qs" = (
 /obj/landmark/mining{
 	icon_state = "mining2";
@@ -19516,12 +18775,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"QI" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ise1"
-	},
-/area/fuck/main)
 "QJ" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 4
@@ -19545,12 +18798,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/engine/miningoutpost)
-"QN" = (
-/turf/space,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "south1"
-	},
-/area/fuck/main)
 "QO" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -19570,12 +18817,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/engine/miningoutpost)
-"QR" = (
-/turf/space/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ise1"
-	},
-/area/fuck/main)
 "QS" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall_space"
@@ -19594,12 +18835,6 @@
 "QV" = (
 /turf/simulated/floor/plating,
 /area/engine/miningoutpost)
-"QW" = (
-/turf/simulated/floor/plating/airless/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ine1"
-	},
-/area/fuck/main)
 "QX" = (
 /obj/landmark/mining{
 	icon_state = "mining2";
@@ -19670,12 +18905,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"Rf" = (
-/turf/simulated/floor/plating/airless,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "oe1"
-	},
-/area/fuck/main)
 "Rg" = (
 /obj/landmark/mining{
 	icon_state = "mining3";
@@ -19684,12 +18913,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"Rh" = (
-/turf/simulated/floor/plating/airless,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "nw1"
-	},
-/area/fuck/main)
 "Ri" = (
 /obj/landmark/mining{
 	name = "CoVe2";
@@ -19702,18 +18925,6 @@
 	},
 /turf/simulated/wall/auto/asteroid,
 /area/space)
-"Rj" = (
-/turf/simulated/floor/plating/airless,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "ne1"
-	},
-/area/fuck/main)
-"Rk" = (
-/turf/simulated/floor/plating/airless,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "inw1"
-	},
-/area/fuck/main)
 "Rl" = (
 /obj/landmark/mining{
 	icon_state = "mining3";
@@ -19769,12 +18980,6 @@
 /obj/rack,
 /obj/item/disk/data/floppy/read_only/communications,
 /turf/simulated/floor/plating,
-/area/fuck/main)
-"Rs" = (
-/turf/space/asteroid,
-/turf/simulated/wall/auto/asteroid{
-	icon_state = "east1"
-	},
 /area/fuck/main)
 "Rt" = (
 /obj/landmark/mining{
@@ -22968,11 +22173,11 @@ aa
 aa
 aa
 aa
-xy
+Uy
 xp
 xG
 xp
-xR
+YG
 aa
 aa
 aa
@@ -23269,7 +22474,7 @@ aa
 aa
 aa
 aa
-xm
+VM
 xs
 xs
 xA
@@ -23279,7 +22484,7 @@ xu
 xB
 xs
 xs
-xY
+UK
 aa
 aa
 aa
@@ -24181,7 +23386,7 @@ aa
 aa
 aa
 aa
-xq
+UP
 xp
 xp
 xp
@@ -24191,7 +23396,7 @@ xO
 xp
 xp
 xp
-xT
+Wd
 aa
 aa
 aa
@@ -24334,7 +23539,7 @@ aa
 aa
 aa
 aa
-xq
+UP
 xp
 xt
 xt
@@ -24342,7 +23547,7 @@ xt
 xt
 xt
 xp
-xX
+Vh
 aa
 aa
 aa
@@ -24791,13 +23996,13 @@ aa
 aa
 aa
 cL
-xq
+UP
 xp
 xp
 xp
 xp
 xp
-xT
+Wd
 aa
 aa
 aa
@@ -25371,7 +24576,7 @@ uZ
 uZ
 uZ
 uZ
-we
+VJ
 pn
 aa
 aa
@@ -25979,7 +25184,7 @@ vd
 vy
 vO
 uZ
-wf
+YL
 pn
 aa
 aa
@@ -26435,7 +25640,7 @@ vg
 vz
 vO
 uZ
-wf
+YL
 pn
 aa
 aa
@@ -27497,7 +26702,7 @@ uw
 sS
 vn
 vE
-vS
+WZ
 vj
 qw
 pn
@@ -28107,7 +27312,7 @@ qR
 qU
 aa
 pn
-oG
+WA
 pn
 aa
 aa
@@ -30537,7 +29742,7 @@ tb
 uP
 qR
 qR
-uS
+YW
 pn
 wh
 pn
@@ -30992,7 +30197,7 @@ um
 tb
 qR
 uQ
-uS
+YW
 uQ
 pn
 qw
@@ -31280,7 +30485,7 @@ mW
 kG
 nG
 oh
-oG
+WA
 pn
 pk
 qu
@@ -31294,7 +30499,7 @@ qR
 tV
 ul
 tb
-uS
+YW
 qR
 uQ
 uQ
@@ -34121,7 +33326,7 @@ aa
 aa
 aa
 aa
-ab
+VQ
 ac
 ac
 ac
@@ -34272,7 +33477,7 @@ aa
 aa
 aa
 aa
-ab
+VQ
 ae
 af
 af
@@ -34728,7 +33933,7 @@ aa
 aa
 aa
 aa
-ad
+Yp
 ah
 af
 ak
@@ -34881,7 +34086,7 @@ aa
 aa
 aa
 aa
-ad
+Yp
 ac
 ac
 ac
@@ -40422,7 +39627,7 @@ aa
 aa
 aa
 aa
-tf
+WT
 tg
 tg
 tg
@@ -40430,7 +39635,7 @@ tg
 tg
 wY
 wt
-xj
+WO
 aa
 aa
 aa
@@ -40568,7 +39773,7 @@ aa
 aa
 aa
 aa
-tf
+WT
 tg
 tg
 tg
@@ -41017,11 +40222,11 @@ aa
 aa
 aa
 aa
-tf
+WT
 tg
 tg
 tg
-uD
+XB
 uU
 uY
 vJ
@@ -41038,7 +40243,7 @@ wO
 vJ
 xc
 uE
-uI
+ZN
 aa
 aa
 aa
@@ -41341,7 +40546,7 @@ wL
 tg
 tg
 uE
-xj
+WO
 aa
 aa
 aa
@@ -41949,7 +41154,7 @@ wM
 uE
 tg
 uE
-uI
+ZN
 aa
 aa
 aa
@@ -42233,11 +41438,11 @@ aa
 aa
 aa
 aa
-th
+ZZ
 tg
 tg
 tg
-uI
+ZN
 aa
 aa
 vL
@@ -42254,7 +41459,7 @@ wU
 tg
 tg
 uE
-xj
+WO
 aa
 aa
 aa
@@ -42546,7 +41751,7 @@ aa
 aa
 aa
 vM
-wd
+Yf
 vJ
 vJ
 wt
@@ -42854,7 +42059,7 @@ aa
 aa
 aa
 aa
-th
+ZZ
 tg
 tg
 tg
@@ -42862,7 +42067,7 @@ tg
 tg
 uH
 xc
-uI
+ZN
 aa
 aa
 aa
@@ -92120,7 +91325,7 @@ Ii
 Ii
 Jv
 Jv
-Kg
+VW
 KN
 HH
 aa
@@ -93183,7 +92388,7 @@ GI
 EM
 Jj
 Jy
-JJ
+EM
 Fo
 aa
 aa
@@ -120909,9 +120114,9 @@ aa
 aa
 aa
 aa
-Np
-OO
-Pz
+NB
+Og
+Op
 aa
 aa
 aa
@@ -121060,15 +120265,15 @@ aa
 aa
 aa
 aa
-Np
-Nt
+NB
+NN
 Nu
-Oq
-OO
-OO
-Qe
-OO
-Pz
+Om
+Og
+Og
+Og
+Og
+Op
 aa
 aa
 aa
@@ -121209,10 +120414,10 @@ aa
 aa
 aa
 aa
-Np
-OO
-OO
-Nt
+NB
+Og
+Og
+NN
 Nv
 Nu
 Nu
@@ -121220,20 +120425,20 @@ Nu
 Nv
 Nv
 Nv
-Oq
-OO
-Qe
-OO
-Pz
+Om
+Og
+Og
+Og
+Op
 aa
 aa
 aa
 aa
-Np
-OO
-OO
-OO
-Pz
+NB
+Og
+Og
+Og
+Op
 eH
 aa
 cL
@@ -121360,8 +120565,8 @@ Om
 Op
 aa
 aa
-Np
-Nt
+NB
+NN
 Nv
 NO
 Nv
@@ -121376,12 +120581,12 @@ Nv
 Nv
 Nv
 Nv
-Oq
-OO
-OO
-OO
-OO
-Nt
+Om
+Og
+Og
+Og
+Og
+NN
 Nv
 Nv
 Nv
@@ -121510,8 +120715,8 @@ Nv
 NW
 Nv
 Ol
-Np
-Nt
+NB
+NN
 Nv
 Nv
 Nv
@@ -121661,8 +120866,8 @@ Nv
 NW
 NW
 Nv
-Oq
-Nt
+Om
+NN
 Nv
 Nv
 Nv
@@ -121959,7 +121164,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -122111,7 +121316,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 NO
 Nv
@@ -122263,7 +121468,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -122297,7 +121502,7 @@ NP
 Nv
 Nv
 Nv
-Qq
+Ok
 NS
 NS
 Oo
@@ -122415,7 +121620,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -122429,17 +121634,17 @@ Nv
 Nv
 Nv
 Nv
-Pb
+Oo
 Ou
-OQ
-PI
-PI
-PI
-PI
-PI
-PI
-QI
-Pb
+NC
+NS
+NS
+NS
+NS
+NS
+NS
+Ok
+Oo
 Ou
 Nv
 NP
@@ -122449,7 +121654,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 aa
 aa
 aa
@@ -122567,7 +121772,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -122593,7 +121798,7 @@ Qu
 QJ
 QJ
 QS
-QW
+NY
 Nv
 Nv
 Nv
@@ -122601,7 +121806,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 aa
 aa
 aa
@@ -122719,7 +121924,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -122753,7 +121958,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 aa
 aa
 aa
@@ -122870,8 +122075,8 @@ aa
 aa
 aa
 aa
-Np
-Nt
+NB
+NN
 Nv
 Nv
 Nv
@@ -122905,7 +122110,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 aa
 aa
 aa
@@ -123022,7 +122227,7 @@ aa
 aa
 aa
 aa
-Nt
+NN
 Nv
 Nv
 Nv
@@ -123057,7 +122262,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 aa
 NB
 Op
@@ -123173,7 +122378,7 @@ aa
 aa
 aa
 aa
-Nm
+NB
 Nu
 Nv
 Nv
@@ -123186,7 +122391,7 @@ Nv
 Nv
 Nv
 Ou
-OP
+Nr
 Nv
 Nv
 Ou
@@ -123209,7 +122414,7 @@ Nv
 Nv
 Nv
 Nv
-Oq
+Om
 Og
 NO
 Om
@@ -123325,7 +122530,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nu
 Nu
 Nv
@@ -123338,8 +122543,8 @@ Nv
 Nv
 Nv
 Ou
-OQ
-Pb
+NC
+Oo
 Ou
 OR
 Ow
@@ -123477,7 +122682,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -123629,8 +122834,8 @@ aa
 aa
 aa
 aa
-No
-Nw
+NC
+NS
 Nv
 Nv
 NP
@@ -123782,7 +122987,7 @@ aa
 aa
 aa
 aa
-Np
+NB
 Nv
 Nv
 Nv
@@ -123933,8 +123138,8 @@ aa
 aa
 aa
 aa
-Np
-Nt
+NB
+NN
 Nv
 Nv
 Nv
@@ -124085,7 +123290,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -124116,9 +123321,9 @@ Pt
 PR
 Rb
 OR
-Rf
+Os
 Ow
-Rj
+NC
 Nv
 NQ
 NQ
@@ -124237,7 +123442,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -124389,8 +123594,8 @@ aa
 aa
 aa
 aa
-No
-Nx
+NC
+NY
 Nv
 Nv
 Nv
@@ -124421,8 +123626,8 @@ PR
 Rb
 OR
 Ow
-Rh
-Rk
+NB
+NN
 Nv
 Nv
 Nv
@@ -124542,7 +123747,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -124693,8 +123898,8 @@ aa
 aa
 aa
 aa
-Np
-Nt
+NB
+NN
 Nv
 Nv
 Nv
@@ -124845,7 +124050,7 @@ aa
 aa
 aa
 aa
-Nq
+Nr
 Nv
 Nv
 Nv
@@ -124997,7 +124202,7 @@ aa
 aa
 aa
 aa
-Nn
+Nr
 Nv
 Nv
 Nv
@@ -125191,7 +124396,7 @@ Nv
 Nv
 Nv
 Nv
-Qq
+Ok
 NY
 NQ
 Ok
@@ -125342,8 +124547,8 @@ NP
 Nv
 Nv
 Nv
-Qq
-Qr
+Ok
+Oo
 NC
 NS
 Oo
@@ -125493,8 +124698,8 @@ Nv
 Nv
 Nv
 Nv
-Qq
-Qr
+Ok
+Oo
 aa
 aa
 aa
@@ -125605,8 +124810,8 @@ aa
 aa
 aa
 aa
-No
-Nx
+NC
+NY
 Nv
 Nv
 Nv
@@ -125644,8 +124849,8 @@ Nv
 Nv
 Nv
 Nv
-Qq
-Qr
+Ok
+Oo
 aa
 aa
 aa
@@ -125758,8 +124963,8 @@ aa
 aa
 aa
 aa
-No
-Nx
+NC
+NY
 Nv
 Nv
 Nv
@@ -125790,13 +124995,13 @@ Nv
 Nv
 Nv
 NO
-Qq
-Nw
-Nw
-Rs
-Nw
-Nw
-Qr
+Ok
+NS
+NS
+NS
+NS
+NS
+Oo
 aa
 aa
 aa
@@ -126375,9 +125580,9 @@ NJ
 Nv
 Or
 NP
-Nt
-Nw
-Nx
+NN
+NS
+NY
 Nv
 Nv
 Nv
@@ -126529,8 +125734,8 @@ Nv
 NP
 Ol
 aa
-No
-Nx
+NC
+NY
 Nv
 Nu
 Nv
@@ -126546,7 +125751,7 @@ Nv
 Nv
 Nv
 Nv
-Qq
+Ok
 NS
 NS
 Oo
@@ -126682,7 +125887,7 @@ NP
 Om
 Op
 aa
-Nn
+Nr
 Nv
 Nu
 Nv
@@ -126698,7 +125903,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 Nk
 aa
 aa
@@ -126834,7 +126039,7 @@ NP
 NP
 Ol
 aa
-Nn
+Nr
 Nv
 Nu
 Nu
@@ -126849,8 +126054,8 @@ Nv
 Nv
 Nv
 Nv
-Qq
-Qr
+Ok
+Oo
 aa
 aa
 aa
@@ -126986,8 +126191,8 @@ Nv
 Or
 Ol
 aa
-No
-Nx
+NC
+NY
 Nv
 Nv
 Nv
@@ -126999,9 +126204,9 @@ Nv
 Nv
 Nv
 Nv
-QR
-Nw
-Qr
+Ok
+NS
+Oo
 aa
 aa
 aa
@@ -127139,8 +126344,8 @@ NP
 Ol
 aa
 aa
-No
-Nx
+NC
+NY
 Nv
 Nv
 Nv
@@ -127150,8 +126355,8 @@ Ou
 Nv
 Nv
 Nv
-Qq
-Qr
+Ok
+Oo
 aa
 aa
 aa
@@ -127292,8 +126497,8 @@ Ol
 aa
 aa
 aa
-No
-Nx
+NC
+NY
 Nv
 Nv
 Nv
@@ -127302,7 +126507,7 @@ Nv
 Nv
 Nv
 Nv
-QN
+Ol
 aa
 aa
 Nk
@@ -127445,16 +126650,16 @@ aa
 aa
 aa
 aa
-No
-Nw
-Nw
-Nx
+NC
+NS
+NS
+NY
 Nv
 Nv
-Qq
-Nw
-Qq
-Qr
+Ok
+NS
+Ok
+Oo
 aa
 aa
 aa
@@ -127600,10 +126805,10 @@ aa
 Nk
 aa
 aa
-No
-Nw
-Nw
-Qr
+NC
+NS
+NS
+Oo
 Nk
 aa
 aa

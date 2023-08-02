@@ -1,21 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
+"h" = (
 /obj/decal/cleanable/dirt,
-/obj/landmark/artifact,
 /obj/mapping_helper/turfs/burner,
+/obj/landmark/spawner/artifact,
 /turf/simulated/floor/plating,
 /area/dmm_suite/clear_area)
-"k" = (
-/obj/stool/chair/couch{
-	dir = 8;
-	icon_state = "chair_couch-blue";
-	name = "ratty blue couch"
-	},
-/obj/item/card_group/plain,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/dmm_suite/clear_area)
-"q" = (
+"i" = (
 /obj/stool/chair/comfy/blue{
 	desc = "It's all ripped and grimy. Gross.";
 	dir = 8;
@@ -25,7 +15,21 @@
 /obj/mapping_helper/turfs/burner,
 /turf/simulated/floor/plating,
 /area/dmm_suite/clear_area)
-"r" = (
+"t" = (
+/obj/item/cigbutt,
+/obj/item/reagent_containers/food/snacks/condiment/mayo{
+	desc = "All congealed and dusty. Ugh!";
+	name = "old mayonnaise";
+	quality = -80
+	},
+/obj/decal/cleanable/generic{
+	desc = "Who did this?";
+	name = "stomped-upon condiments"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/dmm_suite/clear_area)
+"z" = (
 /obj/storage/crate,
 /obj/decal/cleanable/dirt,
 /obj/item/storage/pill_bottle/cyberpunk,
@@ -36,7 +40,26 @@
 /obj/mapping_helper/turfs/burner,
 /turf/simulated/floor/plating,
 /area/dmm_suite/clear_area)
-"u" = (
+"E" = (
+/obj/stool/chair/couch{
+	dir = 8;
+	icon_state = "chair_couch-blue";
+	name = "ratty blue couch"
+	},
+/obj/item/card_group/plain,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/plating,
+/area/dmm_suite/clear_area)
+"L" = (
+/obj/decal/cleanable/dirt,
+/obj/stool/chair/couch{
+	dir = 4;
+	icon_state = "chair_couch-blue";
+	name = "ratty blue couch"
+	},
+/turf/simulated/floor/plating,
+/area/dmm_suite/clear_area)
+"P" = (
 /obj/decal/cleanable/blood/splatter{
 	name = "probably ketchup"
 	},
@@ -48,7 +71,7 @@
 /obj/mapping_helper/turfs/damager,
 /turf/simulated/floor/plating,
 /area/dmm_suite/clear_area)
-"C" = (
+"T" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/woodclutter,
 /obj/item/reagent_containers/food/snacks/condiment/ketchup,
@@ -64,30 +87,7 @@
 /obj/mapping_helper/turfs/burner,
 /turf/simulated/floor/plating,
 /area/dmm_suite/clear_area)
-"G" = (
-/obj/item/cigbutt,
-/obj/item/reagent_containers/food/snacks/condiment/mayo{
-	desc = "All congealed and dusty. Ugh!";
-	name = "old mayonnaise";
-	quality = -80
-	},
-/obj/decal/cleanable/generic{
-	desc = "Who did this?";
-	name = "stomped-upon condiments"
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/plating,
-/area/dmm_suite/clear_area)
-"L" = (
-/obj/decal/cleanable/dirt,
-/obj/stool/chair/couch{
-	dir = 4;
-	icon_state = "chair_couch-blue";
-	name = "ratty blue couch"
-	},
-/turf/simulated/floor/plating,
-/area/dmm_suite/clear_area)
-"S" = (
+"U" = (
 /obj/burning_barrel,
 /obj/decal/cleanable/dirt,
 /obj/mapping_helper/turfs/burner,
@@ -95,17 +95,17 @@
 /area/dmm_suite/clear_area)
 
 (1,1,1) = {"
-k
-G
-S
+E
+t
+U
 "}
 (2,1,1) = {"
 L
-u
-a
+P
+h
 "}
 (3,1,1) = {"
-C
-q
-r
+T
+i
+z
 "}

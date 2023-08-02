@@ -1526,11 +1526,6 @@
 	name = "plating"
 	},
 /area/moon/underground)
-"dS" = (
-/obj/table/auto,
-/obj/mapping_helper/turfs/burner,
-/turf/unsimulated/floor/plating,
-/area/moon/underground)
 "dT" = (
 /obj/table/auto,
 /turf/unsimulated/floor{
@@ -6553,12 +6548,6 @@
 /obj/item/extinguisher,
 /turf/simulated/floor/carpet,
 /area/station/crew_quarters/kitchen)
-"oP" = (
-/obj/landmark{
-	name = "JoinLate"
-	},
-/turf/simulated/floor/carpet,
-/area/station/crew_quarters/kitchen)
 "oQ" = (
 /obj/machinery/atmospherics/pipe/simple{
 	icon_state = "intact";
@@ -6681,13 +6670,6 @@
 /obj/item/reagent_containers/glass/vial,
 /turf/simulated/floor/carpet,
 /area/station/crew_quarters/kitchen)
-"pf" = (
-/obj/landmark{
-	name = "Observer-Start"
-	},
-/obj/item/broken_rcd,
-/turf/simulated/floor/carpet,
-/area/station/crew_quarters/kitchen)
 "pg" = (
 /obj/item/clothing/glasses/vr{
 	network = "VR"
@@ -6725,21 +6707,6 @@
 	icon_state = "0-4";
 	d2 = 4
 	},
-/turf/simulated/floor,
-/area/station/crew_quarters/kitchen)
-"pl" = (
-/obj/machinery/power/data_terminal,
-/obj/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/networked/test_apparatus/gas_sensor{
-	setup_tag = "BOTTOM"
-	},
-/obj/landmark{
-	name = "bubsbeejob"
-	},
-/obj/decal/stripe_caution,
 /turf/simulated/floor,
 /area/station/crew_quarters/kitchen)
 "pm" = (
@@ -7772,6 +7739,33 @@
 /obj/table/auto,
 /turf/simulated/floor/specialroom/cafeteria,
 /area/sim/area1)
+"us" = (
+/obj/landmark/observer,
+/obj/item/broken_rcd,
+/turf/simulated/floor/carpet,
+/area/station/crew_quarters/kitchen)
+"Js" = (
+/obj/landmark/start/latejoin,
+/turf/simulated/floor/carpet,
+/area/station/crew_quarters/kitchen)
+"Lh" = (
+/obj/table/auto,
+/obj/mapping_helper/turfs/burner,
+/turf/unsimulated/floor/plating,
+/area/moon/underground)
+"Tx" = (
+/obj/machinery/power/data_terminal,
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/networked/test_apparatus/gas_sensor{
+	setup_tag = "BOTTOM"
+	},
+/obj/landmark/bubs_job,
+/obj/decal/stripe_caution,
+/turf/simulated/floor,
+/area/station/crew_quarters/kitchen)
 
 (1,1,1) = {"
 aa
@@ -10769,7 +10763,7 @@ dq
 dj
 dm
 cb
-dS
+Lh
 dM
 dM
 cC
@@ -15000,9 +14994,9 @@ nO
 nZ
 on
 oy
-oP
-oP
-oP
+Js
+Js
+Js
 pE
 pT
 qg
@@ -15102,9 +15096,9 @@ nP
 nY
 on
 oz
-oP
-pf
-oP
+Js
+us
+Js
 pF
 pU
 nY
@@ -15204,9 +15198,9 @@ nQ
 oa
 on
 oA
-oP
-oP
-oP
+Js
+Js
+Js
 pG
 pV
 nY
@@ -15919,7 +15913,7 @@ of
 ot
 oF
 oV
-pl
+Tx
 pz
 pK
 pZ

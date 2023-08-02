@@ -35,6 +35,15 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
+"dv" = (
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor,
+/area/prefab/torpedo_deposit)
+"ex" = (
+/obj/decal/cleanable/dirt/dirt3,
+/mob/living/critter/robotic/gunbot,
+/turf/simulated/floor/black,
+/area/prefab/torpedo_deposit)
 "fe" = (
 /obj/decal/fakeobjects/bookcase{
 	dir = 1;
@@ -67,6 +76,14 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
+"hj" = (
+/obj/decal/cleanable/dirt/dirt5,
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gib5"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor,
+/area/prefab/torpedo_deposit)
 "il" = (
 /obj/decal/fakeobjects/skeleton,
 /obj/item/storage/pill_bottle/cyberpunk,
@@ -79,17 +96,6 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
-"jo" = (
-/obj/machinery/light/small/broken{
-	dir = 8;
-	pixel_x = -12
-	},
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gibdown"
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor,
-/area/prefab/torpedo_deposit)
 "jS" = (
 /turf/simulated/floor/plating/random,
 /area/prefab/torpedo_deposit)
@@ -155,14 +161,6 @@
 	dir = 8;
 	name = "Engine Room"
 	},
-/turf/simulated/floor,
-/area/prefab/torpedo_deposit)
-"pF" = (
-/obj/decal/cleanable/dirt/dirt5,
-/obj/decal/cleanable/robot_debris{
-	icon_state = "gib5"
-	},
-/obj/mapping_helper/turfs/damager,
 /turf/simulated/floor,
 /area/prefab/torpedo_deposit)
 "pN" = (
@@ -250,10 +248,9 @@
 /obj/decal/floatingtiles,
 /turf/variableTurf/clear,
 /area/noGenerate)
-"wV" = (
-/obj/machinery/light/small/broken{
-	dir = 8;
-	pixel_x = -12
+"wO" = (
+/obj/item/storage/wall/medical{
+	pixel_y = 32
 	},
 /obj/mapping_helper/turfs/damager,
 /turf/simulated/floor,
@@ -293,11 +290,6 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
-"yI" = (
-/obj/decal/cleanable/dirt,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor,
-/area/prefab/torpedo_deposit)
 "zp" = (
 /obj/table/wood/auto,
 /obj/machinery/light/lamp/green{
@@ -336,14 +328,16 @@
 /obj/machinery/door/airlock/pyro/classic,
 /turf/simulated/floor/plating/random,
 /area/prefab/torpedo_deposit)
-"BO" = (
+"Ca" = (
+/obj/machinery/light/small/broken{
+	dir = 8;
+	pixel_x = -12
+	},
 /obj/mapping_helper/turfs/damager,
 /turf/simulated/floor,
 /area/prefab/torpedo_deposit)
-"Cy" = (
-/obj/item/storage/wall/medical{
-	pixel_y = 32
-	},
+"Ce" = (
+/obj/decal/cleanable/dirt,
 /obj/mapping_helper/turfs/damager,
 /turf/simulated/floor,
 /area/prefab/torpedo_deposit)
@@ -360,6 +354,17 @@
 	pixel_x = -12
 	},
 /turf/simulated/floor/plating/random,
+/area/prefab/torpedo_deposit)
+"Ed" = (
+/obj/machinery/light/small/broken{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/decal/cleanable/robot_debris{
+	icon_state = "gibdown"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor,
 /area/prefab/torpedo_deposit)
 "Ee" = (
 /obj/decal/cleanable/dirt/dirt3,
@@ -381,11 +386,6 @@
 	pixel_x = 11
 	},
 /turf/simulated/floor/yellow,
-/area/prefab/torpedo_deposit)
-"FJ" = (
-/obj/item/storage/wall/random,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor,
 /area/prefab/torpedo_deposit)
 "GM" = (
 /obj/machinery/door/airlock/pyro/external{
@@ -441,6 +441,13 @@
 /turf/simulated/floor/wood/two{
 	name = "wooden floor"
 	},
+/area/prefab/torpedo_deposit)
+"Js" = (
+/obj/decal/fakeobjects/apc_broken{
+	pixel_y = 32
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor,
 /area/prefab/torpedo_deposit)
 "Jw" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -518,13 +525,6 @@
 	},
 /turf/simulated/floor/black,
 /area/prefab/torpedo_deposit)
-"Ns" = (
-/obj/decal/fakeobjects/apc_broken{
-	pixel_y = 32
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor,
-/area/prefab/torpedo_deposit)
 "Nw" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1
@@ -540,6 +540,11 @@
 	},
 /obj/item/reagent_containers/syringe/jenkem,
 /turf/simulated/floor/black,
+/area/prefab/torpedo_deposit)
+"Or" = (
+/obj/item/storage/wall/random,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor,
 /area/prefab/torpedo_deposit)
 "Pl" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -566,11 +571,6 @@
 /turf/variableTurf/clear,
 /area/space)
 "TV" = (
-/turf/simulated/floor/black,
-/area/prefab/torpedo_deposit)
-"WB" = (
-/obj/decal/cleanable/dirt/dirt3,
-/obj/critter/gunbot/heavy,
 /turf/simulated/floor/black,
 /area/prefab/torpedo_deposit)
 "WO" = (
@@ -811,7 +811,7 @@ RK
 RK
 cZ
 cZ
-pF
+hj
 cZ
 cZ
 RK
@@ -833,15 +833,15 @@ cZ
 (9,1,1) = {"
 RK
 cZ
-jo
+Ed
 pX
-wV
+Ca
 cZ
 dg
 cZ
-Ns
-BO
-BO
+Js
+dv
+dv
 JE
 KT
 Ip
@@ -856,13 +856,13 @@ cZ
 (10,1,1) = {"
 RK
 cZ
-FJ
+Or
 qn
 pN
-yI
+Ce
 jS
 Bx
-BO
+dv
 Ee
 qH
 Kj
@@ -871,7 +871,7 @@ Bx
 jS
 Bx
 Nw
-WB
+ex
 Nw
 TV
 kU
@@ -885,7 +885,7 @@ kf
 cZ
 kU
 cZ
-Cy
+wO
 EH
 EH
 jS

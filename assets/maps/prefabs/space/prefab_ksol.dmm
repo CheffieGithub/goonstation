@@ -297,18 +297,6 @@
 /obj/item/cigbutt,
 /turf/simulated/floor/airless/plating,
 /area/noGenerate)
-"aO" = (
-/obj/table/auto,
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
-	icon_state = "oldb";
-	name = "broken computer"
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
-/area/noGenerate)
 "aP" = (
 /turf/simulated/wall/auto/supernorn,
 /area/noGenerate)
@@ -326,13 +314,6 @@
 	dir = 1
 	},
 /turf/simulated/floor/airless/wood,
-/area/noGenerate)
-"aR" = (
-/obj/decal/cleanable/dirt,
-/obj/item/storage/toilet,
-/obj/item/seed/cannabis,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/airless,
 /area/noGenerate)
 "aS" = (
 /obj/lattice{
@@ -375,24 +356,6 @@
 	dir = 5;
 	icon_state = "fred2"
 	},
-/area/noGenerate)
-"aY" = (
-/obj/storage/secure/closet/fridge{
-	desc = "I'm sure the food in this is still good.";
-	icon_state = "fridge";
-	locked = 0;
-	name = "gross ugly and not good refrigerator"
-	},
-/obj/item/reagent_containers/food/snacks/burger/moldy,
-/obj/item/reagent_containers/food/snacks/ingredient/gcheese,
-/obj/item/reagent_containers/food/snacks/ingredient/meat/mysterymeat{
-	icon = 'icons/effects/blood.dmi';
-	icon_state = "gibmid2";
-	name = "gross organs"
-	},
-/obj/item/reagent_containers/food/snacks/meatloaf,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
 /area/noGenerate)
 "aZ" = (
 /obj/decal/cleanable/dirt,
@@ -455,44 +418,12 @@
 	},
 /turf/simulated/floor/airless/wood,
 /area/noGenerate)
-"bg" = (
-/obj/decal/cleanable/dirt,
-/obj/machinery/shower{
-	dir = 4;
-	icon_state = "showerhead"
-	},
-/obj/machinery/drainage,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bh" = (
-/obj/rack,
-/obj/item/device/radio{
-	desc = "A portable radio used to report local emergencies.";
-	frequency = 1449;
-	icon = 'icons/misc/worlds.dmi';
-	icon_state = "radio";
-	name = "emergency radio"
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bi" = (
-/obj/decal/cleanable/dirt,
-/obj/landmark/artifact,
-/turf/simulated/floor/airless,
-/area/noGenerate)
 "bj" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/blood{
 	icon_state = "gibdown1"
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bk" = (
-/obj/rack,
-/obj/mapping_helper/turfs/damager,
 /turf/simulated/floor/airless,
 /area/noGenerate)
 "bl" = (
@@ -541,53 +472,11 @@
 	icon_state = "fred2"
 	},
 /area/noGenerate)
-"bp" = (
-/obj/item/extinguisher,
-/obj/machinery/light/incandescent/broken,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bq" = (
-/obj/item/casing/rifle,
-/obj/decal/woodclutter,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"br" = (
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/blood/gibs{
-	icon_state = "gibmid2"
-	},
-/obj/storage/crate/bin{
-	desc = "A large bin, for trash.";
-	name = "Trash bin"
-	},
-/obj/landmark{
-	name = "replacewith_records"
-	},
-/turf/simulated/floor/airless/carpet{
-	dir = 6;
-	icon_state = "fred2"
-	},
-/area/noGenerate)
 "bs" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4
 	},
 /turf/simulated/floor/airless/plating,
-/area/noGenerate)
-"bt" = (
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4;
-	icon_state = "xtra_bigstripe-edge"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 8;
-	icon_state = "xtra_bigstripe-edge"
-	},
-/obj/item/mousetrap/armed,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
 /area/noGenerate)
 "bu" = (
 /obj/machinery/door/airlock/pyro/external{
@@ -597,10 +486,6 @@
 /area/noGenerate)
 "bv" = (
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bw" = (
-/obj/mapping_helper/turfs/burner,
 /turf/simulated/floor/airless,
 /area/noGenerate)
 "bx" = (
@@ -630,21 +515,6 @@
 	icon_state = "xtra_bigstripe-edge"
 	},
 /obj/decal/cleanable/dirt,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bB" = (
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4;
-	icon_state = "xtra_bigstripe-edge"
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "A vent. Cool air is gently flowing through it.";
-	icon = 'icons/obj/atmospherics/pipe_vent.dmi';
-	icon_state = "hvent";
-	name = "air vent"
-	},
-/obj/mapping_helper/turfs/burner,
 /turf/simulated/floor/airless,
 /area/noGenerate)
 "bC" = (
@@ -709,29 +579,10 @@
 	},
 /turf/simulated/floor/airless/plating,
 /area/noGenerate)
-"bJ" = (
-/obj/decal/fakeobjects/tapedeck,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor/airless,
-/area/noGenerate)
 "bL" = (
 /obj/lattice,
 /obj/item/raw_material/shard/glass,
 /turf/variableTurf/clear,
-/area/noGenerate)
-"bM" = (
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4;
-	icon_state = "xtra_bigstripe-edge"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 8;
-	icon_state = "xtra_bigstripe-edge"
-	},
-/mob/living/critter/small_animal/boogiebot,
-/obj/machinery/light/incandescent/broken,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
 /area/noGenerate)
 "bN" = (
 /obj/decal/poster/wallsign/space,
@@ -757,16 +608,6 @@
 /obj/decal/cleanable/dirt,
 /obj/rack,
 /obj/item/storage/firstaid/oxygen,
-/turf/simulated/floor/airless,
-/area/noGenerate)
-"bT" = (
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4;
-	icon_state = "xtra_bigstripe-edge"
-	},
-/obj/item/caution,
-/obj/machinery/light/incandescent/broken,
-/obj/mapping_helper/turfs/damager,
 /turf/simulated/floor/airless,
 /area/noGenerate)
 "bU" = (
@@ -853,12 +694,6 @@
 	},
 /turf/simulated/floor/airless/plating,
 /area/noGenerate)
-"cd" = (
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/paper,
-/obj/mapping_helper/turfs/damager,
-/turf/simulated/floor/airless,
-/area/noGenerate)
 "ce" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/fakeobjects/vacuumtape,
@@ -933,19 +768,6 @@
 /area/noGenerate)
 "cp" = (
 /turf/simulated/floor/airless/wood,
-/area/noGenerate)
-"cq" = (
-/obj/lattice,
-/obj/storage/closet,
-/obj/item/record/clown_collection/disco,
-/obj/item/record/clown_collection/eggshell,
-/obj/item/record/clown_collection/honk,
-/obj/item/record/clown_collection/poo,
-/obj/item/record/clown_collection/uguu,
-/obj/machinery/light/incandescent/broken{
-	dir = 4
-	},
-/turf/variableTurf/floor,
 /area/noGenerate)
 "cr" = (
 /obj/lattice{
@@ -1184,13 +1006,6 @@
 /obj/structure/girder/displaced,
 /turf/variableTurf/floor,
 /area/noGenerate)
-"cV" = (
-/obj/lattice,
-/obj/landmark{
-	name = "replacewith_records"
-	},
-/turf/variableTurf/floor,
-/area/noGenerate)
 "cW" = (
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/airless/plating,
@@ -1231,17 +1046,194 @@
 /obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /turf/variableTurf/floor,
 /area/noGenerate)
+"hY" = (
+/obj/rack,
+/obj/item/device/radio{
+	desc = "A portable radio used to report local emergencies.";
+	frequency = 1449;
+	icon = 'icons/misc/worlds.dmi';
+	icon_state = "radio";
+	name = "emergency radio"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"jW" = (
+/obj/decal/cleanable/dirt,
+/obj/item/storage/toilet,
+/obj/item/seed/cannabis,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"tr" = (
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4;
+	icon_state = "xtra_bigstripe-edge"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 8;
+	icon_state = "xtra_bigstripe-edge"
+	},
+/obj/item/mousetrap/armed,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"tJ" = (
+/obj/rack,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"xw" = (
+/obj/storage/secure/closet/fridge{
+	desc = "I'm sure the food in this is still good.";
+	icon_state = "fridge";
+	locked = 0;
+	name = "gross ugly and not good refrigerator"
+	},
+/obj/item/reagent_containers/food/snacks/burger/moldy,
+/obj/item/reagent_containers/food/snacks/ingredient/gcheese,
+/obj/item/reagent_containers/food/snacks/ingredient/meat/mysterymeat{
+	icon = 'icons/effects/blood.dmi';
+	icon_state = "gibmid2";
+	name = "gross organs"
+	},
+/obj/item/reagent_containers/food/snacks/meatloaf,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"BI" = (
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4;
+	icon_state = "xtra_bigstripe-edge"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 8;
+	icon_state = "xtra_bigstripe-edge"
+	},
+/mob/living/critter/small_animal/boogiebot,
+/obj/machinery/light/incandescent/broken,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"Df" = (
+/obj/decal/cleanable/dirt,
+/obj/decal/cleanable/paper,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"Eb" = (
+/obj/decal/cleanable/dirt,
+/obj/decal/cleanable/blood/gibs{
+	icon_state = "gibmid2"
+	},
+/obj/storage/crate/bin{
+	desc = "A large bin, for trash.";
+	name = "Trash bin"
+	},
+/obj/item/storage/box/record/radio/chronoquest,
+/turf/simulated/floor/airless/carpet{
+	dir = 6;
+	icon_state = "fred2"
+	},
+/area/noGenerate)
+"Ia" = (
+/obj/table/auto,
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "oldb";
+	name = "broken computer"
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"Ku" = (
+/obj/decal/fakeobjects/tapedeck,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"KB" = (
+/obj/lattice,
+/obj/storage/closet,
+/obj/machinery/light/incandescent/broken{
+	dir = 4
+	},
+/obj/item/storage/box/record/clown_collection,
+/turf/variableTurf/floor,
+/area/noGenerate)
+"LM" = (
+/obj/item/extinguisher,
+/obj/machinery/light/incandescent/broken,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"LV" = (
+/obj/decal/cleanable/dirt,
+/obj/machinery/shower{
+	dir = 4;
+	icon_state = "showerhead"
+	},
+/obj/machinery/drainage,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"Mk" = (
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4;
+	icon_state = "xtra_bigstripe-edge"
+	},
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "A vent. Cool air is gently flowing through it.";
+	icon = 'icons/obj/atmospherics/pipe_vent.dmi';
+	icon_state = "hvent";
+	name = "air vent"
+	},
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"Qa" = (
+/obj/lattice,
+/obj/item/storage/box/record/radio/guitar,
+/turf/variableTurf/floor,
+/area/noGenerate)
+"Qn" = (
+/obj/item/casing/rifle,
+/obj/decal/woodclutter,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
+/area/noGenerate)
 "QJ" = (
 /obj/machinery/light/incandescent/broken{
 	dir = 4
 	},
 /turf/simulated/floor/airless/engine,
 /area/noGenerate)
+"RJ" = (
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor/airless,
+/area/noGenerate)
+"TX" = (
+/obj/decal/cleanable/dirt,
+/obj/landmark/spawner/artifact,
+/turf/simulated/floor/airless,
+/area/noGenerate)
 "Vc" = (
 /obj/machinery/light/incandescent/broken{
 	dir = 8
 	},
 /turf/simulated/floor/airless/engine,
+/area/noGenerate)
+"Vd" = (
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4;
+	icon_state = "xtra_bigstripe-edge"
+	},
+/obj/item/caution,
+/obj/machinery/light/incandescent/broken,
+/obj/mapping_helper/turfs/damager,
+/turf/simulated/floor/airless,
 /area/noGenerate)
 
 (1,1,1) = {"
@@ -1404,8 +1396,8 @@ aa
 as
 cv
 aB
-bt
-bM
+tr
+BI
 aB
 cs
 ap
@@ -1461,7 +1453,7 @@ ab
 ap
 ap
 aB
-bh
+hY
 bv
 cg
 Vc
@@ -1490,8 +1482,8 @@ ab
 ab
 ap
 aB
-bi
-bw
+TX
+RJ
 bP
 cg
 cg
@@ -1548,7 +1540,7 @@ ab
 ab
 aG
 aB
-bk
+tJ
 by
 bR
 QJ
@@ -1636,8 +1628,8 @@ ap
 as
 aU
 aB
-bB
-bT
+Mk
+Vd
 aB
 cv
 cK
@@ -1699,7 +1691,7 @@ bU
 aB
 aB
 aB
-cV
+Qa
 ap
 ap
 ap
@@ -1808,7 +1800,7 @@ ap
 ap
 aB
 aK
-aY
+xw
 bn
 aP
 bY
@@ -1867,7 +1859,7 @@ aw
 aD
 aM
 ba
-bp
+LM
 aP
 ca
 cl
@@ -1896,7 +1888,7 @@ as
 dz
 aN
 bb
-bq
+Qn
 aC
 cb
 cm
@@ -1923,12 +1915,12 @@ ae
 at
 aq
 aB
-aO
+Ia
 bc
-br
+Eb
 bG
 cc
-bq
+Qn
 cD
 cQ
 aC
@@ -1956,7 +1948,7 @@ aP
 bd
 aC
 aC
-cd
+Df
 cn
 cE
 cR
@@ -2010,7 +2002,7 @@ ab
 ab
 ay
 aB
-aR
+jW
 bf
 aP
 bI
@@ -2040,11 +2032,11 @@ ab
 az
 aB
 aB
-bg
+LV
 aP
-bJ
+Ku
 cF
-cq
+KB
 cG
 ap
 cK

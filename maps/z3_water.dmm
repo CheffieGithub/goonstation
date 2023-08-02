@@ -1834,18 +1834,6 @@
 /obj/dialogueobj/securitycorpse6,
 /turf/unsimulated/floor/plating,
 /area/wrecknsspolaris)
-"fG" = (
-/obj/machinery/handscanner{
-	pixel_y = 32
-	},
-/mob/living/critter/robotic/gunbot{
-	desc = "Painted in red and black, all indentifying marks have been scraped off. Darn.";
-	icon_state = "mars_nuke_bot";
-	interesting = "your scanner picks up a faint etching of a name. Even though your being shot at. Seems this one is named Ketchup.";
-	name = "Unmarked Robot"
-	},
-/turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
 "fI" = (
 /obj/decoration/weirdmark{
 	desc = "A twin pair of weird looking energy burns on the wall, it looks like nothing you have ever seen before.";
@@ -1857,10 +1845,6 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
-"fJ" = (
-/obj/mapping_helper/turfs/damager,
-/turf/unsimulated/floor,
 /area/wrecknsspolaris)
 "fK" = (
 /obj/decal/cleanable/dirt/dirt5,
@@ -1901,12 +1885,6 @@
 	icon_state = "floor"
 	},
 /area/wrecknsspolaris)
-"fP" = (
-/obj/landmark{
-	name = "polarisfall"
-	},
-/turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
 "fQ" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 8;
@@ -1968,20 +1946,6 @@
 /area/wrecknsspolaris)
 "fX" = (
 /obj/decal/cleanable/blood/tracks,
-/turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
-"fY" = (
-/obj/decoration/weirdmark{
-	desc = "Yet another weid energy marking, this one going deeper into the vault. What the..";
-	pixel_y = 32
-	},
-/obj/map/light/green,
-/mob/living/critter/robotic/gunbot{
-	desc = "Painted in red and black, all indentifying marks have been scraped off. Darn.";
-	icon_state = "mars_nuke_bot";
-	interesting = "your scanner picks up a faint etching of a name. Even though your being shot at. Seems this one is named Mustard.";
-	name = "Unmarked Robot"
-	},
 /turf/unsimulated/floor/black,
 /area/wrecknsspolaris/vault)
 "fZ" = (
@@ -2113,33 +2077,6 @@
 /obj/item/scrap,
 /turf/space/fluid/noexplosion,
 /area/wrecknsspolaris/outside/teleport)
-"gt" = (
-/obj/item/raw_material/rock,
-/obj/landmark{
-	name = "polarisfall"
-	},
-/turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
-"gu" = (
-/obj/landmark{
-	name = "polarisfall"
-	},
-/turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
-"gv" = (
-/obj/item/raw_material/shard/glass,
-/obj/landmark{
-	name = "polarisfall"
-	},
-/turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
-"gw" = (
-/obj/item/raw_material/rock,
-/obj/landmark{
-	name = "polarisfall"
-	},
-/turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
 "gx" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /turf/space/fluid/noexplosion,
@@ -2192,13 +2129,6 @@
 "gG" = (
 /obj/sea_plant/seaweed,
 /obj/item/crowbar/red,
-/turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
-"gH" = (
-/obj/landmark{
-	name = "marjfall"
-	},
-/obj/sea_plant/seaweed,
 /turf/space/fluid/noexplosion/nospawn,
 /area/dank_trench)
 "gI" = (
@@ -2747,12 +2677,6 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/dank_trench)
-"ia" = (
-/obj/landmark{
-	name = "marjfall"
-	},
-/turf/space/fluid/noexplosion,
-/area/dank_trench)
 "ib" = (
 /obj/rack,
 /obj/item/clothing/head/emerg,
@@ -2809,19 +2733,6 @@
 /obj/item/tank/air,
 /obj/item/clothing/suit/space/emerg,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
-"ij" = (
-/obj/item/scissors,
-/obj/item/rubberduck{
-	pixel_x = -7;
-	pixel_y = 8
-	},
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/mapping_helper/turfs/damager,
-/turf/unsimulated/floor,
 /area/dank_trench)
 "ik" = (
 /obj/decal/cleanable/dirt/jen,
@@ -2967,10 +2878,6 @@
 /obj/decal/cleanable/machine_debris,
 /turf/space/fluid/noexplosion,
 /area/dank_trench)
-"iC" = (
-/turf/space,
-/turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/mantavault)
 "iD" = (
 /obj/indestructible/invisible_block/opaque,
 /turf/unsimulated/floor/longtile/black,
@@ -2979,10 +2886,6 @@
 /obj/decoration/ntcratesmall{
 	dir = 4
 	},
-/turf/unsimulated/floor/longtile/black,
-/area/mantavault)
-"iF" = (
-/turf/space,
 /turf/unsimulated/floor/longtile/black,
 /area/mantavault)
 "iG" = (
@@ -3024,6 +2927,10 @@
 /obj/item/reagent_containers/glass/bottle/holywater,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"jZ" = (
+/obj/landmark/fall/sea/marj,
+/turf/space/fluid/noexplosion,
+/area/dank_trench)
 "kw" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib1"
@@ -3053,10 +2960,28 @@
 /obj/item/clothing/suit/space/suv,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"oh" = (
+/obj/item/raw_material/rock,
+/obj/landmark/fall/sea/polaris,
+/turf/space/fluid/noexplosion,
+/area/wrecknsspolaris/outside)
 "pX" = (
 /obj/storage/crate/loot,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"qA" = (
+/obj/item/scissors,
+/obj/item/rubberduck{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/mapping_helper/turfs/damager,
+/turf/unsimulated/floor,
+/area/dank_trench)
 "rt" = (
 /obj/decal/aliencomputer{
 	pixel_x = 32
@@ -3088,20 +3013,38 @@
 	},
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"vn" = (
+/obj/landmark/fall/sea/marj,
+/obj/sea_plant/seaweed,
+/turf/space/fluid/noexplosion/nospawn,
+/area/dank_trench)
+"wH" = (
+/obj/landmark/fall/sea/polaris,
+/turf/space/fluid/noexplosion,
+/area/wrecknsspolaris/outside/teleport)
 "xd" = (
 /obj/decal/cleanable/blood{
 	icon_state = "floor6"
 	},
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
-"AE" = (
-/turf/space,
-/turf/unsimulated/wall/trench,
-/area/dank_trench)
-"AH" = (
-/turf/space,
-/turf/cordon,
-/area/cordon)
+"xD" = (
+/obj/decoration/weirdmark{
+	desc = "Yet another weid energy marking, this one going deeper into the vault. What the..";
+	pixel_y = 32
+	},
+/obj/map/light/green,
+/mob/living/critter/robotic/gunbot/syndicate/polaris/mustard,
+/turf/unsimulated/floor/black,
+/area/wrecknsspolaris/vault)
+"xP" = (
+/obj/mapping_helper/mob_spawn/corpse/critter/random/martian,
+/turf/unsimulated/floor/martian,
+/area/evilreaver/security)
+"zj" = (
+/obj/mapping_helper/turfs/damager,
+/turf/unsimulated/floor,
+/area/wrecknsspolaris)
 "AJ" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -3109,10 +3052,6 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
-"AL" = (
-/turf/space,
-/turf/unsimulated/floor/special/fogofcheating,
 /area/mantavault)
 "AR" = (
 /turf/unsimulated/floor/special/fogofcheating,
@@ -3127,10 +3066,10 @@
 "Co" = (
 /turf/unsimulated/floor/longtile/black,
 /area/mantavault)
-"Cr" = (
-/turf/space,
-/turf/space,
-/area/space)
+"CM" = (
+/obj/landmark/spawner/artifact,
+/turf/unsimulated/floor/martian,
+/area/evilreaver/security)
 "Dz" = (
 /obj/item/device/infra_sensor,
 /turf/unsimulated/floor/martian,
@@ -3154,14 +3093,6 @@
 	},
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
-"Gj" = (
-/obj/critter/martian/soldier/dead,
-/turf/unsimulated/floor/martian,
-/area/evilreaver/security)
-"Go" = (
-/obj/critter/martian/warrior,
-/turf/unsimulated/floor/martian,
-/area/evilreaver/security)
 "Hn" = (
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/evilreaver/security)
@@ -3169,6 +3100,10 @@
 /obj/storage/crate,
 /obj/item/aiboss_tape/martian,
 /obj/item/clothing/head/XComHair,
+/turf/unsimulated/floor/martian,
+/area/evilreaver/security)
+"HY" = (
+/mob/living/critter/martian/mutant,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
 "In" = (
@@ -3180,16 +3115,8 @@
 "Ip" = (
 /turf/unsimulated/wall/trench,
 /area/dank_trench)
-"Iz" = (
-/obj/critter/martian/psychic,
-/turf/unsimulated/floor/martian,
-/area/evilreaver/security)
-"JZ" = (
-/obj/critter/martian/soldier,
-/turf/unsimulated/floor/martian,
-/area/evilreaver/security)
-"KR" = (
-/obj/landmark/artifact,
+"JC" = (
+/mob/living/critter/martian/soldier,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
 "Mi" = (
@@ -3198,6 +3125,13 @@
 /obj/map/light/dimred,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"MI" = (
+/obj/machinery/handscanner{
+	pixel_y = 32
+	},
+/mob/living/critter/robotic/gunbot/syndicate/polaris/ketchup,
+/turf/unsimulated/floor/black,
+/area/wrecknsspolaris/vault)
 "Na" = (
 /obj/item/paper/courtroom{
 	name = "paper- 'A Crash Course in Legal SOP"
@@ -3232,6 +3166,11 @@
 	},
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"Ri" = (
+/obj/item/raw_material/shard/glass,
+/obj/landmark/fall/sea/polaris,
+/turf/space/fluid/noexplosion,
+/area/wrecknsspolaris/outside)
 "RH" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib3"
@@ -3242,6 +3181,11 @@
 /obj/npc/trader/martian,
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"SD" = (
+/obj/item/raw_material/rock,
+/obj/landmark/fall/sea/polaris,
+/turf/space/fluid/noexplosion,
+/area/wrecknsspolaris/outside/teleport)
 "Td" = (
 /obj/machinery/door/unpowered/martian,
 /turf/unsimulated/floor/martian,
@@ -3260,10 +3204,18 @@
 	},
 /turf/unsimulated/floor/martian,
 /area/evilreaver/security)
+"WW" = (
+/mob/living/critter/martian/warrior,
+/turf/unsimulated/floor/martian,
+/area/evilreaver/security)
 "XC" = (
 /obj/map/light/white,
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/evilreaver/security)
+"XJ" = (
+/obj/landmark/fall/sea/polaris,
+/turf/space/fluid/noexplosion,
+/area/wrecknsspolaris/outside)
 "Yb" = (
 /obj/decal/cleanable/blood,
 /turf/unsimulated/floor/martian,
@@ -4188,19 +4140,19 @@ ab
 aS
 aS
 aW
-fP
+wH
 fj
 bb
 bb
 aZ
 aZ
-gw
+oh
 aZ
 aZ
 aZ
 aZ
 bc
-gu
+XJ
 cC
 aZ
 aS
@@ -5097,7 +5049,7 @@ aW
 bb
 bb
 bb
-fP
+wH
 aZ
 aZ
 aZ
@@ -5396,7 +5348,7 @@ ab
 aS
 aS
 aW
-gt
+SD
 bb
 bb
 bb
@@ -5420,7 +5372,7 @@ cr
 fv
 cF
 dX
-fJ
+zj
 cr
 cr
 cr
@@ -5689,10 +5641,10 @@ gW
 ab
 Hn
 In
-JZ
+JC
 Yb
 UF
-KR
+CM
 Hn
 ab
 aS
@@ -6296,7 +6248,7 @@ Ns
 Ns
 Ns
 Ns
-JZ
+JC
 Hn
 ab
 aS
@@ -6329,7 +6281,7 @@ dV
 dV
 gb
 cy
-fJ
+zj
 cr
 br
 dH
@@ -6594,7 +6546,7 @@ gW
 (12,1,1) = {"
 ab
 Hn
-KR
+CM
 Ns
 xd
 Qw
@@ -6608,7 +6560,7 @@ bb
 bb
 bb
 bb
-gu
+XJ
 aZ
 aZ
 aZ
@@ -6898,7 +6850,7 @@ ab
 Hn
 Ns
 Ns
-Go
+WW
 Ns
 tO
 Hn
@@ -7232,7 +7184,7 @@ dS
 eC
 fd
 fu
-fG
+MI
 dV
 cy
 cx
@@ -7240,7 +7192,7 @@ cr
 ff
 cr
 eo
-fJ
+zj
 cr
 cr
 br
@@ -7501,7 +7453,7 @@ gW
 ab
 Hn
 Ns
-JZ
+JC
 Ns
 Ns
 Ns
@@ -7547,7 +7499,7 @@ cx
 fK
 fM
 fv
-fJ
+zj
 cx
 fO
 fp
@@ -7806,18 +7758,18 @@ In
 Yb
 kw
 Ns
-KR
+CM
 Hn
 ab
 aS
 aS
 aW
-fP
+wH
 bb
 bb
 bb
 aZ
-gv
+Ri
 aZ
 bi
 bo
@@ -7836,7 +7788,7 @@ dV
 dV
 dV
 cy
-fY
+xD
 dV
 cy
 cr
@@ -8408,7 +8360,7 @@ ab
 Hn
 Pt
 Ns
-JZ
+JC
 Ns
 Ns
 Hn
@@ -8433,7 +8385,7 @@ br
 co
 br
 br
-fJ
+zj
 dQ
 cy
 dY
@@ -9644,7 +9596,7 @@ by
 cr
 er
 da
-fJ
+zj
 dO
 dM
 da
@@ -9917,7 +9869,7 @@ gW
 ab
 Hn
 pX
-Gj
+xP
 Ns
 Ns
 Ns
@@ -9935,7 +9887,7 @@ aZ
 du
 bd
 aZ
-gu
+XJ
 bf
 br
 br
@@ -9954,7 +9906,7 @@ cG
 cG
 cH
 ds
-fJ
+zj
 dF
 ff
 eq
@@ -10234,7 +10186,7 @@ ab
 aS
 aW
 ba
-gu
+XJ
 aZ
 aZ
 aZ
@@ -11126,7 +11078,7 @@ ab
 Hn
 pX
 Ns
-Gj
+xP
 Ns
 FT
 Hn
@@ -11435,7 +11387,7 @@ Hn
 Hn
 lr
 Ns
-Iz
+HY
 Ns
 Hn
 ab
@@ -11448,7 +11400,7 @@ aZ
 aZ
 aZ
 aZ
-gu
+XJ
 aZ
 aZ
 aS
@@ -12951,7 +12903,7 @@ gP
 Ip
 gy
 hT
-ia
+jZ
 gP
 ac
 Ip
@@ -12968,34 +12920,34 @@ AR
 AR
 AR
 AR
-AL
-AL
-iC
-iF
-iF
-iC
-AH
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
+AR
+AR
+Bg
+Co
+Co
+Bg
+ab
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW
@@ -13256,7 +13208,7 @@ gP
 gP
 aa
 gP
-ia
+jZ
 Ip
 Ip
 Ip
@@ -13270,7 +13222,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 Bg
 iG
@@ -13297,7 +13249,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -13572,7 +13524,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 AV
 Co
@@ -13599,7 +13551,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -13859,7 +13811,7 @@ ax
 Ip
 gy
 gP
-ia
+jZ
 gP
 aa
 Ip
@@ -13874,7 +13826,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 iD
 Co
@@ -13901,7 +13853,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -14176,7 +14128,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 iD
 Co
@@ -14203,7 +14155,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -14467,7 +14419,7 @@ hS
 gP
 gP
 gP
-gH
+vn
 Ip
 Ip
 Ip
@@ -14478,7 +14430,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 Bg
 iH
@@ -14505,7 +14457,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -14767,7 +14719,7 @@ ax
 ax
 ax
 iq
-ia
+jZ
 aa
 gA
 Ip
@@ -14780,7 +14732,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 Bg
 Co
@@ -14807,7 +14759,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -15082,7 +15034,7 @@ AR
 AR
 AR
 AR
-AL
+AR
 AR
 Bg
 Co
@@ -15109,7 +15061,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -15384,7 +15336,7 @@ Bg
 Bg
 Bg
 Bg
-iC
+Bg
 Bg
 Bg
 Bg
@@ -15411,7 +15363,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -15670,7 +15622,7 @@ hm
 hO
 ax
 id
-ij
+qA
 ax
 aa
 Ip
@@ -15686,13 +15638,13 @@ ab
 ab
 ab
 ab
-AH
 ab
 ab
 ab
 ab
 ab
 ab
+ab
 gW
 gW
 gW
@@ -15713,7 +15665,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -15978,7 +15930,7 @@ Ip
 Ip
 Ip
 gy
-ia
+jZ
 aa
 Ip
 ab
@@ -15988,7 +15940,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -16015,7 +15966,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -16282,15 +16234,8 @@ Ip
 gy
 gP
 gP
-AE
-AH
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
+Ip
+ab
 gW
 gW
 gW
@@ -16317,7 +16262,14 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW
@@ -16619,7 +16571,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -16886,15 +16838,8 @@ Ip
 Ip
 Ip
 Ip
-AE
-AH
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
+Ip
+ab
 gW
 gW
 gW
@@ -16921,7 +16866,14 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW
@@ -17196,7 +17148,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -17223,7 +17174,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -17498,7 +17450,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -17525,7 +17476,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -17800,7 +17752,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -17827,7 +17778,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -18102,14 +18054,6 @@ gW
 gW
 gW
 gW
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
 gW
 gW
 gW
@@ -18129,7 +18073,15 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW
@@ -18411,7 +18363,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -18431,7 +18382,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -18713,7 +18665,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -18733,7 +18684,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -19015,7 +18967,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -19035,7 +18986,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -19317,7 +19269,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -19337,7 +19288,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -19619,7 +19571,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -19639,7 +19590,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -19921,7 +19873,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -19941,7 +19892,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -20223,7 +20175,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -20243,7 +20194,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -20525,27 +20477,27 @@ gW
 gW
 gW
 gW
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
 gW
 gW
 gW
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW
@@ -20840,7 +20792,7 @@ gW
 gW
 gW
 gW
-Cr
+gW
 gW
 gW
 gW
@@ -21135,16 +21087,16 @@ gW
 gW
 gW
 gW
-Cr
-Cr
 gW
 gW
 gW
 gW
 gW
-Cr
-Cr
-Cr
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW
@@ -21437,7 +21389,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -21446,7 +21397,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -21739,7 +21691,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -21748,7 +21699,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -22041,7 +21993,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -22050,7 +22001,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -22343,7 +22295,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -22352,7 +22303,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -22645,7 +22597,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -22654,7 +22605,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -22947,7 +22899,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -22956,7 +22907,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -23249,7 +23201,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -23258,7 +23209,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -23551,7 +23503,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -23560,7 +23511,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -23853,7 +23805,6 @@ gW
 gW
 gW
 gW
-Cr
 gW
 gW
 gW
@@ -23862,7 +23813,8 @@ gW
 gW
 gW
 gW
-Cr
+gW
+gW
 gW
 gW
 gW
@@ -24155,16 +24107,16 @@ gW
 gW
 gW
 gW
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
-Cr
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
 gW
 gW
 gW

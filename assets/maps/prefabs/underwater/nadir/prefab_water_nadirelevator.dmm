@@ -59,12 +59,6 @@
 	},
 /turf/space/fluid/acid/clear,
 /area/noGenerate)
-"dd" = (
-/obj/landmark{
-	name = "seafall"
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/sea_elevator/lower)
 "dh" = (
 /obj/grille/catwalk,
 /obj/decal/cleanable/cobweb,
@@ -480,6 +474,12 @@
 	},
 /turf/simulated/floor/black/grime,
 /area/diner/dining)
+"sb" = (
+/obj/machinery/light/incandescent/small,
+/obj/decal/cleanable/dirt,
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor,
+/area/diner/bathroom)
 "se" = (
 /obj/machinery/door/airlock/pyro/engineering/alt{
 	dir = 4
@@ -587,6 +587,11 @@
 /area/diner/backroom)
 "uP" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
+/area/diner/dining)
+"uZ" = (
+/obj/stool/bar,
+/mob/living/carbon/human/biker,
+/turf/simulated/floor/carpet/red/standard/edge/west,
 /area/diner/dining)
 "vg" = (
 /obj/decal/cleanable/dirt,
@@ -815,6 +820,21 @@
 	},
 /turf/simulated/floor/black/grime,
 /area/diner/dining)
+"DX" = (
+/obj/decal/cleanable/dirt/dirt2,
+/obj/stool/chair/wooden{
+	dir = 4
+	},
+/mob/living/carbon/human/fatherjack,
+/turf/simulated/floor/black/grime,
+/area/diner/dining)
+"Ef" = (
+/obj/stool/chair/wooden{
+	dir = 8
+	},
+/mob/living/carbon/human/don_glab,
+/turf/simulated/floor/black/grime,
+/area/diner/dining)
 "Ez" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -992,13 +1012,6 @@
 "Jn" = (
 /obj/machinery/chem_dispenser/alcohol,
 /obj/decal/cleanable/dirt/dirt2,
-/turf/simulated/floor/black/grime,
-/area/diner/kitchen)
-"Jv" = (
-/obj/submachine/chef_oven,
-/obj/landmark{
-	name = "shitty_bill_respawn"
-	},
 /turf/simulated/floor/black/grime,
 /area/diner/kitchen)
 "JO" = (
@@ -1181,6 +1194,10 @@
 /area/diner/hallway{
 	name = "Space Diner Backhall"
 	})
+"Oe" = (
+/obj/landmark/fall/sea/elevator,
+/turf/simulated/floor/plating,
+/area/shuttle/sea_elevator/lower)
 "Ol" = (
 /obj/machinery/door/airlock/pyro/external,
 /obj/forcefield/energyshield/perma/doorlink,
@@ -1198,10 +1215,6 @@
 /obj/decal/cleanable/dirt/jen,
 /turf/simulated/floor/caution/north,
 /area/shuttle/sea_elevator)
-"Ow" = (
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor,
-/area/diner/bathroom)
 "Oz" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/black/grime,
@@ -1226,13 +1239,6 @@
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/black/grime,
 /area/diner/kitchen)
-"QH" = (
-/obj/stool/bar,
-/obj/landmark/spawner{
-	name = "shitty_bill"
-	},
-/turf/simulated/floor/carpet/red/standard/edge/west,
-/area/diner/dining)
 "Rd" = (
 /obj/table/reinforced/bar/auto,
 /obj/item/shaker/ketchup{
@@ -1285,12 +1291,6 @@
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/black/grime,
 /area/skeleton_trader)
-"Sm" = (
-/obj/machinery/light/incandescent/small,
-/obj/decal/cleanable/dirt,
-/obj/mapping_helper/turfs/burner,
-/turf/simulated/floor,
-/area/diner/bathroom)
 "Sp" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/engine/caution/west,
@@ -1395,6 +1395,10 @@
 	dir = 4
 	},
 /area/diner/dining)
+"UC" = (
+/obj/mapping_helper/turfs/burner,
+/turf/simulated/floor,
+/area/diner/bathroom)
 "UM" = (
 /obj/machinery/teleport/portal_ring,
 /obj/decal/cleanable/dirt/dirt2,
@@ -1413,6 +1417,11 @@
 "Vf" = (
 /turf/simulated/floor/black/grime,
 /area/diner/dining)
+"Vk" = (
+/obj/submachine/chef_oven,
+/obj/landmark/bill_spawn,
+/turf/simulated/floor/black/grime,
+/area/diner/kitchen)
 "Vo" = (
 /obj/machinery/light/small/floor/netural,
 /turf/simulated/floor/engine/caution,
@@ -1549,15 +1558,6 @@
 	dir = 5
 	},
 /area/diner/dining)
-"Yn" = (
-/obj/stool/chair/wooden{
-	dir = 8
-	},
-/obj/landmark/spawner{
-	name = "don_glab"
-	},
-/turf/simulated/floor/black/grime,
-/area/diner/dining)
 "YC" = (
 /obj/machinery/door/airlock/pyro{
 	dir = 4
@@ -1642,16 +1642,6 @@
 /area/tech_outpost{
 	name = "The Recluse"
 	})
-"ZM" = (
-/obj/decal/cleanable/dirt/dirt2,
-/obj/stool/chair/wooden{
-	dir = 4
-	},
-/obj/landmark/spawner{
-	name = "father_jack"
-	},
-/turf/simulated/floor/black/grime,
-/area/diner/dining)
 "ZZ" = (
 /obj/decal/cleanable/dirt/dirt3,
 /turf/simulated/floor/caution/south,
@@ -2983,8 +2973,8 @@ XP
 (28,1,1) = {"
 hf
 hf
-dd
-dd
+Oe
+Oe
 hf
 hf
 AG
@@ -3011,7 +3001,7 @@ nw
 nw
 JT
 NW
-Sm
+sb
 Vu
 zX
 II
@@ -3032,8 +3022,8 @@ XP
 (29,1,1) = {"
 XP
 hf
-dd
-dd
+Oe
+Oe
 hf
 wr
 Ou
@@ -3108,7 +3098,7 @@ nw
 nw
 nw
 JT
-Ow
+UC
 rO
 JT
 XJ
@@ -3167,7 +3157,7 @@ Vf
 Vf
 Vf
 Oz
-ZM
+DX
 uP
 XP
 XP
@@ -3304,7 +3294,7 @@ nw
 uP
 mO
 XK
-QH
+uZ
 XK
 XK
 XK
@@ -3410,7 +3400,7 @@ VR
 Ql
 lZ
 Vf
-Yn
+Ef
 Wr
 tR
 Wr
@@ -3498,7 +3488,7 @@ nw
 nw
 nw
 Fw
-Jv
+Vk
 KY
 VR
 sR
