@@ -27,12 +27,15 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
-"aZ" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "Rust has rendered this airlock useless.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "com_open";
-	name = "broken airlock"
+"aT" = (
+/obj/item/ammo/power_cell/self_charging/potato{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/decal/cleanable/dirt/dirt4,
+/obj/item/reagent_containers/food/drinks/covfefe{
+	pixel_x = -10;
+	pixel_y = 9
 	},
 /turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
@@ -98,18 +101,6 @@
 /obj/machinery/vending/snack,
 /turf/simulated/floor/airless/snow,
 /area/prefab/discount_dans_asteroid)
-"dg" = (
-/obj/item/ammo/power_cell/self_charging/potato{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/decal/cleanable/dirt/dirt4,
-/obj/item/reagent_containers/food/drinks/covfefe{
-	pixel_x = -10;
-	pixel_y = 9
-	},
-/turf/unsimulated/floor/shuttle/white,
-/area/prefab/discount_dans_asteroid)
 "dB" = (
 /obj/rack,
 /obj/item/ticket/platinum,
@@ -171,6 +162,16 @@
 	},
 /turf/simulated/floor/plating/scorched,
 /area/prefab/discount_dans_asteroid)
+"fI" = (
+/obj/item/sheet/glass{
+	pixel_x = 8
+	},
+/obj/item/scrap{
+	pixel_x = -5
+	},
+/obj/decal/cleanable/dirt/dirt3,
+/turf/unsimulated/floor/shuttle/white,
+/area/prefab/discount_dans_asteroid)
 "fM" = (
 /obj/rack,
 /obj/item/clothing/under/jersey/dan{
@@ -228,16 +229,6 @@
 	},
 /turf/simulated/floor/airless/snow,
 /area/prefab/discount_dans_asteroid)
-"gQ" = (
-/obj/item/sheet/glass{
-	pixel_x = 8
-	},
-/obj/item/scrap{
-	pixel_x = -5
-	},
-/obj/decal/cleanable/dirt/dirt3,
-/turf/unsimulated/floor/shuttle/white,
-/area/prefab/discount_dans_asteroid)
 "gU" = (
 /obj/decal/cleanable/ash,
 /turf/unsimulated/floor/plating/scorched,
@@ -259,10 +250,6 @@
 	pixel_y = -1
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/prefab/discount_dans_asteroid)
-"hK" = (
-/obj/random_item_spawner/junk/one,
-/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "hP" = (
 /obj/item/raw_material/scrap_metal{
@@ -317,11 +304,8 @@
 	},
 /turf/unsimulated/floor/arctic/snow/ice,
 /area/prefab/discount_dans_asteroid)
-"lT" = (
-/obj/stool/chair/comfy/shuttle/red{
-	dir = 8
-	},
-/obj/decal/cleanable/dirt/dirt3,
+"kV" = (
+/obj/random_item_spawner/junk/one,
 /turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "lU" = (
@@ -352,13 +336,6 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
-"mC" = (
-/obj/stool/chair/comfy/shuttle/red{
-	dir = 4
-	},
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/white,
-/area/prefab/discount_dans_asteroid)
 "mM" = (
 /obj/decal/cleanable/blood/tracks{
 	dir = 10;
@@ -392,15 +369,15 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
+"nf" = (
+/obj/random_item_spawner/hat/one_or_zero,
+/turf/unsimulated/floor/shuttle/white,
+/area/prefab/discount_dans_asteroid)
 "nl" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 4
 	},
 /turf/unsimulated/floor/airless/plating/scorched,
-/area/prefab/discount_dans_asteroid)
-"nu" = (
-/obj/random_item_spawner/hat/one_or_zero,
-/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "od" = (
 /obj/decal/cleanable/blood,
@@ -421,6 +398,15 @@
 	},
 /turf/variableTurf/clear,
 /area/noGenerate)
+"os" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "Rust has rendered this airlock useless.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "com_open";
+	name = "broken airlock"
+	},
+/turf/unsimulated/floor/shuttle/white,
+/area/prefab/discount_dans_asteroid)
 "ot" = (
 /obj/machinery/light/lamp/green{
 	pixel_x = -5;
@@ -511,6 +497,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/airless/snow,
+/area/prefab/discount_dans_asteroid)
+"tD" = (
+/obj/stool/chair/dining/wood{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/blue/standard/edge/nw,
 /area/prefab/discount_dans_asteroid)
 "tL" = (
 /obj/item/organ/liver{
@@ -640,6 +632,13 @@
 /area/prefab/discount_dans_asteroid)
 "yL" = (
 /turf/simulated/floor/wood,
+/area/prefab/discount_dans_asteroid)
+"zr" = (
+/obj/stool/chair/comfy/shuttle/red{
+	dir = 8
+	},
+/obj/decal/cleanable/dirt/dirt3,
+/turf/unsimulated/floor/shuttle/white,
 /area/prefab/discount_dans_asteroid)
 "zZ" = (
 /turf/simulated/wall/auto/asteroid/comet/ice,
@@ -1082,6 +1081,13 @@
 	},
 /turf/simulated/wall/auto/jen,
 /area/prefab/discount_dans_asteroid)
+"PG" = (
+/obj/stool/chair/comfy/shuttle/red{
+	dir = 4
+	},
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/white,
+/area/prefab/discount_dans_asteroid)
 "PS" = (
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/airless/neutral,
@@ -1204,12 +1210,6 @@
 	icon_state = "gib3"
 	},
 /turf/simulated/floor/airless/neutral,
-/area/prefab/discount_dans_asteroid)
-"Tk" = (
-/obj/stool/chair/wooden{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/blue/standard/edge/nw,
 /area/prefab/discount_dans_asteroid)
 "Ty" = (
 /obj/item/device/light/glowstick/green_on{
@@ -1928,8 +1928,8 @@ jU
 jU
 Mb
 Mb
-gQ
-mC
+fI
+PG
 nl
 Sf
 Gj
@@ -1978,10 +1978,10 @@ jU
 jU
 Mb
 eT
-hK
-dg
-nu
-aZ
+kV
+aT
+nf
+os
 yL
 Ol
 xq
@@ -2030,7 +2030,7 @@ Mb
 Mb
 hP
 jU
-lT
+zr
 Sf
 Kz
 Ic
@@ -2095,7 +2095,7 @@ Pk
 OO
 oO
 WC
-Tk
+tD
 Qe
 Fc
 JG

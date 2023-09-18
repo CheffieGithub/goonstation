@@ -118,26 +118,18 @@
 	icon_state = "15"
 	},
 /area/shuttle/escape/centcom)
-"cF" = (
-/obj/machinery/door/airlock/pyro/external,
-/obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/marble/border_wb{
+"cS" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
 	dir = 4
 	},
+/turf/unsimulated/floor/marble/black,
 /area/shuttle/escape/centcom)
 "dw" = (
 /obj/indestructible/shuttle_corner{
 	dir = 0
 	},
 /turf/unsimulated/floor/marble/black,
-/area/shuttle/escape/centcom)
-"dJ" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 1
-	},
 /area/shuttle/escape/centcom)
 "dK" = (
 /turf/unsimulated/floor/stairs/dark/wide{
@@ -173,6 +165,13 @@
 "fK" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
+"gm" = (
+/obj/machinery/door/airlock/pyro/external,
+/obj/forcefield/energyshield/perma,
+/turf/unsimulated/floor/marble/border_wb{
+	dir = 4
+	},
+/area/shuttle/escape/centcom)
 "gr" = (
 /obj/table/regal/auto,
 /obj/machinery/light/small/floor/netural,
@@ -188,10 +187,6 @@
 /turf/unsimulated/floor/carpet/regalcarpet/border{
 	dir = 6
 	},
-/area/shuttle/escape/centcom)
-"gy" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gG" = (
 /obj/table/regal/auto,
@@ -234,13 +229,6 @@
 	rand_pos = 0
 	},
 /turf/unsimulated/floor/carpet/regalcarpet,
-/area/shuttle/escape/centcom)
-"gN" = (
-/obj/machinery/door/airlock/pyro/external,
-/obj/forcefield/energyshield/perma,
-/turf/unsimulated/floor/marble/border_wb{
-	dir = 8
-	},
 /area/shuttle/escape/centcom)
 "hg" = (
 /obj/indestructible/shuttle_corner{
@@ -438,13 +426,13 @@
 "lS" = (
 /turf/unsimulated/floor/marble,
 /area/shuttle/escape/centcom)
-"lZ" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater";
-	dir = 8
+"mu" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 4
 	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "4"
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 8
 	},
 /area/shuttle/escape/centcom)
 "mL" = (
@@ -601,15 +589,6 @@
 	lit = 1
 	},
 /turf/unsimulated/floor/marble,
-/area/shuttle/escape/centcom)
-"qE" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 4
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 8
-	},
 /area/shuttle/escape/centcom)
 "qW" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -774,6 +753,13 @@
 	dir = 6
 	},
 /area/shuttle/escape/centcom)
+"uA" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border,
+/area/shuttle/escape/centcom)
 "uE" = (
 /turf/unsimulated/floor/marble/border_bw{
 	dir = 9
@@ -851,6 +837,15 @@
 	},
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 9
+	},
+/area/shuttle/escape/centcom)
+"xP" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "4"
 	},
 /area/shuttle/escape/centcom)
 "yf" = (
@@ -1008,15 +1003,6 @@
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
-"Cp" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 8
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 4
-	},
-/area/shuttle/escape/centcom)
 "CJ" = (
 /obj/decal/tile_edge/line/orange{
 	dir = 9;
@@ -1037,13 +1023,6 @@
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"Dd" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 4
-	},
-/turf/unsimulated/floor/marble/black,
-/area/shuttle/escape/centcom)
 "Dz" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.";
@@ -1091,6 +1070,14 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
+"Fe" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 1
+	},
+/area/shuttle/escape/centcom)
 "Fk" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4
@@ -1107,13 +1094,6 @@
 /turf/unsimulated/floor/carpet/regalcarpet/border{
 	dir = 9
 	},
-/area/shuttle/escape/centcom)
-"FH" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border,
 /area/shuttle/escape/centcom)
 "FK" = (
 /turf/unsimulated/floor/marble/border_bw{
@@ -1141,6 +1121,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"GH" = (
+/obj/machinery/door/airlock/pyro/external,
+/obj/forcefield/energyshield/perma,
+/turf/unsimulated/floor/marble/border_wb{
+	dir = 8
+	},
+/area/shuttle/escape/centcom)
 "GI" = (
 /obj/decoration/regallamp{
 	anchored = 1;
@@ -1362,15 +1349,6 @@
 	dir = 5
 	},
 /area/shuttle/escape/centcom)
-"Ob" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater";
-	dir = 8
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
-/area/shuttle/escape/centcom)
 "Op" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "delivery2"
@@ -1443,6 +1421,15 @@
 /obj/decoration/floralarrangement,
 /turf/unsimulated/floor/carpet/regalcarpet/border{
 	dir = 1
+	},
+/area/shuttle/escape/centcom)
+"RQ" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
+	dir = 8
+	},
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "12"
 	},
 /area/shuttle/escape/centcom)
 "RT" = (
@@ -1578,6 +1565,10 @@
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 10
 	},
+/area/shuttle/escape/centcom)
+"VF" = (
+/obj/mapping_helper/wingrille_spawn/auto/reinforced,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "VI" = (
 /obj/stool/chair/blue{
@@ -1773,6 +1764,15 @@
 	dir = 6
 	},
 /area/centcom)
+"YY" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 8
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 4
+	},
+/area/shuttle/escape/centcom)
 "Zd" = (
 /obj/machinery/light/incandescent/netural,
 /turf/unsimulated/floor/marble,
@@ -1968,7 +1968,7 @@ bq
 Hq
 PS
 kK
-lZ
+xP
 jn
 ez
 Rl
@@ -1982,7 +1982,7 @@ uh
 AO
 uh
 jn
-Ob
+RQ
 Ui
 Ha
 bq
@@ -2027,15 +2027,15 @@ kK
 PK
 cn
 WZ
-Dd
-Dd
-Dd
-Dd
+cS
+cS
+cS
+cS
 Pg
-Dd
-Dd
-Dd
-Dd
+cS
+cS
+cS
+cS
 tr
 cn
 fc
@@ -2080,7 +2080,7 @@ Si
 Fk
 Si
 fK
-gy
+VF
 Gh
 lS
 uE
@@ -2094,7 +2094,7 @@ ww
 pd
 lS
 sT
-gy
+VF
 fK
 Si
 Fk
@@ -2113,11 +2113,11 @@ GI
 lS
 Jj
 Fo
-qE
-qE
-qE
-qE
-qE
+mu
+mu
+mu
+mu
+mu
 HL
 FK
 lS
@@ -2136,21 +2136,21 @@ aM
 aM
 pV
 yr
-gN
+GH
 VW
 lS
 Jj
-dJ
+Fe
 gG
 sv
 so
 pw
 MM
-FH
+uA
 FK
 lS
 VW
-gN
+GH
 yr
 Op
 aM
@@ -2164,21 +2164,21 @@ is
 is
 aa
 fK
-gy
+VF
 yR
 lS
 Jj
 be
-Cp
-Cp
-Cp
-Cp
-Cp
+YY
+YY
+YY
+YY
+YY
 jh
 FK
 lS
 Zd
-gy
+VF
 fK
 AN
 is
@@ -2192,7 +2192,7 @@ aM
 aM
 pV
 yr
-cF
+gm
 kZ
 lS
 BX
@@ -2206,7 +2206,7 @@ Ju
 PB
 lS
 kZ
-cF
+gm
 yr
 Op
 aM
@@ -2248,7 +2248,7 @@ Si
 Fk
 Si
 fK
-gy
+VF
 yp
 Pg
 ji
@@ -2262,7 +2262,7 @@ Sp
 IH
 Pg
 Br
-gy
+VF
 fK
 Si
 Fk
@@ -2336,13 +2336,13 @@ kU
 aG
 Ug
 iT
-gy
-gy
-gy
+VF
+VF
+VF
 Vm
-gy
-gy
-gy
+VF
+VF
+VF
 iT
 Ug
 aS

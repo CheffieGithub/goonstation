@@ -154,13 +154,6 @@
 "aF" = (
 /turf/simulated/floor/plating/random,
 /area/space)
-"aG" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3_trans";
-	dir = 8
-	},
-/area/space)
 "aH" = (
 /turf/space/cavern,
 /area/space)
@@ -509,13 +502,6 @@
 "bH" = (
 /turf/simulated/wall/auto/asteroid/comet/copper,
 /area/space)
-"bI" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 6
-	},
-/area/space)
 "bJ" = (
 /obj/stool/chair/comfy/shuttle/brown{
 	icon_state = "shuttle_chair-brown";
@@ -742,27 +728,6 @@
 /obj/mapping_helper/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/space)
-"cr" = (
-/obj/landmark{
-	icon_state = "x3";
-	name = "peststart"
-	},
-/turf/simulated/floor/sanitary,
-/area/space)
-"cs" = (
-/obj/item/storage/toilet/random{
-	icon_state = "toilet";
-	dir = 8
-	},
-/obj/landmark/start{
-	name = "Staff Assistant"
-	},
-/obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 21
-	},
-/turf/simulated/floor/sanitary,
-/area/space)
 "ct" = (
 /obj/mapping_helper/wingrille_spawn/reinforced/full,
 /obj/disposalpipe/segment/vertical,
@@ -839,17 +804,6 @@
 	dir = 8
 	},
 /area/space)
-"cH" = (
-/obj/submachine/chef_sink/chem_sink{
-	dir = 8;
-	pixel_x = 8
-	},
-/obj/landmark{
-	icon_state = "x3";
-	name = "peststart"
-	},
-/turf/simulated/floor/sanitary,
-/area/space)
 "cI" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "xtra_bigstripe-edge";
@@ -896,17 +850,6 @@
 /obj/machinery/door/firedoor/pyro,
 /obj/machinery/door/airlock/pyro/glass,
 /turf/simulated/floor,
-/area/space)
-"cP" = (
-/obj/machinery/door/airlock/pyro,
-/obj/cable{
-	icon_state = "1-2";
-	d1 = 1;
-	d2 = 2
-	},
-/obj/disposalpipe/segment,
-/obj/machinery/door/firedoor/pyro,
-/turf/simulated/floor/sanitary,
 /area/space)
 "cQ" = (
 /obj/table/reinforced/auto,
@@ -2362,13 +2305,6 @@
 	},
 /turf/simulated/floor/plating/airless/asteroid/dark,
 /area/space)
-"he" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3_trans";
-	dir = 1
-	},
-/area/space)
 "hf" = (
 /obj/structure/girder/reinforced,
 /turf/simulated/floor/airless/plating,
@@ -2401,24 +2337,10 @@
 	},
 /turf/simulated/drawbridge/floor,
 /area/space)
-"hl" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	dir = 8;
-	icon_state = "diagonalWall"
-	},
-/area/space)
 "hm" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3dir";
 	dir = 8
-	},
-/area/space)
-"hn" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	dir = 1;
-	icon_state = "diagonalWall"
 	},
 /area/space)
 "ho" = (
@@ -2429,21 +2351,11 @@
 	},
 /turf/simulated/floor/airless/engine,
 /area/space)
-"hp" = (
-/turf/unsimulated/floor/shuttle/red,
-/area/space)
 "hq" = (
 /obj/mapping_helper/wingrille_spawn/bulletproof,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3dir";
 	dir = 2
-	},
-/area/space)
-"hr" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	dir = 8;
-	icon_state = "diagonalWall3"
 	},
 /area/space)
 "hs" = (
@@ -2473,26 +2385,9 @@
 	dir = 8
 	},
 /area/space)
-"hw" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall"
-	},
-/area/space)
-"hx" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	dir = 4;
-	icon_state = "diagonalWall"
-	},
-/area/space)
 "hy" = (
 /obj/machinery/light/emergency,
 /turf/simulated/floor/airless/engine,
-/area/space)
-"hz" = (
-/obj/mapping_helper/wingrille_spawn/bulletproof,
-/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "hA" = (
 /obj/lattice{
@@ -2541,13 +2436,6 @@
 "hI" = (
 /turf/simulated/floor/redblack/corner{
 	icon_state = "redblackcorner";
-	dir = 4
-	},
-/area/space)
-"hJ" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3_trans";
 	dir = 4
 	},
 /area/space)
@@ -3227,10 +3115,6 @@
 	dir = 1
 	},
 /area/space)
-"jD" = (
-/turf/simulated/floor/airless/plating,
-/turf/unsimulated/wall/setpieces/bunker_grille,
-/area/space)
 "jE" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4
@@ -3673,13 +3557,6 @@
 	},
 /turf/simulated/floor,
 /area/space)
-"kG" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 5
-	},
-/area/space)
 "kH" = (
 /turf/simulated/floor/wood/eight{
 	icon_state = "wooden-8";
@@ -3776,13 +3653,6 @@
 "lb" = (
 /obj/mapping_helper/wingrille_spawn/bulletproof,
 /turf/simulated/floor/black,
-/area/space)
-"lc" = (
-/obj/stool/chair/comfy/shuttle/red{
-	icon_state = "shuttle_chair-red";
-	dir = 8
-	},
-/turf/unsimulated/floor/shuttle/red,
 /area/space)
 "ld" = (
 /obj/stool/chair/comfy/shuttle/brown{
@@ -4461,22 +4331,11 @@
 	},
 /turf/simulated/floor/engine,
 /area/space)
-"nd" = (
-/turf/unsimulated/iomoon/plating,
-/turf/unsimulated/wall/setpieces/bunker_grille,
-/area/space)
 "ne" = (
 /turf/unsimulated/floor/lava,
 /area/space)
 "nf" = (
 /turf/unsimulated/iomoon/plating,
-/area/space)
-"ng" = (
-/turf/unsimulated/iomoon/plating,
-/turf/unsimulated/wall/setpieces/bunker_grille{
-	icon_state = "grille-burly";
-	dir = 8
-	},
 /area/space)
 "nh" = (
 /obj/structure/girder/reinforced,
@@ -4765,37 +4624,12 @@
 	},
 /turf/simulated/floor/airless/engine,
 /area/space)
-"nV" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-R"
-	},
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"nW" = (
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-L"
-	},
-/obj/machinery/shuttle/engine/heater{
-	dir = 1;
-	icon_state = "alt_heater-M"
-	},
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
 "nX" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
 	icon_state = "alt_heater-L"
 	},
 /turf/space,
-/area/space)
-"nY" = (
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"nZ" = (
-/obj/machinery/door/unpowered/shuttle,
-/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "oa" = (
 /obj/machinery/light/runway_light,
@@ -4809,13 +4643,6 @@
 /obj/window/cubicle/railing,
 /turf/simulated/floor/airless/plating,
 /area/space)
-"ob" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 2
-	},
-/area/space)
 "oc" = (
 /turf/simulated/shuttle/wall{
 	dir = 1;
@@ -4826,14 +4653,6 @@
 /turf/simulated/shuttle/wall{
 	dir = 8;
 	icon_state = "wall3_floor2"
-	},
-/area/space)
-"oe" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall/cockpit{
-	dir = 2;
-	icon_state = "shuttlecock_mining";
-	plane = 5
 	},
 /area/space)
 "of" = (
@@ -4982,16 +4801,6 @@
 	},
 /turf/simulated/floor/airless/plating,
 /area/space)
-"ox" = (
-/turf/simulated/floor/shuttle{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "Floor3"
-	},
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3";
-	dir = 6
-	},
-/area/space)
 "oy" = (
 /obj/window/cubicle/railing{
 	dir = 8;
@@ -5071,13 +4880,6 @@
 	dir = 9
 	},
 /turf/simulated/floor/longtile/black,
-/area/space)
-"oI" = (
-/turf/simulated/floor/longtile/black,
-/turf/unsimulated/wall/setpieces/bunker_grille{
-	icon_state = "grille-burly";
-	dir = 8
-	},
 /area/space)
 "oJ" = (
 /obj/machinery/door/airlock/pyro/maintenance{
@@ -5494,13 +5296,6 @@
 "pP" = (
 /obj/decal/fakeobjects/robot/servotron/old,
 /turf/simulated/floor/engine,
-/area/space)
-"pQ" = (
-/turf/simulated/floor/plating,
-/turf/unsimulated/wall/setpieces/bunker_grille{
-	icon_state = "grille-burly";
-	dir = 8
-	},
 /area/space)
 "pR" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -5951,13 +5746,6 @@
 	},
 /turf/simulated/floor/industrial,
 /area/space)
-"rl" = (
-/turf/space,
-/turf/simulated/shuttle/wall/cockpit{
-	icon_state = "shuttlecock_blu";
-	dir = 4
-	},
-/area/space)
 "rm" = (
 /obj/reagent_dispensers/watertank/fountain,
 /turf/simulated/floor/grey,
@@ -6042,10 +5830,6 @@
 	status = 2
 	},
 /turf/simulated/floor,
-/area/space)
-"rx" = (
-/turf/simulated/floor/engine,
-/turf/unsimulated/wall/setpieces/bunker_grille,
 /area/space)
 "ry" = (
 /obj/stool/chair/comfy/yellow,
@@ -6412,13 +6196,6 @@
 /obj/map/light/screen,
 /turf/simulated/floor/shuttlebay,
 /area/space)
-"st" = (
-/turf/simulated/floor/shuttlebay,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 2
-	},
-/area/space)
 "su" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -6529,13 +6306,6 @@
 "sJ" = (
 /mob/living/critter/small_animal/cockroach,
 /turf/simulated/floor/shuttlebay,
-/area/space)
-"sK" = (
-/turf/simulated/floor/shuttlebay,
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3";
-	dir = 9
-	},
 /area/space)
 "sL" = (
 /obj/grille/catwalk{
@@ -6680,24 +6450,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"tf" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	dir = 8;
-	icon_state = "diagonalWall3"
-	},
-/area/space)
-"tg" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	dir = 6;
-	icon_state = "diagonalWall3"
-	},
-/area/space)
-"th" = (
-/obj/machinery/door/airlock/external,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
 "ti" = (
 /turf/simulated/shuttle/wall{
 	dir = 1;
@@ -6774,22 +6526,6 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/space)
-"tr" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 8;
-	icon = 'icons/obj/atmospherics/pipes/manifold_pipe.dmi';
-	icon_state = "manifold"
-	},
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"ts" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 4
-	},
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "tt" = (
 /obj/decal/fakeobjects/pipe{
@@ -6954,93 +6690,6 @@
 	icon_state = "old_rwall"
 	},
 /area/space)
-"tK" = (
-/obj/stool/chair/comfy{
-	dir = 8
-	},
-/obj/landmark/spawner{
-	name = "big_yank"
-	},
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"tL" = (
-/obj/decal/fakeobjects/pipe{
-	desc = "It won't budge.";
-	icon = 'icons/obj/pipe-item.dmi';
-	icon_state = "valve";
-	name = "rusted valve"
-	},
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"tM" = (
-/obj/item/clothing/glasses/urs_dungeon_entry,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"tN" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 10;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit"
-	},
-/obj/decal/cleanable/dirt,
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"tO" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit";
-	tag = "icon-conduit (EAST)"
-	},
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"tP" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit";
-	tag = "icon-conduit (EAST)"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4
-	},
-/obj/decal/cleanable/dirt,
-/obj/machinery/light/small/cool/very,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"tQ" = (
-/obj/machinery/door/airlock/external{
-	name = "Compartment Hatch"
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit";
-	tag = "icon-conduit (EAST)"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4
-	},
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
 "tR" = (
 /obj/decal/fakeobjects/pipe{
 	icon = 'icons/obj/atmospherics/pipe_vent.dmi'
@@ -7119,15 +6768,6 @@
 /obj/mapping_helper/wingrille_spawn/auto,
 /turf/unsimulated/floor/shuttle,
 /area/space)
-"tW" = (
-/obj/stool/chair/comfy,
-/obj/npc/trader/random{
-	trader_area = "/area/shuttle/merchant_shuttle/right_station"
-	},
-/turf/unsimulated/floor/shuttle{
-	icon_state = "floor2"
-	},
-/area/space)
 "tX" = (
 /obj/decal/fakeobjects/teleport_pad,
 /obj/marker/supplymarker,
@@ -7142,29 +6782,6 @@
 /obj/map/light/screen,
 /obj/decal/cleanable/dirt,
 /turf/space,
-/area/space)
-"tZ" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	dir = 10;
-	icon_state = "diagonalWall3"
-	},
-/area/space)
-"ua" = (
-/obj/machinery/light/small/cool/very,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"ub" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 1;
-	tag = "icon-intact (NORTH)"
-	},
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"uc" = (
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "ud" = (
 /obj/table/auto,
@@ -7212,11 +6829,6 @@
 	icon_state = "wall3_trans"
 	},
 /turf/space,
-/area/space)
-"ui" = (
-/obj/machinery/door/airlock/external,
-/obj/decal/cleanable/dirt,
-/turf/unsimulated/floor/shuttle/yellow,
 /area/space)
 "uj" = (
 /turf/simulated/shuttle/wall{
@@ -7297,13 +6909,6 @@
 	icon_state = "floor2"
 	},
 /area/space)
-"ur" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 5
-	},
-/area/space)
 "us" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	icon_state = "alt_propulsion";
@@ -7342,13 +6947,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/space)
-"ux" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3";
-	dir = 6
-	},
-/area/space)
 "uy" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "xtra_bigstripe-edge";
@@ -7357,20 +6955,6 @@
 /turf/simulated/floor/shuttle{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "diamondtile"
-	},
-/area/space)
-"uz" = (
-/turf/unsimulated/floor/shuttle/yellow,
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3_trans";
-	dir = 8
-	},
-/area/space)
-"uA" = (
-/turf/simulated/floor/airless/engine,
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 9
 	},
 /area/space)
 "uB" = (
@@ -7408,20 +6992,6 @@
 	icon_state = "diamondtile"
 	},
 /area/space)
-"uE" = (
-/obj/stool/chair/comfy/shuttle/brown,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"uF" = (
-/turf/simulated/floor/shuttle{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "Floor3"
-	},
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 2
-	},
-/area/space)
 "uG" = (
 /obj/table/reinforced/auto,
 /turf/simulated/shuttle/wall{
@@ -7448,16 +7018,6 @@
 	},
 /turf/simulated/floor/longtile/black,
 /area/space)
-"uJ" = (
-/turf/simulated/floor/shuttle{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "Floor3"
-	},
-/turf/simulated/shuttle/wall{
-	icon_state = "wall3";
-	dir = 9
-	},
-/area/space)
 "uK" = (
 /obj/decal/fakeobjects/plantpot,
 /obj/shrub{
@@ -7467,16 +7027,6 @@
 	},
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/simulated/floor/longtile/black,
-/area/space)
-"uL" = (
-/turf/simulated/floor/shuttle{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "Floor3"
-	},
-/turf/simulated/shuttle/wall{
-	icon_state = "diagonalWall3";
-	dir = 6
-	},
 /area/space)
 "uM" = (
 /obj/machinery/light/runway_light,
@@ -7490,19 +7040,6 @@
 	},
 /turf/simulated/floor/grey,
 /area/space)
-"uO" = (
-/obj/machinery/sleeper/compact,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"uP" = (
-/obj/machinery/vending/snack,
-/turf/unsimulated/floor/shuttle/yellow,
-/area/space)
-"uQ" = (
-/obj/machinery/neosmelter,
-/turf/simulated/floor/engine,
-/turf/unsimulated/wall/setpieces/bunker_grille,
-/area/space)
 "uR" = (
 /obj/machinery/door/airlock/classic,
 /turf/simulated/floor/grey,
@@ -7514,17 +7051,6 @@
 "uT" = (
 /obj/machinery/door/airlock/pyro/security/alt,
 /turf/simulated/floor/grey,
-/area/space)
-"uU" = (
-/obj/decal/tile_edge/stripe/extra_big{
-	icon_state = "xtra_bigstripe-edge";
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/turf/unsimulated/wall/setpieces/bunker_grille{
-	icon_state = "grille-burly";
-	dir = 8
-	},
 /area/space)
 "uV" = (
 /obj/machinery/door/airlock/pyro/security/alt{
@@ -7584,21 +7110,6 @@
 	icon_state = "access"
 	},
 /turf/simulated/floor/grey,
-/area/space)
-"vf" = (
-/obj/grille/catwalk,
-/turf/unsimulated/floor/lava,
-/turf/simulated/floor/airless/plating/catwalk,
-/area/space)
-"vg" = (
-/obj/decal/tile_edge/line/black{
-	tag = "icon-line1 (NORTH)";
-	icon_state = "line1";
-	dir = 1
-	},
-/obj/grille/catwalk,
-/turf/unsimulated/floor/lava,
-/turf/simulated/floor/airless/plating/catwalk,
 /area/space)
 "vh" = (
 /obj/decoration/decorativeplant/plant5,
@@ -7701,7 +7212,381 @@
 	},
 /turf/space,
 /area/space)
-"vz" = (
+"wV" = (
+/obj/machinery/door/airlock/external{
+	name = "Compartment Hatch"
+	},
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit";
+	tag = "icon-conduit (EAST)"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4
+	},
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"xp" = (
+/turf/simulated/shuttle/wall{
+	dir = 10;
+	icon_state = "diagonalWall3"
+	},
+/area/space)
+"xF" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 4
+	},
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"yo" = (
+/obj/item/storage/toilet/random{
+	icon_state = "toilet";
+	dir = 8
+	},
+/obj/landmark/start/job/assistant,
+/obj/machinery/light/small{
+	dir = 1;
+	pixel_y = 21
+	},
+/turf/simulated/floor/sanitary,
+/area/space)
+"zH" = (
+/obj/stool/chair/comfy/shuttle/red{
+	icon_state = "shuttle_chair-red";
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttle/red,
+/area/space)
+"zV" = (
+/obj/item/clothing/glasses/urs_dungeon_entry,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Ak" = (
+/obj/decal/tile_edge/stripe/extra_big{
+	icon_state = "xtra_bigstripe-edge";
+	dir = 1
+	},
+/turf/unsimulated/wall/setpieces/bunker_grille{
+	icon_state = "grille-burly";
+	dir = 8
+	},
+/area/space)
+"Bq" = (
+/obj/decal/fakeobjects/pipe{
+	desc = "It won't budge.";
+	icon = 'icons/obj/pipe-item.dmi';
+	icon_state = "valve";
+	name = "rusted valve"
+	},
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"BB" = (
+/obj/stool/chair/comfy{
+	dir = 8
+	},
+/mob/living/carbon/human/big_yank,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"BN" = (
+/obj/lattice{
+	dir = 4;
+	icon_state = "lattice-dir-b";
+	tag = "icon-lattice-dir-b (EAST)"
+	},
+/turf/simulated/shuttle/wall/cockpit{
+	icon_state = "shuttlecock_mining";
+	dir = 8
+	},
+/area/space)
+"Cr" = (
+/obj/machinery/door/airlock/pyro,
+/obj/cable{
+	icon_state = "1-2";
+	
+	},
+/obj/disposalpipe/segment,
+/obj/machinery/door/firedoor/pyro,
+/turf/simulated/floor/sanitary,
+/area/space)
+"CX" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 1;
+	tag = "icon-intact (NORTH)"
+	},
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Ee" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit";
+	tag = "icon-conduit (EAST)"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4
+	},
+/obj/decal/cleanable/dirt,
+/obj/machinery/light/small/cool/very,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Fs" = (
+/obj/machinery/shuttle/engine/heater{
+	dir = 1;
+	icon_state = "alt_heater-L"
+	},
+/obj/machinery/shuttle/engine/heater{
+	dir = 1;
+	icon_state = "alt_heater-M"
+	},
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"FO" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "diagonalWall"
+	},
+/area/space)
+"Hc" = (
+/turf/unsimulated/wall/setpieces/bunker_grille{
+	icon_state = "grille-burly";
+	dir = 8
+	},
+/area/space)
+"Hn" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "diagonalWall3";
+	dir = 2
+	},
+/area/space)
+"Ib" = (
+/obj/machinery/neosmelter,
+/turf/unsimulated/wall/setpieces/bunker_grille,
+/area/space)
+"IA" = (
+/turf/simulated/shuttle/wall{
+	dir = 8;
+	icon_state = "diagonalWall"
+	},
+/area/space)
+"IC" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "wall3";
+	dir = 6
+	},
+/area/space)
+"Jh" = (
+/obj/grille/catwalk,
+/turf/simulated/floor/airless/plating/catwalk,
+/area/space)
+"Ju" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "diagonalWall3";
+	dir = 9
+	},
+/area/space)
+"Jw" = (
+/obj/stool/chair/comfy,
+/obj/npc/trader/random,
+/turf/unsimulated/floor/shuttle{
+	icon_state = "floor2"
+	},
+/area/space)
+"JO" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "diagonalWall3";
+	dir = 5
+	},
+/area/space)
+"Kl" = (
+/obj/machinery/door/unpowered/shuttle,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Kt" = (
+/obj/submachine/chef_sink/chem_sink{
+	dir = 8;
+	pixel_x = 8
+	},
+/obj/landmark/pest,
+/turf/simulated/floor/sanitary,
+/area/space)
+"KN" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "diagonalWall3";
+	dir = 6
+	},
+/area/space)
+"KS" = (
+/obj/mapping_helper/wingrille_spawn/bulletproof,
+/turf/unsimulated/floor/shuttle/red,
+/area/space)
+"Lr" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "wall3_trans";
+	dir = 1
+	},
+/area/space)
+"LX" = (
+/obj/decal/tile_edge/line/black{
+	tag = "icon-line1 (NORTH)";
+	icon_state = "line1";
+	dir = 1
+	},
+/obj/grille/catwalk,
+/turf/simulated/floor/airless/plating/catwalk,
+/area/space)
+"Mm" = (
+/turf/simulated/shuttle/wall{
+	dir = 4;
+	icon_state = "diagonalWall"
+	},
+/area/space)
+"Mx" = (
+/turf/unsimulated/floor/shuttle/yellow,
+/turf/simulated/shuttle/wall{
+	icon_state = "wall3_trans";
+	dir = 8
+	},
+/area/space)
+"MW" = (
+/obj/stool/chair/comfy/shuttle/brown,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"OO" = (
+/obj/decal/fakeobjects/pipe{
+	icon = 'icons/obj/atmospherics/pipes/manifold_pipe.dmi';
+	icon_state = "manifold"
+	},
+/turf/simulated/shuttle/wall{
+	dir = 6;
+	icon_state = "diagonalWall3"
+	},
+/area/space)
+"Pe" = (
+/turf/simulated/shuttle/wall{
+	dir = 1;
+	icon_state = "diagonalWall"
+	},
+/area/space)
+"Pr" = (
+/turf/simulated/shuttle/wall/cockpit{
+	dir = 2;
+	icon_state = "shuttlecock_mining";
+	plane = 5
+	},
+/area/space)
+"PF" = (
+/obj/machinery/vending/snack,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Qb" = (
+/obj/machinery/door/airlock/external,
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Qt" = (
+/obj/machinery/door/airlock/external,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Sq" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 10;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit"
+	},
+/obj/decal/cleanable/dirt,
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Tp" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "wall3_trans";
+	dir = 8
+	},
+/area/space)
+"TD" = (
+/turf/simulated/shuttle/wall/cockpit{
+	icon_state = "shuttlecock_blu";
+	dir = 4
+	},
+/area/space)
+"Ul" = (
+/obj/machinery/shuttle/engine/heater{
+	dir = 1;
+	icon_state = "alt_heater-R"
+	},
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"UH" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 8;
+	icon = 'icons/obj/atmospherics/pipes/manifold_pipe.dmi';
+	icon_state = "manifold"
+	},
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Vn" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit";
+	tag = "icon-conduit (EAST)"
+	},
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Vs" = (
+/obj/machinery/sleeper/compact,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Vx" = (
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"VJ" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "wall3";
+	dir = 9
+	},
+/area/space)
+"Wr" = (
+/obj/decal/cleanable/dirt,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"Wu" = (
+/turf/simulated/shuttle/wall{
+	dir = 6;
+	icon_state = "diagonalWall3"
+	},
+/area/space)
+"Xd" = (
+/turf/simulated/shuttle/wall{
+	icon_state = "wall3_trans";
+	dir = 4
+	},
+/area/space)
+"XS" = (
+/obj/machinery/light/small/cool/very,
+/turf/unsimulated/floor/shuttle/yellow,
+/area/space)
+"XU" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
@@ -7709,42 +7594,23 @@
 	dir = 4;
 	icon_state = "wall3_trans"
 	},
-/turf/simulated/floor/shuttlebay,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3";
 	dir = 6
 	},
 /area/space)
-"vA" = (
-/obj/lattice{
-	dir = 4;
-	icon_state = "lattice-dir-b";
-	tag = "icon-lattice-dir-b (EAST)"
-	},
-/turf/space,
-/turf/simulated/shuttle/wall/cockpit{
-	icon_state = "shuttlecock_mining";
-	dir = 8
-	},
+"XW" = (
+/obj/landmark/pest,
+/turf/simulated/floor/sanitary,
 /area/space)
-"vB" = (
-/obj/decal/fakeobjects/pipe{
-	icon = 'icons/obj/atmospherics/pipes/manifold_pipe.dmi';
-	icon_state = "manifold"
-	},
-/turf/simulated/floor/shuttlebay,
+"ZE" = (
 /turf/simulated/shuttle/wall{
-	dir = 6;
+	dir = 8;
 	icon_state = "diagonalWall3"
 	},
 /area/space)
-"vC" = (
-/obj/mapping_helper/wingrille_spawn/bulletproof,
-/turf/simulated/floor/shuttle,
-/turf/simulated/shuttle/wall/corner{
-	icon_state = "wallwin";
-	dir = 5
-	},
+"ZR" = (
+/turf/unsimulated/floor/shuttle/red,
 /area/space)
 
 (1,1,1) = {"
@@ -17390,7 +17256,7 @@ hh
 hj
 hj
 hj
-rl
+TD
 hj
 hj
 hj
@@ -17991,13 +17857,13 @@ aq
 aq
 aq
 hh
-hl
+IA
 bv
 bD
 bJ
 bD
 bv
-hw
+FO
 hA
 gE
 aq
@@ -18903,7 +18769,7 @@ bB
 bE
 bB
 bB
-vC
+bw
 hA
 gE
 aq
@@ -19205,7 +19071,7 @@ bB
 bB
 bB
 bB
-vC
+bw
 hA
 gE
 aq
@@ -20105,13 +19971,13 @@ hv
 aq
 aq
 hh
-hn
+Pe
 bv
 bw
 bw
 bw
 bv
-hx
+Mm
 hA
 en
 aq
@@ -20710,11 +20576,11 @@ aN
 aN
 hf
 ho
-hn
+Pe
 iw
 iw
 iw
-hx
+Mm
 hy
 hf
 en
@@ -22524,7 +22390,7 @@ hf
 ho
 hj
 hj
-rl
+TD
 hj
 hj
 hy
@@ -23125,13 +22991,13 @@ hv
 aq
 aq
 hh
-hl
+IA
 bv
 bD
 bJ
 bD
 bv
-hw
+FO
 hA
 en
 aq
@@ -24037,7 +23903,7 @@ bB
 bE
 bB
 bB
-vC
+bw
 hA
 gE
 aq
@@ -24339,7 +24205,7 @@ bB
 bB
 bB
 bB
-vC
+bw
 hA
 gE
 aq
@@ -25239,13 +25105,13 @@ aq
 aq
 aq
 hh
-hn
+Pe
 bv
 bw
 bw
 bw
 bv
-hx
+Mm
 hA
 gE
 aq
@@ -25844,11 +25710,11 @@ aq
 aq
 hh
 hj
-hn
+Pe
 iw
 iw
 iw
-hx
+Mm
 hj
 hA
 gE
@@ -26544,16 +26410,16 @@ bL
 bL
 ac
 ac
-ng
+Hc
 nm
 ne
 ne
 ne
 ne
-ng
+Hc
 ac
 ac
-ng
+Hc
 nm
 ne
 ne
@@ -27148,16 +27014,16 @@ bL
 bL
 ac
 ac
-vf
-vf
-vf
-vf
-vf
-vf
-vf
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
 ac
 ac
-ng
+Hc
 nm
 ne
 ne
@@ -27464,7 +27330,7 @@ nn
 nq
 nq
 nh
-nd
+qx
 ni
 ni
 ac
@@ -27758,14 +27624,14 @@ ne
 ne
 ne
 ne
-ng
+Hc
 ac
 ac
-vg
-vf
-vf
-vf
-vf
+LX
+Jh
+Jh
+Jh
+Jh
 nf
 nf
 ac
@@ -28068,7 +27934,7 @@ nn
 nq
 nq
 nh
-nd
+qx
 ni
 ni
 ac
@@ -28661,7 +28527,7 @@ ac
 nk
 no
 nh
-nd
+qx
 nh
 nm
 nv
@@ -28962,11 +28828,11 @@ ac
 ac
 nj
 ne
-ng
+Hc
 nf
 nf
-vg
-vf
+LX
+Jh
 ac
 ac
 nC
@@ -29264,11 +29130,11 @@ qL
 ac
 nj
 ne
-ng
+Hc
 nf
 nf
-vg
-vf
+LX
+Jh
 ac
 ac
 nC
@@ -29567,7 +29433,7 @@ ac
 nk
 no
 nh
-nd
+qx
 nh
 nm
 nv
@@ -29878,7 +29744,7 @@ ac
 nC
 ne
 nh
-nd
+qx
 nh
 nE
 nG
@@ -30177,11 +30043,11 @@ ne
 nv
 ac
 ac
-vg
-vf
+LX
+Jh
 nf
 nf
-ng
+Hc
 nF
 nD
 bL
@@ -30472,18 +30338,18 @@ ac
 ac
 nl
 nh
-nd
+qx
 nh
 nm
 ne
 nv
 ac
 ac
-vg
-vf
+LX
+Jh
 nf
 nf
-ng
+Hc
 nF
 nD
 bL
@@ -30753,16 +30619,16 @@ qi
 qO
 qO
 qi
-pQ
+Hc
 rb
 rb
-pQ
+Hc
 rb
 rb
-pQ
+Hc
 rb
 rb
-pQ
+Hc
 se
 sh
 se
@@ -30772,10 +30638,10 @@ ni
 nb
 ac
 ac
-vf
+Jh
 nf
 nf
-ng
+Hc
 nm
 ne
 nv
@@ -30784,7 +30650,7 @@ ac
 nC
 ne
 nh
-nd
+qx
 nh
 nE
 nG
@@ -31074,10 +30940,10 @@ nb
 ac
 ac
 ac
-vf
+Jh
 nf
 nf
-ng
+Hc
 nm
 ne
 nv
@@ -31378,7 +31244,7 @@ ac
 ac
 nl
 nh
-nd
+qx
 nh
 nm
 ne
@@ -31688,8 +31554,8 @@ nv
 ac
 ac
 nh
-nd
-nd
+qx
+qx
 nh
 nn
 nq
@@ -31992,7 +31858,7 @@ ac
 ac
 ac
 ac
-ng
+Hc
 bL
 bL
 bL
@@ -32263,16 +32129,16 @@ qM
 qV
 qV
 qM
-pQ
+Hc
 rc
 rc
-pQ
+Hc
 rc
 rc
-pQ
+Hc
 rc
 rc
-pQ
+Hc
 sg
 lf
 sg
@@ -32282,19 +32148,19 @@ nb
 nb
 ac
 ac
-vf
-vf
-vf
-vf
-vf
-vf
-vf
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
 ac
 ac
 ac
 ac
 ac
-ng
+Hc
 bL
 bL
 ni
@@ -32591,8 +32457,8 @@ ni
 ni
 ni
 nh
-nd
-nd
+qx
+qx
 nh
 ac
 ac
@@ -34101,8 +33967,8 @@ ni
 ni
 ni
 nh
-nd
-nd
+qx
+qx
 nh
 ac
 ac
@@ -34396,19 +34262,19 @@ ni
 nf
 ac
 ac
-vf
-vf
-vf
-vf
-vf
-vf
-vf
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
 ac
 ac
 ac
 ac
 ac
-ng
+Hc
 bL
 bL
 ni
@@ -34710,7 +34576,7 @@ ac
 ac
 ac
 ac
-ng
+Hc
 bL
 bL
 bL
@@ -35010,8 +34876,8 @@ nv
 ac
 ac
 nh
-nd
-nd
+qx
+qx
 nh
 nn
 nq
@@ -35278,15 +35144,15 @@ nL
 nL
 oX
 qx
-uQ
+Ib
 rX
 cD
-rx
-uQ
+qx
+Ib
 rX
 cD
-rx
-uQ
+qx
+Ib
 rX
 oX
 qy
@@ -35305,7 +35171,7 @@ ac
 nt
 no
 nh
-nd
+qx
 nh
 nm
 nv
@@ -35578,7 +35444,7 @@ nL
 nL
 nL
 nL
-oI
+Hc
 cD
 cD
 cD
@@ -35590,7 +35456,7 @@ cD
 cD
 cD
 cD
-oI
+Hc
 qF
 qB
 nL
@@ -35606,11 +35472,11 @@ ac
 ac
 nj
 ne
-ng
+Hc
 nf
 nf
-vg
-vf
+LX
+Jh
 ac
 ac
 nC
@@ -35881,16 +35747,16 @@ oX
 qx
 qx
 oX
-rx
-rx
+qx
+qx
 qq
 cD
-rx
-rx
+qx
+qx
 qq
 cD
-rx
-rx
+qx
+qx
 qq
 oX
 qx
@@ -35900,19 +35766,19 @@ nL
 nL
 nL
 ni
-nd
-nd
-nd
+qx
+qx
+qx
 ni
 ac
 ac
 nj
 ne
-ng
+Hc
 nf
 nf
-vg
-vf
+LX
+Jh
 ac
 ac
 nC
@@ -36211,7 +36077,7 @@ ac
 nt
 no
 nh
-nd
+qx
 nh
 nm
 nv
@@ -36220,7 +36086,7 @@ ac
 nC
 ne
 nh
-nd
+qx
 nh
 nE
 nG
@@ -36519,11 +36385,11 @@ ne
 nv
 ac
 ac
-vg
-vf
+LX
+Jh
 nf
 nf
-ng
+Hc
 nF
 nD
 bL
@@ -36821,11 +36687,11 @@ ne
 nv
 ac
 ac
-vg
-vf
+LX
+Jh
 nf
 nf
-ng
+Hc
 nF
 nD
 bL
@@ -37089,16 +36955,16 @@ oX
 qx
 qx
 oX
-rx
-uQ
+qx
+Ib
 qq
 cD
-rx
-uQ
+qx
+Ib
 qq
 cD
-rx
-uQ
+qx
+Ib
 qq
 oX
 qx
@@ -37108,9 +36974,9 @@ nL
 nL
 nL
 ni
-nd
-nd
-nd
+qx
+qx
+qx
 ni
 ac
 ac
@@ -37126,7 +36992,7 @@ ac
 nC
 ne
 nh
-nd
+qx
 nh
 nE
 nG
@@ -37390,7 +37256,7 @@ nL
 nL
 nL
 nL
-oI
+Hc
 cD
 cD
 cD
@@ -37402,7 +37268,7 @@ cD
 cD
 cD
 cD
-oI
+Hc
 qF
 qB
 nL
@@ -37693,16 +37559,16 @@ nL
 nL
 nL
 oX
-rx
-rx
+qx
+qx
 rX
 cD
-rx
-rx
+qx
+qx
 rX
 cD
-rx
-rx
+qx
+qx
 rX
 oX
 qy
@@ -38022,7 +37888,7 @@ ac
 ac
 nl
 nh
-nd
+qx
 nh
 nm
 ne
@@ -38322,10 +38188,10 @@ ni
 ni
 ac
 ac
-vf
+Jh
 nf
 nf
-ng
+Hc
 nm
 ne
 nv
@@ -38624,10 +38490,10 @@ ni
 nf
 ac
 ac
-vf
+Jh
 nf
 nf
-ng
+Hc
 nm
 ne
 nv
@@ -38928,7 +38794,7 @@ ac
 ac
 nl
 nh
-nd
+qx
 nh
 nm
 ne
@@ -39238,8 +39104,8 @@ nv
 ac
 ac
 nh
-nd
-nd
+qx
+qx
 nh
 nn
 nq
@@ -39542,7 +39408,7 @@ ac
 ac
 ac
 ac
-ng
+Hc
 nm
 bL
 bL
@@ -39832,19 +39698,19 @@ ni
 ni
 ac
 ac
-vf
-vf
-vf
-vf
-vf
-vf
-vf
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
+Jh
 ac
 ac
 ac
 ac
 ac
-ng
+Hc
 bL
 bL
 bL
@@ -40133,7 +39999,7 @@ pz
 qs
 ni
 ni
-nd
+qx
 nh
 np
 nq
@@ -40141,8 +40007,8 @@ nq
 nq
 nq
 nh
-nd
-nd
+qx
+qx
 ni
 pJ
 pJ
@@ -51599,7 +51465,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 jF
 au
 as
@@ -51901,7 +51767,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -52195,15 +52061,15 @@ aq
 eT
 kW
 ni
-jD
-jD
-jD
-jD
+qx
+qx
+qx
+qx
 as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -52505,7 +52371,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -52786,16 +52652,16 @@ nU
 hg
 hq
 hg
-nZ
-nZ
+Kl
+Kl
 hg
 hq
 hg
 hg
 hg
-nZ
+Kl
 hg
-ob
+Hn
 hj
 og
 eT
@@ -52807,7 +52673,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -53083,9 +52949,9 @@ aq
 eT
 mW
 hj
-hr
+ZE
 hg
-ox
+IC
 kb
 kb
 qm
@@ -53093,10 +52959,10 @@ qu
 kb
 kb
 hg
-uO
-nY
-nY
-nY
+Vs
+Vx
+Vx
+Vx
 hq
 hj
 hj
@@ -53109,7 +52975,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -53385,7 +53251,7 @@ aq
 mV
 hj
 nU
-nV
+Ul
 hq
 kb
 kb
@@ -53395,12 +53261,12 @@ qu
 kb
 kb
 hg
-uO
-nY
-nY
-nY
+Vs
+Vx
+Vx
+Vx
 oc
-ob
+Hn
 hj
 hj
 iG
@@ -53687,7 +53553,7 @@ aq
 mW
 hj
 nU
-nW
+Fs
 hq
 kb
 kb
@@ -53695,13 +53561,13 @@ kb
 qm
 qu
 kb
-uJ
+VJ
 hg
-uO
-nY
-nY
-nY
-uE
+Vs
+Vx
+Vx
+Vx
+MW
 uG
 hj
 hj
@@ -53713,7 +53579,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -53998,13 +53864,13 @@ om
 om
 uy
 op
-nZ
-nY
-nY
-nY
-nY
-nY
-nY
+Kl
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 hj
 hj
 hj
@@ -54015,7 +53881,7 @@ aN
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -54301,14 +54167,14 @@ om
 om
 uC
 hq
-nY
-nY
-nY
-nY
-nY
-uE
+Vx
+Vx
+Vx
+Vx
+Vx
+MW
 hj
-oe
+Pr
 hj
 og
 eT
@@ -54317,7 +54183,7 @@ aN
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -54593,7 +54459,7 @@ aq
 mW
 hj
 nU
-nV
+Ul
 hq
 nO
 uD
@@ -54602,13 +54468,13 @@ om
 om
 ql
 oq
-nZ
-nY
-nY
-nY
-nY
-nY
-nY
+Kl
+Vx
+Vx
+Vx
+Vx
+Vx
+Vx
 hj
 hj
 hj
@@ -54619,7 +54485,7 @@ aN
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -54895,7 +54761,7 @@ aq
 mW
 hj
 nU
-nW
+Fs
 hq
 kb
 kb
@@ -54903,13 +54769,13 @@ kb
 qm
 qu
 kb
-uL
+KN
 hg
-nY
-nY
-nY
-nY
-uE
+Vx
+Vx
+Vx
+Vx
+MW
 uH
 hj
 hj
@@ -54921,7 +54787,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -55207,12 +55073,12 @@ qu
 kb
 kb
 hg
-nY
-nY
-nY
-nY
+Vx
+Vx
+Vx
+Vx
 od
-hJ
+Xd
 hj
 hj
 iM
@@ -55499,9 +55365,9 @@ aq
 eT
 mW
 hj
-he
+Lr
 hg
-uF
+Hn
 kb
 kb
 qm
@@ -55509,10 +55375,10 @@ qu
 kb
 kb
 hg
-uP
-nY
-nY
-nY
+PF
+Vx
+Vx
+Vx
 hq
 hj
 hj
@@ -55525,7 +55391,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -55806,16 +55672,16 @@ nU
 hg
 hq
 hg
-nZ
-nZ
+Kl
+Kl
 hg
 hq
 hg
 hg
 hg
-nZ
+Kl
 hg
-hJ
+Xd
 hj
 og
 eT
@@ -55827,7 +55693,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -56129,7 +55995,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -56431,7 +56297,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -56733,7 +56599,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -57035,7 +56901,7 @@ as
 cD
 ac
 cD
-uU
+Ak
 au
 fV
 as
@@ -62169,7 +62035,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -62471,7 +62337,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -62773,7 +62639,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -63075,7 +62941,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -63377,7 +63243,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -63679,7 +63545,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -64283,7 +64149,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -64585,7 +64451,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -64887,7 +64753,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -65189,7 +65055,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -65491,7 +65357,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -65793,7 +65659,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -66397,7 +66263,7 @@ gJ
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -66699,7 +66565,7 @@ gJ
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -67001,7 +66867,7 @@ gJ
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -67303,7 +67169,7 @@ gJ
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -67605,7 +67471,7 @@ gJ
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -67907,7 +67773,7 @@ gJ
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -68511,7 +68377,7 @@ jH
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -68813,7 +68679,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -69115,7 +68981,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -69417,7 +69283,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -69719,7 +69585,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -70021,7 +69887,7 @@ dx
 cD
 ac
 cD
-uU
+Ak
 au
 au
 as
@@ -74167,10 +74033,10 @@ aa
 aN
 aF
 cj
-cr
+XW
 cA
 cA
-cP
+Cr
 aC
 aC
 aC
@@ -74469,9 +74335,9 @@ aa
 as
 aF
 ab
-cs
+yo
 cB
-cH
+Kt
 ab
 aC
 aC
@@ -75734,13 +75600,13 @@ hg
 hg
 hg
 hg
-nZ
-nZ
+Kl
+Kl
 hg
 hg
-nZ
+Kl
 hg
-kG
+JO
 hj
 of
 is
@@ -76039,9 +75905,9 @@ hg
 om
 qu
 hg
-nY
-nY
-nY
+Vx
+Vx
+Vx
 hq
 hj
 hj
@@ -76333,7 +76199,7 @@ aq
 gM
 mW
 hj
-hr
+ZE
 hg
 kb
 kb
@@ -76341,9 +76207,9 @@ qm
 om
 qu
 hq
-nY
-nY
-nY
+Vx
+Vx
+Vx
 oc
 hj
 hj
@@ -76635,7 +76501,7 @@ aq
 gM
 mW
 nU
-nV
+Ul
 hq
 kb
 kb
@@ -76643,10 +76509,10 @@ qm
 om
 qu
 or
-nY
-nY
-nY
-nY
+Vx
+Vx
+Vx
+Vx
 hj
 hj
 hj
@@ -76937,7 +76803,7 @@ aq
 gM
 mW
 nU
-nW
+Fs
 hq
 hq
 uB
@@ -76945,12 +76811,12 @@ qm
 om
 qu
 hq
-nY
-nY
-nY
-uE
+Vx
+Vx
+Vx
+MW
 hj
-oe
+Pr
 hj
 og
 aq
@@ -77247,10 +77113,10 @@ qm
 om
 qu
 or
-nY
-nY
-nY
-nY
+Vx
+Vx
+Vx
+Vx
 hj
 hj
 hj
@@ -77541,7 +77407,7 @@ aq
 gM
 mW
 hj
-bI
+KN
 hg
 kb
 kb
@@ -77549,10 +77415,10 @@ qm
 om
 qu
 hq
-nY
-nY
-nY
-uz
+Vx
+Vx
+Vx
+Mx
 hj
 hj
 hj
@@ -77851,9 +77717,9 @@ hg
 om
 qu
 hg
-nY
-nY
-nY
+Vx
+Vx
+Vx
 hq
 hj
 hj
@@ -78150,13 +78016,13 @@ hg
 hg
 hg
 hg
-nZ
-nZ
+Kl
+Kl
 hg
 hg
-nZ
+Kl
 hg
-uA
+Ju
 hj
 iH
 is
@@ -78919,9 +78785,9 @@ hj
 hj
 hj
 rq
-st
+Hn
 ep
-sK
+VJ
 rq
 hj
 hj
@@ -79209,9 +79075,9 @@ hj
 hj
 hj
 rq
-st
+Hn
 ep
-sK
+VJ
 rq
 hj
 hj
@@ -84411,9 +84277,9 @@ aa
 aa
 aa
 aa
-tf
-vA
-tZ
+ZE
+BN
+xp
 aa
 aa
 aa
@@ -84480,11 +84346,11 @@ aq
 eS
 hj
 kA
-hr
+ZE
 hj
-hp
-hp
-kG
+ZR
+ZR
+JO
 kA
 hj
 fg
@@ -84502,11 +84368,11 @@ aq
 eS
 hj
 kA
-hr
+ZE
 hj
-hp
-hp
-kG
+ZR
+ZR
+JO
 kA
 hj
 fg
@@ -84712,11 +84578,11 @@ bH
 aa
 aa
 aa
-tf
-nY
-nY
-nY
-tZ
+ZE
+Vx
+Vx
+Vx
+xp
 aa
 aa
 aa
@@ -84780,7 +84646,7 @@ as
 aq
 aq
 eS
-aG
+Tp
 bS
 ei
 ei
@@ -84788,7 +84654,7 @@ ld
 ei
 ei
 le
-kG
+JO
 fg
 aq
 aq
@@ -84802,7 +84668,7 @@ aq
 aq
 aq
 eS
-aG
+Tp
 bS
 ei
 ei
@@ -84810,7 +84676,7 @@ ld
 ei
 ei
 le
-kG
+JO
 fg
 aq
 aq
@@ -85015,9 +84881,9 @@ aa
 aa
 aa
 rp
-nY
-tK
-ua
+Vx
+BB
+XS
 rp
 aa
 aa
@@ -85317,9 +85183,9 @@ aa
 aa
 sX
 rp
-tr
-tL
-ub
+UH
+Bq
+CX
 rp
 uv
 aa
@@ -85618,11 +85484,11 @@ bH
 aa
 aa
 sY
-th
-ts
-tM
-uc
-ui
+Qt
+xF
+zV
+Wr
+Qb
 sY
 aa
 aa
@@ -85687,13 +85553,13 @@ bY
 bY
 hB
 bQ
-hp
-hp
-hp
-hp
-hp
-hp
-hp
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
 bQ
 hB
 bY
@@ -85709,13 +85575,13 @@ bY
 bY
 hB
 bQ
-hp
-hp
-hp
-hp
-hp
-hp
-hp
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
+ZR
 bQ
 hB
 bY
@@ -85922,7 +85788,7 @@ aa
 sZ
 rp
 tt
-tN
+Sq
 ud
 rp
 uu
@@ -85989,13 +85855,13 @@ bY
 bY
 hB
 bQ
-hp
-hp
-lc
-hp
-lc
-hp
-hp
+ZR
+ZR
+zH
+ZR
+zH
+ZR
+ZR
 bQ
 hB
 bY
@@ -86011,13 +85877,13 @@ bY
 bY
 hB
 bQ
-hp
-hp
-lc
-hp
-lc
-hp
-hp
+ZR
+ZR
+zH
+ZR
+zH
+ZR
+ZR
 bQ
 hB
 bY
@@ -86224,7 +86090,7 @@ aa
 aa
 ti
 tu
-tO
+Vn
 ue
 uj
 aa
@@ -86291,13 +86157,13 @@ bX
 bX
 bX
 hi
-lc
-hp
-lc
-hp
-lc
-hp
-lc
+zH
+ZR
+zH
+ZR
+zH
+ZR
+zH
 hi
 bX
 bX
@@ -86313,13 +86179,13 @@ bX
 bX
 bX
 hi
-lc
-hp
-lc
-hp
-lc
-hp
-lc
+zH
+ZR
+zH
+ZR
+zH
+ZR
+zH
 hi
 bX
 bX
@@ -86526,7 +86392,7 @@ aa
 aa
 ta
 rp
-tP
+Ee
 rp
 uk
 aa
@@ -86593,13 +86459,13 @@ aq
 aq
 iB
 hm
-lc
-hp
-lc
-hp
-lc
-hp
-lc
+zH
+ZR
+zH
+ZR
+zH
+ZR
+zH
 hm
 iB
 aq
@@ -86615,13 +86481,13 @@ aq
 aq
 iB
 hm
-lc
-hp
-lc
-hp
-lc
-hp
-lc
+zH
+ZR
+zH
+ZR
+zH
+ZR
+zH
 hm
 iB
 aq
@@ -86828,7 +86694,7 @@ aa
 aa
 ta
 rp
-tQ
+wV
 rp
 uk
 aa
@@ -86894,15 +86760,15 @@ aq
 aq
 aq
 eS
-hz
-lc
-hp
-lc
-hp
-lc
-hp
-lc
-hz
+KS
+zH
+ZR
+zH
+ZR
+zH
+ZR
+zH
+KS
 fg
 aq
 aq
@@ -86916,15 +86782,15 @@ aq
 aq
 aq
 eS
-hz
-lc
-hp
-lc
-hp
-lc
-hp
-lc
-hz
+KS
+zH
+ZR
+zH
+ZR
+zH
+ZR
+zH
+KS
 fg
 aq
 aq
@@ -87128,11 +86994,11 @@ bH
 aa
 aa
 aa
-tf
-vz
+ZE
+XU
 tR
-vB
-tZ
+OO
+xp
 aa
 aa
 aa
@@ -87197,13 +87063,13 @@ aq
 aq
 eS
 hi
-lc
-hp
-hp
-hp
-hp
-hp
-lc
+zH
+ZR
+ZR
+ZR
+ZR
+ZR
+zH
 hi
 fg
 aq
@@ -87219,13 +87085,13 @@ aq
 aq
 eS
 hi
-lc
-hp
-hp
-hp
-hp
-hp
-lc
+zH
+ZR
+ZR
+ZR
+ZR
+ZR
+zH
 hi
 fg
 aq
@@ -87501,9 +87367,9 @@ eS
 hm
 hg
 if
-hp
-hp
-hp
+ZR
+ZR
+ZR
 kE
 hg
 hm
@@ -87523,9 +87389,9 @@ eS
 hm
 hg
 if
-hp
-hp
-hp
+ZR
+ZR
+ZR
 kE
 hg
 hm
@@ -87801,13 +87667,13 @@ aq
 aq
 eS
 iw
-he
+Lr
 hg
 hq
 hq
 hq
 hg
-hJ
+Xd
 iw
 fg
 aq
@@ -87823,13 +87689,13 @@ aq
 aq
 eS
 iw
-he
+Lr
 hg
 hq
 hq
 hq
 hg
-hJ
+Xd
 iw
 fg
 aq
@@ -88104,11 +87970,11 @@ aq
 eS
 hj
 hj
-he
+Lr
 bF
 bK
 bM
-hJ
+Xd
 hj
 hj
 fg
@@ -88126,11 +87992,11 @@ aq
 eS
 hj
 hj
-he
+Lr
 bF
 bK
 bM
-hJ
+Xd
 hj
 hj
 fg
@@ -88336,7 +88202,7 @@ bH
 aa
 aa
 aa
-tg
+Wu
 tz
 tz
 tz
@@ -90150,7 +90016,7 @@ aa
 tc
 tn
 tC
-tW
+Jw
 tC
 up
 tc
@@ -92866,11 +92732,11 @@ bH
 aa
 aa
 aa
-tf
+ZE
 sn
 sy
 sn
-ur
+JO
 aa
 aa
 bd
@@ -93167,13 +93033,13 @@ bH
 bH
 aa
 aa
-tf
+ZE
 rs
 so
 sz
 sG
 sO
-ur
+JO
 aa
 as
 as
@@ -94375,13 +94241,13 @@ bH
 bH
 aa
 aa
-tg
+Wu
 ro
 sr
 sB
 sH
 ro
-ux
+IC
 aa
 bX
 cq
@@ -95283,9 +95149,9 @@ aa
 aa
 aa
 rq
-st
+Hn
 ep
-sK
+VJ
 rq
 ta
 aa

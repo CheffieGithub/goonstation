@@ -39,19 +39,6 @@
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
-"aB" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 8
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 4
-	},
-/area/shuttle/escape/centcom)
-"aQ" = (
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
 "aZ" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.";
@@ -113,15 +100,6 @@
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
-"cM" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 4
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 8
-	},
-/area/shuttle/escape/centcom)
 "cV" = (
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 5
@@ -141,15 +119,6 @@
 /obj/decoration/floralarrangement,
 /turf/unsimulated/floor/carpet/regalcarpet/border,
 /area/shuttle/escape/centcom)
-"dB" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater";
-	dir = 8
-	},
-/turf/simulated/wall/auto/shuttle{
-	icon_state = "12"
-	},
-/area/shuttle/escape/centcom)
 "dC" = (
 /obj/shrub{
 	dir = 1
@@ -163,6 +132,14 @@
 /area/centcom)
 "dF" = (
 /turf/unsimulated/floor/carpet/regalcarpet,
+/area/shuttle/escape/centcom)
+"dG" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/innercorner{
+	dir = 5
+	},
 /area/shuttle/escape/centcom)
 "dH" = (
 /obj/decal/tile_edge/line/orange{
@@ -226,14 +203,6 @@
 	icon_state = "12"
 	},
 /area/shuttle/escape/centcom)
-"ft" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/innercorner{
-	dir = 5
-	},
-/area/shuttle/escape/centcom)
 "fw" = (
 /obj/indestructible/shuttle_corner{
 	dir = 1
@@ -247,14 +216,6 @@
 	},
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 6
-	},
-/area/shuttle/escape/centcom)
-"fW" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/innercorner{
-	dir = 1
 	},
 /area/shuttle/escape/centcom)
 "gA" = (
@@ -271,14 +232,6 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/carpet/regalcarpet,
-/area/shuttle/escape/centcom)
-"gG" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-R";
-	dir = 1
-	},
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "gL" = (
 /obj/decal/poster/wallsign/danger_highvolt{
@@ -371,16 +324,14 @@
 	},
 /turf/unsimulated/floor/marble/black,
 /area/shuttle/escape/centcom)
-"jM" = (
-/obj/machinery/shuttle/engine/propulsion{
-	icon_state = "alt_propulsion";
+"jG" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater";
 	dir = 8
 	},
-/obj/machinery/shuttle/engine/propulsion{
-	icon_state = "alt_propulsion";
-	dir = 8
+/turf/simulated/wall/auto/shuttle{
+	icon_state = "12"
 	},
-/turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
 "jS" = (
 /obj/stool/bench/blue/auto,
@@ -405,6 +356,17 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"kw" = (
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
+	dir = 8
+	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
 "ky" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -703,6 +665,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/shuttle/escape/centcom)
+"qS" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border,
+/area/shuttle/escape/centcom)
 "qZ" = (
 /turf/unsimulated/floor/stairs/dark/wide{
 	dir = 6
@@ -802,6 +771,14 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"sh" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L";
+	dir = 8
+	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "ss" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
@@ -856,6 +833,15 @@
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"tZ" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 8
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 4
+	},
+/area/shuttle/escape/centcom)
 "uF" = (
 /obj/table/regal/auto,
 /obj/machinery/light/small/floor/netural,
@@ -966,14 +952,20 @@
 	dir = 6
 	},
 /area/shuttle/escape/centcom)
-"xw" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/innercorner{
+"xz" = (
+/obj/machinery/shuttle/engine/propulsion{
+	icon_state = "alt_propulsion";
 	dir = 8
 	},
+/turf/unsimulated/floor/shuttlebay,
+/area/shuttle/escape/centcom)
+"yJ" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R";
+	dir = 1
+	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "yZ" = (
 /obj/decal/tile_edge/line/black{
@@ -1049,13 +1041,6 @@
 	dir = 6
 	},
 /area/shuttle/escape/centcom)
-"Ad" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/innercorner,
-/area/shuttle/escape/centcom)
 "Ae" = (
 /obj/decal/tile_edge/line/black{
 	icon_state = "line1"
@@ -1107,13 +1092,6 @@
 	dir = 6
 	},
 /area/shuttle/escape/centcom)
-"CK" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border,
-/area/shuttle/escape/centcom)
 "Da" = (
 /turf/unsimulated/floor/stairs/dark/wide,
 /area/centcom/outside)
@@ -1131,14 +1109,6 @@
 	dir = 6
 	},
 /area/shuttle/escape/centcom)
-"DK" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 1
-	},
-/area/shuttle/escape/centcom)
 "DN" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 2;
@@ -1154,13 +1124,6 @@
 /turf/unsimulated/floor/carpet/regalcarpet/border{
 	dir = 8
 	},
-/area/shuttle/escape/centcom)
-"DY" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 4
-	},
-/turf/unsimulated/floor/marble/black,
 /area/shuttle/escape/centcom)
 "Em" = (
 /obj/decal/tile_edge/stripe/extra_big{
@@ -1231,20 +1194,32 @@
 	icon_state = "floor"
 	},
 /area/centcom/outside)
+"Fo" = (
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
+"Ft" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/innercorner{
+	dir = 1
+	},
+/area/shuttle/escape/centcom)
+"Fx" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 1
+	},
+/area/shuttle/escape/centcom)
 "FC" = (
 /obj/rack,
 /obj/random_item_spawner/tools/maybe_few,
 /obj/random_item_spawner/tools/one_or_zero,
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
-"Gb" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-M";
-	dir = 8
-	},
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
 "Gc" = (
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/black,
@@ -1276,6 +1251,15 @@
 "GV" = (
 /turf/unsimulated/floor/marble/border_bw{
 	dir = 4
+	},
+/area/shuttle/escape/centcom)
+"Hs" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/innercorner{
+	dir = 8
 	},
 /area/shuttle/escape/centcom)
 "HG" = (
@@ -1320,6 +1304,13 @@
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 10
 	},
+/area/shuttle/escape/centcom)
+"Ib" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/innercorner,
 /area/shuttle/escape/centcom)
 "If" = (
 /obj/stool/chair/comfy/throne_gold{
@@ -1501,14 +1492,6 @@
 "Lk" = (
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
-"Ls" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-L";
-	dir = 8
-	},
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
 "LN" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1750,6 +1733,14 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"Sk" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M";
+	dir = 8
+	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "Sp" = (
 /obj/indestructible/shuttle_corner{
 	dir = 0
@@ -1764,13 +1755,6 @@
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
-"Ti" = (
-/obj/machinery/shuttle/engine/propulsion{
-	icon_state = "alt_propulsion";
-	dir = 8
-	},
-/turf/unsimulated/floor/shuttlebay,
-/area/shuttle/escape/centcom)
 "TZ" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 9
@@ -1925,6 +1909,22 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"Ws" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 4
+	},
+/turf/unsimulated/floor/marble/black,
+/area/shuttle/escape/centcom)
+"WP" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 4
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 8
+	},
+/area/shuttle/escape/centcom)
 "XE" = (
 /obj/stool/chair/blue{
 	dir = 8
@@ -2130,16 +2130,16 @@ rR
 sB
 EH
 cl
-Ti
-jM
-Ti
+xz
+kw
+xz
 zi
 LV
 dK
 cr
-Ti
-jM
-Ti
+xz
+kw
+xz
 zy
 EH
 Em
@@ -2156,20 +2156,20 @@ zb
 LZ
 rR
 CC
-Ti
+xz
 Sp
-Ls
-Gb
-gG
+sh
+Sk
+yJ
 qH
 zy
 cl
 Sp
-Ls
-Gb
-gG
+sh
+Sk
+yJ
 qH
-Ti
+xz
 eQ
 rR
 XZ
@@ -2184,7 +2184,7 @@ ky
 qx
 rR
 CC
-dB
+jG
 fa
 vp
 pp
@@ -2197,7 +2197,7 @@ fH
 DI
 fH
 fa
-dB
+jG
 eQ
 rR
 yZ
@@ -2243,14 +2243,14 @@ tD
 dW
 AI
 eG
-DY
-DY
-DY
-DY
-DY
-DY
-DY
-DY
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 Jd
 dW
 AI
@@ -2329,10 +2329,10 @@ qy
 nI
 Il
 YL
-cM
-cM
-cM
-cM
+WP
+WP
+WP
+WP
 cX
 Bv
 nI
@@ -2352,20 +2352,20 @@ IK
 ZJ
 JY
 IV
-aQ
+Fo
 vx
 nI
 Il
-DK
+Fx
 Iw
 Vi
 ZZ
 mD
-CK
+qS
 Bv
 nI
 vx
-aQ
+Fo
 IV
 dC
 ZJ
@@ -2385,10 +2385,10 @@ nI
 nI
 Il
 jp
-aB
-aB
-aB
-aB
+tZ
+tZ
+tZ
+tZ
 ew
 Bv
 nI
@@ -2408,7 +2408,7 @@ XE
 XE
 BD
 IV
-aQ
+Fo
 Ot
 nI
 oC
@@ -2421,7 +2421,7 @@ LP
 CF
 nI
 Ot
-aQ
+Fo
 IV
 zo
 XE
@@ -2436,7 +2436,7 @@ iD
 iD
 BD
 IV
-aQ
+Fo
 jx
 cd
 rl
@@ -2449,7 +2449,7 @@ cV
 cV
 DC
 jx
-aQ
+Fo
 IV
 zo
 iD
@@ -2492,7 +2492,7 @@ aa
 rP
 sE
 IV
-aQ
+Fo
 tC
 bD
 Rs
@@ -2505,7 +2505,7 @@ dF
 cY
 bD
 tC
-aQ
+Fo
 IV
 Oo
 rP
@@ -2525,10 +2525,10 @@ PU
 jx
 qn
 nP
-ft
+dG
 oO
 IW
-Ad
+Ib
 nP
 Uz
 jx
@@ -2553,10 +2553,10 @@ eu
 EF
 PU
 jx
-DK
+Fx
 uF
 MK
-CK
+qS
 jx
 rZ
 EF
@@ -2579,14 +2579,14 @@ rR
 zA
 vd
 RC
-aQ
+Fo
 EQ
-fW
+Ft
 ME
 VM
-xw
+Hs
 GN
-aQ
+Fo
 TZ
 vd
 rK
@@ -2607,14 +2607,14 @@ rR
 rR
 rR
 CC
-aQ
+Fo
 wm
 rF
 px
 px
 Nd
 If
-aQ
+Fo
 eQ
 rR
 rR
@@ -2665,10 +2665,10 @@ rR
 zA
 RC
 eu
-aQ
-aQ
-aQ
-aQ
+Fo
+Fo
+Fo
+Fo
 Er
 TZ
 rK

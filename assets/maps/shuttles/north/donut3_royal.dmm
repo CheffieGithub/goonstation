@@ -157,6 +157,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"dO" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-L"
+	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "dS" = (
 /obj/decal/tile_edge/line/black{
 	dir = 4;
@@ -183,14 +190,6 @@
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/outside)
-"ea" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border{
-	dir = 1
-	},
-/area/shuttle/escape/centcom)
 "ej" = (
 /obj/machinery/light,
 /obj/table/regal/auto,
@@ -363,13 +362,6 @@
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/arrival,
 /area/centcom)
-"hF" = (
-/obj/stool/chair/wooden/regal{
-	anchored = 1;
-	dir = 1
-	},
-/turf/unsimulated/floor/carpet/regalcarpet/border,
-/area/shuttle/escape/centcom)
 "ih" = (
 /turf/unsimulated/floor/marble/border_wb{
 	dir = 4
@@ -745,6 +737,13 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"oF" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1;
+	dir = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border,
+/area/shuttle/escape/centcom)
 "oG" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/arrival{
@@ -755,13 +754,6 @@
 /turf/unsimulated/floor/marble/border_bw{
 	dir = 6
 	},
-/area/shuttle/escape/centcom)
-"oJ" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-L"
-	},
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "oM" = (
 /obj/table/regal/auto,
@@ -876,13 +868,6 @@
 	dir = 1
 	},
 /area/shuttle/escape/centcom)
-"tL" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-R"
-	},
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
-/area/shuttle/escape/centcom)
 "uE" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 8;
@@ -957,13 +942,6 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/shuttlebay,
-/area/shuttle/escape/centcom)
-"xe" = (
-/obj/machinery/shuttle/engine/heater{
-	icon_state = "alt_heater-M"
-	},
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "xf" = (
 /obj/stool/bench/blue/auto,
@@ -1134,6 +1112,13 @@
 "CD" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
+"CX" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-M"
+	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "Dm" = (
 /obj/stool/chair/blue{
 	dir = 1
@@ -1247,6 +1232,10 @@
 "GQ" = (
 /turf/unsimulated/floor/stairs/dark,
 /area/centcom/outside)
+"Hv" = (
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
+/area/shuttle/escape/centcom)
 "Hx" = (
 /obj/indestructible/shuttle_corner{
 	dir = 0
@@ -1425,10 +1414,6 @@
 /turf/unsimulated/floor/marble/border_bw{
 	dir = 4
 	},
-/area/shuttle/escape/centcom)
-"Ms" = (
-/obj/mapping_helper/wingrille_spawn/auto/crystal,
-/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Ng" = (
 /obj/item/reagent_containers/food/snacks/donut/custom/frosted{
@@ -1623,6 +1608,14 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
+"Rr" = (
+/obj/stool/chair/dining/regal{
+	anchored = 1
+	},
+/turf/unsimulated/floor/carpet/regalcarpet/border{
+	dir = 1
+	},
+/area/shuttle/escape/centcom)
 "RC" = (
 /obj/rack,
 /obj/random_item_spawner/tools/maybe_few,
@@ -1931,6 +1924,13 @@
 /turf/unsimulated/floor/marble/border_bw{
 	dir = 8
 	},
+/area/shuttle/escape/centcom)
+"Xt" = (
+/obj/machinery/shuttle/engine/heater{
+	icon_state = "alt_heater-R"
+	},
+/obj/mapping_helper/wingrille_spawn/auto/crystal,
+/turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "Xy" = (
 /obj/decal/tile_edge/line/black{
@@ -2250,12 +2250,12 @@ nr
 Vq
 Ro
 LD
-Ms
-Ms
+Hv
+Hv
 mb
 mb
-Ms
-Ms
+Hv
+Hv
 lb
 lb
 lb
@@ -2318,7 +2318,7 @@ lq
 sa
 Gc
 nh
-oJ
+dO
 eL
 Cf
 qp
@@ -2331,7 +2331,7 @@ dE
 Ro
 LD
 lb
-Ms
+Hv
 dH
 aq
 LG
@@ -2340,13 +2340,13 @@ Xp
 LG
 oH
 Xp
-ea
+Rr
 WU
 OZ
-hF
+oF
 Gc
 UQ
-xe
+CX
 eL
 Cf
 qp
@@ -2368,13 +2368,13 @@ nF
 jN
 Wj
 Kq
-ea
+Rr
 ka
 VC
-hF
+oF
 Gc
 Yq
-tL
+Xt
 eL
 Cf
 qp
@@ -2384,22 +2384,22 @@ ZQ
 CD
 nM
 PJ
-Ms
+Hv
 KQ
 lq
 Cz
 Cz
 lq
 dM
-Ms
-Ms
-Ms
-Ms
+Hv
+Hv
+Hv
+Hv
 ce
-ea
+Rr
 js
 jm
-hF
+oF
 Xb
 VP
 WD
@@ -2412,22 +2412,22 @@ CD
 CD
 LP
 PJ
-Ms
+Hv
 tF
 kI
 Fc
 Az
 Az
 Vt
-Ms
+Hv
 Ng
 nr
-Ms
+Hv
 QO
-ea
+Rr
 eV
 jb
-hF
+oF
 Gc
 sS
 dN
@@ -2440,22 +2440,22 @@ CD
 ZQ
 LP
 PJ
-Ms
+Hv
 hg
 kI
 Xm
 Az
 Az
 Gj
-Ms
+Hv
 nr
 nr
-Ms
+Hv
 iV
-ea
+Rr
 ff
 TI
-hF
+oF
 fD
 sS
 VJ
@@ -2468,22 +2468,22 @@ ZQ
 CD
 nM
 PJ
-Ms
+Hv
 Ut
 aQ
 zk
 zk
 aQ
 ej
-Ms
-Ms
-Ms
-Ms
+Hv
+Hv
+Hv
+Hv
 VE
-ea
+Rr
 XM
 oM
-hF
+oF
 PT
 BI
 ti
@@ -2508,13 +2508,13 @@ QY
 Xd
 uW
 If
-ea
+Rr
 Iw
 Nl
-hF
+oF
 fD
 fV
-oJ
+dO
 eL
 Cf
 qp
@@ -2527,7 +2527,7 @@ bi
 pJ
 wP
 lb
-Ms
+Hv
 Pm
 Ma
 Us
@@ -2536,13 +2536,13 @@ OI
 Us
 ry
 OI
-ea
+Rr
 Xh
 kg
-hF
+oF
 fD
 UQ
-xe
+CX
 eL
 Cf
 qp
@@ -2570,7 +2570,7 @@ aQ
 FM
 fD
 nh
-tL
+Xt
 eL
 Cf
 qp
@@ -2614,12 +2614,12 @@ nr
 sV
 pJ
 wP
-Ms
-Ms
+Hv
+Hv
 mb
 mb
-Ms
-Ms
+Hv
+Hv
 lb
 lb
 lb
